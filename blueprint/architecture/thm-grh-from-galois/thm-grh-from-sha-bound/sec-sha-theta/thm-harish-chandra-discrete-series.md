@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's exhaustion of the discrete series"
+source = "Harish-Chandra [harish-chandra-1966]; Schmid [schmid-1975]"
 lean  = ["CompanionTheory.RgExh.dsExhaust", "GlobalTheory.Dec.DSExhaust"]
 order = 11
 +++
@@ -11,5 +12,5 @@ coordinates that preserves the order within each sign, the discrete series
 representation with some Harish-Chandra parameter $\mu$: it contains the
 lowest $K$-type of $\mu$, and every $K$-type has norm at least as large.
 
-This is Harish-Chandra's classification of the discrete series (1966), in
-the form of Schmid's lowest $K$-type theorem.
+This is Harish-Chandra's classification of the discrete series for the
+groups $\U(\varepsilon)$, in the form of Schmid's lowest $K$-type theorem.

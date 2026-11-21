@@ -2,6 +2,7 @@
 id    = "thm-arithmetic-hilbert-samuel-inequalities"
 kind  = "theorem"
 title = "Arithmetic Hilbert–Samuel inequalities and Moriwaki's theorem"
+source = "Gillet–Soulé [gillet-soule-1992]; Zhang [zhang-1995]; Moriwaki [moriwaki-2000]; [moriwaki-2009]"
 lean  = ["PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain"]
 order = 10
 +++
@@ -17,5 +18,3 @@ complex conjugation. Then:
   satisfies
   $$\limsup_{n \to \infty} \frac{\log \#\{s \in H^0(X, L^n) : \|s\|_{\sup} \le 1\}}{n^{D+1}/(D+1)!} \le \bar L^{D+1},$$
   with equality and a limit when the small sections generate.
-
-These are theorems of Gillet–Soulé, Zhang and Moriwaki (2000–2009).

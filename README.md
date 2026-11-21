@@ -32,6 +32,11 @@ front matter under `blueprint/`:
    form proved in the formalisation, with a note wherever that form is a
    special case or weaker than the published theorem.
 
+A statement that is a published theorem, or a form of one, names its source
+in its heading, as a paper does: *Theorem 4.2 (Kato's Euler system; Kato
+[Kat04]).* Results new to Alpöge's argument carry no source. The works cited
+are in `blueprint/references/`.
+
 `blueprint/architecture/rem-points-to-check.md` lists the statements a reader
 should check first.
 

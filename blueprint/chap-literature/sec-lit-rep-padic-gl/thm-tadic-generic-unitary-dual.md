@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Generic unitary dual of GL(n) (Tadić, Vogan)"
+title = "Generic unitary dual of GL(n)"
+source = "special case of Tadić [tadic-1986]"
 lean  = ["GlobalTheory.Published.GenericUnitaryDualGL", "PositivityTheory.Gud.Fin.genericUnitaryDualGL_holds"]
 order = 14
 +++
@@ -12,5 +13,5 @@ $$
 \prod_{j} \big(\delta'_j\nu^{s_j} \times \delta'_j\nu^{-s_j}\big),
 $$
 where the $\delta_i, \delta'_j$ are unitarisable segment representations and
-$0 < s_j < 1/2$. This is the generic case of Tadić's classification of the
-unitary dual (1986).
+$0 < s_j < 1/2$. This is the generic case of the classification of the
+unitary dual.

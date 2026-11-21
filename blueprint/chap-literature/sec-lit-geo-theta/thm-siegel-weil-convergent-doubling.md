@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Siegel–Weil formula in the convergent range"
+source = "special case of Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.SiegelWeilUnitaryConvergent", "UpperTheory.Lit.Sw47.convergent"]
 order = 8
 +++
@@ -14,5 +15,5 @@ over $\U(B)(F)\backslash\U(B)(\A_F)$, and its average equals the value of
 the Siegel Eisenstein series on $\U(A \oplus -A)$ attached to the section
 $g \mapsto \omega(g) f(0)$ at the Siegel–Weil point.
 
-This is the Siegel–Weil formula of Weil (1965) for unitary dual pairs, in
-the doubling setting and in Weil's convergent range.
+It is stated for unitary dual pairs, in the doubling setting and in Weil's
+convergent range.

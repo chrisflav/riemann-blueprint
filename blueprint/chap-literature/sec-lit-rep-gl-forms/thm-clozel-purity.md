@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Clozel's purity lemma"
+source = "Clozel [clozel-1990, Lemma 4.9]"
 lean  = ["GlobalTheory.Published.ClozelPurity", "PositivityTheory.Lit1.ClozelPurity.clozelPurity"]
 order = 8
 +++
@@ -11,4 +12,4 @@ in $\Z + (a-1)/2$. Then there is $w_0 \in \Z$ with
 $$
 \mathrm{inf}_{\bar\tau}(\pi) = \{\, w_0 - z : z \in \mathrm{inf}_\tau(\pi) \,\}
 $$
-for every $\tau$ (Clozel, 1990, Lemma 4.9).
+for every $\tau$.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The Weil representation of the real metaplectic group (Segal, Shale, Weil)"
+title = "The Weil representation of the real metaplectic group"
+source = "Segal; Shale [shale-1962]; Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.MetaplecticRepresentation", "GlobalTheory.metaplecticRepresentation_holds"]
 order = 2
 +++
@@ -18,5 +19,3 @@ $L^2(\R^n)$ such that:
   where $A + iB$ is the holomorphic part of the image of $g$, and elements
   over the maximal compact subgroup $\U(n)$ act on $\varphi_0$ by a scalar
   $c$ with $c^2\det(A+iB) = 1$.
-
-This is the oscillator representation of Segal, Shale and Weil (1962–64).

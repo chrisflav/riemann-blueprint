@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Integrated Poincaré–Lelong formula"
+source = "after Bost–Gillet–Soulé [bost-1994]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.PoincareLelongInv", "PositivityTheory.Tls2.Pl.poincareLelongInv"]
 order = 3
 +++
@@ -15,6 +16,6 @@ where $W$ runs over the horizontal components of the divisor of $s$, with
 multiplicities $m_W$.
 
 This is the Poincaré–Lelong formula $dd^c \log\|s\|^2 = \delta_{\mathrm{div}\,s} - c_1(\bar A)$,
-integrated against $\log h_B \cdot \omega$, as in the inductive definition of
-heights by Bost, Gillet and Soulé (1994). The normalisation of $dd^c$ is the
+integrated against $\log h_B \cdot \omega$, as in the inductive definition
+of heights. The normalisation of $dd^c$ is the
 one fixed by the formula.

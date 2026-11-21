@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Strong multiplicity one for isobaric sums (Jacquet–Shalika)"
+title = "Strong multiplicity one for isobaric sums"
+source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalikaRigidity", "PositivityTheory.AdelicQuotientData.jacquetShalikaRigidity"]
 order = 4
 +++
@@ -12,5 +13,4 @@ Satake parameters agree,
 $$
 \textstyle\sum_i \mathrm{Sat}_w(\pi_i) = \sum_j \mathrm{Sat}_w(\pi'_j),
 $$
-then $r = s$ and the two lists agree up to order. This is the theorem of
-Jacquet and Shalika (1981).
+then $r = s$ and the two lists agree up to order.

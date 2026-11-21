@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Existence of ray class fields"
+source = "Takagi [takagi-1920]"
 lean  = ["GlobalTheory.Published.RayClassFieldSt", "PositivityTheory.Stage1.PM.rayClassFieldSt"]
 order = 2
 +++
@@ -11,5 +12,3 @@ modulo principal ideals $(x)$ with $x$ totally positive and
 $x \equiv 1 \bmod \mathfrak m$) onto $\Gal(L/K)$, such that every prime
 $\mathfrak p \nmid \mathfrak m$ is unramified in $L$ and its class maps to
 its Frobenius.
-
-This is the existence theorem of Takagi (1920).

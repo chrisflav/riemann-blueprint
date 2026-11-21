@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Poitou–Tate duality"
+source = "Poitou [poitou-1967]; Tate [tate-1963]"
 lean  = ["GlobalTheory.Published.PoitouTateNormalised", "PositivityTheory.Lit1.PTN.poitouTateNormalised_holds"]
 order = 5
 +++
@@ -17,6 +18,6 @@ every finite $\Z/l^r$-module $M$ with a continuous action of $G_{F,S}$:
 * $Ш^1(G_{F,S}, M)$ and $Ш^2(G_{F,S}, M^\vee(1))$ are dual;
 * $H^n(G_{F,S}, M) = 0$ for $n \ge 3$.
 
-This is the theorem of Poitou and Tate (1962–63). The condition on $l$ and
+The condition on $l$ and
 $F$ removes the real places, where the cohomology need not vanish in high
 degree.

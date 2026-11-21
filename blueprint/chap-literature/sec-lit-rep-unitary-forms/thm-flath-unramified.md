@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Flath's theorem with almost all factors unramified"
+source = "Flath [flath-1979]"
 lean  = ["GlobalTheory.Published.FlathFactorisation", "PositivityTheory.Prw.flathFactorisation_of"]
 order = 5
 +++
@@ -10,5 +11,4 @@ $G(\A_F)$ is a restricted tensor product $\pi \cong \bigotimes'_v \pi_v$ of
 irreducible unitary representations, with respect to unit vectors $\xi_v$,
 such that every finite factor $\pi_v$ is admissible and, for every
 $\mathcal O_E$-lattice $L$ in $V$, for almost all $v$ the vectors of $\pi_v$
-fixed by the stabiliser of $L_v$ form the line spanned by $\xi_v$. This is
-Flath's theorem in its usual form (1979).
+fixed by the stabiliser of $L_v$ form the line spanned by $\xi_v$.

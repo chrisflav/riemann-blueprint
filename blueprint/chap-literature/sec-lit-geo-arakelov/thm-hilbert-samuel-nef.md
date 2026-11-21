@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hilbert–Samuel asymptotics for nef multidegrees"
+source = "after the asymptotic Riemann–Roch theorem; see Lazarsfeld [lazarsfeld-2004]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Pub.NefRR", "PositivityTheory.Tls2.Nef.nefRR"]
 order = 1
 +++
@@ -15,4 +16,4 @@ on the normalisation of $X_\Q$. Then each $V_\tau$ is finite-dimensional and
 $$ \dim_\Q V_\tau = \deg_{\mathcal O(a)}(X_\Q)\,\frac{\tau^D}{D!} + o(\tau^D). $$
 
 This is the asymptotic Riemann–Roch (Hilbert–Samuel) theorem for nef line
-bundles, in the multiprojective setting.
+bundles, stated in the multiprojective setting.

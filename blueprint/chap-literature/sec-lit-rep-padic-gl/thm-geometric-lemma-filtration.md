@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The filtration of the geometric lemma (Bernstein–Zelevinsky)"
+title = "The filtration of the geometric lemma"
+source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.GeometricLemmaFiltration", "GlobalTheory.geometricLemmaFiltration_holds"]
 order = 3
 +++
@@ -12,4 +13,3 @@ along $N'$ of the induced representation $\mathrm{Ind}_P^G\rho$ has a finite
 filtration by subrepresentations whose successive quotients are the
 representations $\mathcal F_b(\rho)$: restrict $\rho$ to the Jacquet module
 of type $b$, conjugate by the Weyl element of $b$, and induce up to $M'$.
-This is the geometric lemma of Bernstein and Zelevinsky (1977).

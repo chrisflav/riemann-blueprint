@@ -1,10 +1,11 @@
 +++
 kind  = "theorem"
 title = "Green's parametrisation of cuspidal characters"
+source = "Green [green-1955]"
 lean  = ["GlobalTheory.Published.GreenCuspidal", "GlobalTheory.Published.GreenSeriesSt", "PositivityTheory.Prw.greenSeriesSt_of", "PositivityTheory.Stage1.PM.greenCuspidal"]
 order = 2
 +++
-Two forms of Green's theorem (1955) on $\GL_N(\mathbb F_g)$, $g$ prime:
+Two forms of Green's theorem on $\GL_N(\mathbb F_g)$, $g$ prime:
 
 * the cuspidal irreducible characters of $\GL_d(\mathbb F_g)$ are in
   bijection with a set of labels of degree $d$ (Frobenius orbits of regular

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Induced modules in the lowest alcove are simple (Jantzen)"
+title = "Induced modules in the lowest alcove are simple"
+source = "Jantzen [jantzen-2003]"
 lean  = ["GlobalTheory.Alc.inducedSimpleLowestAlcove", "GlobalTheory.Published.InducedSimpleLowestAlcove"]
 order = 8
 +++
@@ -12,5 +13,4 @@ $$
 that is, $\lambda + \rho$ lies in the closure of the lowest $p$-alcove. Then
 the induced module $\nabla(\lambda) = H^0(\lambda)$, realised as a space of
 polynomials in the matrix entries, is non-zero and simple as a
-$\GL_N$-module. This is a case of the linkage principle (Jantzen,
-*Representations of algebraic groups*, II.5).
+$\GL_N$-module. This is a case of the linkage principle.

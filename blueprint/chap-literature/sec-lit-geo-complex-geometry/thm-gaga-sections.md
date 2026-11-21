@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Serre's GAGA for sections of line bundles"
+source = "special case of Serre [serre-1956]"
 lean  = ["GlobalTheory.Published.SerreHolomorphicSections", "GlobalTheory.Published.serreHolomorphicSections_holds"]
 order = 5
 +++
@@ -9,4 +10,4 @@ $Y$. Every holomorphic section of $B$ over the complex manifold $Y(\C)$ is
 algebraic: the map from algebraic sections to holomorphic sections is a
 bijection.
 
-This is the case $H^0$ of Serre's GAGA (1956).
+This is the case $H^0$ of GAGA.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Kawamata–Viehweg vanishing"
+source = "Kawamata [kawamata-1982]; Viehweg [viehweg-1982]"
 lean  = ["GlobalTheory.KVFromPair.kawamataViehweg_of_nadelVanishingPair", "GlobalTheory.Published.KawamataViehweg",
          "GlobalTheory.Published.NadelVanishingAndNonKltDivisor", "GlobalTheory.Published.NefNumerics",
          "GlobalTheory.nefNumerics_outright", "NadelVanishingSeparation.NSI.nadelVanishingAndNonKltDivisor"]
@@ -11,8 +12,7 @@ of characteristic $0$, with canonical bundle $K_X$, and $N$ a nef and big
 line bundle. Then
 $$ H^q(X, K_X \otimes N) = 0 \qquad (q > 0). $$
 
-This is the vanishing theorem of Kawamata (1982) and Viehweg (1982). We
-derive it from two further published results, proved here as well:
+We derive it from two further published results, proved here as well:
 
 * *Nadel vanishing* on a normal projective complex variety: if $N$ is
   numerically equivalent to $\tfrac1m(mK_X + \Delta) + \tfrac1r M_0$ with

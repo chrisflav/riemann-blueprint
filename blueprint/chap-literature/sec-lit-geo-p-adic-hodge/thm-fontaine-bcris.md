@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Fontaine's theorems on the crystalline period ring"
+source = "Fontaine [fontaine-1982], [fontaine-1994a]"
 lean  = ["GlobalTheory.MemLoc.fontaineBcris", "GlobalTheory.Published.FontaineBcris"]
 order = 1
 +++
@@ -19,5 +20,3 @@ filtration $\mathrm{Fil}^\bullet$. Then:
   image in $\mathrm{Fil}^0 B_{\mathrm{dR}}$;
 * (regularity) a non-zero $b \in B_{\mathrm{cris}}$ on which $G_K$ acts
   through a $\Q_l$-valued character, for some finite $K/\Q_l$, is a unit.
-
-These are results of Fontaine (1982, 1994).

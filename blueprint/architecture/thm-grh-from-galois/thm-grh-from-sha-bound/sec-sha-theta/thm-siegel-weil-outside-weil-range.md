@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Siegel–Weil formula outside Weil's range"
+source = "after Kudla–Rallis [kudla-rallis-1994]; Ichino [ichino-2004]"
 lean  = ["GlobalTheory.Published.SiegelWeilUnitarySchrodinger", "GlobalTheory.Published.SiegelWeilUnitarySchrodingerLit", "PositivityTheory.SiegelWeilCoefficients.field", "PositivityTheory.SiegelWeilCoefficients.lit"]
 order = 13
 +++
@@ -11,5 +12,5 @@ Siegel Eisenstein series of the section attached to $\Phi$ converges for
 $\Re z > n/2$ and continues holomorphically to the point
 $s_0 = (\dim V - n)/2$, and its value there is the theta integral.
 
-This is the Siegel–Weil formula of Kudla–Rallis and Ichino (1994–2004) for
-unitary groups, for Fock vectors.
+This is the Siegel–Weil formula of Kudla–Rallis and Ichino, for unitary
+groups and only for Fock vectors.

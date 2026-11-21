@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Analytic matrix coefficients and density (Harish-Chandra)"
+title = "Analytic matrix coefficients and density"
+source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.harishChandra_analyticity_density", "GlobalTheory.Published.HarishChandraAnalyticity"]
 order = 3
 +++
@@ -13,5 +14,3 @@ Let $G = \U(p,q)$ and $K = \U(p)\times\U(q)$.
   isotropic flag. In an irreducible unitary representation of $M$, every
   non-zero subspace of $K\cap M$-finite vectors that is stable under the
   Lie algebra of $M$ is dense.
-
-These are Harish-Chandra's analyticity and density theorems.

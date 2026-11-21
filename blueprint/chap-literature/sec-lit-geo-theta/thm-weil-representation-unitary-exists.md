@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Existence of Weil representations for unitary dual pairs"
+source = "Kudla [kudla-1994]; Harris–Kudla–Sweet [harris-1996]"
 lean  = ["GlobalTheory.Published.WeilRepresentationExists", "UpperTheory.Lit.weilRepresentationExists_pair"]
 order = 3
 +++
@@ -14,5 +15,4 @@ character of $E/F$. Then there is a Weil representation $\omega$ of
 $\U(X)(\A_F) \times \U(W)(\A_F)$ on that model, attached to $\psi$ and the
 splitting characters $\chi_X, \chi_W$.
 
-This is the splitting of the metaplectic cover over unitary dual pairs
-(Kudla 1994; Harris–Kudla–Sweet 1996).
+This is the splitting of the metaplectic cover over unitary dual pairs.

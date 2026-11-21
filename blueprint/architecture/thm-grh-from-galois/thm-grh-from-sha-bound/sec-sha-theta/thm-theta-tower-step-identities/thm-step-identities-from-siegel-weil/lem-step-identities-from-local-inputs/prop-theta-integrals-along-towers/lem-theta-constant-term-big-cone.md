@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The constant term of a theta integral on the big cone"
+source = "after Rallis [rallis-1984]"
 lean  = ["GlobalTheory.T.exists_isCT_integral_eq_cone_integral_add_hasLaw", "GlobalTheory.ThK.unfoldCTBigCone"]
 order = 10
 +++

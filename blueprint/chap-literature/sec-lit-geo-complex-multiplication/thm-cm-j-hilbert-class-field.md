@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The j-invariant generates the Hilbert class field"
+source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.CompanionTheory.Published.complexMultiplicationJ", "GlobalTheory.Published.ComplexMultiplicationJSt"]
 order = 1
 +++
@@ -13,5 +14,5 @@ every fractional ideal $\mathfrak a$, viewed as a lattice in $\C$:
 * $\mathrm{Art}([\mathfrak b])\, j(\mathfrak a) = j(\mathfrak b^{-1}\mathfrak a)$
   for every fractional ideal $\mathfrak b$.
 
-This is the first main theorem of complex multiplication (Weber, Fueter,
-Hasse 1927).
+This is the first main theorem of complex multiplication, due to Weber,
+Fueter and Hasse.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Landherr's classification of hermitian forms over CM fields"
+source = "Landherr [landherr-1936]"
 lean  = ["GlobalTheory.Published.LandherrSt", "GlobalTheory.QNorm.landherr_and_landherrSt"]
 order = 9
 +++
@@ -13,6 +14,6 @@ isometric over $E$.
 
 The same proof gives the companion statement for a CM extension unramified
 at every finite place: forms isometric at every finite place and at every
-complex embedding are isometric. Both are Landherr's theorem (1936): a
-hermitian form over a CM field is determined by its signatures and its
+complex embedding are isometric. In both forms, a hermitian form over a CM
+field is determined by its signatures and its
 determinant modulo norms.

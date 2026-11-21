@@ -1,11 +1,11 @@
 +++
 kind  = "theorem"
 title = "The Jacquet–Shalika theorems"
+source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalika", "PositivityTheory.AdelicQuotientData.jacquetShalika"]
 order = 5
 +++
-Let $E$ be a totally complex number field. Two results of Jacquet and
-Shalika (1981) hold:
+Let $E$ be a totally complex number field. Two results hold:
 
 * strong multiplicity one for isobaric sums, [thm-jacquet-shalika-strong-mult-one];
 * for a unitary cuspidal automorphic representation $\pi$ of $\GL_a(\A_E)$

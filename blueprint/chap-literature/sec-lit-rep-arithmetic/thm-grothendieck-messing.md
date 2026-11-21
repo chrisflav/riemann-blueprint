@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory of abelian schemes"
+source = "Messing [messing-1972]; Mazur–Messing [mazur-messing-1974]"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation", "GlobalTheory.Published.grothendieckDeformation_of_lifting"]
 order = 3
 +++
@@ -15,7 +16,6 @@ and $R_0 = R/I$. For abelian schemes over $R_0$ and their lifts to $R$:
 * a homomorphism $f_0 : A_0 \to B_0$ lifts to lifts $A \to B$, uniquely,
   if and only if it carries the Hodge filtration of $A$ into that of $B$.
 
-This is Grothendieck–Messing theory (Messing, 1972; Mazur–Messing, 1974)
-for abelian schemes. It is stated without the hypothesis that a prime be
+It is stated without the hypothesis that a prime be
 nilpotent in $R$, as in Mazur–Messing's treatment through the universal
 vector extension.

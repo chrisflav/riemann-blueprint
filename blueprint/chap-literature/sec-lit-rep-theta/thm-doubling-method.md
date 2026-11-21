@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The doubling method (Piatetski-Shapiro–Rallis)"
+title = "The doubling method"
+source = "Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.DoublingMethodLocalZetaIntegrals", "ResidueKilled.dm_of_two"]
 order = 9
 +++
@@ -19,5 +20,4 @@ series of $\U(V\oplus(-V))$. Then:
   matrix coefficient against the section;
 * $Z(s, f_1, f_2)$ continues meromorphically.
 
-This is the doubling method of Piatetski-Shapiro and Rallis (1987). The
-statement contains one further clause that is trivially true.
+The statement contains one further clause that is trivially true.

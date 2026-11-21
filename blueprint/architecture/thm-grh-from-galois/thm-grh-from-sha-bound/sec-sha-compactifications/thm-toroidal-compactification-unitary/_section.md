@@ -2,6 +2,7 @@
 id    = "thm-toroidal-compactification-unitary"
 kind  = "theorem"
 title = "Toroidal compactifications of unitary Shimura varieties"
+source = "special case of Lan [lan-2013]"
 lean  = ["GlobalTheory.Published.ToroidalForFanKS", "GlobalTheory.TorKSField.toroidalForFanKS"]
 order = 14
 +++
@@ -18,5 +19,5 @@ variety $X$ has a toroidal compactification $\bar X$ over $F$ such that:
   determinant of the Hodge bundle;
 * the logarithmic Kodaira–Spencer map is an isomorphism.
 
-This is the theorem of Lan (2013) on toroidal compactifications of PEL-type
-Shimura varieties, in the unitary case.
+It is the unitary case of the theorem on toroidal compactifications of
+PEL-type Shimura varieties.

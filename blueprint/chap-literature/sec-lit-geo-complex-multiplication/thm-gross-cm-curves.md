@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Gross's elliptic curves with good reduction outside p"
+source = "Gross [gross-1980]"
 lean  = ["GlobalTheory.Published.CMCurveGoodOutsidePrimeSt", "GlobalTheory.Published.cmCurveGoodOutsidePrime"]
 order = 4
 +++
@@ -9,5 +10,3 @@ $K = \Q(\sqrt{-p})$. There is an elliptic curve $A$ over
 $F = \Q(j(\mathcal O_K))$ with $j(A) = j(\mathcal O_K)$, good reduction at
 every prime not dividing $p$, and minimal discriminant $-p^3$ at every
 prime of $F$ (up to a unit).
-
-These are the curves $A(p)$ of Gross (1980).

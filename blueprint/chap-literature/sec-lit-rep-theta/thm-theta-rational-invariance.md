@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Rational invariance of theta functions"
+source = "after Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.ThetaRationalInvariance", "PositivityTheory.Stage1.PM.thetaRationalInvariance"]
 order = 4
 +++
@@ -13,6 +14,6 @@ $$
 \Omega(\gamma, \gamma')F = \prod_\tau \tau(\det\gamma)^{-a_\tau}\,\tau(\det\gamma')^{-a'_\tau}\;(\gamma,\gamma')^*F .
 $$
 This is the invariance of theta functions under rational points that makes
-theta series automorphic (Weil, 1964). *It is not clear* from the statement
+theta series automorphic. *It is not clear* from the statement
 which space of theta functions on which torus is meant, nor what the
 characters $n_\tau, n'_\tau$ and signs $\epsilon, \epsilon'$ are.

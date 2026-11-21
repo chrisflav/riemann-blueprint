@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Archimedean Howe duality for the trivial representation"
+source = "special case of Howe [howe-1989b]"
 lean  = ["GlobalTheory.Published.HoweDualityReal", "GlobalTheory.howeDualityReal_holds"]
 order = 5
 +++
@@ -18,4 +19,4 @@ $\mathcal P/N$. Then:
 So the maximal quotient of $\mathcal P$ on which $\U(X)_\infty$ acts
 trivially, the big theta lift of the trivial representation, has finite
 length and a unique irreducible quotient. This is the case of the trivial
-representation of Howe's archimedean duality theorem (1989).
+representation of the archimedean duality theorem.

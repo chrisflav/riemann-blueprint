@@ -2,6 +2,7 @@
 id    = "thm-mumford-degeneration"
 kind  = "theorem"
 title = "Mumford's construction of degenerating abelian varieties"
+source = "Mumford [mumford-1972]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Mum.has_of_base", "GlobalTheory.T.hasSemiAbelianUniformisation_complete_normal_base"]
 order = 10
 +++
@@ -12,5 +13,3 @@ with values in $\mathfrak m$ and tending to $0$ $\mathfrak m$-adically, and a
 bimultiplicative $\tau$), there is a semi-abelian scheme $G$ over $R$ and a
 polarised abelian variety $A$ over $K$, such that $A$ is the generic fibre of
 $G$ and $G$ has a Mumford uniformisation by the given data.
-
-This is Mumford's construction (1972), as completed by Faltings and Chai.

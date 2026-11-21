@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Schur orthogonality for square-integrable representations (Godement)"
+title = "Schur orthogonality for square-integrable representations"
+source = "Godement [godement-1947]"
 lean  = ["GlobalTheory.Published.SchurOrthogonalitySquareIntegrable", "PositivityTheory.Stage1.PM.schurOrthogonalitySquareIntegrable"]
 order = 6
 +++
@@ -13,4 +14,4 @@ $$
 \int_G \langle w, \pi(g)v\rangle\,\overline{\langle w', \pi(g)v'\rangle}\,d\mu(g)
 = \frac{\langle v', v\rangle\,\langle w, w'\rangle}{d}
 $$
-for all $v, w, v', w' \in H$ (Godement, 1947; Harish-Chandra).
+for all $v, w, v', w' \in H$.

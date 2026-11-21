@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck's existence theorem"
+source = "Grothendieck [ega-3-1, §5]"
 lean  = ["GlobalTheory.Published.FormalAlgebraisation", "PositivityTheory.FormalThickening.formalAlgebraisation"]
 order = 7
 +++
@@ -15,5 +16,3 @@ $R_e = R/I^{e+1}$.
   with $N_0$ ample. Then there is a proper scheme $X$ over $R$ with an ample
   line bundle $M$ such that $X \otimes R_e \cong Y_e$ and $M$ restricts to
   $N_e$, compatibly in $e$.
-
-This is Grothendieck's existence theorem (EGA III, 5.1.4 and 5.4.5).

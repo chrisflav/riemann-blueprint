@@ -2,6 +2,7 @@
 id    = "thm-kato-explicit-reciprocity"
 kind  = "theorem"
 title = "Kato's explicit reciprocity law"
+source = "after Kato [kato-2004]"
 lean  = ["UpperTheory.V.Z.Kato.Joint.SmoothedZetaClassHodgeTateLawStatement",
          "UpperTheory.V.Z.Kato.K5.smoothedZetaClass_hodgeTateLaw", "UpperTheory.V.Z.Kato.K5.top"]
 order = 11
@@ -20,5 +21,5 @@ where $z$ is a formal variable and $E_m$ is an explicit combination, with
 the coefficients $c_x$, of Eisenstein series of level $Nl^m$ built from $c, d$
 and a character $\psi$ of conductor $l^m$.
 
-This is Kato's explicit reciprocity law (Kato, 2004), in a congruence form
-at each finite level.
+This is Kato's explicit reciprocity law in a congruence form at each
+finite level.

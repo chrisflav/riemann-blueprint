@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The l-adic character of an algebraic Hecke character"
+source = "Weil [weil-1956]; Serre [serre-1968]"
 lean  = ["GlobalTheory.Published.HeckeLAdicCharacter", "PositivityTheory.Stage1.PM.heckeLAdicCharacter"]
 order = 1
 +++
@@ -11,5 +12,3 @@ $$ r_{\chi,\iota}(\sigma) = \iota^{-1}\Big(\chi(x)\prod_\phi \phi(x_\infty)^{-n_
 whenever $\mathrm{Art}_E(x)$ is the image of $\sigma$ in
 $\Gal(\bar E/E)^{\mathrm{ab}}$; here $x_\infty$ and $x_l$ are the components
 of the idele $x$ at the infinite places and at the places above $l$.
-
-This is the construction of Weil (1955) and Serre (1968).

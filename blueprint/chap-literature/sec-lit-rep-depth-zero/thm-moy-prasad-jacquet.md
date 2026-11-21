@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Jacquet modules of depth-zero vectors (Moy–Prasad)"
+title = "Jacquet modules of depth-zero vectors"
+source = "Moy–Prasad [moy-prasad-1996]"
 lean  = ["GlobalTheory.Published.MoyPrasadJacquetIso", "PositivityTheory.Prw.moyPrasadJacquetIso_holds"]
 order = 6
 +++
@@ -9,4 +10,5 @@ subgroup of $\GL_n(F)$, $K_1$ the first principal congruence subgroup and
 $K = \GL_n(\mathcal O)$. For every admissible representation $V$ of
 $\GL_n(F)$ the projection to the Jacquet module $V_N$ maps the vectors fixed
 by $K_1(N \cap K)$ bijectively onto the vectors of $V_N$ fixed by the
-corresponding subgroup of $M$ (Moy–Prasad, 1996; the depth-zero analogue of [thm-borel-casselman]).
+corresponding subgroup of $M$. This is the depth-zero analogue of
+[thm-borel-casselman].

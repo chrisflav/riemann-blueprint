@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The unramified doubling integral for GL(n) (Piatetski-Shapiro–Rallis)"
+title = "The unramified doubling integral for GL(n)"
+source = "after Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.UnramifiedDoublingGL", "GlobalTheory.UnramDoublingProof.unramifiedDoublingGL"]
 order = 6
 +++
@@ -14,5 +15,4 @@ $$
 = \frac{L(s + \tfrac12, \alpha)\,L(s + \tfrac12, \alpha^{-1})}{d_n(s)},
 $$
 where $d_n(s)$ is the normalising product of abelian $L$-factors. This is
-the unramified computation of the doubling method (Piatetski-Shapiro and
-Rallis, 1987) for $\GL_n$.
+the unramified computation of the doubling method, for $\GL_n$.

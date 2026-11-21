@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Classification of the discrete series of U(p,q) (Harish-Chandra)"
+title = "Classification of the discrete series of U(p,q)"
+source = "Harish-Chandra [harish-chandra-1965], [harish-chandra-1966]; Hecht–Schmid [hecht-schmid-1975]"
 lean  = ["CompanionTheory.RgExh.discreteSeriesClassification", "GlobalTheory.Published.DiscreteSeriesClassification"]
 order = 10
 +++
@@ -16,5 +17,4 @@ $\lambda_a - (n-1)/2 \in \Z$:
 
 and every irreducible square-integrable unitary representation of a
 $\U(p,q)$ is unitarily equivalent, after a permutation of coordinates, to
-some $\pi_{\varepsilon,\lambda}$. This is Harish-Chandra's classification
-(1965–66) with the Blattner formula of Hecht and Schmid (1975).
+some $\pi_{\varepsilon,\lambda}$.

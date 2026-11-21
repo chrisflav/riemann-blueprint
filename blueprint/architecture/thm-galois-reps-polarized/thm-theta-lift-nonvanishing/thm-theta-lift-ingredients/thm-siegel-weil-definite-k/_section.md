@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-definite-k"
 kind  = "theorem"
 title = "The Siegel–Weil formula for a definite space"
+source = "Weil [weil-1965]; Kudla–Rallis [kudla-rallis-1988]; Ichino [ichino-2004] for unitary groups"
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd_k", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_k"]
 order = 10
 +++
@@ -13,5 +14,4 @@ function $\Phi$ on the doubled space,
 $$E\Big(g, \tfrac{m-n}{2}, \Phi\Big) = c \int_{\U(A)(F)\backslash \U(A)(\A_F)} \theta(g, h, \Phi)\, dh,$$
 with $c = 1$ if $n < m$ and $c = 2$ otherwise; here $E$ is the Siegel Eisenstein
 series, $\theta$ the theta function and the measure is the normalised Haar
-measure on a fundamental domain (Weil 1965; Kudla and Rallis; Ichino 2004 for
-unitary groups).
+measure on a fundamental domain.

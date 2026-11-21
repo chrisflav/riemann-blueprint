@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The geometric lemma (Bernstein–Zelevinsky)"
+title = "The geometric lemma"
+source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.CompanionTheory.GeoLink.geometricLemma", "GlobalTheory.Published.GeometricLemma"]
 order = 4
 +++

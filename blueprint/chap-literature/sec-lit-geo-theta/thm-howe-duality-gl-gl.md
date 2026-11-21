@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Howe duality for (GL_n, GL_n') on polynomials"
+source = "Howe [howe-1989a]"
 lean  = ["GlobalTheory.Published.GLHoweDuality", "PositivityTheory.Stage1.PM.gLHoweDuality"]
 order = 1
 +++
@@ -12,5 +13,4 @@ the Schur functor; the $S_\lambda(\C^n)$ are irreducible and pairwise
 non-isomorphic, and likewise for $n'$. The same holds for the compact
 subgroup $\U(n) \times \U(n')$.
 
-This is $(\GL_n, \GL_{n'})$-duality (Howe 1989), the representation-theoretic
-form of the Cauchy identity.
+This is the representation-theoretic form of the Cauchy identity.

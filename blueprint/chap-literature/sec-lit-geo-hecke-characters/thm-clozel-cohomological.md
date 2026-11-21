@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Clozel: regular algebraic cuspidal representations are cohomological"
+title = "Regular algebraic cuspidal representations are cohomological"
+source = "Clozel [clozel-1990]"
 lean  = ["GlobalTheory.Published.ClozelCohomological", "PositivityTheory.Rg.Cz.clozelCohomological"]
 order = 7
 +++
@@ -11,5 +12,3 @@ numbers in $\Z + (a-1)/2$. Then $\pi$ is cohomological: there is an
 irreducible algebraic representation $\Xi$ of $\mathrm{Res}_{E/\Q}\GL_a$
 such that $\pi_\infty \otimes \Xi$ has non-zero relative Lie algebra
 cohomology.
-
-This is Lemma 3.14 of Clozel (1990).

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Finiteness and duality for parabolic induction (Bernstein–Zelevinsky)"
+title = "Finiteness and duality for parabolic induction"
+source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1976], [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.BernsteinZelevinskyFiniteness", "GlobalTheory.Published.TotallyDisjointProductIrreducible", "GlobalTheory.Published.ZelevinskyPolynomialRing", "GlobalTheory.geometricLemma_of_filtration", "PositivityTheory.Geo.geometricLemmaFiltration", "PositivityTheory.Prw.bernsteinZelevinskyFiniteness_holds", "PositivityTheory.Prw.zelevinskyPolynomialRing_of", "PositivityTheory.SlGl.totallyDisjointProductIrreducible_of_parts"]
 order = 9
 +++
@@ -14,7 +15,7 @@ Let $F$ be a non-archimedean local field. For $\GL_n(F)$:
   $\langle f', f\rangle = \int_{K} f'(x)(f(x))\,dx$ over the maximal compact
   subgroup $K = \GL_n(\mathcal O)$.
 
-This is Bernstein–Zelevinsky (1976, 1977). We also record here the
+We also record here the
 Zelevinsky polynomial ring of [thm-zelevinsky-segments], the
 geometric lemma ([thm-geometric-lemma-filtration], [thm-geometric-lemma]) and the
 irreducibility of $\pi_1 \times \pi_2$ when no cuspidal constituent of $\pi_1$

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Reduction theory for unitary groups (Borel, Godement)"
+title = "Reduction theory for unitary groups"
+source = "Borel [borel-1969]; Godement [godement-1963]"
 lean  = ["GlobalTheory.Published.SiegelSetUnitary", "UpperTheory.Lit.siegelSetUnitary_of_core"]
 order = 1
 +++
@@ -19,4 +20,4 @@ $\Omega \subseteq P_0(\A_F)^1$ and $c > 0$ such that:
   $\mathfrak S$ is bounded by $C\int_{A_c} h(t)\,\delta(t)^{-1}\prod_i t_i^{-1}\,dt$
   whenever $f(pak) \le h(t)$, where $\delta$ is the modulus character.
 
-This is the reduction theory of Borel (1962) and Godement for $\U(V)$.
+This is reduction theory, stated for $\U(V)$.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Bloch–Kato local theory"
+source = "Bloch–Kato [bloch-kato-1990]"
 lean  = ["GlobalTheory.Published.BlochKatoLocal", "UpperTheory.Lit.blochKatoLocal"]
 order = 6
 +++
@@ -16,5 +17,3 @@ Then:
 * the same holds integrally: for $\Z_l$-lattices $T \subset V$ and
   $T' \subset V'$ in duality, the images of $H^1_f$ in the cohomology of
   $V/T$ and $V'/T'$ are exact annihilators.
-
-These are Propositions 3.8 and 3.10 of Bloch and Kato (1990).

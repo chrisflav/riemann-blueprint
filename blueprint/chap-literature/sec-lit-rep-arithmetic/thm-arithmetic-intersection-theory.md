@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Arithmetic intersection theory of hermitian line bundles (Gillet–Soulé, Bost–Gillet–Soulé)"
+title = "Arithmetic intersection theory of hermitian line bundles"
+source = "Gillet–Soulé [gillet-soule-1990]; Bost–Gillet–Soulé [bost-1994]"
 lean  = ["GlobalTheory.ArithmeticHeightTower.ArakelovDirectHeights.arCalc_direct", "GlobalTheory.ArithmeticHeightTower.ArakelovDirectHeights.cycleHeights_direct", "GlobalTheory.CompanionTheory.Ar.Pub.PoincareLelong", "GlobalTheory.Published.ArCalc", "GlobalTheory.Published.ArDegree", "GlobalTheory.Published.ChernDegreeComplex", "GlobalTheory.Published.CycleHeights", "GlobalTheory.Published.CycleHeights.heightProjection", "PositivityTheory.Prw.arDegree_of", "PositivityTheory.ResPlug.FromRes.resK", "PositivityTheory.Tls2.Chern2.chernDegreeComplex", "PositivityTheory.Tls2.Pl.poincareLelong", "ReciprocityTheory.ChartRestriction.G.Geo.ResK.ResKStatement"]
 order = 4
 +++
@@ -21,8 +22,7 @@ bundles $\bar L$ on $X$. Then:
 * the projection formula for generically finite maps, with the degree as
   factor, and invariance under isometries.
 
-These are the properties of arithmetic intersection numbers of Gillet and
-Soulé (1990) and Bost, Gillet and Soulé (1994). We also record here
+We also record here
 the Chern–Weil identity on complex varieties, the Poincaré–Lelong formula,
 birational invariance, the projection formula for cycle heights, and
 resolution of singularities in characteristic zero.

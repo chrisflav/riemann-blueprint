@@ -2,6 +2,7 @@
 id    = "thm-kato-euler-system-ordinary"
 kind  = "theorem"
 title = "Kato's Euler system for ordinary newforms"
+source = "after Kato [kato-2004]"
 lean  = ["GlobalTheory.Ord2.ZetaUr", "UpperTheory.V.Z.Kato.Final.zetaUr"]
 order = 10
 +++
@@ -25,4 +26,4 @@ $\Z/l^n$, twisted by $\psi$, unramified away from $w$, with
 $$\sum_x Y(s, x) = P\,y(s) + (W(s) - 1)b,\qquad P \equiv u\det\big(W(\mathrm{Frob}_w) - 1\big) \bmod l^n$$
 for a unit $u$.
 
-This is Kato's Euler system (Kato, 2004) in the form Kolyvagin's method needs.
+This is Kato's Euler system in the form Kolyvagin's method needs.

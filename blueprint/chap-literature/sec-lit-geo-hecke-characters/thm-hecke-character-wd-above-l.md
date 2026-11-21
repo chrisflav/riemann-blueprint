@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Local-global compatibility above l for Hecke characters"
+source = "classical"
 lean  = ["GlobalTheory.Published.AlgebraicCharacterWD", "UpperTheory.Lit.CharWD.algebraicCharacterWD"]
 order = 3
 +++

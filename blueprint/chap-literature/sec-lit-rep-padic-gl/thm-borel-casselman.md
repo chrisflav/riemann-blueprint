@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Iwahori-fixed vectors and the Jacquet module (Borel, Casselman)"
+title = "Iwahori-fixed vectors and the Jacquet module"
+source = "Borel [borel-1976]; Casselman [casselman-1980]"
 lean  = ["GlobalTheory.Published.BorelCasselman", "PositivityTheory.Stage1.PM.borelCasselman"]
 order = 5
 +++
@@ -11,4 +12,4 @@ representation $V$ of $\GL_n(F)$ the projection to the Jacquet module
 $$
 V^{I} \longrightarrow (V_U)^{T(\mathcal O)}
 $$
-is a bijection (Borel, 1976; Casselman, 1980).
+is a bijection.

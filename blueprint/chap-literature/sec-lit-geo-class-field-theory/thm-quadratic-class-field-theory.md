@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Class field theory of quadratic extensions"
+source = "classical; see Cassels–Fröhlich [cassels-frohlich-1967]"
 lean  = ["GlobalTheory.Published.QuadraticClassFieldTheory", "PositivityTheory.Stage1.PM.quadraticClassFieldTheory"]
 order = 7
 +++
@@ -22,5 +23,5 @@ and $L = KE$ for a quadratic extension $E/F$, then
 $\eta_{L/K}(x) = \eta_{E/F}(N x)$ for $x$ in any finite extension of a
 completion of $F$.
 
-These are the classical results on the quadratic norm residue symbol
-(Hilbert, Hasse), equivalent to quadratic class field theory.
+These are the results of Hilbert and Hasse on the quadratic norm residue
+symbol, equivalent to quadratic class field theory.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Weil's convergence criterion for theta integrals"
+source = "special case of Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.WeilThetaConvergence", "UpperTheory.Lit.weilThetaConvergence"]
 order = 6
 +++
@@ -10,4 +11,4 @@ then for every Haar measure on $\U(V)(\A_F)$ and every Schwartz function
 $\Phi$ on $V^n(\A_E)$ of the admissible archimedean type, the integral of
 $|\theta(g, h; \Phi)|$ over $\U(V)(F)\backslash \U(V)(\A_F)$ is finite.
 
-This is Weil's convergence criterion (1965), in the unitary case.
+It is stated in the unitary case.

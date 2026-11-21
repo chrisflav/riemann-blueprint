@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Artin reciprocity"
+source = "Artin [artin-1927]; Takagi [takagi-1920]; Chevalley [chevalley-1940]"
 lean  = ["GlobalTheory.Published.GlobalArtinReciprocity", "GlobalTheory.globalArtinReciprocity_holds"]
 order = 1
 +++
@@ -16,6 +17,5 @@ such that:
 * the closure of the image of $E_v^\times$ is the image of the
   decomposition group.
 
-This is the reciprocity law of Artin (1927) with the existence theorem of
-Takagi, in the idelic form of Chevalley, normalised so that uniformisers
-go to geometric Frobenius elements.
+This is the reciprocity law with the existence theorem, in idelic form,
+normalised so that uniformisers go to geometric Frobenius elements.

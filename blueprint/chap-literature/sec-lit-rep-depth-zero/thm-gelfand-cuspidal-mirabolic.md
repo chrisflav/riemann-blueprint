@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Cuspidal representations on the mirabolic subgroup (Gelfand)"
+title = "Cuspidal representations on the mirabolic subgroup"
+source = "Gelfand [gelfand-1970]"
 lean  = ["GlobalTheory.Published.CuspidalMirabolic", "GlobalTheory.cuspidalMirabolic_holds"]
 order = 3
 +++
@@ -12,5 +13,5 @@ Let $k$ be a finite field and $n \ge 0.$
   mirabolic subgroup is isomorphic to the representation induced from the
   generic character of the unipotent radical defined by $\psi_0$.
 
-These are results of Gelfand (1970); the second is the finite-field case of
+The second is the finite-field case of
 the Bernstein–Zelevinsky description of the Kirillov model.

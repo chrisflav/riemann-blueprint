@@ -2,6 +2,7 @@
 id    = "thm-unitary-shimura-integral-models"
 kind  = "theorem"
 title = "Integral models of unitary Shimura varieties"
+source = "Kottwitz [kottwitz-1992]; Harris–Taylor [harris-taylor-2001]"
 lean  = ["GlobalTheory.UPel.HT.model_nonempty"]
 order = 10
 +++
@@ -15,4 +16,4 @@ distinct modulo every prime of characteristic $p$. Let $N \ge 3$ be prime to $p$
 Then the moduli problem of abelian schemes with $\mathcal O_D$-action,
 polarisation and level-$N$ structure of the given type, over $R$-schemes, is
 represented by a quasi-projective $R$-scheme, smooth of relative dimension
-$a(n-1)$ (Kottwitz 1992; Harris–Taylor 2001).
+$a(n-1)$.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's finiteness theorem for unitary groups"
+source = "Harish-Chandra [harish-chandra-1968]"
 lean  = ["GlobalTheory.Published.HarishChandraFinite", "PositivityTheory.RgHf.harishChandraFinite"]
 order = 11
 +++
@@ -10,4 +11,4 @@ representation $\rho_\tau$ of the maximal compact subgroup and eigenvalues
 $c_\tau$ for the generators of the centre of the enveloping algebra. The
 smooth automorphic functions on $G(\A_F)$ that are right invariant under
 $U$, of $K_\infty$-type $\rho$ and with those eigenvalues span a
-finite-dimensional space (Harish-Chandra, 1968).
+finite-dimensional space.

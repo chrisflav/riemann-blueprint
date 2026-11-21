@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Ohsawa–Takegoshi L2 extension from points"
+source = "after Ohsawa–Takegoshi [ohsawa-takegoshi-1987]; Demailly [demailly-2000]"
 lean  = ["GlobalTheory.Published.L2ExtensionLogCanonical", "GlobalTheory.l2ExtensionLogCanonical'"]
 order = 7
 +++
@@ -15,6 +16,6 @@ section $F$ of $K_Y \otimes E$ with
 $$ \int_Y \frac{2^n\, |F|^2 e^{-\psi}}{1 + \delta^2\psi^2} ;\le; \frac{34}{\delta}\cdot\frac{2^{n+1}\pi^n}{(n-1)!} \sum_{P \in Z} \frac{|f(P)|^2}{|\mathrm{Jac}_s(P)|^2}, $$
 where the norms at $P$ are taken in the metrics of $E$ and $L^{n}$.
 
-This is the $L^2$ extension theorem of Ohsawa and Takegoshi (1987), in the
-form of Demailly for subvarieties cut out by sections with log canonical
+This is the $L^2$ extension theorem in Demailly's form for subvarieties cut
+out by sections with log canonical
 weight, specialised to a finite set of points.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Harish-Chandra modules of unitary representations (Harish-Chandra)"
+title = "Harish-Chandra modules of unitary representations"
+source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.Published.HarishChandraModules", "PositivityTheory.Stage1.PM.harishChandraModules"]
 order = 1
 +++
@@ -19,5 +20,3 @@ representations of $\tilde G$ on Hilbert spaces:
 * for irreducible unitary representations of $\U(p,q)$ itself, $K$-finite
   vectors are analytic: $g \mapsto \sigma(g)v$ is real-analytic for every
   $K$-finite $v$.
-
-These are Harish-Chandra's theorems (1953–54) for the groups $\U(p,q)$.

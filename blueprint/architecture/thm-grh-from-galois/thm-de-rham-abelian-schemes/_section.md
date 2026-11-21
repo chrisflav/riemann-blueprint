@@ -2,6 +2,7 @@
 id    = "thm-de-rham-abelian-schemes"
 kind  = "theorem"
 title = "De Rham cohomology of abelian schemes"
+source = "Oda [oda-1969]; Mazur–Messing [mazur-messing-1974]; Berthelot–Breen–Messing [berthelot-1982]"
 lean  = ["GlobalTheory.Published.AbelianDeRham", "PositivityTheory.DualRT.abelianDeRham"]
 order = 10
 +++
@@ -17,6 +18,3 @@ Let $A$ be an abelian scheme of relative dimension $g$ over a ring $R$. Then:
   bijective;
 * (duality) the pairing of a polarisation makes $\omega_A$ isotropic, and is
   perfect when the polarisation is principal.
-
-These are the theorems of Oda (1969), Mazur–Messing and
-Berthelot–Breen–Messing.

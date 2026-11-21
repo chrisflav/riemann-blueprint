@@ -1,0 +1,9 @@
++++
+kind    = "reference"
+author    = ["I. I. Piatetski-Shapiro"]
+title     = "Multiplicity one theorems"
+booktitle = "Automorphic forms, representations and $L$-functions, Part 1"
+series    = "Proc. Sympos. Pure Math. 33"
+publisher = "Amer. Math. Soc."
+year      = "1979"
++++

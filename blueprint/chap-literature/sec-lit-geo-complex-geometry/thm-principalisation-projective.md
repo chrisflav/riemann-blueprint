@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Principalisation of ideals on smooth projective varieties"
+source = "Hironaka [hironaka-1964]; Bierstone–Milman [bierstone-milman-1997]; Villamayor [villamayor-1989]"
 lean  = ["GlobalTheory.Published.Principalisation", "PositivityTheory.ResPlug.WeightsCompactStabilizer.principalisation_closed"]
 order = 3
 +++
@@ -12,5 +13,4 @@ isomorphism outside the support of $\mathcal I$ and such that
 $s^{-1}\mathcal I$ is the ideal of an effective Cartier divisor with simple
 normal crossings support.
 
-This is Hironaka's principalisation theorem (1964), in the algorithmic form
-of Bierstone–Milman and Villamayor.
+This is the principalisation theorem in its algorithmic form.

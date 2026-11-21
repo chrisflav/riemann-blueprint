@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Square-integrable representations come from segments (Bernstein–Zelevinsky)"
+title = "Square-integrable representations come from segments"
+source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]; Zelevinsky [zelevinsky-1980]"
 lean  = ["GlobalTheory.Published.SquareIntegrableSegment", "PositivityTheory.Prw.squareIntegrableSegment_of"]
 order = 10
 +++

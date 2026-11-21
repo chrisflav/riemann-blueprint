@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Functional equation of Hecke L-functions over CM fields"
+source = "special case of Hecke [hecke-1918], [hecke-1920]; Tate [tate-1967]"
 lean  = ["GlobalTheory.Published.HeckeTateFunctionalEquation", "GlobalTheory.Top.heckeTateFE"]
 order = 3
 +++
@@ -15,6 +16,6 @@ $$ \Lambda(\chi, s) = (-i)^{\sum_\phi |n_\phi|}\,\varepsilon_f(\chi, s)\,\Lambda
 where $\varepsilon_f(\chi, s) = \prod_w \varepsilon_w(\chi, a_w, s)$ is the
 product of the local root numbers at the ramified places.
 
-This is the functional equation of Hecke (1918–20) and Tate (1950), in the
-special case of a CM field and a character of non-trivial infinity type,
+It is the special case of a CM field and a character of non-trivial infinity
+type,
 where the completed $L$-function has no poles.

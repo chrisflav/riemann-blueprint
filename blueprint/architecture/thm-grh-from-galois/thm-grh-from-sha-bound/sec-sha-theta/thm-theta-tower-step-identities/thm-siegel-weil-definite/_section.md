@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-definite"
 kind  = "theorem"
 title = "The Siegel–Weil formula for definite spaces"
+source = "Weil [weil-1965]; Kudla–Rallis [kudla-rallis-1988]; Ichino [ichino-2004] for unitary groups"
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd", "UpperTheory.LiteratureTheorems.siegel_weil_std_of_literature"]
 order = 10
 +++
@@ -14,6 +15,3 @@ $\Phi$ is holomorphic at $s_0 = (m - n)/2$ and
 $$E(g, s_0, \Phi) = c \int_{\U(A)(F)\backslash \U(A)(\A)} \theta(g, h; \Phi)\,dh,
 \qquad c = \begin{cases} 1 & n < m,\\ 2 & n \ge m,\end{cases}$$
 for the Haar measure of total volume one.
-
-This is the Siegel–Weil formula of Weil, Kudla–Rallis and Ichino for
-definite spaces.

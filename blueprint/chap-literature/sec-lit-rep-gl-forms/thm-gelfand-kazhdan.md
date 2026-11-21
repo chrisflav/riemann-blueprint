@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "The contragredient is the inverse transpose (Gelfand–Kazhdan)"
+title = "The contragredient is the inverse transpose"
+source = "after Gelfand–Kazhdan [gelfand-kazhdan-1975]"
 lean  = ["GlobalTheory.Published.GelfandKazhdanDual", "PositivityTheory.JMult1.gelfandKazhdanDual_of_rigidity"]
 order = 7
 +++
@@ -11,4 +12,4 @@ $B(\pi(g)\varphi, \pi({}^tg^{-1})\psi) = B(\varphi, \psi)$ at the finite
 places, the corresponding identity at the archimedean maximal compact
 subgroup, and $B(X\varphi,\psi) + B(\varphi, X'\psi) = 0$ for $X$ in the Lie
 algebra and $X' = -{}^tX$. In other words $\pi^\vee \cong \pi\circ\theta$
-with $\theta(g) = {}^tg^{-1}$ (Gelfand–Kazhdan, 1975).
+with $\theta(g) = {}^tg^{-1}$.

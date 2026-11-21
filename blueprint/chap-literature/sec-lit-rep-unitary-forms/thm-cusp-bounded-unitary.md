@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Cusp forms of moderate growth are bounded"
+source = "Harish-Chandra [harish-chandra-1968]; see Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.Published.CuspBounded", "PositivityTheory.Stage1.PM.cuspBounded"]
 order = 9
 +++

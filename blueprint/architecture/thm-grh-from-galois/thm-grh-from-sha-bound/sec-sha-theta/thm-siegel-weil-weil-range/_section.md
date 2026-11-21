@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-weil-range"
 kind  = "theorem"
 title = "The Siegel–Weil formula in Weil's range"
+source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.WeilSiegelFormula", "GlobalTheory.Published.WeilSiegelFormulaUnitary", "PositivityTheory.Rg.Wsf.weilSiegelFormula", "UpperTheory.Lit.Sw47.weilUnitary"]
 order = 12
 +++
@@ -15,5 +16,3 @@ index. Then:
 * if $2\dim A < \dim B$, the Siegel Eisenstein series of the section
   attached to the Schwartz function converges on $\U(A \oplus -A)$ and equals
   the average of the theta function over $\U(B)(F) \backslash \U(B)(\A)$.
-
-This is Weil's form (1965) of the Siegel–Weil formula for unitary groups.

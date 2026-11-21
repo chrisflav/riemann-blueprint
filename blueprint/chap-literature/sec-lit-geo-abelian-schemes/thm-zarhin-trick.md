@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Zarhin's trick"
+source = "Zarhin [zarhin-1975]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.GR.ZarhinStatement", "PositivityTheory.HtPt.Narrow.zarhin"]
 order = 3
 +++
@@ -10,4 +11,4 @@ bundle. Then $A$ is a direct factor of a principally polarised abelian
 scheme $P$ over $R$: there are homomorphisms $i : A \to P$ and $r : P \to A$
 with $r \circ i = \mathrm{id}_A$.
 
-This is Zarhin's trick (1975): one may take $P = (A \times A^\vee)^4$.
+One may take $P = (A \times A^\vee)^4$.

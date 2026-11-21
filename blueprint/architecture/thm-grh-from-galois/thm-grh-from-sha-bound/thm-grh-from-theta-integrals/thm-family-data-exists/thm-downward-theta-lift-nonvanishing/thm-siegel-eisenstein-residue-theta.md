@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The residue of the Siegel Eisenstein series is a theta integral"
+source = "after Kudla–Rallis [kudla-rallis-1994]; Ichino [ichino-2004]"
 lean  = ["PositivityTheory.Rg.Rsw.ResCore", "PositivityTheory.Rg.Rsw.resCore"]
 order = 1
 +++

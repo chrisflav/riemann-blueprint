@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Injectivity on depth-zero vectors"
+source = "Moy–Prasad [moy-prasad-1996]"
 lean  = ["GlobalTheory.DepthZeroJac.depthZeroJacquetInjective", "GlobalTheory.Published.DepthZeroJacquetInjective"]
 order = 7
 +++

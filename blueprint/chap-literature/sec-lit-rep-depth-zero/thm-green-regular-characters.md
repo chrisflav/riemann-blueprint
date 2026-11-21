@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Cuspidal characters of GL(d) over a finite field (Green)"
+title = "Cuspidal characters of GL(d) over a finite field"
+source = "Green [green-1955]"
 lean  = ["GlobalTheory.Published.GreenRegularCharacters", "PositivityTheory.Stage1.PM.greenRegularCharacters"]
 order = 1
 +++
@@ -19,5 +20,3 @@ class function $\tau_\theta$ on $\GL_d(\mathbb F_g)$ such that:
   if $\theta' = \theta^{g^i}$ for some $i < d$;
 * every cuspidal irreducible character is some $\tau_\theta$ with $\theta$
   regular.
-
-This is Green's theorem (1955).

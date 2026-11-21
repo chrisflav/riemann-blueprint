@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Meromorphic continuation of Siegel Eisenstein series with growth (Langlands, Bernstein–Lapid)"
+title = "Meromorphic continuation of Siegel Eisenstein series with growth"
+source = "special case of Langlands [langlands-1976]; Bernstein–Lapid [bernstein-lapid-2019]"
 lean  = ["GlobalTheory.ThK.Dbl.EisBL", "PositivityTheory.RgEis.Hd.eisBL"]
 order = 8
 +++
@@ -15,5 +16,6 @@ parabolic subgroup:
   holomorphic family of functions of moderate growth, holomorphic after
   pairing with every continuous functional on the space of such functions.
 
-This is the meromorphic continuation of Eisenstein series (Langlands,
-1976) in the form of Bernstein and Lapid, with control of growth.
+This is the meromorphic continuation of Eisenstein series, for Siegel
+parabolic subgroups, in the form of Bernstein and Lapid with control of
+growth.

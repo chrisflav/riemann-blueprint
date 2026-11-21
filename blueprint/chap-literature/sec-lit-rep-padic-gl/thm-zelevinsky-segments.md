@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Zelevinsky's classification by segments"
+source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]; Zelevinsky [zelevinsky-1980]"
 lean  = ["GlobalTheory.Published.EssSquareIntegrableSegments", "GlobalTheory.Published.GenericUnlinkedGL", "GlobalTheory.Published.GrothendieckRingPolynomial", "GlobalTheory.Published.LanglandsExhaustionGL", "GlobalTheory.Published.LanglandsMultisegments", "GlobalTheory.Published.SegmentRepresentation", "GlobalTheory.Published.StandardCosocleGL", "GlobalTheory.RgGu.genericUnlinkedGL_of_segRep2", "PositivityTheory.Exh.essSquareIntegrableSegments_of_seg", "PositivityTheory.Exh.langlandsExhaustionGL_of_seg", "PositivityTheory.Exh.langlandsMultisegments_of_seg", "PositivityTheory.Exh.standardCosocleGL_of_seg", "PositivityTheory.Groth.grothendieckRingPolynomial_of_seg", "PositivityTheory.RgGu.segmentRepresentation", "UpperTheory.GalS.PairUAlt", "UpperTheory.GalS.field_of_starFull_alt"]
 uses = ["def-local-parameters"]
 order = 8
@@ -17,14 +18,14 @@ representation*. The following hold.
    (Bernstein–Zelevinsky).
 2. For each segment, the product $\rho \times \rho\nu \times \dots \times \rho\nu^{l-1}$
    has a unique irreducible subrepresentation, and its Jacquet module is
-   $\rho \otimes \rho\nu \otimes \dots \otimes \rho\nu^{l-1}$ (Zelevinsky, 1980).
+   $\rho \otimes \rho\nu \otimes \dots \otimes \rho\nu^{l-1}$ (Zelevinsky).
 3. Every irreducible representation is attached to a multisegment
    (Langlands classification), the multisegment is unique, a product of
    standard modules has the expected irreducible cosocle, and the
    representation attached to $\mathfrak m + \mathfrak n$ is a subquotient of
    the product of those attached to $\mathfrak m$ and $\mathfrak n$.
 4. A generic irreducible representation is a product of segment
-   representations of pairwise unlinked segments (Zelevinsky, Theorem 9.7).
+   representations of pairwise unlinked segments (Zelevinsky).
 5. Choosing a segment representation for each segment, the Grothendieck
    ring of all $\GL_n(F)$, $n \ge 0$, with the product given by induction,
    is the polynomial ring over $\Z$ in the segments.

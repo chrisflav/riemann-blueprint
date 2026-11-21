@@ -2,6 +2,7 @@
 id    = "thm-hodge-tate-functorial"
 kind  = "theorem"
 title = "Functoriality of the Hodge–Tate decomposition"
+source = "Faltings [faltings-1988]"
 lean  = ["CrystallineSemistableComparison.HTSpecB.HTSpecGood", "UpperTheory.Gal.Seam.HT.htSpecGood"]
 order = 10
 +++
@@ -12,4 +13,4 @@ $\bigoplus_a H^{n-a}(M, \Omega^a)$, whose sizes agree, and a matrix $\Phi_M$ ove
 $\C_l$ realising the Hodge–Tate decomposition
 $$H^n_{\mathrm{et}}(M_{\bar K}, \Q_l) \otimes \C_l \cong \bigoplus_a H^{n-a}(M, \Omega^a) \otimes_K \C_l(-a).$$
 For every morphism $u : M' \to M$ over $K$, the matrices of $u^*$ on étale and on
-Hodge cohomology are intertwined by $\Phi_M$ and $\Phi_{M'}$ (Faltings, 1988).
+Hodge cohomology are intertwined by $\Phi_M$ and $\Phi_{M'}$.

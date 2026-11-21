@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Siegel's main theorem for hermitian forms"
+source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.CompanionTheory.SW.siegelWeilUnitaryConvergent", "HeckeCharacterZeroLocus.SiegelWeilU.SiegelWeilUnitaryConvergent"]
 order = 7
 +++
@@ -14,6 +15,5 @@ $$ \int_{[\U(J)]} \sum_{X J X^* = T} \Phi(g^{-1} X)\, dg = g_\infty(T) \prod_v g
 where $g_v$ is the density of the push-forward of $\Phi_v$ under
 $X \mapsto X J X^*$, for suitably normalised measures.
 
-This is Siegel's main theorem (1951) for hermitian forms, the
-Siegel–Weil formula in the range where the Eisenstein series converges
-(Weil 1965).
+This is Siegel's main theorem for hermitian forms, the Siegel–Weil formula
+in the range where the Eisenstein series converges.

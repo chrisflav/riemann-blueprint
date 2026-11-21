@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's formal degree formula for U(p, q)"
+source = "after Harish-Chandra [harish-chandra-1966]"
 lean  = ["GlobalTheory.Published.FormalDegreeCompactDual", "PositivityTheory.RgFd.B.formalDegreeCompactDual"]
 order = 2
 +++
@@ -11,6 +12,6 @@ $\lambda_1 > \dots > \lambda_N$, $\lambda_a \in \Z + (N-1)/2$. Then for every
 non-zero vector $w$,
 $$ \frac{\|w\|^4}{\int_{\U(p,q)} |\langle w, \sigma(g) w\rangle|^2\, dg} = \prod_{a < b}\frac{|\lambda_a - \lambda_b|}{b - a}. $$
 
-The left side is the formal degree of $\sigma$. This is Harish-Chandra's
-formula (1966) with the measure normalised by the compact dual $\U(N)$,
+The left side is the formal degree of $\sigma$. The measure is normalised by
+the compact dual $\U(N)$,
 where the right side is the Weyl dimension formula.

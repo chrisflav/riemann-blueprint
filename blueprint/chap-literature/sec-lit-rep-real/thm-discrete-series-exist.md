@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Discrete series with given Harish-Chandra parameter exist"
+source = "Harish-Chandra [harish-chandra-1965], [harish-chandra-1966]"
 lean  = ["CompanionTheory.RgDs.B.discreteSeriesExists", "GlobalTheory.Published.DiscreteSeriesExists"]
 order = 8
 +++

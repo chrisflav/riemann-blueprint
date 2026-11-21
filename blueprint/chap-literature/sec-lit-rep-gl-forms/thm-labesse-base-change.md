@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Base change from unitary groups to GL(n)"
+source = "after Labesse [labesse-2011]"
 lean  = ["GlobalTheory.Published.BaseChangeDefiniteUnitaryGroup", "UpperTheory.BaseChangeIdentities.definiteN_of"]
 uses  = ["thm-base-change-unitary"]
 order = 10
@@ -21,5 +22,5 @@ conjugate self-dual, and local components $\sigma_{i,w}$ such that:
 * the infinitesimal characters of the $\Pi_i$ add up to the one given by the
   weight of $\pi$.
 
-This is Labesse's base change for definite unitary groups (2011), in the
-form used by [thm-base-change-unitary].
+This is base change for definite unitary groups, in the form used by
+[thm-base-change-unitary].

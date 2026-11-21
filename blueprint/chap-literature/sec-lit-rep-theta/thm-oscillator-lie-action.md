@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The real oscillator representation and its Lie algebra action"
+source = "Segal; Shale [shale-1962]; Weil [weil-1964]; Howe [howe-1979]"
 lean  = ["GlobalTheory.Published.RealMetaplecticRepresentation", "PositivityTheory.Stage1.PM.realMetaplecticRepresentation"]
 order = 3
 +++
@@ -12,4 +13,4 @@ continuous, intertwines the Heisenberg action, preserves Schwartz
 functions, is smooth along smooth families in the group, and differentiates
 on one-parameter subgroups $\exp(tX)$, $X \in \mathfrak{sp}$, to the quadratic
 differential operator attached to $X$. This is the Weil representation with
-its infinitesimal form (Segal, Shale, Weil; Howe, 1979).
+its infinitesimal form.

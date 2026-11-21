@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Branching from GL(n+1) to GL(n) (Weyl)"
+title = "Branching from GL(n+1) to GL(n)"
+source = "Weyl; see Goodman–Wallach [goodman-wallach-2009]"
 lean  = ["GlobalTheory.Published.WeylBranching", "PositivityTheory.Stage1.PM.weylBranching"]
 order = 15
 +++
@@ -10,4 +11,4 @@ $\lambda$ to $\GL_n(\C)$, and to the compact group $\U(n)$, is the direct
 sum of the irreducible representations of highest weight $\mu$ over the
 dominant $\mu$ that interlace $\lambda$,
 $\lambda_1 \ge \mu_1 \ge \lambda_2 \ge \dots \ge \mu_n \ge \lambda_N$, each
-with multiplicity one. This is Weyl's branching rule.
+with multiplicity one.

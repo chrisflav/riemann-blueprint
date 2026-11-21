@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory"
+source = "Grothendieck–Messing [messing-1972]"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation.grothendieckMessing", "GlobalTheory.Published.GrothendieckMessing"]
 order = 9
 +++
@@ -13,5 +14,3 @@ schemes $A$ over $R$ lifting $A_0$:
 * lifts of $A_0$ correspond to admissible lifts of the Hodge filtration;
 * homomorphisms lift exactly when they respect the Hodge filtrations, and
   then uniquely.
-
-This is Grothendieck–Messing theory (Messing 1972).

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Closures of admissible submodules and infinitesimal equivalence (Harish-Chandra)"
+title = "Closures of admissible submodules and infinitesimal equivalence"
+source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.Published.GKGlobalisation", "GlobalTheory.gkGlobalisation_holds"]
 order = 5
 +++
@@ -15,5 +16,5 @@ representation of $G$ on $H$.
   positive multiple of that isomorphism extends to a unitary equivalence of
   $\sigma_1$ and $\sigma_2$.
 
-This is Harish-Chandra's theorem that infinitesimally equivalent irreducible
-unitary representations are unitarily equivalent.
+In particular, infinitesimally equivalent irreducible unitary
+representations are unitarily equivalent.

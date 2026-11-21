@@ -2,6 +2,7 @@
 id    = "thm-dieudonne-theory-oc"
 kind  = "theorem"
 title = "Dieudonné theory over the ring of integers of an algebraically closed field"
+source = "after Scholze–Weinstein [scholze-weinstein-2013]; Anschütz–Le Bras [anschutz-le-bras-2023]"
 lean  = ["GlobalTheory.Published.PrismaticDieudonneHodge", "UpperTheory.Lit.prismaticDieudonneHodge"]
 order = 15
 +++
@@ -19,5 +20,5 @@ killed by $\varphi(\xi)$, such that:
 * $M$ is fully faithful, and $M(\mu_{p^\infty})$ and $M(\Q_p/\Z_p)$ are free of
   rank one with the expected Frobenius and the period $\mu$ relating them.
 
-This is the classification of Fargues and Scholze–Weinstein (2013), in the
+This is the classification of Fargues and of Scholze–Weinstein, in the
 prismatic form of Anschütz and Le Bras.

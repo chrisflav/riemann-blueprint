@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "p-adic measures from CM theta functions"
+source = "after Katz [katz-1978]"
 lean  = ["GlobalTheory.MomFin.moments_fin", "GlobalTheory.T.unitPeriodTranslates_moments_finite"]
 order = 1
 +++
@@ -18,4 +19,4 @@ whose moments are the Taylor jets, normalised by $\Omega$, of the translates
 of the theta function by $t$ and by good lifts $y$ of level $p^n$.
 
 This is a form of Katz's construction of $p$-adic measures from CM theta
-functions at ordinary primes (1978).
+functions at ordinary primes.

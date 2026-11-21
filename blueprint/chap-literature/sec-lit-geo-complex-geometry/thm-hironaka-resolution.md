@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hironaka's resolution of singularities"
+source = "Hironaka [hironaka-1964]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.ResolutionCharZero", "PositivityTheory.Resplug.ResolutionBlowup.resolutionCharZero"]
 order = 2
 +++
@@ -9,5 +10,3 @@ characteristic $0$. There is a sequence of blow-ups $X' \to X$ with $X'$
 smooth over $k$, which is an isomorphism over the smooth locus of $X$ and
 under which the preimage of the singular locus is a divisor with simple
 normal crossings.
-
-This is Hironaka's theorem (1964), in its strong form.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Galois representations of conjugate self-dual representations, with compatibility above l"
+source = "after Harris–Taylor [harris-taylor-2001]; Shin [shin-2011]; Chenevier–Harris [chenevier-harris-2013]; Caraiani [caraiani-2012], [caraiani-2014]; Barnet-Lamb–Gee–Geraghty–Taylor [barnet-lamb-2012], [barnet-lamb-2014a]"
 lean  = ["GlobalTheory.CompanionTheory.CuspFinGL.cuspFormsBoundedGL", "PositivityTheory.PRW.GKD.gelfandKazhdanDual_of_multiplicityOne", "UpperTheory.GalS.CarUAlt", "UpperTheory.GalS.carU_of_finite_gl_recT", "UpperTheory.GalS.ofDual_star_alt"]
 uses = ["def-local-parameters"]
 order = 11
@@ -23,6 +24,4 @@ semisimple $r : G_E \to \GL_a(\Qlbar)$ and an integer $m$ such that:
   is compatible with it.
 
 This is the conjugate self-dual case of the existence of Galois
-representations for polarized pairs (Harris–Taylor, Shin, Chenevier–Harris,
-Caraiani), with the compatibility above $l$ of Caraiani and of
-Barnet-Lamb–Gee–Geraghty–Taylor.
+representations for polarized pairs, with the compatibility above $l$.

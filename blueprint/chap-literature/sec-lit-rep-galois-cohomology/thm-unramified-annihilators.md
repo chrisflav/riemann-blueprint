@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Unramified classes are exact annihilators (Tate)"
+title = "Unramified classes are exact annihilators"
+source = "Tate [tate-1963]; see Milne [milne-1986]"
 lean  = ["GlobalTheory.unramifiedOrthogonality_holds", "ReciprocityTheory.Gal.UnramifiedOrthogonality"]
 order = 3
 +++
@@ -12,5 +13,4 @@ $$
 H^1(G_v, M) \times H^1(G_v, M^\vee(1)) \to \Z/l^r ,
 $$
 the unramified subgroups $H^1_{\mathrm{ur}}(G_v, M)$ and
-$H^1_{\mathrm{ur}}(G_v, M^\vee(1))$ are exact annihilators of each other
-(Tate; Milne, *Arithmetic duality theorems*, I.2.6).
+$H^1_{\mathrm{ur}}(G_v, M^\vee(1))$ are exact annihilators of each other.

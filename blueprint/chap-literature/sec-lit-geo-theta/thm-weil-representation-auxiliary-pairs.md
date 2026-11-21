@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Weil representations for the unitary pairs of the proof"
+source = "special case of Kudla [kudla-1994]; Harris–Kudla–Sweet [harris-1996]"
 lean  = ["GlobalTheory.Published.WeilRepresentationUnitaryPair", "GlobalTheory.weilRepresentationUnitaryPair"]
 order = 4
 +++

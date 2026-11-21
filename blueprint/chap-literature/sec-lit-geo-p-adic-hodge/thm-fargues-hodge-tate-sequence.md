@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Fargues: the Hodge–Tate sequence of a p-divisible group"
+title = "The Hodge–Tate sequence of a p-divisible group"
+source = "Fargues [fargues-2008]; see also Scholze–Weinstein [scholze-weinstein-2013]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.HT.FarguesExact", "UpperTheory.Lit.farguesExact"]
 order = 4
 +++
@@ -15,5 +16,4 @@ Weil pairing and a choice of compatible $p$-power roots of unity. Then
 $x \in \mathcal O \otimes T_p G$ satisfies $\alpha_G(x) = 0$ if and only if
 $B(x, y) = 0$ for every $y$ in the kernel of $\alpha_{G^\vee}$.
 
-This is the orthogonality in the integral Hodge–Tate sequence of Fargues
-(2008); see also Scholze–Weinstein (2013).
+This is the orthogonality in the integral Hodge–Tate sequence.

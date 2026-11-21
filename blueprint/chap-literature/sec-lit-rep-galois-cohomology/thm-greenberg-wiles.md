@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Greenberg–Wiles formula"
+source = "Greenberg; Wiles [wiles-1995]; see Darmon–Diamond–Taylor [darmon-1997]"
 lean  = ["ReciprocityTheory.Gal.GreenbergWiles", "UpperTheory.Lit.greenbergWiles"]
 order = 5
 +++
@@ -15,5 +16,5 @@ $$
 \prod_{v \in S}\frac{|L_v|}{|H^0(F_v, M)|}
 \prod_{v \mid \infty}\frac{1}{|H^0(F_v, M)|}
 $$
-(Wiles, 1995; Greenberg). The archimedean local conditions are zero, which
+The archimedean local conditions are zero, which
 is automatic since $l$ is odd.

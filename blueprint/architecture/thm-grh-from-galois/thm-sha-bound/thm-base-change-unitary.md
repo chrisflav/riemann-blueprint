@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Base change from definite unitary groups"
+source = "Labesse [labesse-2011]; Mok [mok-2015]; Kaletha–Mínguez–Shin–White [kaletha-2014]"
 lean  = ["UpperTheory.BaseChangeIdentities.baseChangeN"]
 order = 1
 +++
@@ -10,5 +11,3 @@ over $E^+$ has a weak base change to $\GL_n(\A_E)$. The base change is an
 isobaric sum of conjugate-self-dual discrete automorphic representations of
 groups $\GL_{n_i}(\A_E)$, compatible with the local base change at split
 places, at unramified inert places and at infinity.
-
-This is the theorem of Labesse, Mok and Kaletha–Mínguez–Shin–White.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Dixmier–Malliavin factorisation for matrix groups"
+source = "after Dixmier–Malliavin [dixmier-malliavin-1978]"
 lean  = ["GlobalTheory.Published.DixmierMalliavinFactorisation", "GlobalTheory.dixmierMalliavinFactorisation_fromLibrary"]
 order = 16
 +++
@@ -12,5 +13,5 @@ f = \sum_i g_i * h_i
 $$
 of convolutions of smooth compactly supported functions with
 $\operatorname{supp} g_i \subseteq V$ and
-$\operatorname{supp} h_i \subseteq \operatorname{supp} f$. This is the
-Dixmier–Malliavin theorem (1978) for such groups, with control of supports.
+$\operatorname{supp} h_i \subseteq \operatorname{supp} f$. It is stated for
+such groups, with control of supports.

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Discrete series with a given parameter, in the language of K-types"
+source = "after Harish-Chandra [harish-chandra-1965], [harish-chandra-1966]; Vogan [vogan-1981]"
 lean  = ["CompanionTheory.RgDs.B.discreteSeriesCoverExists", "GlobalTheory.Published.DiscreteSeriesCoverExists"]
 order = 9
 +++

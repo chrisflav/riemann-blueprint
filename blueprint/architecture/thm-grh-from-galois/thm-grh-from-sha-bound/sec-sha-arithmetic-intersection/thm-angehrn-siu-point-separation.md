@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Separation of points by adjoint linear systems"
+source = "after Angehrn–Siu [angehrn-siu-1995]"
 lean  = ["GlobalTheory.Published.PointSeparationPair", "GlobalTheory.pointSeparationPair_of_principalisation", "NadelVanishingSeparation.NSI.pointSeparationPair", "UpperTheory.LiteratureTheorems.point_separation_pair_of_literature"]
 order = 12
 +++
@@ -14,4 +15,5 @@ for every subvariety $Z$ of dimension $e$ through $x_1$ or $x_2$, and
 $\sum_{e=1}^n 2^{1/e} e / c_e \le 1$. Then some section of $M$ vanishes at
 exactly one of $x_1, x_2$.
 
-This is the point-separation theorem of Angehrn and Siu (1995).
+Angehrn and Siu prove point separation on complex manifolds; this is the
+form for klt pairs.

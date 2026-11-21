@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Deligne–Ribet congruences"
+source = "special case of Deligne–Ribet [deligne-ribet-1980]; Cassou-Noguès [cassou-nogues-1979]"
 lean  = ["GlobalTheory.Published.DeligneRibet", "PositivityTheory.PfDR.deligneRibet_holds"]
 order = 4
 +++
@@ -12,5 +13,4 @@ $\mathfrak c$ prime to $l$ and every $k \ge 1$, the number
 $$ L(\varepsilon, 1-k) - N\mathfrak c^{\,k}\, L(\varepsilon(\mathfrak c\,\cdot), 1-k) $$
 is $l$-integral, whenever both values are rational.
 
-This is the integrality theorem of Deligne and Ribet (1980), also proved by
-Cassou-Noguès (1979), for ray class functions of $l$-power conductor.
+It is stated for ray class functions of $l$-power conductor.

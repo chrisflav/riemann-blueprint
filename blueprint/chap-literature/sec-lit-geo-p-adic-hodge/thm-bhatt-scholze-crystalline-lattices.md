@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Bhatt–Scholze: crystalline lattices and prismatic F-crystals"
+title = "Crystalline lattices and prismatic F-crystals"
+source = "Bhatt–Scholze [bhatt-scholze-2023]"
 lean  = ["GlobalTheory.BSP.bhattScholzeIntegral", "GlobalTheory.Published.BhattScholzeIntegral"]
 order = 2
 +++
@@ -15,6 +16,6 @@ viewed as a prism over $\mathcal O_K$. Then:
 * the realisation is fully faithful: every $G_K$-equivariant map $T \to T'$
   between realised lattices comes from a unique map of $F$-crystals.
 
-This is the theorem of Bhatt and Scholze (2023) that $\Z_l$-lattices in
-crystalline representations correspond to prismatic $F$-crystals, in the
-form of existence and full faithfulness of the realisation.
+The theorem that $\Z_l$-lattices in crystalline representations correspond
+to prismatic $F$-crystals is stated in the form of existence and full
+faithfulness of the realisation.

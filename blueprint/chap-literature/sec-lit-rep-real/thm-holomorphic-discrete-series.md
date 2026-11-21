@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
-title = "Holomorphic discrete series are lowest weight modules (Harish-Chandra)"
+title = "Holomorphic discrete series are lowest weight modules"
+source = "Harish-Chandra [harish-chandra-1955], [harish-chandra-1956]"
 lean  = ["GlobalTheory.HolDS.holomorphicDiscreteSeries_holds", "GlobalTheory.Published.HolomorphicDiscreteSeries"]
 order = 14
 +++
@@ -17,6 +18,3 @@ lowest weight module:
   $K$-type;
 * the $K$-finite vectors are exactly the span of the raising operators
   from $\mathfrak p^+$ applied to the lowest $K$-type.
-
-This is Harish-Chandra's description of the holomorphic discrete series
-(1955–56).

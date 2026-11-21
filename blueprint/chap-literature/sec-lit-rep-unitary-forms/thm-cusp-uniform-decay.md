@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Uniform rapid decay of cusp forms"
+source = "Harish-Chandra [harish-chandra-1968]; see Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.CuspGeo.cuspDecayBound", "GlobalTheory.Published.CuspDecayBound"]
 order = 6
 +++
@@ -14,5 +15,5 @@ $$
 |\varphi(g)|\,\|g\|_{G(F)\backslash G(\A_F)}^{N} \le C\sum_l c_l ,
 $$
 where $\|g\|_{G(F)\backslash G(\A_F)} = \inf_{\gamma\in G(F)}\|\gamma g\|$ is
-the height on the quotient. This is the quantitative form of the rapid
-decay of cusp forms (Harish-Chandra; Moeglin–Waldspurger, I.2.18).
+the height on the quotient. This is the quantitative form of the rapid decay
+of cusp forms.

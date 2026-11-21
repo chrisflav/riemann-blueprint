@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Shimura's main theorem of complex multiplication"
+source = "Shimura [shimura-1971]"
 lean  = ["GlobalTheory.Published.EllipticMainTheoremCM", "PositivityTheory.Prw.ellipticMainTheoremCM_holds"]
 order = 3
 +++
@@ -13,5 +14,5 @@ ideal $\mathfrak a$. Then there is a unique analytic isomorphism
 $\xi' : \C/t^{-1}\mathfrak a \cong X^\sigma(\C)$ such that
 $$ \sigma\big(\xi(x)\big) = \xi'(t^{-1}x) \qquad \text{for all } x \in K/\mathfrak a. $$
 
-This is the main theorem of complex multiplication (Shimura 1971) for
-elliptic curves with complex multiplication by $\mathcal O_K$.
+This is the main theorem of complex multiplication for elliptic curves with
+complex multiplication by $\mathcal O_K$.
