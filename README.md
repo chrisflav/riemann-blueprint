@@ -1,9 +1,10 @@
-# The Riemann Hypothesis formalisation: a reading blueprint
+# Levent Alpöge's proof of the Riemann Hypothesis: a reading blueprint
 
-A blueprint, an informal mathematical account, of the Lean formalisation
-announced on 2026-11-20 that claims a proof of the Riemann Hypothesis and of
-the Generalised Riemann Hypothesis for Dirichlet $L$-functions. It follows the
-community mirror
+A blueprint, an informal mathematical account, of **Levent Alpöge's** proof
+of the Riemann Hypothesis and of the Generalised Riemann Hypothesis for
+Dirichlet $L$-functions. Alpöge announced the proof on 2026-11-20 at
+<https://alpo.ge/remark.pdf>, together with a formal proof in Lean. This
+blueprint follows the community mirror of that formal proof,
 [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis)
 at commit `8c90877c` (pinned in `lakefile.toml`).
 
@@ -11,7 +12,8 @@ at commit `8c90877c` (pinned in `lakefile.toml`).
 
 The announcement contains no mathematical exposition and the formal proof
 has no comments, so everything here was reconstructed by reading the formal
-statements. This is a reader's account of the proof, not its author's. Where
+statements. This is a reader's account of Alpöge's proof, not his own
+exposition of it. Where
 we could not tell what an object is, the text says so.
 
 ## Contents
@@ -84,9 +86,10 @@ writing briefs the text follows.
 
 ## Attribution
 
-* **The formal proof and the announcement** are the work of their author,
-  published at <https://alpo.ge/remark.pdf> and as the Lean archive linked
-  there. The mathematics this blueprint describes is theirs. The formal proof
+* **The proof, the formal proof and the announcement** are the work of
+  **Levent Alpöge**, published at <https://alpo.ge/remark.pdf> and as the Lean
+  archive linked there. The mathematics this blueprint describes is his. The
+  formal proof
   was published without a license; this repository contains none of its
   source, only commentary on it and the names of its declarations.
 * **The community mirror**

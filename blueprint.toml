@@ -2,7 +2,7 @@
 
 [project]
 name = "riemann-hypothesis"
-title = "The Riemann Hypothesis formalisation: a reading blueprint"
+title = "Levent Alpöge's proof of the Riemann Hypothesis: a reading blueprint"
 dir = "blueprint"
 
 [lean]
@@ -14,6 +14,22 @@ descend = ["Main", "Statements", "Supplements", "BuildAid", "CompanionTheory", "
 
 [site]
 numbering = "nested"
+
+# `source` attributes a statement to the literature. It is shown in the
+# statement's heading, as LaTeX shows the optional argument of a theorem:
+# "Theorem 4.2 (Kato's Euler system; Kato [kato-2004, Thm. 12.5])."
+[kinds.theorem]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+[kinds.proposition]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+[kinds.lemma]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+[kinds.corollary]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+[kinds.definition]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+[kinds.remark]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
 
 [katex.macros]
 "\\C" = "\\mathbb C"

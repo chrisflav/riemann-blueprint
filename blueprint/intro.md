@@ -3,18 +3,20 @@ kind  = "matter"
 title = "About this blueprint"
 order = 0
 +++
-This blueprint sets out the proof of the Riemann Hypothesis, and of the
-Generalised Riemann Hypothesis for Dirichlet $L$-functions, that was
-announced on 20 November 2026 at <https://alpo.ge/remark.pdf> together with a
-formal proof in Lean. It follows the community mirror of that formal proof,
+This blueprint sets out Levent Alpöge's proof of the Riemann Hypothesis, and
+of the Generalised Riemann Hypothesis for Dirichlet $L$-functions. Alpöge
+announced the proof on 20 November 2026 [alpoge-2026], together with a
+formal proof in Lean. The proof and its formalisation are his work. This
+blueprint follows the
+community mirror of the formal proof,
 [leanprover-community/riemann-hypothesis](https://github.com/leanprover-community/riemann-hypothesis),
 at commit `8c90877c`.
 
 The announcement gives no mathematical account of the proof, and the
 formal proof has no comments: it runs to 175,187 files and about 15.5
 million lines, with 818,755 theorems. Everything here was reconstructed from
-the formal statements. So this blueprint is a reader's account, not the
-author's. Where we could not tell what an object is, we say so.
+the formal statements. So this blueprint is a reader's account of
+Alpöge's proof, not his own exposition of it. Where we could not tell what an object is, we say so.
 
 The blueprint runs from sketch to detail. [main-theorems] states the
 theorems and reduces them to one statement, [thm-half-plane].
@@ -34,8 +36,8 @@ A node in this blueprint says nothing about whether the formal proof of it
 is correct. That question belongs to the independent kernel checks described
 in the mirror's verification notes.
 
-*Credits.* The formal proof and its announcement are the work of their
-author. We read the proof from the community mirror and draw on its
+*Credits.* The proof, the formal proof and the announcement are the work of
+Levent Alpöge. We read the proof from the community mirror and draw on its
 verification notes. The blueprint tool by [@chrisflav](https://github.com/chrisflav)
 builds this site. The sources are at
 <https://github.com/chrisflav/riemann-blueprint>.

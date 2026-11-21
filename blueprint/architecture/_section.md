@@ -5,8 +5,8 @@ title = "Outline of the proof"
 uses  = ["chap-foundations", "chap-literature"]
 order = 2
 +++
-This chapter proves [thm-half-plane] down to the level at which the
-individual steps are standard results or long computations. Each later
+This chapter follows Alpöge's proof of [thm-half-plane] down to the level at
+which the individual steps are standard results or long computations. Each later
 node refines the step of the proof it belongs to.
 
 The argument has the following shape.
