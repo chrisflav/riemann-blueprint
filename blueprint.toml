@@ -2,7 +2,7 @@
 
 [project]
 name = "riemann-hypothesis"
-title = "Levent Alpöge's proof of the Riemann Hypothesis: a reading blueprint"
+title = "Riemann Hypothesis"
 dir = "blueprint"
 
 [lean]
