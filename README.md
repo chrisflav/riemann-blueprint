@@ -102,9 +102,6 @@ writing briefs the text follows.
   $L$-functions and the Riemann Hypothesis.
 * **The classical results** in the published-results chapter are attributed
   to their authors in the text of each node.
-* **This blueprint** was prepared by [@chrisflav](https://github.com/chrisflav)
-  with Claude (Anthropic): Claude Code read the source, ran the analysis, and
-  wrote the text under @chrisflav's direction.
 
 A node here says nothing about whether the formal proof of it is correct.
 That question belongs to the independent kernel checks described in the

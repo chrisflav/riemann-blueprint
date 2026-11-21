@@ -37,6 +37,5 @@ in the mirror's verification notes.
 *Credits.* The formal proof and its announcement are the work of their
 author. We read the proof from the community mirror and draw on its
 verification notes. The blueprint tool by [@chrisflav](https://github.com/chrisflav)
-builds this site. The blueprint was prepared by @chrisflav with Claude
-(Anthropic), which read the source and wrote the text. The sources are at
+builds this site. The sources are at
 <https://github.com/chrisflav/riemann-blueprint>.
