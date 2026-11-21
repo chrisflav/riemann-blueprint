@@ -12,7 +12,7 @@ $m^2 \le k + m(t+1)$. Consecutive members are linked by theta lifts and
 carry lattices. A class of families *satisfies the
 family hypotheses* if, in about fifty conditions:
 
-* the lattices have bounded rows, admissible twists and divisibility;
+* the lattices satisfy bounds, admissibility after twisting, and divisibility conditions;
 * the class number formula holds for the standard lattices;
 * gaps decay, and the spaces of automorphic forms involved are
   finite-dimensional with controlled counting constants;

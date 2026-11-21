@@ -6,7 +6,7 @@ uses = ["thm-theta-lift-nonvanishing"]
 We build the representations from definite unitary groups and theta lifts
 ([thm-theta-lift-nonvanishing]).
 
-1. *Odd rank* ([geo-one-holds]). Let $a$ be odd. Transfer an automorphic
+1. *Odd rank* ([thm-geometric-galois-odd-rank]). Let $a$ be odd. Transfer an automorphic
    representation of a definite unitary group in $a$ variables to a Hecke
    eigensystem on a compact unitary Shimura variety of Harris–Taylor type,
    of signature $(1, a-1)$ at one infinite place. This needs a cuspidal
@@ -29,7 +29,7 @@ We build the representations from definite unitary groups and theta lifts
    ways to an odd-rank group. The Galois representations of the two lifts
    are $\rho \otimes \kappa \oplus \psi_1$ and $\rho \otimes \kappa \oplus \psi_2$,
    with disjoint sets of characters, and comparing them isolates $\rho$.
-4. *To $\GL_a$* ([galois-local-global-strong-of-geometry-lift]). Descend a
+4. *To $\GL_a$* ([thm-galois-reps-from-geometry-and-theta]). Descend a
    conjugate-self-dual $\pi$ to a definite unitary group, and pass to all
    polarized pairs by the cyclic base change of Arthur and Clozel.
    Solvable base change turns depth-zero components into principal series,

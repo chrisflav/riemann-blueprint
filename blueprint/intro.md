@@ -1,5 +1,4 @@
 +++
-id    = "intro"
 kind  = "matter"
 title = "About this blueprint"
 order = 0
