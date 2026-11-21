@@ -1,0 +1,20 @@
+# The blueprint of the riemann-hypothesis formalisation, as a Lake package.
+#
+# Nothing here is compiled. The package exists so that `lake exe blueprint` and
+# the project's oleans are both available from one directory: the blueprint tool
+# is built by Lake with the same toolchain as the project (Lean v4.33.1), which is
+# what lets `blueprint extract` import the project's modules and derive proof
+# status from them. Bump `rev` to move the blueprint to a newer state of the mirror.
+name = "riemann-hypothesis-blueprint"
+version = "0.1.0"
+defaultTargets = []
+
+[[require]]
+name = "blueprint"
+git = "https://github.com/chrisflav/blueprint"
+rev = "main"
+
+[[require]]
+name = "tree"
+git = "https://github.com/leanprover-community/riemann-hypothesis"
+rev = "8c90877ceaa694974526e0aab9aaaf6ea0f5099e"

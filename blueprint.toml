@@ -1,0 +1,36 @@
+# Settings for the blueprint tool. See docs/cli.md in chrisflav/blueprint.
+
+[project]
+name = "riemann-hypothesis"
+title = "The Riemann Hypothesis formalisation: a reading blueprint"
+dir = "blueprint"
+
+[lean]
+# What `blueprint extract` imports. `Main` imports everything below it; every
+# file of the submission is in its import closure.
+modules = ["Main"]
+descend = ["Main", "Statements", "Supplements", "BuildAid", "CompanionTheory", "Development",
+           "Formalism", "GroundTheory", "Lemmata", "PositivityTheory", "ReciprocityTheory"]
+
+[site]
+numbering = "nested"
+
+[katex.macros]
+"\\C" = "\\mathbb C"
+"\\R" = "\\mathbb R"
+"\\Q" = "\\mathbb Q"
+"\\Z" = "\\mathbb Z"
+"\\N" = "\\mathbb N"
+"\\A" = "\\mathbb A"
+"\\GL" = "\\operatorname{GL}"
+"\\U" = "\\operatorname{U}"
+"\\Gal" = "\\operatorname{Gal}"
+"\\Re" = "\\operatorname{Re}"
+"\\Im" = "\\operatorname{Im}"
+"\\Res" = "\\operatorname{Res}"
+"\\rec" = "\\operatorname{rec}"
+"\\Fq" = "\\mathbb F_q"
+"\\Qp" = "\\mathbb Q_p"
+"\\Ql" = "\\mathbb Q_\\ell"
+"\\Qlbar" = "\\overline{\\mathbb Q}_\\ell"
+"\\Qbar" = "\\overline{\\mathbb Q}"
