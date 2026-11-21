@@ -1,12 +1,12 @@
 # Fix brief: no published results as hypotheses
 
-The blueprint at /home/christian/riemann-hypothesis-blueprint/blueprint/ follows the formal
+The blueprint at ./blueprint/ follows the formal
 proof's hypothesis structure too faithfully. The formal proof threads published results
 through its theorems as hypotheses ("Assume global Artin reciprocity, local Tate duality, …").
 In a mathematical exposition that is confusing: a published theorem is simply true, and it is
 *used in a proof*, not *assumed in a statement*.
 
-The style rules of /home/christian/.claude/jobs/61974794/tmp/writer-spec.md still hold: Orwell,
+The style rules of tools/writer-spec.md still hold: Orwell,
 no Lean in prose, links point to mathematical objects. Read it if you have not.
 
 ## The rule
@@ -42,7 +42,7 @@ no Lean in prose, links point to mathematical objects. Read it if you have not.
    moved `uses`. Replace the placeholder with 1–5 sentences saying how the proof goes, naming
    the results in its `uses` with links. Read the formal statement if you need to (the `lean`
    names are in the statement's front matter; locate them with
-   `rg -n -g '*.lean' '<last component of the name>' /home/christian/riemann-hypothesis/src`,
+   `rg -n -g '*.lean' '<last component of the name>' <mirror>/src`,
    read-only).
 
 Also apply the same thinking to the proof files of the nodes you edit: a proof should say
@@ -54,7 +54,7 @@ except the proof files belonging to statements in your list.
 
 ## Checking
 
-Run `/home/christian/.claude/jobs/61974794/tmp/bp/.lake/build/bin/blueprint check --root /home/christian/riemann-hypothesis-blueprint`
+Run `blueprint check --root .`
 when done and fix anything in your files. Then `grep -n 'TODO-PROOF'` over your directories and
 over your files: none may remain. Other writers are editing other files at the same time;
 ignore their errors.

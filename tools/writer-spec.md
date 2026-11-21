@@ -2,10 +2,10 @@
 
 You are writing part of a blueprint: a **mathematical exposition** of the proof that a large
 Lean formalisation gives for the Riemann Hypothesis and GRH for Dirichlet L-functions. The
-formalisation is at `/home/christian/riemann-hypothesis/src`. It is READ ONLY: never build it,
+formalisation is at `<mirror>/src`. It is READ ONLY: never build it,
 never run lake or lean in it, never modify it. It has 175k files and no comments, so the
 mathematics has to be reconstructed from statements and names. The blueprint lives at
-`/home/christian/riemann-hypothesis-blueprint/blueprint/` and uses the chrisflav/blueprint tool.
+`./blueprint/` and uses the chrisflav/blueprint tool.
 
 Read first, as the model for voice and format:
 - `blueprint/main-theorems/` and `blueprint/architecture/` (all files): the hand-written top
@@ -107,7 +107,7 @@ proof file.
 
 To understand a node, open its `file` at `line` (use `grep -v '^import'`; the import blocks
 are huge), read the statement, and unfold the definitions it mentions. Locate them with
-`rg -n -g '*.lean' '^(def|abbrev|structure|class|theorem|lemma) <Name>\b' /home/christian/riemann-hypothesis/src`,
+`rg -n -g '*.lean' '^(def|abbrev|structure|class|theorem|lemma) <Name>\b' <mirror>/src`,
 and remember that names may sit inside `namespace` blocks. Spend effort in proportion to `size`.
 
 Statements: usually 2–10 lines; long only where the mathematics needs it. LaTeX: inline
@@ -139,7 +139,7 @@ The directory tree is the refinement tree, as in `blueprint/architecture/`:
 Run the tool on the whole blueprint before finishing:
 
 ```
-/home/christian/.claude/jobs/61974794/tmp/bp/.lake/build/bin/blueprint check --root /home/christian/riemann-hypothesis-blueprint
+blueprint check --root .
 ```
 
 Fix every error and warning that concerns your files (`dangling-ref`, `bad-link`, parse
@@ -163,7 +163,7 @@ mathematical id (`thm-howe-duality-unramified`, `def-hermitian-lattice-slopes`; 
 `a-z0-9-`, prefixed `thm-`/`lem-`/`prop-`/`def-`/`cor-`). The renames are applied centrally
 afterwards. Only nodes you wrote; ids unique.
 
-Links to ids of other writers (any id in `/home/christian/.claude/jobs/61974794/tmp/packets/w-*.json`)
+Links to ids of other writers (any id in `tools/packets/w-*.json`)
 are fine even though those files may not exist yet; `dangling-ref`/`bad-link` reports for them
 are expected while the others work. To learn what such a node is, read its entry in the packet
 files (`lean`, `signature`, `file`).
