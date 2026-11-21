@@ -1,0 +1,10 @@
++++
+kind  = "theorem"
+title = "Linnik's theorem on the least prime in an arithmetic progression"
+provenance = "published"
+source = "Linnik [linnik-1944]"
+lean  = ["GlobalTheory.Published.Linnik", "UpperTheory.Lit.linnik"]
+order = 9
++++
+There are constants $C, L > 0$ such that for all coprime $a, q \ge 1$ the
+least prime $p \equiv a \pmod q$ satisfies $p \le C q^L$.

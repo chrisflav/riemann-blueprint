@@ -20,9 +20,11 @@ Alpöge's proof, not his own exposition of it. Where we could not tell what an o
 
 The blueprint runs from sketch to detail. [main-theorems] states the
 theorems and reduces them to one statement, [thm-half-plane].
-[architecture] outlines its proof, and every later node refines the step of
-the proof it belongs to. [chap-foundations] collects results that both
-halves of the proof use, and [chap-literature] the published results.
+[architecture] sketches its proof as a short chain of reductions. Each of the
+next chapters carries out one stage of that chain: it opens with the stage's
+main theorem and a sketch of its proof, its sections take the key steps in
+turn, and the lemmas of a step refine the result they serve.
+[chap-literature] collects the published results the proof uses.
 
 We chose the nodes by the structure of the formal proof. A result is a node
 when at least 1000 other results of the proof can be reached only through it.

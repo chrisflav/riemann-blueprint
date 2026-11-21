@@ -1,0 +1,16 @@
++++
+id    = "lem-siegel-minimal-blowup-smooth"
+kind  = "lemma"
+title = "The blow-up of the minimal compactification is smooth"
+provenance = "new"
+lean  = ["GlobalTheory.SiegJoin.ChartSt5", "GlobalTheory.SiegJoin.chartSt5_holds", "GlobalTheory.T.minimalBlowup_smooth_with_semiAbelianCharts"]
+order = 1
++++
+Let $g \ge 1$, let $\varphi$ be a polarised admissible cone decomposition
+without self-intersection, and let $n \ge 3$ be odd. Let $Z$ be a minimal
+compactification of $A_{g,n}$: projective and normal over
+$\Z[\zeta_n, 1/n]$, with an ample line bundle that pulls back to a power of
+$\omega$ on a proper cover carrying a semi-abelian scheme. Let $S \to Z$ be
+the normalised blow-up along an ideal supported on the boundary whose
+valuations are those of $\varphi$. Then $S$ is smooth of relative dimension
+$g(g+1)/2$, and every point of $S$ has a chart of Mumford type.

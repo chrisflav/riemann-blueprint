@@ -1,0 +1,14 @@
++++
+id    = "thm-unitary-rigid-boundary-charts"
+kind  = "theorem"
+title = "Unitary compactifications with rigid boundary charts"
+provenance = "new"
+lean  = ["GlobalTheory.RigChart.RigidForFan", "GlobalTheory.RigChart.rigidForFan_holds", "GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum",
+         "GlobalTheory.T.rigidBoundaryChartsForFan_of_unitarySeparation", "GlobalTheory.UChartJoin.rigidForFan_of_uStB"]
+order = 1
++++
+In the situation of [thm-toroidal-compactification-unitary] there is a compactification
+$\bar X$ with the first three properties listed there, such that every
+closed boundary point has a *rigid chart*: an étale neighbourhood
+isomorphic to a neighbourhood in the torus embedding attached to a cone of
+$\varphi$, compatible with the semi-abelian scheme.

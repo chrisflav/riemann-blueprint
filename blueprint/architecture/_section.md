@@ -1,8 +1,7 @@
 +++
 id    = "architecture"
 kind  = "chapter"
-title = "Outline of the proof"
-uses  = ["chap-foundations", "chap-literature"]
+title = "The proof in outline"
 order = 2
 +++
 This chapter follows Alpöge's proof of [thm-half-plane] down to the level at
