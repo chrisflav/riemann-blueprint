@@ -4,7 +4,7 @@ title = "The cuspidal spectrum of GL(n)"
 provenance = "published"
 source = "Gelfand–Graev–Piatetski-Shapiro [gelfand-1969]"
 lean  = ["GlobalTheory.Published.CuspidalSpectrumGL", "RfCs.cuspidalSpectrumGL"]
-order = 3
+order = 1
 +++
 Let $E$ be a totally complex number field and $a \ge 0$.
 

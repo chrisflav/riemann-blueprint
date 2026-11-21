@@ -2,7 +2,7 @@
 kind  = "remark"
 title = "The automorphic and Galois inputs"
 lean  = ["GlobalTheory.Mem.LiteralAutomorphy.GlobalAutomorphicGaloisHypotheses'"]
-order = 1
+order = 11
 +++
 The construction of Galois representations uses these results together:
 rapid decay of cusp forms ([thm-cusp-rapid-decay]); Harish-Chandra's

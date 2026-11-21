@@ -7,7 +7,7 @@ lean  = ["GlobalTheory.BigOn.geoSt_of_pageSt_alt", "GlobalTheory.BigOn.leafDepth
          "GlobalTheory.RunDepth.leafDepth_all_run",
          "GlobalTheory.T.depthTable_goodPrimes_of_chartForm",
          "GlobalTheory.leafDepthGood_of_chartForm"]
-order = 3
+order = 2
 +++
 Suppose that the basic size conditions hold at the points of the families:
 bounds on the size, the scale, the bad primes, the level and a parameter

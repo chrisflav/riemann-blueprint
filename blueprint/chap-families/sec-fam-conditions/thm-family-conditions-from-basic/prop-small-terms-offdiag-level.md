@@ -4,7 +4,7 @@ title = "Small terms, the off-diagonal bound and the level bound"
 provenance = "new"
 lean  = ["GlobalTheory.LocalRows.at_choice_alt", "GlobalTheory.LocalRows.lg1_sLp_sO_hTF",
          "GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil"]
-order = 3
+order = 2
 +++
 For every choice of admissible data along a class of families, the
 following hold for large auxiliary fields. Here a datum $D$ at a point of a

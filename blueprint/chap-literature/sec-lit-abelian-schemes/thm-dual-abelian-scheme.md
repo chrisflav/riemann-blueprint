@@ -4,7 +4,7 @@ title = "Dual abelian schemes"
 provenance = "modified"
 source = "after Mumford [mumford-1970]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Published.DualAbelianScheme", "GlobalTheory.dualAbelianScheme"]
-order = 3
+order = 2
 +++
 For every abelian scheme $A$ over a scheme $S$ there are an abelian scheme $B$
 over $S$, of the same relative dimension, and a line bundle $P$ on $A \times_S B$

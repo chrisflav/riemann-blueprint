@@ -1,5 +1,4 @@
 +++
-id    = "thm-siegel-weil-outside-weil-range"
 kind  = "theorem"
 title = "The Siegel–Weil formula outside Weil's range"
 provenance = "modified"

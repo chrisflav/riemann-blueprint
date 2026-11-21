@@ -20,7 +20,7 @@ step identities* if the following hold.
   holds for the first group.
 
 These are the identities of the Rallis inner product formula: each step up
-a theta tower costs one special value of an $L$-function. They make
-precise the chain of lifts $\U(X_0) \to \U(X_1) \to \dots \to \U(X_m)$
-between definite unitary groups in the announcement. The proof uses the
-Siegel–Weil formula.
+a theta tower costs one special value of an $L$-function. They govern the
+chain of lifts $\U(X_0) \to \U(X_1) \to \dots \to \U(X_m)$ between definite
+unitary groups that makes up a member of the families of
+[def-family-data].

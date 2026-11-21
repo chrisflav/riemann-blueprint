@@ -4,7 +4,7 @@ title = "Tate's global Euler characteristic formula"
 provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["PositivityTheory.Lit1.GEN.globalEulerChar_full", "ReciprocityTheory.Gal.GlobalEulerChar"]
-order = 9
+order = 6
 +++
 Let $F$ be a number field, $S$ a finite set of primes containing those above
 $l$, and $M$ a finite $\Z/l^r$-module, $r \ge 1$, with a continuous action of

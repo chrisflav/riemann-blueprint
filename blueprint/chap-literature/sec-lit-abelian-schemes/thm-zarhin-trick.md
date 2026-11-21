@@ -4,7 +4,7 @@ title = "Zarhin's trick"
 provenance = "published"
 source = "Zarhin [zarhin-1975]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.GR.ZarhinStatement", "PositivityTheory.HtPt.Narrow.zarhin"]
-order = 6
+order = 5
 +++
 Let $R$ be the valuation ring of a valuation on an algebraically closed
 field, and $A$ an abelian scheme over $R$ with a relatively ample line

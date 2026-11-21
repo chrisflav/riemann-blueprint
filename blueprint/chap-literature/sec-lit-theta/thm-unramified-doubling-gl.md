@@ -4,7 +4,7 @@ title = "The unramified doubling integral for GL(n)"
 provenance = "modified"
 source = "after Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.UnramifiedDoublingGL", "GlobalTheory.UnramDoublingProof.unramifiedDoublingGL"]
-order = 15
+order = 11
 +++
 Let $F$ be a non-archimedean local field of characteristic zero with residue
 field of order $q$, $\mu$ the Haar measure on $\GL_n(F)$ with

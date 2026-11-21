@@ -4,7 +4,7 @@ title = "Siegel–Weil formula in the convergent range"
 provenance = "modified"
 source = "special case of Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.SiegelWeilUnitaryConvergent", "UpperTheory.Lit.Sw47.convergent"]
-order = 1
+order = 4
 +++
 Over the auxiliary CM fields of the proof, let $A$ and $B$ be hermitian
 spaces with
@@ -16,5 +16,5 @@ over $\U(B)(F)\backslash\U(B)(\A_F)$, and its average equals the value of
 the Siegel Eisenstein series on $\U(A \oplus -A)$ attached to the section
 $g \mapsto \omega(g) f(0)$ at the Siegel–Weil point.
 
-It is stated for unitary dual pairs, in the doubling setting and in Weil's
+This is the doubling form of [thm-siegel-weil-outside-weil-range], for unitary dual pairs in Weil's
 convergent range.

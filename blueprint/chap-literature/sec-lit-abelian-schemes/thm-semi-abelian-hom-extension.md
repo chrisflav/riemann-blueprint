@@ -4,7 +4,7 @@ title = "Extension of homomorphisms of semi-abelian schemes"
 provenance = "published"
 source = "Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Published.SemiAbelianHomExtension", "GlobalTheory.semiAbelianHomExtension_holds"]
-order = 13
+order = 12
 +++
 Let $S$ be a normal noetherian scheme, $U \subset S$ a dense open subscheme
 and $G, H$ semi-abelian schemes over $S$. Every homomorphism

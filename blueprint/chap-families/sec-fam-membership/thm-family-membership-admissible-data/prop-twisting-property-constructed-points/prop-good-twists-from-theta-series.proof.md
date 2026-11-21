@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "prop-good-twists-from-theta-series"
-uses = ["thm-abelian-variety-torsion-count", "thm-hasse-norm-quadratic", "thm-hecke-l-entire", "thm-landherr-cm", "thm-unitary-integral-models", "thm-ray-class-field", "thm-semistable-reduction", "thm-good-twists-all-coprime-powers", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one", "thm-cusp-rapid-decay", "thm-artin-reciprocity", "thm-tate-global-finiteness", "thm-greenberg-wiles", "thm-tate-euler-characteristic-global-places", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-finiteness", "thm-tate-local-finiteness-padic", "thm-tate-local-duality-global-places", "thm-tate-local-duality-l-adic", "thm-ray-class-characters-galois", "thm-unramified-annihilators", "thm-tate-global-euler-characteristic", "prop-hecke-integrality-transformation"]
+uses = ["thm-abelian-variety-torsion-count", "thm-hasse-norm-quadratic", "thm-hecke-l-entire", "thm-landherr-cm", "thm-unitary-integral-models", "thm-ray-class-field", "thm-semistable-reduction", "thm-good-twists-all-coprime-powers", "thm-chebotarev-degree-one", "thm-cusp-rapid-decay", "thm-artin-reciprocity", "thm-tate-global-finiteness", "thm-greenberg-wiles", "thm-tate-euler-characteristic-global-places", "thm-tate-local-finiteness", "thm-tate-local-duality-global-places", "thm-ray-class-characters-galois", "thm-unramified-annihilators", "thm-tate-global-euler-characteristic", "prop-hecke-integrality-transformation"]
 +++
 The theta series are rational with bounded coefficients, and Hecke
 operators preserve the lattice of bounded vectors

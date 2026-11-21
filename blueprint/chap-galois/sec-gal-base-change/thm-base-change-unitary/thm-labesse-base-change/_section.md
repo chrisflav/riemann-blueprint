@@ -5,7 +5,6 @@ title = "Base change from unitary groups to GL(n)"
 provenance = "modified"
 source = "after Labesse [labesse-2011]"
 lean  = ["GlobalTheory.Published.BaseChangeDefiniteUnitaryGroup", "UpperTheory.BaseChangeIdentities.definiteN_of"]
-uses  = ["thm-base-change-unitary"]
 order = 1
 +++
 Let $E$ be a CM field such that $E$ is unramified over its maximal totally
@@ -24,5 +23,5 @@ conjugate self-dual, and local components $\sigma_{i,w}$ such that:
 * the infinitesimal characters of the $\Pi_i$ add up to the one given by the
   weight of $\pi$.
 
-This is base change for definite unitary groups, in the form used by
-[thm-base-change-unitary].
+This is the base change of [thm-base-change-unitary] with the local
+components named: the local products are irreducible, not just subquotients.

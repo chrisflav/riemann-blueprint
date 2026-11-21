@@ -4,4 +4,14 @@ kind  = "section"
 title = "The full list of family conditions"
 order = 5
 +++
-TODO-INTRO The 26 family conditions follow from the basic ones, the covolume condition and the functional condition: the chosen data serve their families, periods and valuations behave at the good data, the small terms, off-diagonal bound and level bound hold, and the counting constants and constituents are controlled. The analytic theorems behind the last three are in [chap-theta].
+This is the sixth step of the proof of [thm-family-data-exists].
+[thm-family-conditions-from-basic] derives the 26 family conditions from
+the twelve basic ones, the covolume condition and the functional
+condition. Four propositions do most of the work: periods and valuations
+behave at the good data ([prop-periods-valuations-good-data]); the small
+terms, the off-diagonal bound and the level bound hold
+([prop-small-terms-offdiag-level]); the chosen data serve their families
+([prop-chosen-data-serve-families]); and the counting constants and
+constituents are controlled ([prop-counting-constants-constituents]). The
+valuation bounds, the off-diagonal bound and the counting theorem behind
+them are proved in [chap-theta].

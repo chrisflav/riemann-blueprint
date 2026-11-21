@@ -3,7 +3,7 @@ kind  = "lemma"
 title = "The conclusions of the volume theorem from the tower identities"
 provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Top.chain_tower", "GlobalTheory.T.tower_weil_inputs_combined"]
-order = 1
+order = 2
 +++
 Let $T$ be a tower of flag bundles with proportional volumes, satisfying the
 identities $I_1, \dots, I_8$, nefness of its models, the propositions on

@@ -4,7 +4,7 @@ title = "Holomorphic discrete series are lowest weight modules"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1955], [harish-chandra-1956]"
 lean  = ["GlobalTheory.HolDS.holomorphicDiscreteSeries_holds", "GlobalTheory.Published.HolomorphicDiscreteSeries"]
-order = 16
+order = 15
 +++
 Let $G = \U(p,q)$ and $\lambda$ a Harish-Chandra parameter in the
 holomorphic chamber: $\lambda_b < \lambda_a$ whenever $a$ is a positive and

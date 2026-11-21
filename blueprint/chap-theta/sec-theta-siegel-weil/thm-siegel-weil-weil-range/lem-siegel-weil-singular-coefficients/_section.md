@@ -7,7 +7,7 @@ lean  = ["GlobalTheory.CompanionTheory.WeilSiegel.Deg.siegelDeg", "PositivityThe
 order = 1
 +++
 Let $V$ be a hermitian space and $\varphi$ a Schwartz function on
-$V^r$ satisfying the standing hypotheses. For every singular hermitian
+$V^r$, as in [thm-siegel-weil-weil-range]. For every singular hermitian
 matrix $\beta$ of size $r$, the $\beta$-th Fourier coefficient of the theta
 integral,
 $$\int_{\U(V)(F)\backslash\U(V)(\A)}\ \sum_{x \in V^r,\ \mathrm{rk}\,x = r,\ (x,x) = \beta}\varphi(h^{-1}x)\,dh,$$

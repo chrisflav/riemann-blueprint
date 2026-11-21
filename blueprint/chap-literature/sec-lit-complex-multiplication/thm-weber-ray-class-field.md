@@ -4,7 +4,7 @@ title = "Ray class fields from Weber functions"
 provenance = "published"
 source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.Published.WeberRayFieldSt", "PositivityTheory.Prw.weberRayFieldSt_holds"]
-order = 5
+order = 4
 +++
 Let $K \subset \C$ be an imaginary quadratic field of discriminant less than
 $-4$, $L = \mathcal O_K \subset \C$ its lattice of integers, and $n \ge 1$. The

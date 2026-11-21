@@ -9,7 +9,7 @@ lean  = ["GlobalTheory.Svd.servH_row_linkR_alt", "GlobalTheory.Svd.servH_row_of_
          "GlobalTheory.row_hServ_of_link_alt", "GlobalTheory.Svd.servH_row",
          "GlobalTheory.T.bundle_bothParts_of_standardKernel_and_six_hypotheses"]
 uses = ["def-local-parameters"]
-order = 1
+order = 3
 +++
 Let $p$ be construction data for the families, built on a system of local
 parameters ([def-local-parameters]). Choose an admissible datum at each

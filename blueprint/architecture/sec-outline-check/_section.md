@@ -4,4 +4,6 @@ kind  = "section"
 title = "Points to check"
 order = 3
 +++
-TODO-INTRO Statements weaker than their names, internal hypotheses to trace, and published results used in special forms.
+This section lists where a careful reader should look first: statements
+weaker than their names suggest, hypotheses that one step takes and another
+must discharge, and published results used only in special forms.

@@ -4,7 +4,7 @@ title = "Strong multiplicity one for isobaric sums"
 provenance = "published"
 source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalikaRigidity", "PositivityTheory.AdelicQuotientData.jacquetShalikaRigidity"]
-order = 8
+order = 5
 +++
 Let $E$ be a totally complex number field and let
 $\pi_1, \dots, \pi_r$ and $\pi'_1, \dots, \pi'_s$ be cuspidal automorphic

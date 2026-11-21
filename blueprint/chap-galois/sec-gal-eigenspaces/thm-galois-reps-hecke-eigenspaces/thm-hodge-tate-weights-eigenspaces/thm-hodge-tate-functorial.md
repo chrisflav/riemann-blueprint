@@ -4,7 +4,7 @@ title = "Functoriality of the Hodge–Tate decomposition"
 provenance = "published"
 source = "Faltings [faltings-1988]"
 lean  = ["CrystallineSemistableComparison.HTSpecB.HTSpecGood", "UpperTheory.Gal.Seam.HT.htSpecGood"]
-order = 1
+order = 2
 +++
 Let $K$ be a finite extension of $\Q_l$ and $n \ge 0$. For every smooth proper
 $K$-variety $M$ with a smooth model and of pure dimension, there are bases

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "prop-congruence-bounds-all-primes"
-uses = ["thm-bhatt-scholze-coefficients", "thm-bhatt-scholze-crystalline-lattices", "thm-bloch-kato-local", "thm-chebotarev-degree-one-frobenius", "prop-congruence-bound-auxiliary-pair", "prop-congruence-bound-large-primes", "thm-fontaine-bcris", "thm-artin-reciprocity", "thm-congruence-module-selmer-bound", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-finiteness-padic", "thm-tate-local-duality-l-adic", "prop-congruence-bound-intermediate-primes", "thm-wach-lifting-theorem"]
+uses = ["thm-bhatt-scholze-coefficients", "thm-bhatt-scholze-crystalline-lattices", "thm-bloch-kato-local", "thm-chebotarev-degree-one", "prop-congruence-bound-auxiliary-pair", "prop-congruence-bound-large-primes", "thm-fontaine-bcris", "thm-artin-reciprocity", "thm-congruence-module-selmer-bound", "thm-tate-euler-characteristic-global-places", "thm-tate-local-finiteness", "thm-tate-local-duality-global-places", "prop-congruence-bound-intermediate-primes", "thm-wach-lifting-theorem"]
 +++
 Combine four local results. The local lifting theorem
 ([thm-wach-lifting-theorem]) supplies the constants. The

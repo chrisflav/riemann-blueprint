@@ -4,7 +4,7 @@ title = "The doubling method"
 provenance = "published"
 source = "Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.DoublingMethodLocalZetaIntegrals", "ResidueKilled.dm_of_two"]
-order = 14
+order = 10
 +++
 Let $V$ be a hermitian space of positive rank over a CM field, $\mu$ a
 unitary Hecke character and $\varphi$ a section of the degenerate principal

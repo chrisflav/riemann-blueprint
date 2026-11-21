@@ -4,7 +4,7 @@ title = "Proper base change"
 provenance = "published"
 source = "Artin [sga-4-3, Exp. XII]"
 lean  = ["GlobalTheory.EtC.E2", "UpperTheory.Et.E2.main", "UpperTheory.Et.proper_base_change"]
-order = 4
+order = 2
 +++
 Let $A$ be a strictly henselian local ring with residue field $\kappa$, $q$
 invertible in $A$, and $X$ proper over $A$. Restriction to the special fibre

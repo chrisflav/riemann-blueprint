@@ -32,5 +32,5 @@ polynomials of the local construction, each proved directly.
    count of variables. Together they are the plane bound. *It is not clear*
    from the statements what the chain construction computes; we name the
    bound after it.
-4. The reduced second local theorem follows from the local estimate by a
-   criterion that restricts the constants.
+4. The restricted form follows from the local estimate by a criterion that
+   restricts the constants.

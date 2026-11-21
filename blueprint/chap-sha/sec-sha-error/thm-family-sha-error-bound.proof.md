@@ -1,16 +1,15 @@
 +++
 kind = "proof"
 of   = "thm-family-sha-error-bound"
-uses = ["thm-borel-casselman", "thm-cusp-bounded-gl", "thm-discrete-series-exist",
+uses = ["thm-borel-casselman", "thm-cusp-bounded-gl", "thm-discrete-series-exist-upq",
         "thm-doubling-method", "thm-fontaine-bcris", "thm-geometric-lemma-filtration",
         "thm-hasse-norm-quadratic", "thm-hecke-l-nonvanishing-line-one", "thm-hodge-tate-count",
         "thm-jacquet-irreducible-admissible", "thm-jacquet-shalika-strong-mult-one",
         "thm-bz-derivative-leibniz", "thm-downward-theta-lift-nonvanishing",
         "thm-inner-form-multiplicities-equal", "thm-unramified-doubling-gl",
-        "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range",
+        "thm-weil-representation-unitary-exists", "thm-siegel-weil-weil-range",
         "thm-hc-finiteness-gl", "thm-labesse-base-change", "thm-bernstein-unitary-product",
-        "thm-bz-finiteness", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one-frobenius",
-        "thm-chebotarev-degree-one", "thm-cusp-rapid-decay", "thm-galois-reps-polarized-cuspidal",
+        "thm-bz-finiteness", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one", "thm-cusp-rapid-decay", "thm-galois-reps-polarized-cuspidal",
         "thm-depth-zero-jacquet-injective", "thm-depth-zero-support", "thm-zelevinsky-segments",
         "thm-tadic-generic-unitary-dual", "thm-geometric-lemma", "thm-artin-reciprocity",
         "thm-green-parametrisation", "thm-hc-finiteness-unitary",
@@ -21,9 +20,7 @@ uses = ["thm-borel-casselman", "thm-cusp-bounded-gl", "thm-discrete-series-exist
         "thm-disjoint-support-product-irreducible", "thm-p-adic-monodromy",
         "def-theta-analytic-inputs", "def-padic-hodge-package",
         "prop-hecke-integrality-transformation", "thm-chevalley-congruence-units",
-        "thm-green-regular-characters", "thm-bloch-kato-local", "thm-tate-local-duality-l-adic",
-        "thm-tate-euler-characteristic-l-adic", "thm-tate-local-finiteness-padic",
-        "thm-bhatt-scholze-crystalline-lattices", "prop-congruence-bounds-all-primes",
+        "thm-green-regular-characters", "thm-bloch-kato-local", "thm-bhatt-scholze-crystalline-lattices", "prop-congruence-bounds-all-primes",
         "prop-congruence-bound-auxiliary-primes", "thm-congruence-module-selmer-bound"]
 +++
 We first check three conditions on the members, then sum local bounds.
@@ -69,9 +66,9 @@ and $3$ we use the hypothesis. At every other prime,
 $\delta_\pi$ by $s_\pi + V_l + v_l(h_E)$ plus small errors, and bounds
 $s_\pi$. Summing over local data, with the multiplicities bounded by the
 ranks, gives the bound of [def-sha-error-term]. The summation uses
-[local Tate duality](@thm-tate-local-duality-l-adic), the
-[Euler characteristic formula](@thm-tate-euler-characteristic-l-adic),
-[Chebotarev's theorem](@thm-chebotarev-degree-one-frobenius), Fontaine's
+[local Tate duality](@thm-tate-local-duality-global-places), the
+[Euler characteristic formula](@thm-tate-euler-characteristic-global-places),
+[Chebotarev's theorem](@thm-chebotarev-degree-one), Fontaine's
 period ring and a global index theorem for lattices
 ([thm-congruence-module-selmer-bound]).
 

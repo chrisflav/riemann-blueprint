@@ -5,7 +5,7 @@ provenance = "published"
 source = "Weil [weil-1965]; Kudla–Rallis [kudla-rallis-1988]; Ichino [ichino-2004] for unitary groups"
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd", "UpperTheory.LiteratureTheorems.siegel_weil_std_of_literature",
          "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_of_ct", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_pre"]
-order = 4
+order = 5
 +++
 Let $E/F$ be a CM extension, $A$ a hermitian space of dimension $m \ge 1$ and
 $Y$ a skew-hermitian space of dimension $n \ge 1$ (or the reverse), with $A$

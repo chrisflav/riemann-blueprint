@@ -5,7 +5,7 @@ provenance = "published"
 source = "Borel [borel-1976]; Casselman [casselman-1980]"
 lean  = ["GlobalTheory.Published.BorelCasselman", "PositivityTheory.Stage1.PM.borelCasselman",
          "GlobalTheory.Published.BorelCasselman_holds"]
-order = 7
+order = 6
 +++
 Let $F$ be a non-archimedean local field, $I \subset \GL_n(F)$ the Iwahori
 subgroup, $B = TU$ the upper triangular Borel subgroup and $T(\mathcal O)$

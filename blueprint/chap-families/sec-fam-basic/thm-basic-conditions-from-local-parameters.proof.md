@@ -3,12 +3,12 @@ kind = "proof"
 of   = "thm-basic-conditions-from-local-parameters"
 uses = ["thm-bz-finiteness", "thm-borel-casselman", "thm-casselman-wallach", "thm-cusp-rapid-decay",
         "thm-cusp-trace-class", "thm-depth-zero-support", "thm-hc-discrete-series-classification", "thm-discrete-series-parametrisation",
-        "thm-discrete-series-exist", "thm-dixmier-malliavin", "thm-zelevinsky-segments",
+        "thm-discrete-series-exist-upq", "thm-dixmier-malliavin", "thm-zelevinsky-segments",
         "thm-flath-unramified", "thm-geometric-lemma", "thm-artin-reciprocity", "thm-green-parametrisation",
         "thm-green-regular-characters", "thm-hc-analyticity-density", "thm-hc-finiteness-unitary",
         "thm-hc-modules-unitary", "thm-hasse-norm-quadratic", "thm-jacquet-irreducible-admissible",
         "prop-isometric-period-identity", "thm-inner-form-multiplicities-equal",
-        "thm-weil-representation-auxiliary-pairs", "prop-defect-condition"]
+        "thm-weil-representation-unitary-exists", "prop-defect-condition"]
 +++
 We take the twelve conditions in groups; each group follows from a few published results.
 

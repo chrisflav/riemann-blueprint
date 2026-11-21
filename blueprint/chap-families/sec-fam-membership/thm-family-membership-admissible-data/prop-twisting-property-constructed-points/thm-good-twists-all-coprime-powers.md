@@ -3,7 +3,7 @@ kind  = "theorem"
 title = "Good twists for all powers of a ray class character"
 provenance = "new"
 lean  = ["GlobalTheory.TwExportTop.twistAllPowers_of_galoisCohomology_classField"]
-order = 2
+order = 1
 +++
 Let $D$ be a construction over a CM field $E$, with exponent data, and let
 $i$ be a twisting index with prime $\ell = \ell_i$ that has a non-zero

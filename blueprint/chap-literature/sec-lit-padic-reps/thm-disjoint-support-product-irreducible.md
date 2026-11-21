@@ -4,7 +4,7 @@ title = "Irreducibility of products with disjoint cuspidal lines"
 provenance = "modified"
 source = "after Bernstein–Zelevinsky [bernstein-zelevinsky-1977]; Zelevinsky [zelevinsky-1980]"
 lean  = ["GlobalTheory.Published.UnlinkedProductIrreducible", "GlobalTheory.TotDisjUnlinked.main"]
-order = 11
+order = 10
 +++
 Let $F$ be a non-archimedean local field and $\pi_1, \pi_2$ irreducible
 representations of $\GL_r(F)$ and $\GL_t(F)$ with cuspidal supports

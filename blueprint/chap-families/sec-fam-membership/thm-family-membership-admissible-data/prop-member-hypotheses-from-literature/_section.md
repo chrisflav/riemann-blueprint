@@ -11,7 +11,7 @@ theory of $\GL_n$ ([def-local-rep-theory-package]), the automorphic forms
 and their Galois representations ([def-automorphic-galois-inputs],
 [def-non-endoscopic-package]), the analytic inputs of theta lifts
 ([def-theta-analytic-inputs]), and the Galois cohomology of
-Poitou–Tate ([thm-poitou-tate]), Tate ([thm-tate-local-duality-l-adic],
+Poitou–Tate ([thm-poitou-tate]), Tate ([thm-tate-local-duality-global-places],
 [thm-tate-global-euler-characteristic]) and Greenberg–Wiles
 ([thm-greenberg-wiles]), with Chebotarev's theorem
 ([thm-chebotarev-degree-one]) and Artin reciprocity

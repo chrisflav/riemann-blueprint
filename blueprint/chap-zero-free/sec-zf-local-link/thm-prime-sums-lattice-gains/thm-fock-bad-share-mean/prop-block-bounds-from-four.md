@@ -3,7 +3,7 @@ kind  = "proposition"
 title = "Block bounds from four restricted bounds"
 provenance = "new"
 lean  = ["Formalism.MainNotions.G.SymmetricFormBlocks.openE_of_open4"]
-order = 1
+order = 3
 +++
 Suppose that, with the constants chosen in the order of
 [thm-fock-bad-share-mean], every admitted local datum satisfies the

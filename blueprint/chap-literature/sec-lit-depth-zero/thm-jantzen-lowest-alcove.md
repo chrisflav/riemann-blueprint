@@ -4,7 +4,7 @@ title = "Induced modules in the lowest alcove are simple"
 provenance = "published"
 source = "Jantzen [jantzen-2003]"
 lean  = ["GlobalTheory.Alc.inducedSimpleLowestAlcove", "GlobalTheory.Published.InducedSimpleLowestAlcove"]
-order = 9
+order = 8
 +++
 Let $k$ be a field of characteristic $p > 0$ and $\lambda$ a dominant weight of
 $\GL_N$ with

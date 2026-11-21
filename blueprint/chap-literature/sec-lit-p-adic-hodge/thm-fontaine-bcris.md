@@ -5,7 +5,7 @@ provenance = "published"
 source = "Fontaine [fontaine-1982], [fontaine-1994a]"
 lean  = ["GlobalTheory.MemLoc.fontaineBcris", "GlobalTheory.Published.FontaineBcris",
          "GlobalTheory.T.fontaineBcrisBasicTheorems_proof"]
-order = 2
+order = 1
 +++
 Let $l$ be a prime and let $B_{\mathrm{cris}} \subset B_{\mathrm{dR}}$ be
 Fontaine's period rings over $\Qlbar$, with Frobenius $\varphi$ and

@@ -4,7 +4,7 @@ title = "Projective bundle formula"
 provenance = "published"
 source = "SGA 5 [sga-5]"
 lean  = ["GlobalTheory.EtC.D1", "GlobalTheory.EtC.projectiveBundleFormula_vectorBundle_any_space"]
-order = 3
+order = 1
 +++
 Let $V$ be a vector bundle of rank $N$ on a base $X$ on which $q$ is invertible,
 $\pi : \mathbb P(V) \to X$ its projective bundle and $\xi = c_1(\mathcal O(1))$.

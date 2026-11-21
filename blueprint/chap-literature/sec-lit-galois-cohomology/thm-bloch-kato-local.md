@@ -4,7 +4,7 @@ title = "Bloch–Kato local theory"
 provenance = "published"
 source = "Bloch–Kato [bloch-kato-1990]"
 lean  = ["GlobalTheory.Published.BlochKatoLocal", "UpperTheory.Lit.blochKatoLocal"]
-order = 12
+order = 9
 +++
 Let $K/\Q_l$ be a finite extension, with Fontaine's period rings, and let
 $V$ be a de Rham representation of $G_K$ over $\Q_l$. Let

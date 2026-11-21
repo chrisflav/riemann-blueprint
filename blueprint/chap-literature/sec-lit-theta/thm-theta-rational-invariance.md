@@ -4,7 +4,7 @@ title = "Rational invariance of theta functions"
 provenance = "modified"
 source = "after Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.ThetaRationalInvariance", "PositivityTheory.Stage1.PM.thetaRationalInvariance"]
-order = 8
+order = 5
 +++
 Let $E$ be a CM field and $N, N'$ with $NN'$ even. For the theta functions
 attached to a Weil representation of the dual pair $\U_N \times \U_{N'}$, there are integers $a_\tau, a'_\tau$ with

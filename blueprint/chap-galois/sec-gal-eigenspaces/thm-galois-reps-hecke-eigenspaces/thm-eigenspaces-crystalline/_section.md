@@ -6,7 +6,7 @@ provenance = "new"
 lean  = ["GlobalTheory.GalV.VFin", "UpperTheory.Gal.G3.vFin_holds", "UpperTheory.Gal.Int.Geo.CrysStep",
          "UpperTheory.Gal.Seam.MatIn", "UpperTheory.Gal.Seam.crysStep_holds", "UpperTheory.Gal.Seam.crysStep_of",
          "UpperTheory.Gal.Seam.matIn_holds"]
-order = 1
+order = 3
 +++
 Let $Z$ with its correspondences be a Hecke tower over a number field $E$
 ([thm-galois-reps-hecke-eigenspaces]), $\theta$ a system of eigenvalues and $\rho$ a subquotient of the

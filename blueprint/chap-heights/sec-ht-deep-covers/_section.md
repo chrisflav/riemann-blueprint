@@ -4,4 +4,11 @@ kind  = "section"
 title = "Heights on deep covers"
 order = 3
 +++
-TODO-INTRO The height argument: reference weights and a height lower bound on deep covers built from the automorphic line bundles, with separation of points by adjoint linear systems (Angehrn-Siu).
+This section turns the volume bound of [sec-ht-volumes] into heights. On
+deep covers built from the automorphic line bundles, every quotient weight
+has a reference section of bounded norm
+([lem-reference-weights-deep-covers]); with the volume bound this gives a
+lower bound for heights, uniform over the members of a family
+([lem-height-lower-bound-deep-covers]). The sections come from adjoint
+linear systems, which separate points by the theorem of Angehrn and Siu
+([thm-angehrn-siu-point-separation]).

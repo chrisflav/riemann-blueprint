@@ -4,7 +4,7 @@ title = "A principal polarisation has one section"
 provenance = "published"
 source = "Mumford [mumford-1970]"
 lean  = ["GlobalTheory.AbLaw.principalPolarisation_unique_section", "GlobalTheory.Published.principalPolarisationOneSection"]
-order = 5
+order = 4
 +++
 Let $(A, L)$ be a principally polarised abelian variety over an
 algebraically closed field. Then $\dim H^0(A, L) = 1$.

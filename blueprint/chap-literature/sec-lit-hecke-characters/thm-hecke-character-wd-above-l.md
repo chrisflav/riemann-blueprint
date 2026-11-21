@@ -4,7 +4,7 @@ title = "Local-global compatibility above l for Hecke characters"
 provenance = "published"
 source = "classical"
 lean  = ["GlobalTheory.Published.AlgebraicCharacterWD", "UpperTheory.Lit.CharWD.algebraicCharacterWD"]
-order = 5
+order = 3
 +++
 Let $\chi$ be an algebraic Hecke character of $E$ of type $n$, $w$ a place
 above $l$, and $\xi$ the smooth character of $E_w^\times$ that agrees with

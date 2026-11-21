@@ -4,7 +4,7 @@ title = "Integrated Poincaré–Lelong formula"
 provenance = "modified"
 source = "after Bost–Gillet–Soulé [bost-1994]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.PoincareLelongInv", "PositivityTheory.Tls2.Pl.poincareLelongInv"]
-order = 8
+order = 10
 +++
 Let $X$ be an arithmetic variety of dimension $n + 2$ in multiprojective
 space, $\bar L_1, \dots, \bar L_n$, $\bar A$, $\bar B$ smooth hermitian line

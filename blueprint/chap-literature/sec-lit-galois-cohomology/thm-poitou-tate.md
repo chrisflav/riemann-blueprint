@@ -4,7 +4,7 @@ title = "Poitou–Tate duality"
 provenance = "published"
 source = "Poitou [poitou-1967]; Tate [tate-1963]"
 lean  = ["GlobalTheory.Published.PoitouTateNormalised", "PositivityTheory.Lit1.PTN.poitouTateNormalised_holds"]
-order = 10
+order = 7
 +++
 Let $F$ be a number field, $l$ a prime and $r \ge 1$, with $l$ odd or $F$
 totally complex, and fix a primitive $l^r$-th root of unity $\zeta$. There

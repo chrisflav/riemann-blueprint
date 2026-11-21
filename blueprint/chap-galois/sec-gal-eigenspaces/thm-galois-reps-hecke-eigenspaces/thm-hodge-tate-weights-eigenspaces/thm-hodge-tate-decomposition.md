@@ -5,7 +5,7 @@ provenance = "published"
 source = "Faltings [faltings-1988]"
 lean  = ["CrystallineSemistableComparison.Onto.HTBij", "UpperTheory.Gal.Seam.HT.htBij",
          "CrystallineSemistableComparison.Onto.htBij_of"]
-order = 2
+order = 1
 +++
 Let $K$ be a finite extension of $\Q_l$. There is a Hodge–Tate comparison map
 for smooth proper $K$-varieties $M$ with a smooth model, injective in every

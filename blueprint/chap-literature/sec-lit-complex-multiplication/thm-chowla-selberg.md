@@ -5,7 +5,7 @@ provenance = "published"
 source = "Chowla–Selberg [chowla-selberg-1967]"
 lean  = ["GlobalTheory.chowla_selberg_eta", "GlobalTheory.chowla_selberg_lattice",
          "GlobalTheory.chowla_selberg_discriminant", "GlobalTheory.T.meanLogPeriod_chowlaSelberg"]
-order = 8
+order = 7
 +++
 Let $K$ be an imaginary quadratic field of discriminant $-d$ with $d > 4$,
 class number $h$ and quadratic character $\chi$. For each ideal class $c$

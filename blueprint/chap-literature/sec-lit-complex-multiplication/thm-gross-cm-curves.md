@@ -4,7 +4,7 @@ title = "Gross's elliptic curves with good reduction outside p"
 provenance = "published"
 source = "Gross [gross-1980]"
 lean  = ["GlobalTheory.Published.CMCurveGoodOutsidePrimeSt", "GlobalTheory.Published.cmCurveGoodOutsidePrime"]
-order = 7
+order = 6
 +++
 Let $p > 3$ be a prime with $p \equiv 3 \bmod 4$, and let
 $K = \Q(\sqrt{-p})$. There is an elliptic curve $A$ over

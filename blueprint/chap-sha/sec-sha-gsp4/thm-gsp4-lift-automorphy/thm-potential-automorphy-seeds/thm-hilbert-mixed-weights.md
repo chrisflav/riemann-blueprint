@@ -3,7 +3,7 @@ kind  = "theorem"
 title = "Ordinary Hilbert modular forms with mixed weights"
 provenance = "new"
 lean  = ["UpperTheory.Esk.mixSeed_of_alt"]
-order = 1
+order = 2
 +++
 Let $F$ be a totally real field of even degree in which an odd prime $l$
 splits completely, $\xi$ a character of $G_F$ of finite order, totally odd,

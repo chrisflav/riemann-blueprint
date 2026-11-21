@@ -17,8 +17,9 @@ all large auxiliary fields:
 * the class of families satisfies $\mathcal N$.
 
 Then the full list of family conditions holds there, with the definite-side
-condition. The list has 26 entries. We have checked in detail only those proved in
-the nodes below:
+condition. The list has 26 entries; we have checked in detail only those
+that a proposition of this section or a result of [chap-theta] proves. They
+are:
 
 * the twelve basic conditions themselves (primitivity, a condition on
   $\lambda'$, divisors, decomposition points, jumps of the selection, a compatibility condition

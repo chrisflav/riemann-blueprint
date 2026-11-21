@@ -10,9 +10,9 @@ order = 2
 +++
 Let a family member carry, for each index $i$, a pair of hermitian spaces
 $V_i$ and $W_i$ with the theta correspondence between $\U(V_i)$ and
-$\U(W_i)$, satisfying the standing hypotheses (good types, large gaps of
+$\U(W_i)$, with good types, large gaps of
 the archimedean parameters $\lambda_n - \lambda_{n+1} \ge 100r^4$,
-absolutely irreducible characters). Then for each $i$:
+and absolutely irreducible characters. Then for each $i$:
 
 * *non-vanishing:* every nonzero Hecke eigenform $y$ on $\U(V_i)$ whose Satake
   parameters at good places contain the segment

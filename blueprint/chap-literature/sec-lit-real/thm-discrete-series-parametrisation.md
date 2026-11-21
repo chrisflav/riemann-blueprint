@@ -4,7 +4,7 @@ title = "Discrete series are parametrised by Harish-Chandra parameters"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1966]; Hecht–Schmid [hecht-schmid-1975]"
 lean  = ["CompanionTheory.RgExh.discreteSeriesCover", "GlobalTheory.Published.DiscreteSeriesCover"]
-order = 10
+order = 13
 +++
 Let $\tilde G$ be the double cover of $\U(p,q)$, $p + q \ge 1$, on which
 $\sqrt{\det}$ is defined. There is a map

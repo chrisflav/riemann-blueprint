@@ -49,4 +49,4 @@ $q_w^{(a-1)/2}$:
 
 Only containment of Frobenius eigenvalues in the Satake parameters is
 asserted, not equality: the $a$-dimensional representation is cut out of $\rho$
-later ([thm-galois-reps-unramified-compatible]).
+in the proof of [thm-galois-reps-from-geometry-and-theta].

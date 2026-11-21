@@ -5,7 +5,7 @@ provenance = "modified"
 source = "special case of Hasse [hasse-1931]"
 lean  = ["GlobalTheory.Published.HasseNormSt", "GlobalTheory.QNorm.hasseNormSt",
          "GlobalTheory.T.hasse_norm_theorem_quadratic_extension"]
-order = 7
+order = 6
 +++
 Let $F$ be a number field and $\delta, x \in F^\times$. If $x$ has the form
 $a^2 - \delta b^2$ in every real completion and in every non-archimedean

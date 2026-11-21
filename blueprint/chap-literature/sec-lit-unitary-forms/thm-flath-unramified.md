@@ -4,7 +4,7 @@ title = "Flath's theorem with almost all factors unramified"
 provenance = "published"
 source = "Flath [flath-1979]"
 lean  = ["GlobalTheory.Published.FlathFactorisation", "PositivityTheory.Prw.flathFactorisation_of"]
-order = 7
+order = 6
 +++
 Let $E/F$ be a CM extension, $V$ a non-degenerate hermitian space over $E$
 and $G = \U(V)$. Every irreducible unitary representation $\pi$ of

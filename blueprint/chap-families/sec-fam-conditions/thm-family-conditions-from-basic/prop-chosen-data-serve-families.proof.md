@@ -1,14 +1,14 @@
 +++
 kind = "proof"
 of   = "prop-chosen-data-serve-families"
-uses = ["thm-chebotarev-degree-one-frobenius", "lem-inert-theta-admissibility-cm",
+uses = ["thm-chebotarev-degree-one", "lem-inert-theta-admissibility-cm",
         "thm-artin-reciprocity", "lem-kernel-conditions-standard-data",
         "lem-local-models-constructed-points"]
 +++
 
 Global Artin reciprocity [thm-artin-reciprocity], through Artin symbols of
 ideal classes and Chebotarev's theorem for primes of degree one
-[thm-chebotarev-degree-one-frobenius], gives good models of CM elliptic
+[thm-chebotarev-degree-one], gives good models of CM elliptic
 curves at primes $l \ge 5$ prime to $d$. From these good models we get six
 facts about elliptic curves $\C/\mathfrak c$ with complex multiplication by
 $O_K$, each with a twelfth root $\delta$ of its discriminant:

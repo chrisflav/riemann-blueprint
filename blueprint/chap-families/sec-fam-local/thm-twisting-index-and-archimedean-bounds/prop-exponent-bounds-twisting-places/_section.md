@@ -8,7 +8,7 @@ lean  = ["GlobalTheory.BigOn.exponent_bound_of_unitaryThetaStandardTheorems_alt"
          "GlobalTheory.ExpTie.Asm.expSt_of_alt", "GlobalTheory.ExpTie.Asm.hasExpBound_at",
          "GlobalTheory.T.expSt_of_num_sumExp_model"]
 uses = ["def-local-parameters"]
-order = 1
+order = 3
 +++
 Fix a system of local parameters ([def-local-parameters]). Then at every
 point of the families at a large scale, for every $j$: $J_j(w) \ge 0$ at the

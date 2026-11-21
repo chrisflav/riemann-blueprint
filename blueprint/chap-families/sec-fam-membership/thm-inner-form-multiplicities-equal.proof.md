@@ -3,8 +3,7 @@ kind = "proof"
 of   = "thm-inner-form-multiplicities-equal"
 uses = ["thm-borel-casselman", "thm-hasse-norm-quadratic", "thm-pseudo-coefficients-unitary", "thm-radford-shuffle", "thm-reduction-theory-unitary", "thm-bz-finiteness", "thm-cusp-rapid-decay", "thm-cusp-trace-class", "thm-hc-discrete-series-classification", "thm-dixmier-malliavin", "thm-flath-unramified", "thm-geometric-lemma", "thm-green-parametrisation", "thm-hc-analyticity-density", "thm-hc-finiteness-unitary"]
 +++
-The family hypotheses give a weak characterisation of the representations
-involved. Compare the traces of test functions that are pseudo-coefficients
+Start from the weak characterisation of the representations involved. Compare the traces of test functions that are pseudo-coefficients
 of the discrete series at infinity
 ([thm-pseudo-coefficients-unitary]) and agree at the
 finite places through $\Phi$. Reduction theory on Siegel sets

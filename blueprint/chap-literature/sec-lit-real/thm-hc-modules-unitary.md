@@ -4,7 +4,7 @@ title = "Harish-Chandra modules of unitary representations"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.Published.HarishChandraModules", "PositivityTheory.Stage1.PM.harishChandraModules"]
-order = 3
+order = 2
 +++
 Let $p + q \ge 1$ and let $\tilde G$ be the double cover
 $\{(g, w) : g \in \U(p,q),\ w^2 = \det g\}$ of $\U(p,q)$, with maximal compact

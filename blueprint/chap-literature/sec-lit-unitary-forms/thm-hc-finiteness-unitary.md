@@ -4,7 +4,7 @@ title = "Harish-Chandra's finiteness theorem for unitary groups"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]"
 lean  = ["GlobalTheory.Published.HarishChandraFinite", "PositivityTheory.RgHf.harishChandraFinite"]
-order = 4
+order = 12
 +++
 Let $G = \U(V)$ for a hermitian space over a CM field, $U$ an open subgroup
 of $G(\A_F)$, and fix at each archimedean place a finite-dimensional

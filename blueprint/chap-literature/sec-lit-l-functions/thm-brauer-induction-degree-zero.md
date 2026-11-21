@@ -4,7 +4,7 @@ title = "Brauer's induction theorem, degree-zero form"
 provenance = "modified"
 source = "after Brauer [brauer-1947]"
 lean  = ["GlobalTheory.BrauerZero.brauerDegreeZero", "GlobalTheory.Published.BrauerDegreeZero"]
-order = 5
+order = 7
 +++
 Let $\rho$ be a finite-dimensional complex representation of a finite group
 $G$. There are subgroups $H_1, \dots, H_r$, characters

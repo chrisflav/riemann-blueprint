@@ -3,8 +3,8 @@ kind  = "theorem"
 title = "The contragredient is the inverse transpose"
 provenance = "modified"
 source = "after Gelfand–Kazhdan [gelfand-kazhdan-1975]"
-lean  = ["GlobalTheory.Published.GelfandKazhdanDual", "PositivityTheory.JMult1.gelfandKazhdanDual_of_rigidity"]
-order = 9
+lean  = ["GlobalTheory.Published.GelfandKazhdanDual", "PositivityTheory.JMult1.gelfandKazhdanDual_of_rigidity", "PositivityTheory.PRW.GKD.gelfandKazhdanDual_of_multiplicityOne"]
+order = 7
 +++
 Let $E$ be a totally complex number field and $\pi$ a cuspidal automorphic
 representation of $\GL_n(\A_E)$. There is a non-degenerate pairing

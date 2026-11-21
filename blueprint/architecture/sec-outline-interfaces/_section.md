@@ -4,4 +4,12 @@ kind  = "section"
 title = "What the stages pass to each other"
 order = 1
 +++
-TODO-INTRO The three statements through which the arithmetic half (Galois representations, Selmer and Tate-Shafarevich groups) feeds the analytic half: a weak system of local parameters for GL_n and its existence, Galois representations for polarized pairs compatible with it, and the Tate-Shafarevich bound with exponent 401 along 2-power cyclotomic psi-fields. Each is proved in a later chapter and used in several.
+Three statements pass from the arithmetic stages to the analytic ones, and
+several chapters use each. A system of local parameters
+([def-local-parameters]) is a weak form of the local Langlands
+correspondence for $\GL_n$, and a direct construction shows that one exists
+([thm-local-parameters-exist]). Galois representations of polarized pairs
+([def-galois-reps-polarized]) are compatible with such a system;
+[chap-galois] proves that they exist. The Tate–Shafarevich bound
+([def-sha-bound]) bounds the lengths of $Ш^1$ over the $\psi$-fields of a
+2-power cyclotomic tower; [chap-sha] proves it with exponent $401$.

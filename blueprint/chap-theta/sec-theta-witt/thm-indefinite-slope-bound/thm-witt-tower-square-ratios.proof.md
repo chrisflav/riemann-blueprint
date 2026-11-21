@@ -3,7 +3,7 @@ kind = "proof"
 of   = "thm-witt-tower-square-ratios"
 uses = ["thm-bz-finiteness", "thm-geometric-lemma-filtration", "thm-hasse-norm-quadratic",
         "thm-howe-duality-archimedean-trivial", "thm-landherr-cm", "thm-oscillator-lie-action",
-        "thm-reduction-theory-unitary", "thm-strong-approximation-su", "thm-weil-representation-auxiliary-pairs",
+        "thm-reduction-theory-unitary", "thm-strong-approximation-su", "thm-weil-representation-unitary-exists",
         "thm-theta-tower-step-identities"]
 +++
 Combine five statements about the Witt tower, each proved from the step

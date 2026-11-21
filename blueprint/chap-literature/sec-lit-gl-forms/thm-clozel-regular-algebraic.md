@@ -4,7 +4,7 @@ title = "Regular algebraic cuspidal representations are pure and cohomological"
 provenance = "published"
 source = "Clozel [clozel-1990]"
 lean  = ["GlobalTheory.Published.RegularAlgebraicPurity", "GlobalTheory.regularAlgebraicPurity_of_clozel"]
-order = 11
+order = 10
 +++
 Let $E$ be a CM field, $a \ge 1$, and $\pi$ a regular algebraic cuspidal
 automorphic representation of $\GL_a(\A_E)$. Then the infinitesimal

@@ -1,39 +1,29 @@
 +++
 kind = "proof"
 of   = "thm-galois-reps-polarized"
-uses = ["thm-theta-lift-nonvanishing"]
+uses = ["thm-galois-reps-from-geometry-and-theta", "thm-geometric-galois-odd-rank", "thm-theta-lift-nonvanishing",
+        "thm-galois-reps-hecke-eigenspaces", "thm-kuga-sato-unitary-shimura", "thm-unitary-shimura-integral-models",
+        "thm-base-change-unitary", "thm-local-global-ramified"]
 +++
-We build the representations from definite unitary groups and theta lifts
-([thm-theta-lift-nonvanishing]).
+The theorem is [thm-galois-reps-from-geometry-and-theta] applied with its two
+inputs, [thm-geometric-galois-odd-rank] and [thm-theta-lift-nonvanishing].
 
-1. *Odd rank* ([thm-geometric-galois-odd-rank]). Let $a$ be odd. Transfer an automorphic
-   representation of a definite unitary group in $a$ variables to a Hecke
-   eigensystem on a compact unitary Shimura variety of Harris–Taylor type,
-   of signature $(1, a-1)$ at one infinite place. This needs a cuspidal
-   type at one place above $l$ and lacunary weights at another. Look for
-   the eigensystem in the $l$-adic cohomology of Kuga–Sato varieties over
-   it, the fibre powers of the universal abelian scheme.
-   * The Eichler–Shimura congruence relation controls Frobenius.
-   * The crystalline comparison theorem and the Hodge–Tate decomposition
-     give the properties at $l$.
-   * The holomorphic Lefschetz formula of Atiyah and Bott, compared with
-     the fixed points of Hecke correspondences at CM points, gives the
-     Hodge numbers.
-
-   The result is a representation of unknown dimension on which the
-   Satake polynomial kills Frobenius. The lacunary Hodge–Tate weights and
-   the determinant cut out a piece of dimension $a$.
-2. *Congruences.* Congruences between weights and a limiting argument in
-   the style of Chenevier reach the remaining weights.
-3. *Even rank.* Lift a representation of an even-rank unitary group in two
-   ways to an odd-rank group. The Galois representations of the two lifts
-   are $\rho \otimes \kappa \oplus \psi_1$ and $\rho \otimes \kappa \oplus \psi_2$,
-   with disjoint sets of characters, and comparing them isolates $\rho$.
-4. *To $\GL_a$* ([thm-galois-reps-from-geometry-and-theta]). Descend a
-   conjugate-self-dual $\pi$ to a definite unitary group, and pass to all
-   polarized pairs by the cyclic base change of Arthur and Clozel.
-   Solvable base change turns depth-zero components into principal series,
-   which gives compatibility at the ramified places.
-
-The transfer in step 1 cites only the Hasse norm theorem among published
-results. *It is not clear* how it is proved without a trace formula.
+1. *Odd rank* ([thm-geometric-galois-odd-rank]). Let $a$ be odd. Move an
+   automorphic representation of the definite unitary group in $a$ variables,
+   with a cuspidal type at one place above $l$ and lacunary weights at
+   another, to a Hecke eigensystem on a compact unitary Shimura variety of
+   signature $(1, a-1)$. Its integral models
+   ([thm-unitary-shimura-integral-models]) carry Kuga–Sato varieties that form
+   a Hecke tower with good reduction, the Eichler–Shimura relation and the
+   Hodge numbers predicted by the weight ([thm-kuga-sato-unitary-shimura]).
+   The eigenspaces of such a tower carry Galois representations
+   ([thm-galois-reps-hecke-eigenspaces]). The result has unknown dimension,
+   and the Satake polynomial kills its Frobenius elements.
+2. *Theta lifts* ([thm-theta-lift-nonvanishing]). Theta lifts from definite
+   unitary groups do not vanish, with explicit weights.
+3. *Assembly* ([thm-galois-reps-from-geometry-and-theta]). Cut a piece of
+   dimension $a$ out of the representation of step 1; reach all weights by
+   congruences and a limit of pseudo-representations; in even rank compare
+   two theta lifts to odd rank; pass to $\GL_a$ by base change
+   ([thm-base-change-unitary]). This gives compatibility at the unramified
+   places, and [thm-local-global-ramified] adds the ramified places.

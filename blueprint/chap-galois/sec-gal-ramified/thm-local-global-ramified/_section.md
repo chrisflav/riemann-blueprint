@@ -9,4 +9,4 @@ order = 1
 Suppose that polarized pairs have Galois representations compatible at the
 unramified places, as in the conclusion of [thm-galois-reps-unramified-compatible]. Then polarized pairs
 have Galois representations in the sense of [def-galois-reps-polarized], for
-the system of local parameters of [thm-local-parameters-exist].
+every system of local parameters ([def-local-parameters]).

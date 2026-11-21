@@ -4,7 +4,7 @@ title = "Clozel's purity lemma"
 provenance = "published"
 source = "Clozel [clozel-1990, Lemma 4.9]"
 lean  = ["GlobalTheory.Published.ClozelPurity", "PositivityTheory.Lit1.ClozelPurity.clozelPurity"]
-order = 10
+order = 8
 +++
 Let $E$ be a totally complex number field, $a \ge 1$ and $\pi$ a cuspidal
 automorphic representation of $\GL_a(\A_E)$ that is algebraic: at each

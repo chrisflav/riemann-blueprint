@@ -8,7 +8,7 @@ lean  = ["GlobalTheory.Published.IrreducibleAdmissibleGL", "PositivityTheory.Tls
          "PositivityTheory.Exh.irreducibleAdmissibleGL",
          "UpperTheory.Zero.LLC.Pr.adm",
          "GlobalTheory.RgGu.irreducibleAdmissibleGL"]
-order = 2
+order = 1
 +++
 Let $F$ be a non-archimedean local field. Every irreducible smooth
 representation of $\GL_n(F)$ is admissible: for each open compact subgroup

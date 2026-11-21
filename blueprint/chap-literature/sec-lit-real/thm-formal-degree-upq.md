@@ -4,7 +4,7 @@ title = "Harish-Chandra's formal degree formula for U(p, q)"
 provenance = "modified"
 source = "after Harish-Chandra [harish-chandra-1966]"
 lean  = ["GlobalTheory.Published.FormalDegreeCompactDual", "PositivityTheory.RgFd.B.formalDegreeCompactDual"]
-order = 17
+order = 16
 +++
 Fix Haar measures on the groups $\U(p, q)$, $p + q = N$, compatible with a
 fixed measure on the compact dual. Let $\sigma$ be a discrete series

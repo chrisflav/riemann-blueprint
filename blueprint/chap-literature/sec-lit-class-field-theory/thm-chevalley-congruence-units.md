@@ -4,7 +4,7 @@ title = "Chevalley's theorem on congruence units"
 provenance = "published"
 source = "Chevalley [chevalley-1951]"
 lean  = ["GlobalTheory.Published.ChevalleyUnits", "GlobalTheory.Published.chevalleyUnits'"]
-order = 6
+order = 5
 +++
 Let $E$ be a number field and $m, b \ge 1$. There is an integer $a \ge 1$
 prime to $b$ such that every unit $u \in \mathcal O_E^\times$ with

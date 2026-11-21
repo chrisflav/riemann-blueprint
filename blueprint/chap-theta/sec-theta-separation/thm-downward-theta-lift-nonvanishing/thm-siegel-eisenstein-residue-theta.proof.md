@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-siegel-eisenstein-residue-theta"
-uses = ["thm-hasse-norm-quadratic", "thm-hermitian-hasse-principle", "thm-weil-representation-auxiliary-pairs", "thm-unitary-quotient-finite-volume"]
+uses = ["thm-hasse-norm-quadratic", "thm-hermitian-hasse-principle", "thm-weil-representation-unitary-exists", "thm-unitary-quotient-finite-volume"]
 +++
 *We have not checked the details of this proof.* The theta measure is finite
 because [unitary adelic quotients have finite volume](@thm-unitary-quotient-finite-volume).

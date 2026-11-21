@@ -6,7 +6,7 @@ source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]
 lean  = ["Formalism.L2.Th1.CM.JInvariantIntegrality", "ReciprocityTheory.ChartRestriction.L1.cm1",
          "Formalism.L2.Th1.CM.cm1", "Formalism.L2.Th1.CM.CM2",
          "ReciprocityTheory.ChartRestriction.L1.goodReduction_of_integral_unramified"]
-order = 4
+order = 3
 +++
 Let $d$ be a squarefree positive integer with $d \equiv 3 \pmod 4$,
 $K = \Q(\sqrt{-d})$, and $\Lambda \subset \C$ a lattice stable under the ring

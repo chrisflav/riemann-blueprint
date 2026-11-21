@@ -4,7 +4,7 @@ title = "The Rallis inner product formula in the convergent range"
 provenance = "published"
 source = "Rallis [rallis-1984]; Li [li-1992]"
 lean  = ["GlobalTheory.Published.RallisInnerProductConvergent", "UpperTheory.Lit.Rallis.RallisIPProof.rallis_of_dm"]
-order = 16
+order = 12
 +++
 Let $(\U(A), \U(B))$ be a unitary dual pair over a CM field with
 $\operatorname{rank} A < \operatorname{rank} B \le 2\operatorname{rank} A$,

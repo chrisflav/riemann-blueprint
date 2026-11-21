@@ -4,7 +4,7 @@ kind  = "theorem"
 title = "Hodge–Tate weights of Hecke eigenspaces"
 provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.JumpStep", "UpperTheory.Gal.Int.Geo.jumpStep_holds"]
-order = 2
+order = 4
 +++
 Let $Z$ with its correspondences be a Hecke tower over a number field $E$,
 $\theta$ a system of eigenvalues, $\rho$ a continuous subquotient of $V_\theta$, and

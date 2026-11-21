@@ -4,7 +4,7 @@ title = "Jacquet modules of depth-zero vectors"
 provenance = "published"
 source = "Moy–Prasad [moy-prasad-1996]"
 lean  = ["GlobalTheory.Published.MoyPrasadJacquetIso", "PositivityTheory.Prw.moyPrasadJacquetIso_holds"]
-order = 2
+order = 1
 +++
 Let $F$ be a non-archimedean local field, $P = MN$ a standard parabolic
 subgroup of $\GL_n(F)$, $K_1$ the first principal congruence subgroup and

@@ -4,7 +4,7 @@ title = "Grothendieck's existence theorem"
 provenance = "published"
 source = "Grothendieck [ega-3-1, §5]"
 lean  = ["GlobalTheory.Published.FormalAlgebraisation", "PositivityTheory.FormalThickening.formalAlgebraisation"]
-order = 11
+order = 10
 +++
 Let $R$ be a noetherian ring, complete for the $I$-adic topology, and
 $R_e = R/I^{e+1}$.

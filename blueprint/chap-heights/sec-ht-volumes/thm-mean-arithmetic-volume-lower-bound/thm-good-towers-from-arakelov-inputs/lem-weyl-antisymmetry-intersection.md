@@ -4,7 +4,7 @@ title = "Weyl antisymmetry of arithmetic intersection numbers"
 provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Top.full_intersection_tower_I8_relation", "GlobalTheory.T.full_intersection_tower_I8_identity", "SquareStatements.good_tower_antisymmetry",
          "SquareStatements.antisymmetry_of_singular_statement", "SquareStatements.good_tower_antisymmetry_of"]
-order = 2
+order = 1
 +++
 Let $T$ be a good tower of [thm-good-towers-from-arakelov-inputs] over a global model,
 $p, q \ge 1$. For a weight $\lambda$

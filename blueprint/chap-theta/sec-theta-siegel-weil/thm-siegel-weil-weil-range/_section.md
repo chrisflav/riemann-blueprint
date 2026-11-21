@@ -5,7 +5,7 @@ title = "The Siegel–Weil formula in Weil's range"
 provenance = "published"
 source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.WeilSiegelFormula", "GlobalTheory.Published.WeilSiegelFormulaUnitary", "PositivityTheory.Rg.Wsf.weilSiegelFormula", "UpperTheory.Lit.Sw47.weilUnitary"]
-order = 2
+order = 1
 +++
 Let $A$ and $B$ be hermitian spaces over a CM extension, $\dim A \ge 1$, and
 suppose $B$ is anisotropic or $\dim A + w(B) < \dim B$, where $w(B)$ is the Witt

@@ -4,7 +4,7 @@ title = "Partial Hecke L-functions do not vanish on Re s >= 1"
 provenance = "published"
 source = "Hecke [hecke-1920]; Landau [landau-1918]"
 lean  = ["GlobalTheory.Published.HeckeLPartialContinuation", "PositivityTheory.Stage1.PM.heckeLPartialContinuation"]
-order = 7
+order = 4
 +++
 Let $K$ be a number field and $T$ a finite set of finite places.
 

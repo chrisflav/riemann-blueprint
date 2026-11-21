@@ -3,7 +3,7 @@ kind  = "theorem"
 title = "Weight change for ordinary Hilbert modular forms"
 provenance = "new"
 lean  = ["UpperTheory.Esk.HolWC", "UpperTheory.Esk.holWC"]
-order = 2
+order = 1
 +++
 Let $F$ be a totally real field of degree at least $2$, $l$ an odd prime,
 and $\varphi$ a cuspidal Hilbert eigenform of parallel weight $k_0 \ge 4$,

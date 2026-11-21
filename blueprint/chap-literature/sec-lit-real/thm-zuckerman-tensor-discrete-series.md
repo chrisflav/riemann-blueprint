@@ -5,7 +5,7 @@ provenance = "modified"
 source = "special case of Zuckerman's tensor product theorem [zuckerman-1977]"
 lean  = ["ReciprocityTheory.ChartRestriction.DS.G2.zuckerman_tensor_exists",
          "ReciprocityTheory.ChartRestriction.DS.G2.zuckerman_dual_tensor_exists"]
-order = 19
+order = 17
 +++
 Let $G = \U(p, q)$ with $n = p + q$, and call a Harish-Chandra parameter $\mu$
 *well spaced* if $|\mu_a - \mu_b| \ge h$ whenever $a$ and $b$ lie on different

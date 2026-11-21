@@ -5,7 +5,7 @@ provenance = "published"
 source = "Siegel [siegel-1970]; Klingen [klingen-1962]; Deligne–Ribet [deligne-ribet-1980]"
 lean  = ["GlobalTheory.Published.SiegelKlingen", "GlobalTheory.Published.SiegelKlingenDeligneRibet",
          "PositivityTheory.Prw.siegelKlingenDeligneRibet_of", "PositivityTheory.Prw.siegelKlingen_holds"]
-order = 3
+order = 6
 +++
 Let $F$ be a totally real field, $\mathfrak f \ne 0$ an ideal and
 $\varepsilon$ a rational-valued function on ideals prime to $\mathfrak f$,

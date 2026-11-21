@@ -4,7 +4,7 @@ title = "Admissible data exist"
 provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Bl.exBL_isLinked_prmR_alt", "GlobalTheory.T.geometric_parameter_uniform_alt"]
 uses = ["def-local-parameters"]
-order = 4
+order = 6
 +++
 Let $\rec$ be a system of local parameters ([def-local-parameters]) and $N$
 a choice of norms that refines the choice with a Bloch–Kato law. Let $p$ be

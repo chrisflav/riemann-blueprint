@@ -5,7 +5,7 @@ provenance = "published"
 source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalika", "PositivityTheory.AdelicQuotientData.jacquetShalika",
          "GlobalTheory.Published.JacquetShalikaBound", "PositivityTheory.JacquetShalikaLocal.jacquetShalikaBound"]
-order = 7
+order = 6
 +++
 Let $E$ be a totally complex number field. Two results hold:
 

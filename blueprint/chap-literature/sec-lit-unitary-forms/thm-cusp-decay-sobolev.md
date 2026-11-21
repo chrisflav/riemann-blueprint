@@ -4,7 +4,7 @@ title = "Rapid decay of cusp forms in Sobolev norms"
 provenance = "modified"
 source = "after Harish-Chandra [harish-chandra-1968]; Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.Published.CuspDecaySobolev", "PositivityTheory.Stage1.PM.cuspDecaySobolev"]
-order = 11
+order = 9
 +++
 Let $G = \U(V)$ for a hermitian space over a CM field, $U$ an open subgroup
 of $G(\A_F)$ and $N, M \ge 0$. There are $d$ and $C$ such that every smooth

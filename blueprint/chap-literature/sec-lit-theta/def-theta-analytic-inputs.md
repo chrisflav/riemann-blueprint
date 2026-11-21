@@ -2,12 +2,12 @@
 kind  = "remark"
 title = "The analytic inputs of the theta lifts"
 lean  = ["GlobalTheory.NRows.GeometricGaloisRepCompatibility"]
-order = 1
+order = 13
 +++
 The theta lifts between definite unitary groups use these published results
 of harmonic analysis together: Weil representations for unitary pairs
-([thm-weil-representation-auxiliary-pairs]); the existence and
-classification of discrete series ([thm-discrete-series-exist],
+([thm-weil-representation-unitary-exists]); the existence and
+classification of discrete series ([thm-discrete-series-exist-upq],
 [thm-hc-discrete-series-classification]); Harish-Chandra's analyticity
 theorem ([thm-hc-analyticity-density]); trace class of cusp forms
 ([thm-cusp-trace-class]); the Dixmier–Malliavin factorisation

@@ -2,7 +2,7 @@
 kind = "proof"
 of   = "thm-local-global-ramified"
 uses = ["thm-hecke-character-wd-above-l", "thm-hc-finiteness-gl", "thm-bz-finiteness",
-        "thm-borel-casselman", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one", "thm-chevalley-congruence-units",
+        "thm-borel-casselman", "thm-chebotarev-degree-one", "thm-chevalley-congruence-units",
         "thm-cusp-bounded-gl", "thm-multiplicity-one-gl", "thm-cuspidal-spectrum-gl",
         "thm-p-adic-monodromy", "thm-depth-zero-from-support", "thm-zelevinsky-segments",
         "thm-fontaine-bcris", "thm-gelfand-kazhdan", "thm-tadic-generic-unitary-dual", "thm-geometric-lemma",

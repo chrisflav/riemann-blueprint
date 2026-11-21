@@ -6,7 +6,7 @@ source = "Harish-Chandra [harish-chandra-1968]"
 lean  = ["CuspFormAutomorphicBounds.automorphicFormsFiniteGL", "GlobalTheory.Published.AutomorphicFormsFiniteGL",
          "GlobalTheory.HCF.automorphicFormsFiniteGL_of_core",
          "GlobalTheory.automorphicFormsFiniteGL"]
-order = 5
+order = 3
 +++
 Let $E$ be a totally complex number field, $L$ an open subgroup of
 $\GL_a(\A_E^\infty)$, $\rho$ a finite-dimensional continuous representation

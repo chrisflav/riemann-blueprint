@@ -12,5 +12,5 @@ Suppose that definite unitary groups of odd rank have geometric Galois
 representations as in [thm-geometric-galois-odd-rank], and that theta lifts from definite
 unitary groups do not vanish as in [thm-theta-lift-nonvanishing]. Then
 polarized pairs have Galois representations in the sense of
-[def-galois-reps-polarized], for the system of local parameters of
-[thm-local-parameters-exist].
+[def-galois-reps-polarized], for every system of local parameters
+([def-local-parameters]).

@@ -5,7 +5,7 @@ provenance = "new"
 lean  = ["Formalism.CountingSumsFrames.TheoremMV7", "Formalism.InvariantFactorPaths.MC.Top.theoremMV7",
          "Formalism.InvariantFactorPaths.MC.theoremMV7",
          "Formalism.MainNotions.G.CountingStatementReduction.alternative_mean_value_theorem"]
-order = 3
+order = 1
 +++
 *Mean value theorem.* Let $p$ be an odd prime, $r \ge 2$, and consider
 lattices $Y(n)$ of polynomials with the Fock pairing attached to a system of

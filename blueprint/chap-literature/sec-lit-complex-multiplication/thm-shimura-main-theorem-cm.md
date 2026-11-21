@@ -4,7 +4,7 @@ title = "Shimura's main theorem of complex multiplication"
 provenance = "published"
 source = "Shimura [shimura-1971]"
 lean  = ["GlobalTheory.Published.EllipticMainTheoremCM", "PositivityTheory.Prw.ellipticMainTheoremCM_holds"]
-order = 6
+order = 5
 +++
 Let $K \subset \C$ be an imaginary quadratic field with Artin map
 $\mathrm{Art}_K$. Let $\sigma \in \mathrm{Aut}(\C/K)$ and let $s$ be an idele

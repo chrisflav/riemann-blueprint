@@ -4,7 +4,7 @@ title = "Lifting abelian schemes along nilpotent divided powers"
 provenance = "published"
 source = "Grothendieck–Messing [messing-1972]; Mazur–Messing [mazur-messing-1974]"
 lean  = ["GlobalTheory.Published.AbelianLifting", "GlobalTheory.abelianScheme_hom_lifting_nilpotent_dividedPowers"]
-order = 10
+order = 8
 +++
 Let $R \to R_0$ be a surjection of rings whose kernel $I$ carries nilpotent
 divided powers. For an abelian scheme $A_0$ over $R_0$ write $D(A_0)$ for
@@ -17,5 +17,5 @@ its crystalline (Dieudonné) module evaluated on $R$.
   if and only if $D(f_0)$ maps the Hodge filtration of $A$ into that of $B$,
   and the lift is then unique.
 
-Unlike
-[thm-grothendieck-messing-nilpotent-p], it does not ask $p$ to be nilpotent in $R$.
+No prime need be nilpotent in $R$. With the crystalline comparison of de Rham
+cohomology, this gives the deformation theory [thm-grothendieck-messing].

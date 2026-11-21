@@ -6,7 +6,7 @@ source = "Shintani [shintani-1976]; Casselman–Shalika [casselman-shalika-1980]
 lean  = ["GroundTheory.Automorphic.Spherical.casselman_shalika",
          "GroundTheory.Automorphic.Spherical.eq_smul_sphericalWhittaker",
          "GroundTheory.Automorphic.Spherical.sphericalWhittaker"]
-order = 15
+order = 13
 +++
 Let $F$ be a non-archimedean local field with ring of integers $\mathcal O$
 and uniformiser $\varpi$, and let $\psi$ be an additive character of $F$ that

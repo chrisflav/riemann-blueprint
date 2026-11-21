@@ -3,9 +3,9 @@ kind  = "lemma"
 title = "Flag covers and pull-backs of realisations"
 provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Relay.flag_cover_realisation_pullback", "GlobalTheory.T.flag_cover_realisation_pullback", "PositivityTheory.Xgp.t_c_sqsys"]
-order = 2
+order = 1
 +++
-Assume the inputs on flag models. Let $M \to M'$ be a cover of flag models of
+Let $M \to M'$ be a cover of flag models of
 type $(\Psi, N, j)$ over an arithmetic variety of dimension $d + 2$, with a
 base metric and an analytic flag structure, and a realisation of the cover.
 Then for every $\tau \in \Psi$ and every pair $a, b = a+1$ of indices not

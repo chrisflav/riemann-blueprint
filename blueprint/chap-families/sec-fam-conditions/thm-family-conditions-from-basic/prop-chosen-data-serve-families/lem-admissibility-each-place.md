@@ -3,7 +3,7 @@ kind  = "lemma"
 title = "Admissibility at each place"
 provenance = "new"
 lean  = ["GlobalTheory.TwV.admissible_at_each_site"]
-order = 4
+order = 2
 +++
 
 At a place $w$ over a

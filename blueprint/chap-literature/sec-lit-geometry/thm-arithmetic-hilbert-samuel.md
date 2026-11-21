@@ -4,7 +4,7 @@ title = "The arithmetic Hilbert–Samuel theorem"
 provenance = "published"
 source = "Gillet–Soulé [gillet-soule-1992]; Abbes–Bouche [abbes-bouche-1995]; Zhang [zhang-1995]"
 lean  = ["GlobalTheory.Published.ArithHilbertSamuel", "GlobalTheory.arithHilbertSamuel_of_principalisation", "UpperTheory.LiteratureTheorems.arith_hilbert_samuel_of_literature"]
-order = 10
+order = 11
 +++
 Let $X$ be an arithmetic variety of relative dimension $D$ and $\bar L, \bar N$
 hermitian line bundles on $X$, with $\bar L$ nef and $\bar L^{D+1} = a$. Then the

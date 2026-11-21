@@ -4,7 +4,7 @@ title = "Hecke L-functions are entire and do not vanish at s = 1"
 provenance = "published"
 source = "Hecke [hecke-1918], [hecke-1920]; Landau [landau-1918]"
 lean  = ["GlobalTheory.Published.HeckeLEntireAndNonzeroAtOne", "PositivityTheory.Stage1.PM.heckeLEntireAndNonzeroAtOne"]
-order = 6
+order = 3
 +++
 Let $K$ be a number field and $\chi$ a unitary Hecke character of $K$.
 

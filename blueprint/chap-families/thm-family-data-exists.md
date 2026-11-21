@@ -8,7 +8,8 @@ lean  = ["UpperTheory.Lit.nonempty_hyps_definite_side_of_closed_bound",
 uses  = ["def-family-data"]
 order = 1
 +++
-Suppose that cuspidal representations of $\GL_a$ over CM fields have
-Galois representations as in [thm-grh-from-theta-integrals]. Then there is
-a class of families of definite unitary groups satisfying the family
-hypotheses ([def-family-data]).
+Suppose that conjugate self-dual and polarized cuspidal representations of
+$\GL_a$ over CM fields have Galois representations as in
+[thm-galois-reps-csd-above-l] and [thm-galois-reps-polarized-cuspidal].
+Then there is a class of families of definite unitary groups
+([def-family]) that satisfies the family hypotheses ([def-family-data]).

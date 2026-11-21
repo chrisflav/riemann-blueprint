@@ -4,7 +4,7 @@ title = "Hilbert–Samuel asymptotics for nef multidegrees"
 provenance = "modified"
 source = "after the asymptotic Riemann–Roch theorem; see Lazarsfeld [lazarsfeld-2004]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Pub.NefRR", "PositivityTheory.Tls2.Nef.nefRR"]
-order = 13
+order = 4
 +++
 Let $X \subset \prod_k \mathbb P^{n_k}_\Z$ be a flat integral closed
 subscheme of relative dimension $D$ over $\Z$, given by a generic point $y$

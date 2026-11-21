@@ -4,7 +4,7 @@ title = "Principalisation relative to a normal crossings divisor"
 provenance = "published"
 source = "Hironaka [hironaka-1964]; Bierstone–Milman [bierstone-milman-1997]; Villamayor [villamayor-1989]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.PrincipalisationCharZero", "PositivityTheory.ResPlug.WeightsCompactStabilizer.principalisationCharZero_closed"]
-order = 7
+order = 8
 +++
 Let $X$ be smooth, quasi-compact and separated over a field of
 characteristic $0$, $E \subset X$ a closed subset with simple normal

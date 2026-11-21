@@ -4,7 +4,7 @@ title = "Unramified classes are exact annihilators"
 provenance = "published"
 source = "Tate [tate-1963]; see Milne [milne-1986]"
 lean  = ["GlobalTheory.unramifiedOrthogonality_holds", "ReciprocityTheory.Gal.UnramifiedOrthogonality"]
-order = 13
+order = 4
 +++
 Let $F$ be a number field, $v$ a finite place not above the prime $l$,
 $G_v$ a decomposition group with inertia $I_v$, and $M$ a finite

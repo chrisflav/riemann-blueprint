@@ -8,8 +8,13 @@ lean  = ["UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
 uses  = ["def-galois-reps-polarized", "def-local-parameters"]
 order = 1
 +++
-Polarized pairs have Galois representations ([def-galois-reps-polarized])
-for the system of local parameters of [thm-local-parameters-exist].
+Polarized pairs have Galois representations ([def-galois-reps-polarized]).
+That is: let $E$ be a CM field, $l$ a prime, $\iota : \Qlbar \cong \C$, and
+$(\pi, \chi)$ a polarized pair on $\GL_a(\A_E)$, $a \ge 1$. Then there is a
+continuous semisimple $r : G_E \to \GL_a(\Qlbar)$ with the Hodge–Tate weights
+of $\pi$, whose local behaviour at every finite place is that of
+[def-galois-reps-polarized] for every system of local parameters
+([def-local-parameters]). Such systems exist by [thm-local-parameters-exist].
 
 The published theorem has full local–global compatibility. Here it is
 asked for only where the local parameter is determined

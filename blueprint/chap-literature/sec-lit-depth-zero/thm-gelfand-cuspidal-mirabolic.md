@@ -4,7 +4,7 @@ title = "Cuspidal representations on the mirabolic subgroup"
 provenance = "published"
 source = "Gelfand [gelfand-1970]"
 lean  = ["GlobalTheory.Published.CuspidalMirabolic", "GlobalTheory.cuspidalMirabolic_holds"]
-order = 1
+order = 5
 +++
 Let $k$ be a finite field and $n \ge 0.$
 

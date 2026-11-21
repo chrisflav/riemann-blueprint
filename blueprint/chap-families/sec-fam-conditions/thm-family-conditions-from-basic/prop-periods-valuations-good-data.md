@@ -3,7 +3,7 @@ kind  = "proposition"
 title = "Periods and valuations at the good data"
 provenance = "new"
 lean  = ["GlobalTheory.Fc.six_rows_at_member_alt", "GlobalTheory.T.period_entries_tie_and_level_valuations_at_built"]
-order = 2
+order = 1
 +++
 
 For any construction data and any choice of admissible data, the following

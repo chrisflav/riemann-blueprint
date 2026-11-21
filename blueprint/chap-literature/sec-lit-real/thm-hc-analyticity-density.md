@@ -4,7 +4,7 @@ title = "Analytic matrix coefficients and density"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.harishChandra_analyticity_density", "GlobalTheory.Published.HarishChandraAnalyticity"]
-order = 5
+order = 4
 +++
 Let $G = \U(p,q)$ and $K = \U(p)\times\U(q)$.
 

@@ -4,7 +4,7 @@ title = "The constant term of a theta integral on the big cone"
 provenance = "modified"
 source = "after Rallis [rallis-1984]"
 lean  = ["GlobalTheory.T.exists_isCT_integral_eq_cone_integral_add_hasLaw", "GlobalTheory.ThK.unfoldCTBigCone"]
-order = 2
+order = 1
 +++
 Let $E/F$ be a CM extension and consider a theta tower step from
 $\U(W_1)$, $\dim W_1 = b$, to $\U(W)$, $\dim W = b + 2$, with an isotropic plane

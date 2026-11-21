@@ -5,7 +5,7 @@ provenance = "new"
 lean  = ["GlobalTheory.HTUniv.main", "GlobalTheory.T.exists_universal_firstOrder_deformation_harrisTaylor",
          "GlobalTheory.T.exists_universal_tangent_harrisTaylor_representingFamily",
          "GlobalTheory.UPel.HT.RepTangent.exists_univ_tangent"]
-order = 1
+order = 2
 +++
 Let $X$ be a smooth quasi-projective representing scheme as in
 [thm-unitary-shimura-integral-models], $k$ an algebraically closed field and $x \in X(k)$. Put

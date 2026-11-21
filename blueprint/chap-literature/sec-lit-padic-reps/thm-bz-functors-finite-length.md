@@ -4,7 +4,7 @@ title = "Jacquet functors and induction preserve finite length"
 provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.StandardFunctorsFiniteLength", "PositivityTheory.Tls2.BZGL.standardFunctorsFiniteLength_top"]
-order = 4
+order = 2
 +++
 Let $F$ be a non-archimedean local field and $n = d_1 + \dots + d_r$ with
 every $d_a > 0$. For the standard parabolic subgroup of type

@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-square-term-estimates"
-uses = ["thm-bz-finiteness", "thm-cusp-rapid-decay", "thm-doubling-method", "thm-geometric-lemma-filtration", "thm-hasse-norm-quadratic", "thm-siegel-weil-convergent-doubling", "thm-oscillator-lie-action", "thm-witt-tower-square-ratios", "thm-unramified-doubling-gl", "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range", "thm-howe-duality-archimedean-trivial", "thm-hecke-functional-equation-cm", "thm-theta-tower-step-identities", "thm-non-endoscopic-hypotheses-hold", "thm-chowla-selberg"]
+uses = ["thm-bz-finiteness", "thm-cusp-rapid-decay", "thm-doubling-method", "thm-geometric-lemma-filtration", "thm-hasse-norm-quadratic", "thm-siegel-weil-convergent-doubling", "thm-oscillator-lie-action", "thm-witt-tower-square-ratios", "thm-unramified-doubling-gl", "thm-weil-representation-unitary-exists", "thm-siegel-weil-weil-range", "thm-howe-duality-archimedean-trivial", "thm-hecke-functional-equation-cm", "thm-theta-tower-step-identities", "thm-non-endoscopic-hypotheses-hold", "thm-chowla-selberg"]
 +++
 Prove the items in order, using the step identities of theta towers
 ([thm-theta-tower-step-identities]) throughout. The bottom constants are

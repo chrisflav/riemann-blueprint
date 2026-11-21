@@ -4,7 +4,7 @@ title = "Generic unitary dual of GL(n)"
 provenance = "modified"
 source = "special case of Tadić [tadic-1986]"
 lean  = ["GlobalTheory.Published.GenericUnitaryDualGL", "PositivityTheory.Gud.Fin.genericUnitaryDualGL_holds"]
-order = 13
+order = 12
 +++
 Let $F$ be a non-archimedean local field of characteristic zero. Every
 irreducible smooth representation $\pi$ of $\GL_N(F)$ that is unitarisable

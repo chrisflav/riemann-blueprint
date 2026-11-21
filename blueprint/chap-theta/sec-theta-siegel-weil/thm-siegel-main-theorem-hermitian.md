@@ -4,7 +4,7 @@ title = "Siegel's main theorem for hermitian forms"
 provenance = "published"
 source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.CompanionTheory.SW.siegelWeilUnitaryConvergent", "HeckeCharacterZeroLocus.SiegelWeilU.SiegelWeilUnitaryConvergent"]
-order = 1
+order = 2
 +++
 Let $J$ be a non-degenerate hermitian $M \times M$ matrix over $E$. Then
 $\U(J)(F)\backslash\U(J)(\A_F)$ has finite volume. If $2n < M$, then for every

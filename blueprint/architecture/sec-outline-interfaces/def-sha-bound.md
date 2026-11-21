@@ -26,7 +26,7 @@ For every $\varepsilon < 1/52$ there are $J$ and $X_0$ such that for every
 $X \ge X_0$ and every auxiliary pair at scale $X^{1/J}$ there is
 $Y \in [X^{1/J}, X^{1/2}]$ with this property: for every $x \in [Y, Y^2]$,
 every $\psi$-field $E$ and $t = \lfloor x^C \rfloor$, the groups
-$Ш^1_l(E, -e)$, $0 < e < t$, are finite, and
-$$\sum_{l \in \Sigma}\log l\sum_{e=1}^{t-1}\mathrm{len}\,Ш^1_l(E, -e) \le e^{x^\varepsilon/2}$$
+$Ш^1_l(E, e)$, $0 < e < t$, are finite, and
+$$\sum_{l \in \Sigma}\log l\sum_{e=1}^{t-1}\mathrm{len}\,Ш^1_l(E, e) \le e^{x^\varepsilon/2}$$
 for every finite set of primes $\Sigma$. The proof uses $C = 401$ for every
 primitive $\psi$.

@@ -4,7 +4,7 @@ title = "Arithmetic volume is at least the self-intersection"
 provenance = "modified"
 source = "after Gillet–Soulé [gillet-soule-1992]; Zhang [zhang-1995]"
 lean  = ["GlobalTheory.Published.VolGe", "GlobalTheory.VolBr.volGe_of_hilbertSamuel"]
-order = 11
+order = 13
 +++
 Let $X$ be an arithmetic variety of relative dimension $D$ and $\bar L$ a
 hermitian line bundle that is nef on the fibres and has semipositive

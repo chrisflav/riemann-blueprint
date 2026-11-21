@@ -5,7 +5,7 @@ provenance = "published"
 source = "Mumford [mumford-1972]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.T.exists_degenerationData_uniformisation_of_torsionCount",
          "GlobalTheory.T.exists_pel_uniformisation_complete_dvr"]
-order = 15
+order = 13
 +++
 Let $V$ be a complete discrete valuation ring with fraction field $K$, and $A$
 a principally polarised abelian variety over $K$. Let $G$ be a semi-abelian

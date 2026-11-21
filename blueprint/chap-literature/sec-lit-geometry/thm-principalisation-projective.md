@@ -4,7 +4,7 @@ title = "Principalisation of ideals on smooth projective varieties"
 provenance = "published"
 source = "Hironaka [hironaka-1964]; Bierstone–Milman [bierstone-milman-1997]; Villamayor [villamayor-1989]"
 lean  = ["GlobalTheory.Published.Principalisation", "PositivityTheory.ResPlug.WeightsCompactStabilizer.principalisation_closed"]
-order = 6
+order = 7
 +++
 Let $Y$ be an integral smooth projective variety over a field of
 characteristic $0$ and $\mathcal I \ne 0$ an ideal sheaf. There is a

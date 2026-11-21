@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-p-adic-monodromy"
-uses = ["thm-fontaine-bcris", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-duality-l-adic"]
+uses = ["thm-fontaine-bcris", "thm-tate-euler-characteristic-global-places", "thm-tate-local-duality-global-places"]
 +++
 The matrix form is proved by induction. A de Rham representation is one with a
 framing by weights; a twist by a Lubin–Tate character reduces to total weight

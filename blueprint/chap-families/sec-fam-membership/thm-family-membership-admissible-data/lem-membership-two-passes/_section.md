@@ -4,7 +4,7 @@ kind  = "lemma"
 title = "Membership from two passes"
 provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Bl.memberE_of_steps2", "GlobalTheory.T.exists_member_of_construction_steps_secondPass"]
-order = 3
+order = 5
 +++
 Let $p, p'$ be construction data. Suppose that for both, depth-three partial
 constructions extend to depth four and ambient, division and theta data

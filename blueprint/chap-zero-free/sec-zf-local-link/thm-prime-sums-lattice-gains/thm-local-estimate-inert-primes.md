@@ -19,6 +19,6 @@ $C$, $p$ and the orbit data). Then for every $t$ beyond an explicit bound,
 the lattice of polynomials attached to these data at level $t$ satisfies
 the local lattice condition with defect $C|T|r^2(m+1)/Y$.
 
-In particular the reduced form of the second local theorem holds for every
-member. *It is not clear* from the statements what the local lattice
+In particular every member satisfies the restricted form of this estimate
+that the local link at inert primes uses. *It is not clear* from the statements what the local lattice
 condition measures beyond this shape.

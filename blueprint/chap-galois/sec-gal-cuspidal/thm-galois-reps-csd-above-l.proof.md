@@ -9,8 +9,8 @@ $\pi^\vee \cong \pi\circ\theta$, $\theta(g) = {}^tg^{-1}$. This is
 Gelfand–Kazhdan [thm-gelfand-kazhdan], which rests on strong multiplicity
 one [thm-jacquet-shalika-strong-mult-one], multiplicity one
 [thm-multiplicity-one-gl] and the boundedness of cusp forms
-[thm-cusp-bounded-gl]. The existence theorem for polarized pairs, in the
-sense of [def-galois-reps-polarized], then gives $r$ with the first three
+[thm-cusp-bounded-gl]. The existence theorem for polarized pairs,
+[thm-galois-reps-polarized], then gives $r$ with the first three
 properties. The compatibility above $l$ is read off from the local
 conditions of $r$ in the abelian case, using the Langlands classification
 [thm-zelevinsky-segments], [thm-bz-finiteness], the geometric lemma

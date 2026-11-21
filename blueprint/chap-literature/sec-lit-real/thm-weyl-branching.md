@@ -4,7 +4,7 @@ title = "Branching from GL(n+1) to GL(n)"
 provenance = "published"
 source = "Weyl; see Goodman–Wallach [goodman-wallach-2009]"
 lean  = ["GlobalTheory.Published.WeylBranching", "PositivityTheory.Stage1.PM.weylBranching"]
-order = 20
+order = 19
 +++
 Let $N = n + 1$ with $n \ge 1$ and $\lambda$ a dominant weight of $\GL_N$.
 The restriction of the irreducible representation of highest weight

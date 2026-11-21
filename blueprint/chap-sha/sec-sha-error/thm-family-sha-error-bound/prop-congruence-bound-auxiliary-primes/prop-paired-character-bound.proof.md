@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "prop-paired-character-bound"
-uses = ["thm-bhatt-scholze-coefficients", "thm-lifting-potentially-crystalline", "thm-bhatt-scholze-crystalline-lattices", "thm-bloch-kato-local", "thm-fontaine-bcris", "thm-artin-reciprocity", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-duality-l-adic"]
+uses = ["thm-bhatt-scholze-coefficients", "thm-lifting-potentially-crystalline", "thm-bhatt-scholze-crystalline-lattices", "thm-bloch-kato-local", "thm-fontaine-bcris", "thm-artin-reciprocity", "thm-tate-euler-characteristic-global-places", "thm-tate-local-duality-global-places"]
 +++
 At a place above $g_k$ the character conditions make inertia act on the
 character part of the Galois representation by $u$ at one place and by

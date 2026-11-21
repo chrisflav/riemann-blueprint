@@ -19,5 +19,5 @@ $a_u$ and non-zero constants $\zeta_u(t)$ with $\zeta_u(\mu_0) = 1$ such that
 $$\zeta_u(t)\,\mathrm{ev}\big(P_{u,t}(\varphi, F)\big) = a_u\,\big\langle V\,\Theta_t(F),\ P_u(U_u\varphi)\big\rangle$$
 for all $u$, $t$, $\varphi$ and $F$. In words: evaluating the period
 $P_{u,t}$ is, up to an isometry and non-zero constants, an inner product of
-a theta lift with a projection. In particular the multiplicity condition
+a theta lift with a projection. In particular the multiplicity condition of [thm-basic-conditions-from-local-parameters]
 holds at these data.

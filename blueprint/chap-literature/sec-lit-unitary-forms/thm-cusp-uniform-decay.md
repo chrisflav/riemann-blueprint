@@ -4,7 +4,7 @@ title = "Uniform rapid decay of cusp forms"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]; see Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.CuspGeo.cuspDecayBound", "GlobalTheory.Published.CuspDecayBound"]
-order = 10
+order = 7
 +++
 Let $E/F$ be a CM extension, $V$ a hermitian space over $E$, $G = \U(V)$,
 $U$ an open subgroup of $G(\A_F)$, and $A, N \ge 0$. There are finitely many

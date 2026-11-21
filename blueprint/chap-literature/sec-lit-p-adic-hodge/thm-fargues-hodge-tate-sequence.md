@@ -4,7 +4,7 @@ title = "The Hodge–Tate sequence of a p-divisible group"
 provenance = "published"
 source = "Fargues [fargues-2008]; see also Scholze–Weinstein [scholze-weinstein-2013]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.HT.FarguesExact", "UpperTheory.Lit.farguesExact"]
-order = 7
+order = 6
 +++
 Let $C$ be an algebraically closed complete non-archimedean field of
 characteristic $0$ and residue characteristic $p$, with ring of integers

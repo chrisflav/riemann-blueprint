@@ -4,7 +4,7 @@ title = "Arithmetic Hilbert–Samuel for a block of coordinates"
 provenance = "new"
 lean  = ["PositivityTheory.LocalParametersCuspidal.MB.HSM.theoremHSMBlock",
          "GroundTheory.Heights₂.Heights.HilbertSamuel.TheoremHSMBlock.of_open"]
-order = 1
+order = 2
 +++
 Let $X$ be an arithmetic variety of dimension $D + 1$ embedded by a block of
 multihomogeneous coordinates, with a hermitian line bundle $\bar A$. Then the

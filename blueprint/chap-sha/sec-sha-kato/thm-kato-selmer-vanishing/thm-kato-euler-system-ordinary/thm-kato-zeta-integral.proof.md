@@ -3,7 +3,7 @@ kind = "proof"
 of   = "thm-kato-zeta-integral"
 uses = ["thm-de-rham-abelian-schemes", "thm-hecke-character-wd-above-l", "thm-hc-finiteness-gl",
         "thm-bernstein-unitary-product", "thm-bz-finiteness", "thm-borel-casselman",
-        "thm-brauer-induction-degree-zero", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one", "thm-chevalley-congruence-units", "thm-clozel-cohomological",
+        "thm-brauer-induction-degree-zero", "thm-chebotarev-degree-one", "thm-chevalley-congruence-units", "thm-clozel-cohomological",
         "thm-clozel-purity", "thm-cusp-rapid-decay", "thm-cuspidal-spectrum-gl", "thm-p-adic-monodromy",
         "thm-depth-zero-from-support", "thm-depth-zero-support", "thm-dual-abelian-scheme", "thm-shimura-main-theorem-cm",
         "thm-zelevinsky-segments", "thm-gelfand-kazhdan", "thm-geometric-lemma", "thm-artin-reciprocity",
@@ -19,6 +19,6 @@ Hecke eigenvalues of $g$, and corestrict along $\Q(\mu_{l^r})$. The
 distribution relations of Siegel units give norm compatibility, and
 integrality comes from the choice of $c, d$. The Euler system relations at
 primes $w \equiv 1 \bmod l^n$ come from the same distribution relations,
-with [Chebotarev's theorem](@thm-chebotarev-degree-one-frobenius) to choose the primes. The many published
+with [Chebotarev's theorem](@thm-chebotarev-degree-one) to choose the primes. The many published
 inputs enter through the Galois representations attached to $g$ and their
 local properties. *We read* this outline from the statements of the steps.

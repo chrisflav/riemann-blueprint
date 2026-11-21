@@ -4,7 +4,7 @@ title = "Casselman–Wallach globalisation"
 provenance = "modified"
 source = "special case of Casselman [casselman-1989]; Wallach [wallach-1992]"
 lean  = ["GlobalTheory.Published.CasselmanWallach", "PositivityTheory.CWB.casselmanWallach"]
-order = 1
+order = 5
 +++
 Let $G = \U(p,q)$, $\sigma$ an irreducible unitary representation of $G$ on
 $H$, and $E$ a smooth Fréchet representation of $G$ of moderate growth.

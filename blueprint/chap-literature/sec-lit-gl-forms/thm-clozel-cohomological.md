@@ -4,7 +4,7 @@ title = "Regular algebraic cuspidal representations are cohomological"
 provenance = "published"
 source = "Clozel [clozel-1990]"
 lean  = ["GlobalTheory.Published.ClozelCohomological", "PositivityTheory.Rg.Cz.clozelCohomological"]
-order = 12
+order = 9
 +++
 Let $E$ be a totally complex number field, $a \ge 1$, and $\pi$ a cuspidal
 automorphic representation of $\GL_a(\A_E)$ that is regular algebraic: at

@@ -4,7 +4,7 @@ title = "K-finite vectors of irreducible unitary representations"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.KFinLinkPort.kFiniteVectors_irreducibleUnitary_unitaryGroupPQ", "GlobalTheory.Published.KFiniteVectorsUnitary"]
-order = 2
+order = 1
 +++
 Let $G = \U(p,q)$ and $K = \U(p)\times\U(q)$, and let $\sigma$ be an
 irreducible unitary representation of $G$ on a non-zero Hilbert space $H$.

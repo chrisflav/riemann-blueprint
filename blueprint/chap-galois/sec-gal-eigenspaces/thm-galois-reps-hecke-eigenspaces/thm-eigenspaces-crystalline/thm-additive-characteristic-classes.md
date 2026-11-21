@@ -6,7 +6,7 @@ lean  = ["GlobalTheory.EtC.D2", "LateralTheory.E.EtaleChapterDTwo", "LateralTheo
          "UpperTheory.Et.D2.a0", "UpperTheory.Et.D2.intersectionNumber_baseChange",
          "UpperTheory.Et.etale_duality_trace_isomorphism"]
 uses  = ["thm-projective-bundle-formula"]
-order = 2
+order = 1
 +++
 For $q \ge 1$ and $k > 0$ there are classes $s_k(V) \in H^{2k}(X, \Z/q(k))$ for
 vector bundles $V$ on spaces $X$ where $q$ is invertible, such that

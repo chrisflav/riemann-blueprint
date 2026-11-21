@@ -4,8 +4,8 @@ title = "The results on Hilbert modular forms used"
 lean  = ["UpperTheory.V.HV.DescentVanishingReductions.published_hypotheses_from_patching_alt"]
 order = 1
 +++
-The proof of the Tate–Shafarevich bound ([thm-sha-bound]
-and the results refining it) uses together these facts on automorphic forms
+The proof of the Tate–Shafarevich bound ([thm-sha-bound]), in the sections
+on second cohomology, Kato's Euler system and symplectic lifts, uses together these facts on automorphic forms
 over totally real and CM fields: regular algebraic cuspidal representations
 over CM fields are cohomological and stable under $\mathrm{Aut}(\C)$
 ([Clozel](@thm-clozel-cohomological)), and few at each level (Borel); regular

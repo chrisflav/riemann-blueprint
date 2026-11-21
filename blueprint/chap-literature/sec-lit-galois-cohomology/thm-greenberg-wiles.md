@@ -4,7 +4,7 @@ title = "The Greenberg–Wiles formula"
 provenance = "published"
 source = "Greenberg; Wiles [wiles-1995]; see Darmon–Diamond–Taylor [darmon-1997]"
 lean  = ["ReciprocityTheory.Gal.GreenbergWiles", "UpperTheory.Lit.greenbergWiles"]
-order = 11
+order = 8
 +++
 Let $F$ be a number field, $l$ an odd prime, $S$ a finite set of finite
 places containing those above $l$, $M$ a finite $\Z/l^r$-module with a

@@ -6,7 +6,7 @@ lean  = ["GlobalTheory.HTCount.count", "GlobalTheory.HTCount.ksDim_at_point", "G
          "GlobalTheory.T.harrisTaylor_firstOrder_deformations_basis_count",
          "GlobalTheory.T.harrisTaylor_kodairaSpencer_directions_dim",
          "GlobalTheory.T.harrisTaylor_rho_part_deformation_dim"]
-order = 2
+order = 1
 +++
 Let $A_0$ be an abelian variety with $\mathcal O_D$-action, polarisation and level
 structure, of the type of [thm-unitary-shimura-integral-models], over an algebraically closed field

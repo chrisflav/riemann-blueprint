@@ -4,7 +4,7 @@ title = "Cuspidal characters of GL(d) over a finite field"
 provenance = "published"
 source = "Green [green-1955]"
 lean  = ["GlobalTheory.Published.GreenRegularCharacters", "PositivityTheory.Stage1.PM.greenRegularCharacters"]
-order = 8
+order = 6
 +++
 Let $g$ be a prime, $d \ge 1$ and $\mathbb F_{g^d}$ the field with $g^d$
 elements. To each character $\theta$ of $\mathbb F_{g^d}^\times$ there is a

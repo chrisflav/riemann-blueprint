@@ -4,7 +4,7 @@ title = "Archimedean Howe duality for the trivial representation"
 provenance = "modified"
 source = "special case of Howe [howe-1989b]"
 lean  = ["GlobalTheory.Published.HoweDualityReal", "GlobalTheory.howeDualityReal_holds"]
-order = 11
+order = 8
 +++
 Let $X$ be a hermitian and $W$ a skew-hermitian space over $E$, with a
 Weil representation $\omega$ as in [thm-weil-representation-unitary-exists], and let

@@ -5,7 +5,7 @@ title = "From depth three to depth four"
 provenance = "new"
 lean  = ["GlobalTheory.Mem.SRe.UpS.has4_of_has3_of_sExt_none", "GlobalTheory.T.has4_of_has3_of_lv3Mv"]
 uses = ["def-local-parameters"]
-order = 2
+order = 4
 +++
 Let $p$ be construction data from a system of local parameters
 ([def-local-parameters]), with no extra condition at the spectral step, for

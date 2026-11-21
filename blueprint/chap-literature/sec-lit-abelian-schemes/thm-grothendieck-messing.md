@@ -3,7 +3,8 @@ kind  = "theorem"
 title = "Grothendieck–Messing deformation theory of abelian schemes"
 provenance = "published"
 source = "Messing [messing-1972]; Mazur–Messing [mazur-messing-1974]"
-lean  = ["GlobalTheory.Published.GrothendieckDeformation", "GlobalTheory.Published.grothendieckDeformation_of_lifting"]
+lean  = ["GlobalTheory.Published.GrothendieckDeformation", "GlobalTheory.Published.grothendieckDeformation_of_lifting",
+         "GlobalTheory.Published.GrothendieckDeformation.grothendieckMessing", "GlobalTheory.Published.GrothendieckMessing"]
 order = 9
 +++
 Let $R$ be a ring, $I \subseteq R$ an ideal with nilpotent divided powers,
@@ -19,4 +20,5 @@ and $R_0 = R/I$. For abelian schemes over $R_0$ and their lifts to $R$:
 
 It is stated without the hypothesis that a prime be
 nilpotent in $R$, as in Mazur–Messing's treatment through the universal
-vector extension.
+vector extension. The case in which a prime $p$ is nilpotent in $R$ is
+Grothendieck–Messing's original theorem; the proof also uses it in that form.

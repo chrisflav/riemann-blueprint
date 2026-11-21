@@ -4,7 +4,7 @@ title = "Harish-Chandra's exhaustion of the discrete series"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1966]; Schmid [schmid-1975]"
 lean  = ["CompanionTheory.RgExh.dsExhaust", "GlobalTheory.Dec.DSExhaust"]
-order = 8
+order = 9
 +++
 Let $\U(\varepsilon)$ be the unitary group of the diagonal form with signs
 $\varepsilon \in \{\pm 1\}^n$. Every irreducible square-integrable unitary

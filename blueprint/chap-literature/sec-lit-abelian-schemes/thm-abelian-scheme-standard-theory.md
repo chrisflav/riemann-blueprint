@@ -9,7 +9,7 @@ lean  = ["GlobalTheory.Published.CubeTheorem", "GlobalTheory.CubeTop.cubeTheorem
          "ReciprocityTheory.ChartRestriction.G.Out.Laws", "ReciprocityTheory.ChartRestriction.G.Out.Laws2",
          "GlobalTheory.abelianSchemeLaws_all", "GlobalTheory.T.abelianScheme_laws_unconditional",
          "GlobalTheory.Published.KernelFiniteFlatSt", "GlobalTheory.kernelFiniteFlat_holds"]
-order = 2
+order = 1
 +++
 Let $S$ be a locally noetherian scheme and $A \to S$ an abelian scheme of
 relative dimension $g$.
@@ -26,8 +26,9 @@ relative dimension $g$.
 * (Multiplication by $n$.) For $n \ge 1$, multiplication by $n$ is finite, flat
   and surjective, and étale when $n$ is invertible on $S$.
 
-Suppose now that $A$ carries a principal polarisation, given by a line bundle
-$L$ as in the introduction to this section. Then moreover:
+Suppose now that $A$ is principally polarised: it carries a rigidified,
+symmetric, relatively ample line bundle $L$ whose group $K(L)$ is trivial.
+Then moreover:
 
 * $[n]^*L \cong L^{n^2}$, and $t_{x+y}^*L \otimes L \cong t_x^*L \otimes t_y^*L$
   locally on the base, for points $x, y$ (theorem of the square);

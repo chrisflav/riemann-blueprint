@@ -5,7 +5,7 @@ provenance = "published"
 source = "Appell, Humbert, Riemann; see Mumford [mumford-1970]"
 lean  = ["ReciprocityTheory.ChartRestriction.G.Geo.Tor.ThetaUnifAV", "GlobalTheory.thetaUnifAV_all",
          "GlobalTheory.thetaUnifAV_of_laws"]
-order = 7
+order = 6
 +++
 Let $A$ be a principally polarised abelian variety of dimension $g$ over $\C$,
 with polarisation $L$ rigidified at the origin. Then there are a lattice

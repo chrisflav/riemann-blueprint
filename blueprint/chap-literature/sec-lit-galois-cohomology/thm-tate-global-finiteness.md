@@ -4,7 +4,7 @@ title = "Finiteness of Galois cohomology with restricted ramification"
 provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["PositivityTheory.Lit1.GF.globalFiniteness", "ReciprocityTheory.Gal.GlobalFiniteness"]
-order = 4
+order = 5
 +++
 Let $F$ be a number field, $l$ a prime, $S$ a finite set of finite places
 containing those above $l$, $G_S$ the Galois group of the maximal extension

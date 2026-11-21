@@ -4,7 +4,7 @@ title = "Flath's tensor product theorem"
 provenance = "published"
 source = "Flath [flath-1979]"
 lean  = ["CompanionTheory.Rg.Fl.B.flathTensorProduct", "GlobalTheory.Published.FlathTensorProduct"]
-order = 6
+order = 5
 +++
 Let $E/F$ be a CM extension, $V$ a non-degenerate hermitian space over $E$
 and $G = \U(V)$. Every irreducible unitary representation $\pi$ of

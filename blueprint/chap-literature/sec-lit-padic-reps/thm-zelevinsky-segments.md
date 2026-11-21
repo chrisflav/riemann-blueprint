@@ -12,7 +12,7 @@ lean  = ["GlobalTheory.Published.EssSquareIntegrableSegments", "GlobalTheory.Pub
          "UpperTheory.Zero.LLC.Pr.cos",
          "UpperTheory.Zero.LLC.Pr.multi"]
 uses = ["def-local-parameters"]
-order = 8
+order = 7
 +++
 Let $F$ be a non-archimedean local field of characteristic zero. A *segment*
 is a set $\Delta = \{\rho, \rho\nu, \dots, \rho\nu^{l-1}\}$ with $\rho$ an

@@ -4,4 +4,11 @@ kind  = "section"
 title = "Rational test vectors"
 order = 4
 +++
-TODO-INTRO Test vectors for twisted theta lifts take values in a number field up to one constant and roots of unity: each grid step preserves cusp forms, and unfolding the twisted theta integral at real points compares twisted and base vacua.
+The slope bound of [sec-theta-witt] needs theta lifts with algebraic
+values. [thm-rational-test-vectors-theta] shows that test vectors for the
+twisted theta lifts take values in the field of the family, up to one
+constant and roots of unity. The proof checks that each step of the grid of
+lifts sends cusp forms to cusp forms ([lem-grid-steps-preserve-cusp-forms]),
+unfolds the twisted theta integral into a finite sum of periods over a
+definite unitary group ([lem-twisted-theta-unfolding]), and compares the
+twisted vacuum vectors with the base ones at real points.

@@ -4,7 +4,7 @@ title = "Existence of the intermediate constructions"
 provenance = "new"
 lean  = ["GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt", "GlobalTheory.T.all_stages_at_member_of_specializations_alt"]
 uses = ["def-local-parameters"]
-order = 5
+order = 2
 +++
 Let $\rec$ be a system of local parameters ([def-local-parameters]) that
 satisfies an archimedean comparison and a statement on points. Then from

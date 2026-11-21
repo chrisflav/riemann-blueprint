@@ -2,7 +2,7 @@
 kind  = "remark"
 title = "The local representation theory used"
 lean  = ["GlobalTheory.Mem.LiteralAutomorphy.LocalRepresentationTheoryHypothesesAlt"]
-order = 1
+order = 16
 +++
 The local results about $\GL_n$ of a $p$-adic field are used together in
 the non-endoscopic case ([def-non-endoscopic-package]) and in checking the

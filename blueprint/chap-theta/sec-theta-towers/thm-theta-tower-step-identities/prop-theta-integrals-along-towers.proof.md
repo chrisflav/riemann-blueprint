@@ -1,0 +1,11 @@
++++
+kind = "proof"
+of   = "prop-theta-integrals-along-towers"
+uses = ["lem-theta-constant-term-big-cone", "thm-hasse-norm-quadratic", "thm-bernstein-unitary-product", "thm-bz-finiteness", "thm-borel-casselman", "thm-casselman-wallach", "thm-cm-j-hilbert-class-field", "thm-cusp-bounded-unitary", "thm-cusp-uniform-decay", "thm-cusp-decay-sobolev", "thm-cusp-rapid-decay", "thm-cusp-trace-class", "thm-gelfand-cuspidal-mirabolic", "thm-cuspidal-spectrum-gl", "thm-discrete-series-parametrisation", "thm-discrete-series-exist-cover", "thm-discrete-series-frame-independent", "thm-discrete-series-lowest-k-type", "thm-discrete-series-exist-upq", "thm-dixmier-malliavin", "thm-flath-unramified", "thm-formal-degree-upq", "thm-geometric-lemma-filtration", "thm-hc-infinitesimal-equivalence", "thm-howe-duality-gl-gl", "thm-green-parametrisation", "thm-hc-finiteness-unitary", "thm-hc-modules-unitary", "thm-hecke-l-entire", "thm-hecke-l-nonvanishing-line-one", "thm-hecke-functional-equation-cm", "thm-hermitian-hasse-principle", "thm-landherr-hermitian-forms", "thm-holomorphic-discrete-series", "thm-howe-duality-archimedean-trivial", "thm-singular-moduli-class-number", "thm-jacquet-shalika", "thm-hc-k-finite-vectors", "thm-linnik", "thm-log-derivative-at-one", "thm-quadratic-class-field-theory", "thm-radford-shuffle", "thm-rallis-inner-product", "thm-oscillator-lie-action", "thm-godement-schur-orthogonality", "thm-reduction-theory-unitary", "thm-stone-von-neumann", "thm-strong-approximation-su", "thm-theta-rational-invariance", "thm-unramified-doubling-gl", "thm-weil-representation-unitary-exists", "thm-weyl-branching", "thm-kudla-splitting", "thm-siegel-weil-weil-range"]
++++
+Most statements are proved directly from the Weil representation and its
+models, which come from Kudla's splitting ([thm-kudla-splitting]); the
+convergence of theta integrals is Weil's ([thm-siegel-weil-weil-range]). The
+constant term on the big cone is [lem-theta-constant-term-big-cone]. Hasse's
+norm theorem ([thm-hasse-norm-quadratic]) is used for the local–global
+principle of hermitian forms ([thm-hermitian-hasse-principle]).

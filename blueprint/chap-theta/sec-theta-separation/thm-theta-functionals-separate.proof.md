@@ -3,10 +3,9 @@ kind = "proof"
 of   = "thm-theta-functionals-separate"
 uses = ["thm-discrete-series-branching-coefficients", "thm-siegel-weil-convergent-doubling",
         "thm-bessel-period-ascent", "thm-casselman-wallach", "thm-cusp-rapid-decay",
-        "thm-discrete-series-parametrisation", "thm-discrete-series-exist",
-        "thm-discrete-series-exist-upq", "thm-doubling-method", "thm-hc-finiteness-unitary",
+        "thm-discrete-series-parametrisation", "thm-discrete-series-exist-upq", "thm-doubling-method", "thm-hc-finiteness-unitary",
         "thm-hc-modules-unitary", "thm-hasse-norm-quadratic", "thm-unramified-doubling-gl",
-        "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range",
+        "thm-weil-representation-unitary-exists", "thm-siegel-weil-weil-range",
         "thm-unitary-quotient-finite-volume"]
 +++
 Build models of the Weil representations for the separating data, extend the

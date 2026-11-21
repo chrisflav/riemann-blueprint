@@ -4,7 +4,7 @@ title = "The local Weil representation of a split unitary group"
 provenance = "published"
 source = "Kudla [kudla-1994]"
 lean  = ["GlobalTheory.Published.KudlaSplittingSplitUnitary", "GlobalTheory.kudlaSplittingSplitUnitary"]
-order = 5
+order = 2
 +++
 Let $F$ be a non-archimedean local field of characteristic zero, $E/F$ a
 quadratic extension, $Q$ a hermitian form on $E^\alpha$, $\psi$ a non-trivial

@@ -6,7 +6,7 @@ source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.GeometricLemmaFiltration", "GlobalTheory.geometricLemmaFiltration_holds",
          "CompanionTheory.Geo.geometricLemmaFiltration",
          "GlobalTheory.geometricLemmaFiltration_unconditional"]
-order = 6
+order = 4
 +++
 Let $F$ be a non-archimedean local field, and let $P = MN$ and $P' = M'N'$ be
 standard parabolic subgroups of $\GL_n(F)$. There is a finite list of

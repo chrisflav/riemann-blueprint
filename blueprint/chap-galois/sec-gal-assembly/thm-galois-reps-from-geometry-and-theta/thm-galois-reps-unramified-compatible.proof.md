@@ -2,7 +2,7 @@
 kind = "proof"
 of   = "thm-galois-reps-unramified-compatible"
 uses = ["thm-hecke-character-wd-above-l", "thm-hc-finiteness-gl", "thm-labesse-base-change",
-        "thm-bz-finiteness", "thm-borel-casselman", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one",
+        "thm-bz-finiteness", "thm-borel-casselman", "thm-chebotarev-degree-one",
         "thm-chevalley-congruence-units", "thm-twisted-trace-lowest-type", "thm-cusp-bounded-gl", "thm-multiplicity-one-gl",
         "thm-cuspidal-spectrum-gl", "thm-p-adic-monodromy", "thm-zelevinsky-segments",
         "thm-fontaine-bcris", "thm-hecke-bound-base-change", "thm-gelfand-kazhdan", "thm-tadic-generic-unitary-dual",

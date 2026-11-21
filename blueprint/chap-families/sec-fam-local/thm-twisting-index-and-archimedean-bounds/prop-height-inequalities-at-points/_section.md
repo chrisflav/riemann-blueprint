@@ -6,7 +6,7 @@ provenance = "new"
 lean  = ["GlobalTheory.FinalJoin.runHolds_of_parOK",
          "GlobalTheory.InputsAtRecord.inputsNet_recPlus",
          "GlobalTheory.T.exists_indexBoundHypothesesWithNet_allValuedPoints"]
-order = 2
+order = 1
 +++
 There is a threshold function $x_0(C_A, C_K)$ with the following property.
 Take a point of a family and a prime $p$, and suppose that the local data at

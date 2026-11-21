@@ -3,7 +3,7 @@ kind  = "lemma"
 title = "Minimal compactification and boundary separation for unitary varieties"
 provenance = "new"
 lean  = ["GlobalTheory.T.unitaryToroidalSeparation_of_base", "GlobalTheory.UChart.UStB", "GlobalTheory.UPoincTop.uPoinStX_sep", "GlobalTheory.UPoincTop.uStB"]
-order = 3
+order = 1
 +++
 In the situation of [thm-toroidal-compactification-unitary] there are:
 

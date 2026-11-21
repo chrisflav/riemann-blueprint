@@ -4,7 +4,7 @@ title = "A de Rham representation has as many Hodge–Tate weights as its dimens
 provenance = "published"
 source = "classical; see Fontaine [fontaine-1994b]"
 lean  = ["GlobalTheory.HeightCounting.HtCard", "GlobalTheory.HtCardProof.htCard"]
-order = 3
+order = 2
 +++
 Let $r : G_E \to \GL_a(\Qlbar)$ be a continuous representation of the Galois
 group of a CM field $E$, $w$ a place above

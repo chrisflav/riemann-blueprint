@@ -4,7 +4,7 @@ title = "The l-adic character at the places above l"
 provenance = "published"
 source = "classical; see Serre [serre-1968]"
 lean  = ["GlobalTheory.HeckeAboveBridge.heckeLAdicCharacterAbove_of_potSemistable", "GlobalTheory.Published.HeckeLAdicCharacterAbove"]
-order = 4
+order = 5
 +++
 Let $\chi$ be an algebraic Hecke character of $E$ of type $n$ and $w$ a
 place above $l$. Then $r_{\chi,\iota}|_{G_{E_w}}$ is de Rham with Hodge–Tate

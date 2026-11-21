@@ -3,7 +3,7 @@ kind  = "proposition"
 title = "Theta integrals along theta towers"
 provenance = "new"
 lean  = ["GlobalTheory.ThK.ctBigCone", "PositivityTheory.ThKG.Leaves"]
-order = 1
+order = 2
 +++
 Let $E/F$ be a CM extension and consider theta towers of unitary dual pairs
 $\U(V) \times \U(W)$ with $W$ of dimension $b + 2$ over $W_1$ of dimension $b$.

@@ -2,7 +2,7 @@
 kind  = "remark"
 title = "The published results used in the non-endoscopic case"
 lean  = ["GlobalTheory.Mem.LiteralAutomorphy.NonEndoscopicHypothesesAlt"]
-order = 2
+order = 12
 +++
 The non-endoscopic case of the argument
 ([prop-member-hypotheses-from-literature]) uses five groups of results

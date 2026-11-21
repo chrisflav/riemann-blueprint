@@ -4,7 +4,7 @@ title = "Crystalline lattices and prismatic F-crystals"
 provenance = "published"
 source = "Bhatt–Scholze [bhatt-scholze-2023]"
 lean  = ["GlobalTheory.BSP.bhattScholzeIntegral", "GlobalTheory.Published.BhattScholzeIntegral"]
-order = 5
+order = 4
 +++
 Let $K/\Q_l$ be a finite extension and $A_{\mathrm{inf}}$ Fontaine's ring,
 viewed as a prism over $\mathcal O_K$. Then:

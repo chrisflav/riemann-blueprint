@@ -21,12 +21,16 @@ we have found. They are where a careful reader should look first.
   algebraic space.
 
 *Steps with internal hypotheses.* Some steps take as hypotheses results
-proved elsewhere in the argument, for example statements about $L$-values
-on the indefinite side ([thm-indefinite-slope-bound]), the non-vanishing of
-Hecke $L$-values along Witt towers ([thm-witt-tower-square-ratios]), and the
-equality of multiplicities on inner forms
-([thm-inner-form-multiplicities-equal]). A reader should check that each is
-discharged where the argument says it is.
+proved elsewhere in the argument. The slope bound on the indefinite side
+([thm-indefinite-slope-bound]) uses five statements on $L$-values, gathered
+in [thm-non-endoscopic-hypotheses-hold]. The ratios of square constants
+along a Witt tower ([thm-witt-tower-square-ratios]) assume that certain
+Hecke $L$-values do not vanish, which the estimates for square terms
+([thm-square-term-estimates]) are to supply. The construction of the family
+members ([thm-family-membership-admissible-data]) assumes that cuspidal
+multiplicities agree on inner forms, which
+[thm-inner-form-multiplicities-equal] proves. A reader should check that
+each is discharged where the argument says it is.
 
 *The auxiliary fields.* The bound $|L'/L(1,\chi)| \le C\log x$ for the
 characters of the auxiliary fields is not easy for real characters. The
@@ -50,7 +54,7 @@ outside a small exceptional set found by a mean-square estimate
   Gelfand–Kazhdan) are proved over totally complex fields
   ([thm-jacquet-shalika]).
 
-Each of these may be all the argument needs. Several nodes also collect
-other results under one name ([def-non-endoscopic-package],
-[def-automorphic-galois-inputs]), and one of them is the trivially true
-statement ([def-trivial-statement]).
+Each of these may be all the argument needs. Two nodes collect other
+results under one name ([def-non-endoscopic-package],
+[def-automorphic-galois-inputs]), and one entry in the list of published
+results is the statement "true" ([def-trivial-statement]).

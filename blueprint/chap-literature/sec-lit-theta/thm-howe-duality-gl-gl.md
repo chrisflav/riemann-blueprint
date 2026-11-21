@@ -4,7 +4,7 @@ title = "Howe duality for (GL_n, GL_n') on polynomials"
 provenance = "published"
 source = "Howe [howe-1989a]"
 lean  = ["GlobalTheory.Published.GLHoweDuality", "PositivityTheory.Stage1.PM.gLHoweDuality"]
-order = 10
+order = 7
 +++
 Let $n, n' \ge 1$ and let $\GL_n(\C) \times \GL_{n'}(\C)$ act on the
 polynomial functions on $n' \times n$ matrices. Then

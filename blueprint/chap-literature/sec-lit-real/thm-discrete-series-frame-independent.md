@@ -3,7 +3,7 @@ kind  = "theorem"
 title = "Discrete series of U(J) do not depend on the diagonalisation"
 provenance = "modified"
 lean  = ["GlobalTheory.Published.DiscreteSeriesHermitianUnique", "PositivityTheory.Prw.discreteSeriesHermitianUnique_holds"]
-order = 15
+order = 14
 +++
 Let $J$ be a non-degenerate hermitian $n \times n$ matrix and $P, P'$
 invertible with $P^*J_\varepsilon P = P'^*J_\varepsilon P' = J$, where

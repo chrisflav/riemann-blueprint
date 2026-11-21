@@ -4,7 +4,7 @@ title = "Subbundles of the Lie algebra of a semi-abelian scheme"
 provenance = "published"
 source = "Moret-Bailly [moret-bailly-1985]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Nef.semiAbelianLieSeminegative", "GlobalTheory.Published.SemiAbelianLieSeminegative"]
-order = 16
+order = 15
 +++
 Let $C$ be a smooth projective geometrically connected curve over a field
 of characteristic $0$, and $G$ a semi-abelian scheme over $C$. For every

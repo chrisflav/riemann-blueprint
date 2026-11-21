@@ -6,7 +6,7 @@ source = "Weil [weil-1965]; Kudla–Rallis [kudla-rallis-1988]; Ichino [ichino-2
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd_k", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_k",
          "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_of_ct_k",
          "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_pre_k"]
-order = 5
+order = 6
 +++
 Let $E/F$ be a quadratic extension of number fields, $A$ a hermitian (or
 skew-hermitian) space of dimension $m$ whose signatures $(r, s)$ have

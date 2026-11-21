@@ -4,7 +4,7 @@ title = "Class field theory of quadratic extensions"
 provenance = "published"
 source = "classical; see Cassels–Fröhlich [cassels-frohlich-1967]"
 lean  = ["GlobalTheory.Published.QuadraticClassFieldTheory", "PositivityTheory.Stage1.PM.quadraticClassFieldTheory"]
-order = 4
+order = 8
 +++
 Let $L/K$ be a quadratic extension of number fields. For a completion $K_v$
 let $\eta_v : K_v^\times \to \{\pm1\}$ send $x$ to $1$ exactly when $x$ is a

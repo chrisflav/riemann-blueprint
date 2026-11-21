@@ -5,7 +5,7 @@ uses = ["thm-abelian-variety-torsion-count", "thm-bz-finiteness", "thm-casselman
         "thm-gross-cm-curves", "thm-cusp-decay-sobolev", "thm-cusp-rapid-decay",
         "thm-cusp-trace-class", "thm-hc-discrete-series-classification",
         "thm-discrete-series-parametrisation", "thm-discrete-series-exist-cover",
-        "thm-discrete-series-exist", "thm-discrete-series-exist-upq", "thm-dixmier-malliavin",
+        "thm-discrete-series-exist-upq", "thm-dixmier-malliavin",
         "thm-doubling-method", "thm-harish-chandra-discrete-series",
         "thm-siegel-weil-outside-weil-range", "thm-flath-unramified", "thm-formal-degree-upq",
         "thm-geometric-lemma", "prop-admissible-data-exist", "thm-artin-reciprocity",
@@ -14,23 +14,20 @@ uses = ["thm-abelian-variety-torsion-count", "thm-bz-finiteness", "thm-casselman
         "thm-hecke-l-nonvanishing-line-one", "prop-member-hypotheses-from-literature",
         "thm-landherr-cm", "thm-downward-theta-lift-nonvanishing", "thm-unitary-integral-models",
         "thm-siegel-weil-convergent-doubling", "thm-godement-schur-orthogonality",
-        "thm-semistable-reduction", "thm-siegel-eisenstein-continuation",
+        "thm-semistable-reduction", "thm-eisenstein-continuation-growth",
         "thm-siegel-main-theorem-hermitian", "thm-inner-form-multiplicities-equal",
         "thm-unramified-doubling-gl", "def-trivial-statement", "thm-weber-ray-class-field",
-        "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range",
+        "thm-weil-representation-unitary-exists", "thm-siegel-weil-weil-range",
         "thm-rational-test-vectors-theta", "prop-intermediate-constructions-exist",
         "thm-borel-casselman", "thm-depth-zero-support", "thm-geometric-lemma-filtration",
         "thm-jacquet-irreducible-admissible", "thm-hc-finiteness-gl", "thm-labesse-base-change",
         "thm-bernstein-unitary-product", "thm-galois-reps-csd-above-l",
-        "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one",
+        "thm-chebotarev-degree-one",
         "thm-galois-reps-polarized-cuspidal", "thm-depth-zero-jacquet-injective",
         "thm-zelevinsky-segments", "thm-tadic-generic-unitary-dual", "thm-tate-global-finiteness",
         "thm-greenberg-wiles", "thm-hecke-l-adic-character-above-l",
         "thm-hecke-character-local-parameter-above-l", "thm-jacquet-shalika",
-        "thm-tate-euler-characteristic-global-places", "thm-tate-euler-characteristic-l-adic",
-        "thm-tate-local-finiteness", "thm-tate-local-finiteness-padic",
-        "thm-tate-local-duality-global-places", "thm-tate-local-duality-l-adic",
-        "thm-ray-class-characters-galois", "thm-ray-class-field", "thm-clozel-regular-algebraic",
+        "thm-tate-euler-characteristic-global-places", "thm-tate-local-finiteness", "thm-tate-local-duality-global-places", "thm-ray-class-characters-galois", "thm-ray-class-field", "thm-clozel-regular-algebraic",
         "thm-disjoint-support-product-irreducible", "thm-unramified-annihilators",
         "thm-p-adic-monodromy", "thm-tate-global-euler-characteristic",
         "prop-twisting-property-constructed-points", "lem-membership-two-passes",
@@ -53,7 +50,7 @@ Harish-Chandra's analyticity theorem [thm-hc-analyticity-density], the
 factorisations of Flath [thm-flath-unramified] and of Dixmier–Malliavin
 [thm-dixmier-malliavin], the geometric lemma [thm-geometric-lemma], Green's
 classification [thm-green-parametrisation], Siegel Eisenstein series
-[thm-siegel-eisenstein-continuation], the doubling method
+[thm-eisenstein-continuation-growth], the doubling method
 [thm-doubling-method] and Schur orthogonality
 [thm-godement-schur-orthogonality], together with the rationality of test
 vectors, which we read as [thm-rational-test-vectors-theta].
@@ -82,7 +79,7 @@ depth-three partial constructions for $p_g$ exist.
 
 *Membership.* Constructed points for $p$ have the twisting property by
 [prop-twisting-property-constructed-points], which rests on the Galois
-cohomology of Tate and Greenberg–Wiles ([thm-tate-local-duality-l-adic],
+cohomology of Tate and Greenberg–Wiles ([thm-tate-local-duality-global-places],
 [thm-tate-global-euler-characteristic], [thm-greenberg-wiles]). Depth-three
 partial constructions extend to depth four, for $p$ and for $p_g$, by
 [lem-depth-three-to-four]. Ambient and division data exist for both. Theta
@@ -90,7 +87,7 @@ data with all compatibilities exist by the theory of discrete series
 ([thm-hc-discrete-series-classification],
 [thm-discrete-series-parametrisation], [thm-hc-modules-unitary],
 [thm-casselman-wallach]) and the Weil representation
-[thm-weil-representation-auxiliary-pairs]. Points built for $p_g$ are good
+[thm-weil-representation-unitary-exists]. Points built for $p_g$ are good
 for $p$. Now [lem-membership-two-passes] gives the membership conditions
 for the families built from $p$.
 
@@ -103,7 +100,7 @@ data. The published results used along the way also include Jacquet–Shalika
 [thm-jacquet-shalika], Bernstein–Zelevinsky finiteness [thm-bz-finiteness],
 base change for definite unitary groups [thm-labesse-base-change], purity
 of regular algebraic representations [thm-clozel-regular-algebraic], local
-Tate duality [thm-tate-local-duality-l-adic], the local and global Euler
-characteristic formulas ([thm-tate-euler-characteristic-l-adic],
+Tate duality [thm-tate-local-duality-global-places], the local and global Euler
+characteristic formulas ([thm-tate-euler-characteristic-global-places],
 [thm-tate-global-euler-characteristic]), the Greenberg–Wiles formula
 [thm-greenberg-wiles] and Berger's theorem [thm-p-adic-monodromy].

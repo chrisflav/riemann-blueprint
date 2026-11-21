@@ -4,7 +4,7 @@ title = "Deligne–Ribet congruences"
 provenance = "modified"
 source = "special case of Deligne–Ribet [deligne-ribet-1980]; Cassou-Noguès [cassou-nogues-1979]"
 lean  = ["GlobalTheory.Published.DeligneRibet", "PositivityTheory.PfDR.deligneRibet_holds"]
-order = 4
+order = 5
 +++
 Let $F$ be a totally real field, $l$ a prime, $n \ge 1$, and let
 $\varepsilon$ be a function on ideals prime to $l$ that is constant on the

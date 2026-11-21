@@ -8,7 +8,7 @@ uses = ["thm-discrete-series-bessel-pointwise-bound", "thm-hasse-norm-quadratic"
         "thm-doubling-method", "thm-hc-finiteness-unitary", "thm-hc-modules-unitary",
         "thm-siegel-weil-convergent-doubling", "thm-siegel-main-theorem-hermitian",
         "thm-strong-approximation-su", "thm-unramified-doubling-gl",
-        "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range",
+        "thm-weil-representation-unitary-exists", "thm-siegel-weil-weil-range",
         "prop-period-identity-real-package"]
 +++
 We argue in three steps.
@@ -47,6 +47,6 @@ scale, so it follows.
 
 Along the way the argument uses unramified Howe duality, in this form: in
 the Weil representation of an unramified local dual pair
-([thm-weil-representation-auxiliary-pairs]), the vectors fixed by the
+([thm-weil-representation-unitary-exists]), the vectors fixed by the
 maximal compact subgroup of one group lie in the span of the orbit of the
 vacuum vector under the other group.
