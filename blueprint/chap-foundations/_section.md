@@ -2,6 +2,7 @@
 id    = "chap-foundations"
 kind  = "chapter"
 title = "Common foundations"
+uses  = ["chap-literature"]
 order = 3
 +++
 Results that both halves of the proof of [thm-half-plane] use: the

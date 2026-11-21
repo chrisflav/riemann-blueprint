@@ -2,6 +2,7 @@
 id    = "architecture"
 kind  = "chapter"
 title = "Outline of the proof"
+uses  = ["chap-foundations", "chap-literature"]
 order = 2
 +++
 This chapter proves [thm-half-plane] down to the level at which the

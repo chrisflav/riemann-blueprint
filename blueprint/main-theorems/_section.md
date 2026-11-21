@@ -2,6 +2,7 @@
 id    = "main-theorems"
 kind  = "chapter"
 title = "The main theorems"
+uses  = ["architecture"]
 order = 1
 +++
 We prove the Riemann Hypothesis, and the Generalised Riemann Hypothesis for
