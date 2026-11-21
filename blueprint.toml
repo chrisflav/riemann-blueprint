@@ -15,6 +15,23 @@ descend = ["Main", "Statements", "Supplements", "BuildAid", "CompanionTheory", "
 [site]
 numbering = "nested"
 
+# Provenance: what was known before Alpöge's proof and what is new in it,
+# shown as light fills in the graph and as a badge on each statement.
+[site.provenance]
+attr = "provenance"
+[[site.provenance.values]]
+value = "published"
+label = "Published"
+color = "#e3ecf8"
+[[site.provenance.values]]
+value = "modified"
+label = "Modified from the literature"
+color = "#f7eed6"
+[[site.provenance.values]]
+value = "new"
+label = "New in Alpöge's proof"
+color = "#dff1e3"
+
 # `source` attributes a statement to the literature. It is shown in the
 # statement's heading, as LaTeX shows the optional argument of a theorem:
 # "Theorem 4.2 (Kato's Euler system; Kato [kato-2004, Thm. 12.5])."

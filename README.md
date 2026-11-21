@@ -37,6 +37,12 @@ in its heading, as a paper does: *Theorem 4.2 (Kato's Euler system; Kato
 [Kat04]).* Results new to Alpöge's argument carry no source. The works cited
 are in `blueprint/references/`.
 
+Every statement is also labelled *published*, *modified from the literature*
+or *new in Alpöge's proof* (`provenance` in its front matter, derived from its
+source by `tools/provenance.py`). The graph fills nodes in a light colour per
+label, and its toolbar can hide a label, so hiding the published and modified
+results leaves the new argument.
+
 `blueprint/architecture/rem-points-to-check.md` lists the statements a reader
 should check first.
 
