@@ -3,7 +3,8 @@ id    = "thm-theta-functionals-separate"
 kind  = "theorem"
 title = "Theta functionals separate vectors"
 provenance = "new"
-lean  = ["UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil"]
+lean  = ["UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil",
+         "UpperTheory.Lit.real_functionals_separate_of_hypothesis"]
 order = 110
 +++
 For every $\varepsilon$ and every constant $C_F \ge 6510$ the following

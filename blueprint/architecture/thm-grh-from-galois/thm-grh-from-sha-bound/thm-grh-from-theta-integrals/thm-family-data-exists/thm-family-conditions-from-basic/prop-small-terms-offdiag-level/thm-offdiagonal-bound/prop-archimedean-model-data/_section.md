@@ -3,7 +3,8 @@ id    = "prop-archimedean-model-data"
 kind  = "proposition"
 title = "Archimedean model data exist"
 provenance = "new"
-lean  = ["Formalism.L2.SG.PoincareAmplitudeLowerBounds.CarrierP", "GlobalTheory.CarrierGap.carrierP"]
+lean  = ["Formalism.L2.SG.PoincareAmplitudeLowerBounds.CarrierP",
+         "GlobalTheory.CarrierGap.carrierP", "GlobalTheory.carrierNeedsFromD"]
 order = 1
 +++
 There are constants $C_4 \ge 1$ and $C_{A,0}$ with the following property.

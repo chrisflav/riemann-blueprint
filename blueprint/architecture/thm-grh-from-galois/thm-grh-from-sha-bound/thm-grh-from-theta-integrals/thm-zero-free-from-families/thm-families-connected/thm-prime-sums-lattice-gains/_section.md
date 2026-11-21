@@ -3,7 +3,7 @@ id    = "thm-prime-sums-lattice-gains"
 kind  = "theorem"
 title = "Prime sums are bounded by lattice gains"
 provenance = "new"
-lean  = ["Formalism.L2.G.linkG_concrete5"]
+lean  = ["Formalism.L2.G.linkG_concrete5", "Formalism.L2.G.linkG_concrete_noKer", "Formalism.L2.G.link_of_local_closed"]
 order = 11
 +++
 Let $\mathcal C$ be a class of families ([def-family-data]). Suppose that,

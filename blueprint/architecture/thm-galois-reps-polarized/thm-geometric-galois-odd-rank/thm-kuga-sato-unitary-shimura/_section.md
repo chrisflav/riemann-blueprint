@@ -6,12 +6,6 @@ provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one"]
 order = 11
 +++
-Assume the holomorphic Lefschetz fixed-point formula for finite étale
-correspondences on smooth projective complex varieties: the alternating sum
-over $b$ of the traces of a correspondence on $H^b(Z, \Omega^a)$ equals the sum,
-over its fixed points $y$ (all transversal), of the coefficient of $X^a$ in
-$\det(1 + XA_y)/\det(1 - A_y)$, where $A_y$ is the action on the tangent space.
-
 Let $G$ be a unitary group of odd rank $n$ over a CM field $F$, of signature
 $(1, n-1)$ at one infinite place and $(0, n)$ at the others, attached to a PEL
 datum of the kind used by Harris and Taylor with compact Shimura varieties.

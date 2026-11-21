@@ -13,5 +13,4 @@ representations as in [thm-geometric-galois-odd-rank], and that theta lifts from
 unitary groups do not vanish as in [thm-theta-lift-nonvanishing]. Then
 polarized pairs have Galois representations in the sense of
 [def-galois-reps-polarized], for the system of local parameters of
-[thm-local-parameters-exist]. The proof first gives the conclusion in a slightly
-different form and then converts it.
+[thm-local-parameters-exist].

@@ -3,7 +3,10 @@ id    = "thm-family-sha-error-bound"
 kind  = "theorem"
 title = "The Tate–Shafarevich error bound for the families"
 provenance = "new"
-lean  = ["GlobalTheory.NLink.Final.mainTheorem", "UpperTheory.GalC.final_alt_alt"]
+lean  = ["GlobalTheory.NLink.Final.mainTheorem", "UpperTheory.GalC.final_alt_alt",
+         "UpperTheory.GalC.final_of_alt", "UpperTheory.GalC.linkN_of_boundAtTwoThree_slot",
+         "UpperTheory.GalC.linkN_of_twGood_galoisPreconditions",
+         "UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree"]
 uses = ["def-local-parameters"]
 order = 130
 +++

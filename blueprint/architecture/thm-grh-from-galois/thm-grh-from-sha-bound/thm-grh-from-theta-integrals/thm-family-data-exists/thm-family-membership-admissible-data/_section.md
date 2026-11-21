@@ -3,7 +3,12 @@ id    = "thm-family-membership-admissible-data"
 kind  = "theorem"
 title = "Membership and admissible data for the families"
 provenance = "new"
-lean  = ["GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt", "GlobalTheory.T.large_unramified_exponent_bundles_exist_alt"]
+lean  = ["GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt",
+         "GlobalTheory.T.large_unramified_exponent_bundles_exist_alt",
+         "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt",
+         "GlobalTheory.T.member_exists_baseLattice_alt",
+         "GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt",
+         "GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt"]
 uses  = ["def-local-parameters"]
 order = 10
 +++

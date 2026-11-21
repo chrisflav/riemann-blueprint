@@ -4,7 +4,8 @@ kind  = "theorem"
 title = "Vanishing of Selmer groups from Kato's Euler system"
 provenance = "new"
 lean  = ["UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH",
-         "UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2"]
+         "UpperTheory.V.Z.Kato.WeilSphericalRecords.katoTwoW_of_printsH_of_rT_of_quadBC2",
+         "UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS"]
 order = 11
 +++
 Let $l$ be an odd prime, $\epsilon$

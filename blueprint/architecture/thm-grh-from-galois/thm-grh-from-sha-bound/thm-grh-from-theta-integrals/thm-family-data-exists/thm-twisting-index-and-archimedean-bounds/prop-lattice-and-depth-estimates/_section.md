@@ -3,7 +3,10 @@ id    = "prop-lattice-and-depth-estimates"
 kind  = "proposition"
 title = "Lattice and depth estimates at the points of a family"
 provenance = "new"
-lean  = ["GlobalTheory.BigOn.geoSt_of_pageSt_alt"]
+lean  = ["GlobalTheory.BigOn.geoSt_of_pageSt_alt", "GlobalTheory.BigOn.leafDepth_all_record",
+         "GlobalTheory.RunDepth.leafDepth_all_run",
+         "GlobalTheory.T.depthTable_goodPrimes_of_chartForm",
+         "GlobalTheory.leafDepthGood_of_chartForm"]
 order = 2
 +++
 Suppose that the basic size conditions hold at the points of the families:

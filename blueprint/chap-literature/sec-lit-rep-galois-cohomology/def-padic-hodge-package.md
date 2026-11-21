@@ -5,7 +5,7 @@ lean  = ["GlobalTheory.NLink.Hypotheses₂"]
 order = 7
 +++
 The bounds on Tate–Shafarevich groups at a prime $l$
-([thm-sha-error-from-local-bounds] and the congruence bounds below it) use
+([thm-family-sha-error-bound] and the congruence bounds below it) use
 seven published results together: Fontaine's period ring
 $B_{\mathrm{cris}}$ [thm-fontaine-bcris], global Artin reciprocity
 [thm-artin-reciprocity], the Bloch–Kato local conditions

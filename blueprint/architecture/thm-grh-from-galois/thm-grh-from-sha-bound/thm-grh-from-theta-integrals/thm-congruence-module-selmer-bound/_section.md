@@ -4,7 +4,8 @@ kind  = "theorem"
 title = "Congruence modules are bounded by Selmer data"
 provenance = "new"
 lean  = ["GlobalTheory.SelmerBoundAtPoint.main",
-         "GlobalTheory.T.globalLatticeIndexTheorem_of_lengthBoundAtPlaces"]
+         "GlobalTheory.T.globalLatticeIndexTheorem_of_lengthBoundAtPlaces",
+         "Formalism.MainNotions.N.K.Closed.theorem_n5_from_inputs"]
 uses  = ["def-family-member", "def-congruence-data"]
 order = 12
 +++

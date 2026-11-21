@@ -3,7 +3,8 @@ id    = "thm-unitary-rigid-boundary-charts"
 kind  = "theorem"
 title = "Unitary compactifications with rigid boundary charts"
 provenance = "new"
-lean  = ["GlobalTheory.RigChart.RigidForFan", "GlobalTheory.RigChart.rigidForFan_holds", "GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum"]
+lean  = ["GlobalTheory.RigChart.RigidForFan", "GlobalTheory.RigChart.rigidForFan_holds", "GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum",
+         "GlobalTheory.T.rigidBoundaryChartsForFan_of_unitarySeparation", "GlobalTheory.UChartJoin.rigidForFan_of_uStB"]
 order = 10
 +++
 In the situation of [thm-toroidal-compactification-unitary] there is a compactification

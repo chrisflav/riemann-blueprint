@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-hodge-numbers-eigenspaces"
-uses = ["thm-abelian-variety-torsion-count", "thm-hasse-norm-quadratic", "thm-unitary-shimura-integral-models", "thm-semistable-reduction",
+uses = ["thm-hecke-fixed-points-kuga-sato", "thm-abelian-variety-torsion-count", "thm-hasse-norm-quadratic", "thm-unitary-shimura-integral-models", "thm-semistable-reduction",
         "thm-semi-abelian-theta-models"]
 +++
 For each Hecke correspondence composed with translations, the holomorphic

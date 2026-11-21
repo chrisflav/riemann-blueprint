@@ -3,7 +3,9 @@ id    = "prop-height-inequalities-at-points"
 kind  = "proposition"
 title = "Height inequalities at the points of a family"
 provenance = "new"
-lean  = ["GlobalTheory.FinalJoin.runHolds_of_parOK"]
+lean  = ["GlobalTheory.FinalJoin.runHolds_of_parOK",
+         "GlobalTheory.InputsAtRecord.inputsNet_recPlus",
+         "GlobalTheory.T.exists_indexBoundHypothesesWithNet_allValuedPoints"]
 order = 1
 +++
 There is a threshold function $x_0(C_A, C_K)$ with the following property.

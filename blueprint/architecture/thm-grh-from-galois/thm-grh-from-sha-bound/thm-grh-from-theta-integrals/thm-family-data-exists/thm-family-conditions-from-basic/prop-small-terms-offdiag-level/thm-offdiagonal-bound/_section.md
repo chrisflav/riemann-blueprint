@@ -3,7 +3,12 @@ id    = "thm-offdiagonal-bound"
 kind  = "theorem"
 title = "The off-diagonal bound"
 provenance = "new"
-lean  = ["GlobalTheory.CarrierGap.offDiag"]
+lean  = ["GlobalTheory.CarrierGap.offDiag",
+         "Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_closedP",
+         "Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_rec2P",
+         "Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_rec3P",
+         "Formalism.L2.SG.SpectralTiesReal.theoremS_rec", "Formalism.L2.SG.TheoremS.pbApplied",
+         "Formalism.L2.SG.TheoremSConclusion.theoremS_of_conj"]
 order = 2
 +++
 Let $D$ be a datum at a point of a family, $u \ne u'$ two of its types, $d_u$

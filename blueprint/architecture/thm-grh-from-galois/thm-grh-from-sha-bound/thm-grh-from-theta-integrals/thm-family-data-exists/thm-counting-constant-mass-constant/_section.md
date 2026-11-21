@@ -3,7 +3,7 @@ id    = "thm-counting-constant-mass-constant"
 kind  = "theorem"
 title = "The counting constant equals the mass constant"
 provenance = "new"
-lean  = ["Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed"]
+lean  = ["Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed", "Formalism.L2.SG.Pf.NcAllS.ncTie0All_of"]
 order = 104
 +++
 Let $E/F$ be the CM extension of a family member, with unitary groups of

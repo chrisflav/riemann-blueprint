@@ -12,8 +12,7 @@ a tower of smooth projective varieties with finite étale Hecke
 correspondences, with good reduction, the Eichler–Shimura congruence relation
 and Hodge numbers read off the weight ([thm-kuga-sato-unitary-shimura]). The
 last property rests on the holomorphic Lefschetz fixed-point formula of
-Atiyah and Bott for finite étale correspondences, which the proof supplies as
-a hypothesis and proves separately.
+Atiyah and Bott for finite étale correspondences.
 
 The general results on Hecke eigenspaces in étale cohomology
 ([thm-galois-reps-hecke-eigenspaces]) then give $\rho$: the congruence relation gives the

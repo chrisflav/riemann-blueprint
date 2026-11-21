@@ -3,7 +3,7 @@ kind  = "lemma"
 title = "Energies of cut-off vectors in the archimedean model"
 provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.MA.LemmaEModel", "Formalism.FourierDecayAlt.P.lemma_model"]
-order = 2
+order = 1
 +++
 There are constants $C_2, C_6 > 0$ such that the following holds. Take
 archimedean parameters $(k, r)$ with level data, eigenfunctions $j_\pi$

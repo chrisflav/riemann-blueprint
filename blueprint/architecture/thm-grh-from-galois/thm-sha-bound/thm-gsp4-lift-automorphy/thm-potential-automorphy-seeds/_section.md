@@ -3,7 +3,7 @@ id    = "thm-potential-automorphy-seeds"
 kind  = "theorem"
 title = "Seed points for potential automorphy"
 provenance = "new"
-lean  = ["UpperTheory.V.Z.Bc.seedIIs_alt"]
+lean  = ["UpperTheory.V.Z.Bc.seedIIs_alt", "UpperTheory.V.Z.Bc.seedII_Z_alt"]
 order = 11
 +++
 Let $\bar\rho$ be a residual representation as in [thm-gsp4-lift-automorphy],

@@ -4,7 +4,7 @@ kind  = "theorem"
 title = "Theta lifts from definite unitary groups do not vanish"
 provenance = "modified"
 source = "after Rallis [rallis-1984]; J.-S. Li [li-1992]"
-lean  = ["UpperTheory.TP.TLiftK", "UpperTheory.TP.K.tLiftK"]
+lean  = ["UpperTheory.TP.TLiftK", "UpperTheory.TP.K.tLiftK", "UpperTheory.TP.tools_holds_k"]
 order = 1
 +++
 Let $X$ be the hermitian space of dimension $n$ with Gram matrix $1$, and
@@ -16,6 +16,5 @@ automorphic representation $U'$ of $\U(W)$ with highest weights
 $2\lambda'_k = 2\lambda_k - d - m_W + n + m_X$ whose local components at
 split places are the local theta lifts of those of $U$.
 
-The proof is Rallis' inner product argument, with the inputs of
-[thm-theta-lift-ingredients]. The statement is the form needed here: the
+The statement is the form of the theorems of Rallis and Li needed here: the
 group $\U(X)$ is definite and the weights of $U'$ are explicit.

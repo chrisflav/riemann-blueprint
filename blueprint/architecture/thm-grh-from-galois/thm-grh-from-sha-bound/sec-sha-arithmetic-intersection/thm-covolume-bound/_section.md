@@ -3,7 +3,9 @@ id    = "thm-covolume-bound"
 kind  = "theorem"
 title = "The covolume bound"
 provenance = "new"
-lean  = ["SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt"]
+lean  = ["SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt", "SelfIntersectionVolumeEstimates.topCovolG_alt_alt",
+         "GlobalTheory.CovTop.PublishedHodgeBundleTheorems.toClassicalTheorems", "GlobalTheory.Proportionality.mumfordProportionality_of_goodChernWeil",
+         "GlobalTheory.T.toroidalFlagProportionality_of_goodChernWeil"]
 uses  = ["def-family-data"]
 order = 14
 +++

@@ -4,7 +4,8 @@ kind  = "theorem"
 title = "Toroidal compactification of Siegel moduli schemes"
 provenance = "published"
 source = "Faltings–Chai [faltings-chai-1990]"
-lean  = ["GlobalTheory.Published.SiegelToroidalIntegral", "GlobalTheory.siegelToroidalIntegral_holds", "UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature"]
+lean  = ["GlobalTheory.Published.SiegelToroidalIntegral", "GlobalTheory.siegelToroidalIntegral_holds", "UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature",
+         "GlobalTheory.Published.SiegelToroidalPolCharts", "GlobalTheory.SiegJoin.siegelToroidalPolCharts", "GlobalTheory.T.siegelToroidalCompactification_polarisedCharts"]
 uses  = ["def-local-parameters"]
 order = 13
 +++

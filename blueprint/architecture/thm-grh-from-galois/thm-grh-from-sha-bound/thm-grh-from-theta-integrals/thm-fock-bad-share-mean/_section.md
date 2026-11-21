@@ -3,7 +3,24 @@ id    = "thm-fock-bad-share-mean"
 kind  = "theorem"
 title = "Fock lattices are nearly unimodular on average"
 provenance = "new"
-lean  = ["Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds"]
+lean  = ["Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_lattice",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_splitting",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_splitting_matrix",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_dims",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_finite",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_symmetric_windows",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.integralityFromMetric_of_orthBasisLat",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.integrality_from_metric_of_orthogonality_window",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_nine_open_bounds",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_positive",
+         "Formalism.MainNotions.G.SymmetricFormBlocks.theorem_A_closed_of_eight_open_bounds"]
 order = 10
 +++
 For a lattice $L$ over a discrete valuation ring $\mathcal O$ with a pairing

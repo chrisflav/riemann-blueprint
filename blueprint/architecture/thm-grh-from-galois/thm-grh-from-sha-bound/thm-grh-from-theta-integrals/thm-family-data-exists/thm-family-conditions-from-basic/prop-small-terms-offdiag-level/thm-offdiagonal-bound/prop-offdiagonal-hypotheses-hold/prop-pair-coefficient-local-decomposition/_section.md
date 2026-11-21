@@ -14,4 +14,4 @@ Then all local densities are non-negative, and the coefficient of the pair
 $(u,u')$ decomposes as a sum over terms $\gamma$: each term receives a local
 class at every place, compatible with the unramified data off a finite set,
 and a density. The partner sums and fibre counts of this decomposition
-satisfy the identities needed for [lem-offdiagonal-bound-from-hypotheses].
+satisfy the identities needed for [thm-offdiagonal-bound].

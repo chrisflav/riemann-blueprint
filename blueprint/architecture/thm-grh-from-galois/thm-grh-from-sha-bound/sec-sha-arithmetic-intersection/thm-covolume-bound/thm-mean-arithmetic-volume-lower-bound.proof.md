@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-mean-arithmetic-volume-lower-bound"
-uses = ["thm-abelian-variety-torsion-count", "lem-volume-theorem-inputs", "lem-flag-cover-pullback", "thm-good-towers-from-arakelov-inputs", "lem-absolute-siegel-lemma", "thm-unitary-integral-models", "thm-semistable-reduction", "thm-arithmetic-intersection-theory", "thm-fargues-hodge-tate-sequence", "thm-hilbert-samuel-nef", "thm-poincare-lelong-integrated", "thm-principalisation-relative", "thm-hironaka-resolution", "thm-semi-abelian-hom-extension", "thm-zarhin-trick", "thm-arithmetic-hilbert-samuel-inequalities"]
+uses = ["thm-abelian-variety-torsion-count", "lem-flag-cover-pullback", "thm-good-towers-from-arakelov-inputs", "lem-absolute-siegel-lemma", "thm-unitary-integral-models", "thm-semistable-reduction", "thm-arithmetic-intersection-theory", "thm-fargues-hodge-tate-sequence", "thm-hilbert-samuel-nef", "thm-poincare-lelong-integrated", "thm-principalisation-relative", "thm-hironaka-resolution", "thm-semi-abelian-hom-extension", "thm-zarhin-trick", "thm-arithmetic-hilbert-samuel-inequalities"]
 +++
 Resolution and principalisation ([thm-hironaka-resolution],
 [thm-principalisation-relative]) and the inverse Poincaré–Lelong formula
@@ -14,7 +14,7 @@ inequalities and Moriwaki's theorem
 ([thm-fargues-hodge-tate-sequence]), Zarhin's theorem ([thm-zarhin-trick]),
 Riemann–Roch for nef bundles ([thm-hilbert-samuel-nef]) and extension of
 homomorphisms of semi-abelian schemes ([thm-semi-abelian-hom-extension]), with
-[lem-volume-theorem-inputs], [lem-absolute-siegel-lemma], the integral models
+[lem-absolute-siegel-lemma], the integral models
 of [thm-unitary-integral-models] and covers of flag type
 ([lem-flag-cover-pullback]). The mean slope bound of the volume theorem,
 pulled back from the tower to $X$, is the claim.
