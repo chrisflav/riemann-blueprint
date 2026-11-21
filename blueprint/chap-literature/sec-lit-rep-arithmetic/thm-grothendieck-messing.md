@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory of abelian schemes"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation", "GlobalTheory.Published.grothendieckDeformation_of_lifting"]
-uses  = ["thm-de-rham-abelian-schemes", "thm-abelian-scheme-lifting-divided-powers"]
 order = 3
 +++
 Let $R$ be a ring, $I \subseteq R$ an ideal with nilpotent divided powers,
@@ -19,6 +18,4 @@ and $R_0 = R/I$. For abelian schemes over $R_0$ and their lifts to $R$:
 This is Grothendieck–Messing theory (Messing, 1972; Mazur–Messing, 1974)
 for abelian schemes. It is stated without the hypothesis that a prime be
 nilpotent in $R$, as in Mazur–Messing's treatment through the universal
-vector extension. It is deduced from the de Rham comparison for abelian
-schemes [thm-de-rham-abelian-schemes] and the lifting of abelian schemes and their
-homomorphisms over nilpotent divided-power thickenings [thm-abelian-scheme-lifting-divided-powers].
+vector extension.

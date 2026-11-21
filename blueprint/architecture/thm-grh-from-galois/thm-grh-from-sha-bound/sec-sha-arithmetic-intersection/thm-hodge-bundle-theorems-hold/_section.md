@@ -1,11 +1,12 @@
 +++
 id    = "thm-hodge-bundle-theorems-hold"
-kind  = "theorem"
-title = "The published theorems on Hodge bundles hold"
+kind  = "remark"
+title = "The published theorems on Hodge bundles"
 lean  = ["UpperTheory.LiteratureTheorems.published_results_arithmetic"]
-uses  = ["def-local-parameters", "def-hodge-bundle-inputs"]
 order = 13
 +++
-The published theorems on Hodge bundles ([def-hodge-bundle-inputs])
-hold under the hypotheses of [thm-grh-from-sha-bound], in particular for a
-system of local parameters ([def-local-parameters]).
+The height bounds on deep covers ([lem-reference-weights-deep-covers],
+[lem-height-lower-bound-deep-covers]) use together the published results on
+Hodge bundles collected in [def-hodge-bundle-inputs]. Among them are the
+arithmetic Hilbert–Samuel theorem ([thm-arithmetic-hilbert-samuel]) and
+Mumford's theorem on good metrics ([thm-mumford-good-metrics]).

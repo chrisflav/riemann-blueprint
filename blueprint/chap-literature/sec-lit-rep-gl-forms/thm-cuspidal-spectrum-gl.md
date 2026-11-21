@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "The cuspidal spectrum of GL(n) (Gelfand–Graev–Piatetski-Shapiro)"
 lean  = ["GlobalTheory.Published.CuspidalSpectrumGL", "RfCs.cuspidalSpectrumGL"]
-uses  = ["thm-cusp-bounded-gl"]
 order = 3
 +++
 Let $E$ be a totally complex number field and $a \ge 0$.

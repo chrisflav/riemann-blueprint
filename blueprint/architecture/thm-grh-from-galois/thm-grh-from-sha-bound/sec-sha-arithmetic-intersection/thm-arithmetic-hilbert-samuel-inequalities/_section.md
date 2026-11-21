@@ -3,15 +3,11 @@ id    = "thm-arithmetic-hilbert-samuel-inequalities"
 kind  = "theorem"
 title = "Arithmetic Hilbert–Samuel inequalities and Moriwaki's theorem"
 lean  = ["PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain"]
-uses  = ["thm-arithmetic-intersection-theory"]
 order = 10
 +++
-Assume embedded resolution of singularities in projective space over fields
-of characteristic zero, the existence of an arithmetic intersection theory
-(both in [thm-arithmetic-intersection-theory]), and that every arithmetic variety has a Zariski-dense
-set of points of bounded height. Let $X$ be an arithmetic variety of
-dimension $D + 1$ and $\bar L$ a hermitian line bundle on $X$, semipositive,
-nef on the fibres and invariant under complex conjugation. Then:
+Let $X$ be an arithmetic variety of dimension $D + 1$ and $\bar L$ a hermitian
+line bundle on $X$, semipositive, nef on the fibres and invariant under
+complex conjugation. Then:
 
 * (Moriwaki) $\bar L^{D+1} \le \widehat{\mathrm{vol}}(\bar L)$, for $D \ge 1$ and
   for arithmetic curves;

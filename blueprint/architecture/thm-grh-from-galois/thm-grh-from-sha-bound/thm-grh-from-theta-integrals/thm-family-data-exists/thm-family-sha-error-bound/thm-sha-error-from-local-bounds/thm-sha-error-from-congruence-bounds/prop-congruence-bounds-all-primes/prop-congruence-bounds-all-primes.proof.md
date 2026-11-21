@@ -9,7 +9,7 @@ intermediate range is [prop-congruence-bound-intermediate-primes], the large pri
 are [prop-congruence-bound-large-primes], and the primes $q, d$ are
 [prop-congruence-bound-auxiliary-pair]. At $2$ and $3$ the bound is the
 hypothesis; at the other small primes it follows in the same way. The
-lattices come from the theorem of Bhatt and Scholze, and the global index
-theorem for lattices
-([thm-congruence-module-selmer-bound]) assembles the
+lattices come from the theorem of Bhatt and Scholze
+([thm-bhatt-scholze-crystalline-lattices]), and the global index
+theorem for lattices ([thm-congruence-module-selmer-bound]) assembles the
 local lengths.

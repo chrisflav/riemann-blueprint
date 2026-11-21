@@ -3,18 +3,14 @@ id    = "thm-family-membership-admissible-data"
 kind  = "theorem"
 title = "Membership and admissible data for the families"
 lean  = ["GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt", "GlobalTheory.T.large_unramified_exponent_bundles_exist_alt"]
-uses  = ["def-local-parameters", "thm-grh-from-theta-integrals"]
+uses  = ["def-local-parameters"]
 order = 10
 +++
-Assume the published results on unitary groups and theta lifts used in
-[thm-grh-from-theta-integrals], and that test vectors are rational: at the
-real data of the construction, finitely many linear functionals separate the
-space of theta values and take values in the base field on the theta lifts
-of rational vectors. Let $\rec$ be a system of local parameters
-([def-local-parameters]) and $c$ a real number. Let $A$ be a condition on
-twisting data that holds for all sufficiently large auxiliary data (in the
-proof of [thm-family-data-exists], $A$ asks that grids of evaluation points
-of a given size can be completed). Let $p$ be the construction data for the
+Let $\rec$ be a system of local parameters ([def-local-parameters]) and $c$
+a real number. Let $A$ be a condition on twisting data that holds for all
+sufficiently large auxiliary data (in the proof of
+[thm-family-data-exists], $A$ asks that grids of evaluation points of a
+given size can be completed). Let $p$ be the construction data for the
 families obtained from $\rec$ by restricting the auxiliary choices to those
 with origin data for $c$ and imposing $A$. Then:
 

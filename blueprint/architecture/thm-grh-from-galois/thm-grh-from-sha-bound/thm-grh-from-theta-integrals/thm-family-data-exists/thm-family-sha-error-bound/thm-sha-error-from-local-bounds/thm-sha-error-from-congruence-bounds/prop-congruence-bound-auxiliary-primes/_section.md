@@ -3,12 +3,11 @@ id    = "prop-congruence-bound-auxiliary-primes"
 kind  = "proposition"
 title = "Congruence bound at the auxiliary primes"
 lean  = ["GlobalTheory.ExtraFromFacts.main_alt_alt", "GlobalTheory.T.exists_const_tieChi_bound_of_facts"]
-uses  = ["def-padic-hodge-package"]
 order = 1
 +++
-Assume the $l$-adic inputs ([def-padic-hodge-package]). There are constants $C \ge 0$
-and $C_T$ such that every member satisfying the Galois conditions and the
-character conditions at $g_0, g_1$ has the two following properties.
+There are constants $C \ge 0$ and $C_T$ such that every member satisfying
+the Galois conditions and the character conditions at $g_0, g_1$ has the
+two following properties.
 
 * At each local datum at a twisted place with $l \ne g_0, g_1$ there is a
   Hecke-equivariant endomorphism acting by a fixed nonzero integer on the

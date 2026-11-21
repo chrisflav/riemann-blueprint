@@ -3,11 +3,9 @@ id    = "lem-integrable-spectral-setting"
 kind  = "lemma"
 title = "An integrable spectral setting"
 lean  = ["GlobalTheory.Mem.SRe.exists_sPack_integrable_alt", "GlobalTheory.T.local_bessel_uniqueness_holds", "UpperTheory.Lit.exists_spectralData_gap_alt"]
-uses  = ["thm-siegel-main-theorem-hermitian"]
 order = 1
 +++
-Assume the Siegel–Weil formula and finite dimensionality of the spaces of
-forms involved. Let $D$ be a construction with forms $F_u$ for each index
+Let $D$ be a construction with forms $F_u$ for each index
 $u$. Suppose that $D$ satisfies the *gap hypothesis*: the rank $r$ is at
 least $1801$, and consecutive highest weights at each real place differ by
 at least $16r^{19}$. Suppose also that $D$ satisfies the local compatibility

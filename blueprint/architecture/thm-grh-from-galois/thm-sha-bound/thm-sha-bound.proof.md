@@ -1,39 +1,35 @@
 +++
 kind = "proof"
 of   = "thm-sha-bound"
-uses = ["thm-base-change-unitary", "thm-hilbert-modular-inputs", "thm-sha-bound-from-hilbert-inputs"]
+uses = ["thm-hilbert-modular-inputs", "thm-base-change-unitary", "thm-de-rham-abelian-schemes", "thm-p-adic-monodromy", "thm-dual-abelian-scheme", "def-galois-cohomology-inputs", "thm-labesse-base-change", "thm-bloch-kato-local", "thm-borel-casselman", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one", "thm-twisted-trace-lowest-type", "thm-cusp-bounded-gl", "thm-multiplicity-one-gl", "def-local-parameters", "thm-depth-zero-support", "thm-fontaine-bcris", "thm-hecke-bound-base-change", "thm-tadic-generic-unitary-dual", "thm-geometric-lemma-filtration", "thm-tate-global-euler-characteristic", "thm-tate-global-finiteness", "thm-greenberg-wiles", "thm-hasse-norm-quadratic", "thm-hecke-l-adic-character", "thm-hecke-l-adic-character-de-rham", "thm-jacquet-irreducible-admissible", "thm-jacquet-rallis-fundamental-lemma", "thm-jacquet-shalika-strong-mult-one", "thm-kato-selmer-vanishing", "lem-h2-tate-twists-bound", "thm-tate-euler-characteristic-global-places", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-finiteness", "thm-tate-local-finiteness-padic", "thm-tate-local-duality-global-places", "thm-tate-local-duality-l-adic", "thm-poitou-tate", "thm-radford-shuffle", "thm-gsp4-lift-automorphy", "thm-local-parameters-exist", "thm-unramified-annihilators", "thm-wave-kernels-gln-c", "thm-hecke-character-wd-above-l", "thm-hc-finiteness-gl", "thm-bernstein-unitary-product", "thm-bz-finiteness", "thm-brauer-induction-degree-zero", "thm-chevalley-congruence-units", "thm-clozel-cohomological", "thm-clozel-purity", "thm-cusp-rapid-decay", "thm-cuspidal-spectrum-gl", "thm-depth-zero-from-support", "thm-shimura-main-theorem-cm", "thm-zelevinsky-segments", "thm-gelfand-kazhdan", "thm-geometric-lemma", "thm-artin-reciprocity", "thm-green-regular-characters", "thm-grothendieck-messing", "thm-hc-finiteness-unitary", "thm-hecke-l-adic-character-above-l", "thm-hecke-functional-equation-cm", "thm-singular-moduli-class-number", "thm-jacquet-shalika", "thm-henniart-local-converse", "thm-moy-prasad-jacquet", "thm-partial-zeta-functional-equation", "thm-ray-class-field", "thm-siegel-klingen-rationality", "thm-square-integrable-segment", "thm-tempered-products"]
 +++
-The Galois representations, with weak descent, give the standard inputs
-for Hilbert modular forms ([thm-hilbert-modular-inputs]). Weak descent is
-proved elsewhere by a trace formula. From these inputs,
-[thm-sha-bound-from-hilbert-inputs] proves the bound as follows.
+The Galois representations of polarized pairs ([def-galois-reps-polarized]),
+with weak descent from $\GL_n$ to unitary groups, give the results on
+Hilbert modular forms that the proof needs ([thm-hilbert-modular-inputs]).
 
-Split the bound into two parts. We read them as the eigenspaces of complex
-conjugation; the statements do not say so.
+Fix an auxiliary
+pair and a $\psi$-field $E$. By the
+[Poitou–Tate sequence](@thm-poitou-tate), [local Tate duality](@thm-tate-local-duality-l-adic),
+the [local Euler characteristic formula](@thm-tate-euler-characteristic-l-adic) and the
+[Greenberg–Wiles formula](@thm-greenberg-wiles), the length of $Ш^1_l(E, -e)$ is
+bounded by the lengths of the $\chi$-isotypic Selmer groups of
+$\chi \otimes \Z_l(e)$, $\chi$ running over the even characters of
+$\Gal(E/\Q)$, plus the second cohomology of Tate twists, which
+[lem-h2-tate-twists-bound] bounds. With the theorem of Ferrero and Washington this
+gives the polynomial part. The Selmer groups are then bounded case by case
+in $(l, e, \chi)$:
 
-The *first part* grows polynomially in $t$. It comes from a bound
-$\log|H^2(\Z_l(e+1))| \le \exp((2e[L:\Q])^C\log 2D_L)$, the growth of
-Tate–Shafarevich groups in the layers of the cyclotomic $\Z_l$-extension
-(where the theorem of Ferrero and Washington applies), and unramified
-orthogonality.
+* $l$ prime to the fixed bad set and $l - 1 \nmid 2e$: Kato's Euler system
+  ([thm-kato-selmer-vanishing]), together with automorphy of the relevant
+  2-dimensional representations over imaginary quadratic fields;
+* two further cases: automorphy of $\mathrm{GSp}_4$-valued lifts ([thm-gsp4-lift-automorphy]);
+* $l$ in the bad set and $e = 1$: automorphy of 3-dimensional
+  representations over imaginary quadratic fields, through
+  [base change from definite unitary groups](@thm-labesse-base-change);
+* $\chi = 1$ and $l - 1 \mid 2e$: the Selmer group vanishes;
+* the remaining part is bounded through [unramified orthogonality](@thm-unramified-annihilators).
 
-The *second part* is at most $(\mathrm{cond}\cdot t)^C + C\exp(x^{4\varepsilon/5})$.
-It comes from bounds on the $\psi$-isotypic Selmer groups of
-$\psi \otimes \Z_l(e)$, which also use the bound on $H^2$. There are four
-cases:
+Summing over $l$ and $e < t$ gives the bound of [def-sha-bound] with $t = \lfloor x^{401}\rfloor$.
 
-* For $l$ outside an exceptional set and $l - 1 \nmid 2e$, Kato's Euler
-  system: the Bloch–Kato Selmer group of a newform of weight $2e+1$
-  vanishes. This needs automorphy of 2-dimensional representations over
-  imaginary quadratic fields. Kato's Euler system and his explicit
-  reciprocity law are proved here, not assumed.
-* Two cases from automorphy of Galois representations with values in
-  $\mathrm{GSp}_4$.
-* For $l$ in the exceptional set and $e = 1$, an $R = T$ theorem for
-  3-dimensional representations over an imaginary quadratic field. It
-  needs base change from unitary groups ([thm-base-change-unitary]).
-* For $l \ge 5$, $e$ even and $l - 1 \mid 2e$, the components with trivial
-  character vanish.
-
-*We read* the vanishing of the trivial components as the "significant
+*We read* the vanishing for the trivial character as the "significant
 weakening of Vandiver's conjecture" in the announcement.

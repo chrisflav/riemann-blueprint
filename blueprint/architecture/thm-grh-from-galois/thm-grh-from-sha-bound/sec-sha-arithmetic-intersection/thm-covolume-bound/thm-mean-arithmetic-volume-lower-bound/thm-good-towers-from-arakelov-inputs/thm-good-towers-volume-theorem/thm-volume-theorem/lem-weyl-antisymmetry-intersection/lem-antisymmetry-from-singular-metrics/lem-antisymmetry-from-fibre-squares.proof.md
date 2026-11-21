@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "lem-antisymmetry-from-fibre-squares"
-uses = ["thm-abelian-variety-torsion-count", "lem-flag-cover-pullback"]
+uses = ["thm-abelian-variety-torsion-count", "lem-flag-cover-pullback", "thm-arithmetic-intersection-theory", "thm-semi-abelian-hom-extension"]
 +++
 For a simple reflection, the flag bundle is a $\mathbb P^1$-bundle over a
 partial flag bundle, and the square formed by its two projections exchanges

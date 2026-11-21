@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Discrete series with given Harish-Chandra parameter exist"
 lean  = ["CompanionTheory.RgDs.B.discreteSeriesExists", "GlobalTheory.Published.DiscreteSeriesExists"]
-uses  = ["thm-discrete-series-exist-upq"]
 order = 8
 +++
 For every $\U(p,q)$ and every Harish-Chandra parameter $\lambda$, a discrete

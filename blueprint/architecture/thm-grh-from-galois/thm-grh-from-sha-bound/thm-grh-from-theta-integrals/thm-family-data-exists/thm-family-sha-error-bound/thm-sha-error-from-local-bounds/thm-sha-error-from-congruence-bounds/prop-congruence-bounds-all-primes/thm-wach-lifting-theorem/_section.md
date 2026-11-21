@@ -3,12 +3,10 @@ id    = "thm-wach-lifting-theorem"
 kind  = "theorem"
 title = "Local lifting theorem for Wach lattices"
 lean  = ["Formalism.MainNotions.N.Ln03.corollary_local_exists_constant", "Formalism.MainNotions.N.Ln03.local_corollary_of_de_rham", "GlobalTheory.T.theoremE_corollaryA_closing_all_data", "GlobalTheory.ThmECorA.closing"]
-uses  = ["thm-bloch-kato-local", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-duality-l-adic"]
 order = 1
 +++
-Assume the local theory of Bloch and Kato, local Tate duality and the local
-Euler characteristic formula. There is $C_0$ such that for every member the
-following hold at every prime $l$.
+There is $C_0$ such that for every member the following hold at every
+prime $l$.
 
 * (*Lifting theorem*) Let $l \ge 5$, $K/\Q_l$ finite with maximal
   unramified subfield $K_0$, and $F : T_1 \to T_2$ a surjection of

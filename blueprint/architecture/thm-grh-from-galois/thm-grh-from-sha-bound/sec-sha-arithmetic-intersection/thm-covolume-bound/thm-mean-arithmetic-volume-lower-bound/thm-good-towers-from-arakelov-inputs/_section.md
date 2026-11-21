@@ -1,16 +1,13 @@
 +++
 id    = "thm-good-towers-from-arakelov-inputs"
 kind  = "theorem"
-title = "Good towers and the volume theorem from Arakelov inputs"
+title = "Existence of good towers and the volume theorem"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Link.good_tower_volume_theorem_bis", "GlobalTheory.CompanionTheory.Ar.Top.goodTower_volume_of_reduced", "GlobalTheory.T.final_theorem_of_inputs_right"]
-uses  = ["thm-arithmetic-intersection-theory", "thm-semi-abelian-hom-extension", "thm-grh-from-theta-integrals", "thm-zarhin-trick"]
+uses  = ["thm-good-towers-volume-theorem"]
 order = 12
 +++
-Assume the existence of an arithmetic intersection theory and resolution in
-projective space ([thm-arithmetic-intersection-theory]), the arithmetic Hilbert–Samuel inequalities
-and Moriwaki's theorem (among the results [thm-grh-from-theta-integrals]
-assumes), extension of homomorphisms of semi-abelian schemes
-([thm-semi-abelian-hom-extension]), Fargues' Hodge–Tate exact sequence, GAGA for
-sections, lines of large degree, quotients by finite flat group schemes,
-and Zarhin's theorem ([thm-zarhin-trick]). Then good towers exist and the
-volume theorem holds, in the sense of [thm-good-towers-volume-theorem].
+For every CM field $E$ with a unitary Shimura datum of signature $(p, q)$,
+$p, q \ge 1$, and every global integral model $Y$ of the unitary Shimura
+variety as in [thm-good-towers-volume-theorem], good towers of flag bundles
+over $Y$ exist and the volume theorem holds: conclusions 1 and 2 of
+[thm-good-towers-volume-theorem] hold without further hypotheses.

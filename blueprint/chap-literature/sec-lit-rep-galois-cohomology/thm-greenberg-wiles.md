@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "The Greenberg–Wiles formula"
 lean  = ["ReciprocityTheory.Gal.GreenbergWiles", "UpperTheory.Lit.greenbergWiles"]
-uses  = ["thm-tate-global-euler-characteristic", "thm-tate-euler-characteristic-global-places", "thm-tate-local-finiteness", "thm-tate-local-duality-global-places", "thm-poitou-tate"]
 order = 5
 +++
 Let $F$ be a number field, $l$ an odd prime, $S$ a finite set of finite

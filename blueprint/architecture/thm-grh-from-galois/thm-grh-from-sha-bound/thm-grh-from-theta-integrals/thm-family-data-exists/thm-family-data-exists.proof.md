@@ -5,7 +5,11 @@ uses = ["thm-family-membership-admissible-data", "thm-twisting-index-and-archime
         "thm-basic-conditions-from-local-parameters", "thm-family-conditions-from-basic",
         "thm-family-sha-error-bound", "thm-theta-functionals-separate",
         "thm-rational-test-vectors-theta", "thm-indefinite-slope-bound",
-        "thm-inner-form-multiplicities-equal", "thm-downward-theta-lift-nonvanishing"]
+        "thm-inner-form-multiplicities-equal", "thm-downward-theta-lift-nonvanishing",
+        "thm-theta-tower-step-identities", "thm-covolume-bound", "thm-local-parameters-exist",
+        "thm-siegel-weil-definite", "thm-doubling-method", "thm-rallis-inner-product",
+        "thm-labesse-base-change", "thm-clozel-purity", "thm-non-endoscopic-hypotheses-hold",
+        "thm-witt-tower-square-ratios", "thm-square-term-estimates"]
 +++
 We build the families, check a short list of basic conditions, and derive
 the full list of family hypotheses from them.
@@ -29,13 +33,13 @@ the full list of family hypotheses from them.
    take values in a number field, up to one constant and roots of unity
    ([thm-rational-test-vectors-theta]). Downward theta lifts do not vanish
    ([thm-downward-theta-lift-nonvanishing]).
-5. *Slopes on the indefinite side.* [thm-indefinite-slope-bound] proves a
-   slope inequality for the indefinite unitary groups. It takes as
-   hypotheses five arithmetic statements about $L$-values and a lower bound
-   for $L$-values, and a related step takes as hypothesis that certain Hecke
-   $L$-values do not vanish ([thm-witt-tower-square-ratios]). The main
-   theorems carry no hypotheses, so these are proved further up the
-   argument; *it is not clear* where.
+5. *Slopes on the indefinite side.* A slope inequality holds for the
+   indefinite unitary groups ([thm-indefinite-slope-bound]). Its proof uses
+   arithmetic statements about $L$-values from the non-endoscopic case
+   ([thm-non-endoscopic-hypotheses-hold]) and the lower bound on archimedean
+   weights of step 2. A related step needs the non-vanishing of certain
+   Hecke $L$-values, which the estimates for square terms supply
+   ([thm-witt-tower-square-ratios], [thm-square-term-estimates]).
 6. *All conditions.* The basic conditions imply the full list of family
    hypotheses ([thm-family-conditions-from-basic]). The main estimate there
    is an almost-orthogonality bound
@@ -49,5 +53,12 @@ the full list of family hypotheses from them.
    $E_J = 30\,t\,m\,b\,L^2 + 2mb$ at the twisting places. The bound at the
    primes $2$ and $3$ comes from the local parameters.
 
-The covolume bound comes from arithmetic intersection theory
-([thm-covolume-bound]).
+Throughout, the proof uses the step identities of theta towers
+([thm-theta-tower-step-identities]), the covolume bound from arithmetic
+intersection theory ([thm-covolume-bound]), and the local parameters of
+[thm-local-parameters-exist]. It also uses many results on unitary groups
+and theta lifts from [chap-literature], among them the Siegel–Weil formula
+[thm-siegel-weil-definite], the doubling method [thm-doubling-method], the
+Rallis inner product formula [thm-rallis-inner-product], Labesse's base
+change [thm-labesse-base-change] and Clozel's purity theorem
+[thm-clozel-purity].

@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Cusp forms on GL(n) are bounded"
 lean  = ["GlobalTheory.Published.CuspFormsBoundedGL", "UpperTheory.V.Af.cuspSpectrumGL"]
-uses  = ["thm-cuspidal-spectrum-gl"]
 order = 1
 +++
 Let $E$ be a totally complex number field and $a \ge 0$. A smooth cusp form

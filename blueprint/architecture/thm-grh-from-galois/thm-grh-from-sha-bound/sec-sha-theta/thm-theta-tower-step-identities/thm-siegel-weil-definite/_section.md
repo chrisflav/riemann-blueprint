@@ -3,7 +3,6 @@ id    = "thm-siegel-weil-definite"
 kind  = "theorem"
 title = "The Siegel–Weil formula for definite spaces"
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd", "UpperTheory.LiteratureTheorems.siegel_weil_std_of_literature"]
-uses  = ["def-local-parameters"]
 order = 10
 +++
 Let $E/F$ be a CM extension, $A$ a hermitian space of dimension $m \ge 1$ and
@@ -17,5 +16,4 @@ $$E(g, s_0, \Phi) = c \int_{\U(A)(F)\backslash \U(A)(\A)} \theta(g, h; \Phi)\,dh
 for the Haar measure of total volume one.
 
 This is the Siegel–Weil formula of Weil, Kudla–Rallis and Ichino for
-definite spaces. It holds under the hypotheses of [thm-grh-from-sha-bound]
-([def-local-parameters]).
+definite spaces.

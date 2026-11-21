@@ -1,7 +1,7 @@
 +++
 kind = "proof"
 of   = "thm-cusp-trace-class"
-uses = ["thm-cusp-uniform-decay"]
+uses = ["thm-cusp-uniform-decay", "thm-dixmier-malliavin"]
 +++
 By [thm-dixmier-malliavin], $R(f)$ is a finite sum of products
 $R(g_i)R(h_i)$. Each $R(h_i)$ on cusp forms has a kernel bounded by the

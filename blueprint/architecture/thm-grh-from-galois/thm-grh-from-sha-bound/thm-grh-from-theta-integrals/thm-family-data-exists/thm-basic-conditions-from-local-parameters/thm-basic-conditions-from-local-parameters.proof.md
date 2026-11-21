@@ -10,7 +10,7 @@ uses = ["thm-bz-finiteness", "thm-borel-casselman", "thm-casselman-wallach", "th
         "prop-isometric-period-identity", "thm-inner-form-multiplicities-equal",
         "thm-weil-representation-auxiliary-pairs", "prop-defect-condition"]
 +++
-Each of the twelve conditions comes from its own group of published results.
+We take the twelve conditions in groups; each group follows from a few published results.
 
 * Primitivity and decomposition points hold by construction of the data.
 * Compatibility conditions come from the existence of the Weil representation of unitary dual

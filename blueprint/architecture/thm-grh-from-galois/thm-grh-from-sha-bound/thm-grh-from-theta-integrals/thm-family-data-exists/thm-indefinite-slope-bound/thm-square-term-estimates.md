@@ -3,16 +3,9 @@ kind  = "theorem"
 title = "Estimates for the leading square term"
 lean  = ["GlobalTheory.SqTop.square_top_term_joined_estimates",
          "GlobalTheory.T.square_leading_term_bound"]
-uses  = ["thm-howe-duality-archimedean-trivial", "thm-grh-from-theta-integrals"]
 order = 1
 +++
-Assume Howe duality for real unitary dual pairs ([thm-howe-duality-archimedean-trivial]), the
-published results of [thm-grh-from-theta-integrals], the step identities
-of theta towers ([def-theta-tower-step]), the absolute value of the
-functional equation of Hecke $L$-functions, and the arithmetic inputs on
-toric denominators, lattice norm transport, zeta denominators and
-reflection listed in [thm-indefinite-slope-bound]. Then for all
-large scales, at every node $(i, j)$ of the grid and every
+For all large scales, at every node $(i, j)$ of the grid and every
 $1 \le s \le h$ ($h$ half the rank):
 
 * the values $\Lambda(s)$ of the Hecke $L$-functions are nonzero, and their

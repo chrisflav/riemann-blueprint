@@ -3,18 +3,9 @@ id    = "thm-family-conditions-from-basic"
 kind  = "theorem"
 title = "The full list of family conditions from the basic ones"
 lean  = ["GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt"]
-uses  = ["thm-casselman-wallach", "thm-cusp-rapid-decay", "def-local-parameters",
-         "thm-hc-discrete-series-classification", "thm-discrete-series-parametrisation",
-         "thm-artin-reciprocity", "thm-hc-modules-unitary",
-         "thm-siegel-main-theorem-hermitian"]
+uses  = ["def-local-parameters"]
 order = 40
 +++
-Assume global Artin reciprocity, the convergent Siegel–Weil formula for
-unitary groups, the theorems of Harish-Chandra and Casselman–Wallach, the
-classification and covering theorems for discrete series, and rapid decay of
-cusp forms. Assume also the surjectivity statement and the lower bound on
-weights of [thm-twisting-index-and-archimedean-bounds].
-
 Fix a system of local parameters ([def-local-parameters]), construction data
 $p$ for the families, and a condition $\mathcal N$ on classes of families.
 Suppose that at every admissible datum of the families built from $p$, for

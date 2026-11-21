@@ -20,12 +20,13 @@ we have found. They are where a careful reader should look first.
   ([thm-dual-abelian-scheme]); classically it is in general only an
   algebraic space.
 
-*Hypotheses passed up the argument.* Some steps take hypotheses that are
-discharged higher up. Examples are statements about $L$-values on the
-indefinite side ([thm-indefinite-slope-bound]), non-vanishing of Hecke
-$L$-values ([thm-witt-tower-square-ratios]), and equality of multiplicities
-on inner forms ([thm-inner-form-multiplicities-equal]). We have not traced
-each one to the place where it is proved.
+*Steps with internal hypotheses.* Some steps take as hypotheses results
+proved elsewhere in the argument, for example statements about $L$-values
+on the indefinite side ([thm-indefinite-slope-bound]), the non-vanishing of
+Hecke $L$-values along Witt towers ([thm-witt-tower-square-ratios]), and the
+equality of multiplicities on inner forms
+([thm-inner-form-multiplicities-equal]). A reader should check that each is
+discharged where the argument says it is.
 
 *The auxiliary fields.* The bound $|L'/L(1,\chi)| \le C\log x$ for the
 characters of the auxiliary fields is not easy for real characters, and we

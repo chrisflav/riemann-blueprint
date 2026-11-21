@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "The Jacquet–Shalika theorems"
 lean  = ["GlobalTheory.Published.JacquetShalika", "PositivityTheory.AdelicQuotientData.jacquetShalika"]
-uses  = ["thm-jacquet-shalika-strong-mult-one"]
 order = 5
 +++
 Let $E$ be a totally complex number field. Two results of Jacquet and

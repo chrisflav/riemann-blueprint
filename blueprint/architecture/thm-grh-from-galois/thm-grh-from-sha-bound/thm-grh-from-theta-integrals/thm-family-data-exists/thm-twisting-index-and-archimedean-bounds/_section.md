@@ -3,15 +3,13 @@ id    = "thm-twisting-index-and-archimedean-bounds"
 kind  = "theorem"
 title = "Index bounds at the twisting places and a lower bound on archimedean weights"
 lean  = ["GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt", "GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'"]
-uses  = ["thm-labesse-base-change", "thm-bhatt-scholze-coefficients", "thm-casselman-wallach", "thm-chebotarev-degree-one", "thm-clozel-cohomological", "thm-cusp-rapid-decay", "thm-galois-reps-polarized-cuspidal", "def-local-parameters", "thm-discrete-series-parametrisation", "thm-green-parametrisation", "thm-hecke-l-adic-character", "thm-hecke-l-adic-character-above-l", "thm-grh-from-theta-integrals"]
+uses = ["def-local-parameters"]
 order = 20
 +++
-Assume the published results on unitary groups listed in
-[thm-grh-from-theta-integrals] and a system of local parameters
-([def-local-parameters]). Then two estimates hold at the points of the
-families of [def-family-data]: for every small $\varepsilon$, for every
-large enough member of the class, and at every point of it at a large
-enough scale $x$.
+Fix a system of local parameters ([def-local-parameters]). Then two
+estimates hold at the points of the families of [def-family-data] built from
+them: for every small $\varepsilon$, for every large enough member of the
+class, and at every point of it at a large enough scale $x$.
 
 At such a point we have a CM field $K$ of degree $[K:\Q]$, hermitian data on
 a space of dimension $D$ with $\mathcal O_K$-lattices $M_j$ and maps

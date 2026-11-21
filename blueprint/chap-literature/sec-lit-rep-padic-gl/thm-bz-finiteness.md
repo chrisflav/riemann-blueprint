@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Finiteness and duality for parabolic induction (Bernstein–Zelevinsky)"
 lean  = ["GlobalTheory.Published.BernsteinZelevinskyFiniteness", "GlobalTheory.Published.TotallyDisjointProductIrreducible", "GlobalTheory.Published.ZelevinskyPolynomialRing", "GlobalTheory.geometricLemma_of_filtration", "PositivityTheory.Geo.geometricLemmaFiltration", "PositivityTheory.Prw.bernsteinZelevinskyFiniteness_holds", "PositivityTheory.Prw.zelevinskyPolynomialRing_of", "PositivityTheory.SlGl.totallyDisjointProductIrreducible_of_parts"]
-uses  = ["thm-zelevinsky-segments", "thm-geometric-lemma", "thm-geometric-lemma-filtration"]
 order = 9
 +++
 Let $F$ be a non-archimedean local field. For $\GL_n(F)$:

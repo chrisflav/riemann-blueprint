@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Galois characters from ray class characters"
 lean  = ["GlobalTheory.Published.GlobalArtinReciprocity.rayCharacterArtin", "GlobalTheory.Published.RayCharacterArtin"]
-uses  = ["thm-artin-reciprocity"]
 order = 3
 +++
 Let $F$ be a number field, $\mathfrak m \ne 0$ an ideal of $\mathcal O_F$, $A$
@@ -17,5 +16,4 @@ the inertia group at $v$ is the set of values $f((x))$ with $x$ a $v$-unit
 congruent to $1$ modulo $\mathfrak n$.
 
 This is the Artin reciprocity law for ray class characters, in the "wide"
-form with no sign conditions at the real places. We derive it from
-[thm-artin-reciprocity].
+form with no sign conditions at the real places.

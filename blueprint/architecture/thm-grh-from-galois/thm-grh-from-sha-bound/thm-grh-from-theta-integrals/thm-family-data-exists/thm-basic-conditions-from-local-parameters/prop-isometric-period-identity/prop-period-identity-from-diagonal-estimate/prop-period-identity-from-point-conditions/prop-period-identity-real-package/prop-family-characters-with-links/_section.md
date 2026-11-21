@@ -3,17 +3,13 @@ id    = "prop-family-characters-with-links"
 kind  = "proposition"
 title = "Family characters with links"
 lean  = ["GlobalTheory.MiTop.famAllQ_of_allTrue_alt", "GlobalTheory.T.true_geometry_family_row_data_alt"]
-uses  = ["thm-cusp-rapid-decay", "thm-discrete-series-parametrisation", "thm-hc-modules-unitary", "thm-strong-approximation-su"]
 order = 1
 +++
-Assume the rapid decay of cusp forms, the theory of discrete series,
-Harish-Chandra's theory of $(\mathfrak g, K)$-modules and strong
-approximation for special unitary groups. Let $W$ be a real package that
-satisfies all family conditions, with $r_S \ge 1$, and suppose the theta
-maps along each chain of localizations are surjective. Then there is a
-central element $z$ of the adelic unitary group of the first space such
-that for each $u$ there are a family character $f$ and a bottom datum $d$
-pinned at $z$ with these properties:
+Let $W$ be a real package that satisfies all family conditions, with
+$r_S \ge 1$, and suppose the theta maps along each chain of localizations
+are surjective. Then there is a central element $z$ of the adelic unitary
+group of the first space such that for each $u$ there are a family
+character $f$ and a bottom datum $d$ pinned at $z$ with these properties:
 
 * $f$ satisfies the integral laws;
 * the link vanishes at the bottom, has the tail property, descends, and is

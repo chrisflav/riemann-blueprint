@@ -2,14 +2,12 @@
 kind  = "theorem"
 title = "The Rallis inner product formula in the convergent range"
 lean  = ["GlobalTheory.Published.RallisInnerProductConvergent", "UpperTheory.Lit.Rallis.RallisIPProof.rallis_of_dm"]
-uses  = ["thm-siegel-weil-convergent-doubling", "thm-weil-convergence-criterion"]
 order = 10
 +++
 Let $(\U(A), \U(B))$ be a unitary dual pair over a CM field with
 $\operatorname{rank} A < \operatorname{rank} B \le 2\operatorname{rank} A$,
 and either $B$ anisotropic or $\operatorname{rank} A + \mathrm{witt}(B) < \operatorname{rank} B$
-(Weil's convergent range, [thm-siegel-weil-convergent-doubling],
-[thm-weil-convergence-criterion]). Let $\sigma$ be an irreducible subrepresentation
+(Weil's convergent range). Let $\sigma$ be an irreducible subrepresentation
 of the cusp forms on $\U(A)$ whose theta lifts to all smaller groups of the
 tower vanish. For Schwartz functions $\Phi_1, \Phi_2$ and $f_1, f_2 \in \sigma$:
 

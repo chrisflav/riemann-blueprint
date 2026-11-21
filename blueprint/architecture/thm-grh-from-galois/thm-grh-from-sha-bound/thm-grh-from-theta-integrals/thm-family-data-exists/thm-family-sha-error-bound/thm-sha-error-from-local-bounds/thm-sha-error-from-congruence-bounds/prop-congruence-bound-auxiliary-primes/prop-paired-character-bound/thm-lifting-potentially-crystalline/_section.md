@@ -3,14 +3,11 @@ id    = "thm-lifting-potentially-crystalline"
 kind  = "theorem"
 title = "Lifting finite classes along potentially crystalline lattices"
 lean  = ["GlobalTheory.InertiaEigenvalues.theoremT_all_records", "GlobalTheory.T.crystallinePeriodBound_all_constant_ge_forty", "GlobalTheory.T.liftingStep_theoremT_of_bhattScholze_fontaine", "GlobalTheory.TheoremTClosing.main"]
-uses  = ["thm-bhatt-scholze-coefficients", "thm-bhatt-scholze-crystalline-lattices", "thm-bloch-kato-local", "thm-fontaine-bcris", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-duality-l-adic"]
 order = 1
 +++
-Assume the theorem of Bhatt and Scholze, Fontaine's crystalline period ring,
-the local theory of Bloch and Kato, local Tate duality and the local Euler
-characteristic formula. Let $C \ge 40$, and let $F : T_1 \to T_2$ be a
-surjection of $G_{\Q_l}$-stable lattices in potentially crystalline
-representations with coefficients in a finite extension of $\Q_l$. Suppose:
+Let $C \ge 40$, and let $F : T_1 \to T_2$ be a surjection of
+$G_{\Q_l}$-stable lattices in potentially crystalline representations with
+coefficients in a finite extension of $\Q_l$. Suppose:
 
 * inertia acts on both through a Frobenius-stable set $\Sigma$ of characters
   with $1 \in \Sigma$ and $|\Sigma| \le N$, $N \ge 2$;

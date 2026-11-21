@@ -4,16 +4,14 @@ kind  = "lemma"
 title = "Unfolding the twisted theta integral"
 lean  = ["GlobalTheory.RowUnfLast.twisted_theta_integral_unfolding",
          "GlobalTheory.T.twisted_theta_integral_unfolds"]
-uses  = ["thm-grh-from-theta-integrals"]
 order = 3
 +++
-Assume the published results of [thm-grh-from-theta-integrals], that
-twisted theta lifts along the grid send cusp forms to cusp forms, and that
-the finite sums defining the test vectors are well defined. Then for all
-large scales and every choice of test data the following holds. For every
-coefficient vector $\tau$ there are $\sigma$ and values $z_t$ of the twisting
-characters such that, for every flip-finite $\tau'$, every volume and every
-point $y$,
+Suppose that twisted theta lifts along the grid send cusp forms to cusp
+forms, and that the finite sums defining the test vectors are well defined.
+Then for all large scales and every choice of test data the following
+holds. For every coefficient vector $\tau$ there are $\sigma$ and values
+$z_t$ of the twisting characters such that, for every flip-finite $\tau'$,
+every volume and every point $y$,
 $$B^+\big(\Psi_a,\ \vartheta(\tau, \tau')(y)\big) = z_t^{-1}\,s\sum_\beta\Big(\prod_w c_{\beta, w}\Big)\,P_\beta(\sigma, y).$$
 Here $B^+$ is the Bessel period against the column function $\Psi_a$,
 $\vartheta(\tau,\tau')$ the theta lift along the opposite path of the

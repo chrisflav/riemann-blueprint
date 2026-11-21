@@ -5,7 +5,7 @@ uses = ["thm-bloch-kato-local", "thm-chebotarev-degree-one-frobenius", "thm-cheb
 +++
 Check the local conditions at $q$ and $d$ (the weight windows at these
 primes, tame generators, Iwahori admissibility, and a polynomial bound on
-the parameters) and apply
-[prop-selmer-bound-twisted-places]. The proof uses
-Chebotarev's theorem, the theorem on primes of degree one, and the global
-index theorem for lattices.
+the parameters) and apply [prop-selmer-bound-twisted-places]. The check uses
+[Chebotarev's theorem](@thm-chebotarev-degree-one-frobenius), the
+[theorem on primes of degree one](@thm-chebotarev-degree-one), and the
+global index theorem for lattices ([thm-congruence-module-selmer-bound]).

@@ -3,19 +3,9 @@ id    = "thm-theta-functionals-separate"
 kind  = "theorem"
 title = "Theta functionals separate vectors"
 lean  = ["UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil"]
-uses  = ["thm-siegel-weil-convergent-doubling", "thm-grh-from-theta-integrals"]
 order = 110
 +++
-Assume the published results on unitary groups and theta lifts of
-[thm-grh-from-theta-integrals], unramified Howe duality, and the Siegel–Weil
-formula in its convergent range
-([thm-siegel-weil-convergent-doubling]). *Unramified Howe duality* is
-taken in this form: if $\omega$ is the Weil representation of an unramified
-dual pair $\U(V) \times \U(W)$ over a $p$-adic field and $s$ is its spherical
-vector, then every vector fixed by the maximal compact subgroup of one group
-lies in the span of the translates of $s$ under the other.
-
-Then for every $\varepsilon$ and every constant $C_F \ge 6510$ the following
+For every $\varepsilon$ and every constant $C_F \ge 6510$ the following
 holds once the scale $x$ is large. Take a member of a family at scale $x$,
 an auxiliary set of real data for it, a grid of hermitian spaces and Weil
 representations over these data, and a lattice volume of the right type.

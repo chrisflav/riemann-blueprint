@@ -3,15 +3,10 @@ id    = "thm-family-sha-error-bound"
 kind  = "theorem"
 title = "The Tate–Shafarevich error bound for the families"
 lean  = ["GlobalTheory.NLink.Final.mainTheorem", "UpperTheory.GalC.final_alt_alt"]
-uses  = ["thm-hc-finiteness-gl", "thm-labesse-base-change", "thm-bernstein-unitary-product", "thm-bz-finiteness", "thm-galois-reps-csd-above-l", "thm-chebotarev-degree-one-frobenius", "thm-chebotarev-degree-one", "thm-cusp-rapid-decay", "thm-galois-reps-polarized-cuspidal", "thm-p-adic-monodromy", "def-local-parameters", "thm-depth-zero-jacquet-injective", "thm-depth-zero-support", "thm-zelevinsky-segments", "thm-tadic-generic-unitary-dual", "def-theta-analytic-inputs", "thm-geometric-lemma", "thm-artin-reciprocity", "thm-green-parametrisation", "thm-hc-finiteness-unitary", "thm-hecke-l-adic-character-above-l", "thm-hecke-character-local-parameter-above-l", "def-padic-hodge-package", "thm-jacquet-shalika", "thm-tate-euler-characteristic-global-places", "thm-tate-local-finiteness", "thm-tate-local-duality-global-places", "thm-ray-class-characters-galois", "thm-ray-class-field", "thm-clozel-regular-algebraic", "thm-disjoint-support-product-irreducible"]
+uses = ["def-local-parameters"]
 order = 130
 +++
-Assume the published results on $l$-adic Hodge theory and Galois cohomology
-([def-padic-hodge-package]), local finiteness, local Tate duality and the local Euler
-characteristic formula, the published results on automorphic forms listed in
-[thm-grh-from-theta-integrals], the theorem on cuspidal supports of
-depth-zero representations, and the integrality of the Hecke series of the
-members. Fix a system of local parameters ([def-local-parameters]) and a
+Fix a system of local parameters ([def-local-parameters]) and a
 constant $c$, and consider the classes of families of [def-family-data]
 built from them.
 

@@ -2,15 +2,12 @@
 kind  = "theorem"
 title = "Ratios of square constants along a Witt tower"
 lean  = ["GlobalTheory.SqTower.tower_alt_bis"]
-uses  = ["thm-grh-from-theta-integrals"]
 order = 112
 +++
-Assume the published results of [thm-grh-from-theta-integrals] and the
-step identities of theta towers ([def-theta-tower-step]). Assume also that
-the relevant Hecke $L$-functions do not vanish: for each node $(i, j)$ of
-the grid, the completed Hecke $L$-function $\Lambda$ of the character at
-$(i,j)$ satisfies $\Lambda(s) \ne 0$ for integers $1 - e_0 \le s \le h$, where
-$h$ is half the rank at the node.
+Suppose that the relevant Hecke $L$-functions do not vanish: for each node
+$(i, j)$ of the grid, the completed Hecke $L$-function $\Lambda$ of the
+character at $(i,j)$ satisfies $\Lambda(s) \ne 0$ for integers
+$1 - e_0 \le s \le h$, where $h$ is half the rank at the node.
 
 Then for all large scales the following holds. Let $c$ and $c_0$ be the
 nonzero constants of the squared theta lifts at the node $(i, j)$ for a

@@ -2,7 +2,7 @@
 kind  = "theorem"
 title = "Zelevinsky's classification by segments"
 lean  = ["GlobalTheory.Published.EssSquareIntegrableSegments", "GlobalTheory.Published.GenericUnlinkedGL", "GlobalTheory.Published.GrothendieckRingPolynomial", "GlobalTheory.Published.LanglandsExhaustionGL", "GlobalTheory.Published.LanglandsMultisegments", "GlobalTheory.Published.SegmentRepresentation", "GlobalTheory.Published.StandardCosocleGL", "GlobalTheory.RgGu.genericUnlinkedGL_of_segRep2", "PositivityTheory.Exh.essSquareIntegrableSegments_of_seg", "PositivityTheory.Exh.langlandsExhaustionGL_of_seg", "PositivityTheory.Exh.langlandsMultisegments_of_seg", "PositivityTheory.Exh.standardCosocleGL_of_seg", "PositivityTheory.Groth.grothendieckRingPolynomial_of_seg", "PositivityTheory.RgGu.segmentRepresentation", "UpperTheory.GalS.PairUAlt", "UpperTheory.GalS.field_of_starFull_alt"]
-uses  = ["def-local-parameters", "thm-henniart-local-converse"]
+uses = ["def-local-parameters"]
 order = 8
 +++
 Let $F$ be a non-archimedean local field of characteristic zero. A *segment*
@@ -29,8 +29,11 @@ representation*. The following hold.
    ring of all $\GL_n(F)$, $n \ge 0$, with the product given by induction,
    is the polynomial ring over $\Z$ in the segments.
 
-We also record here a statement that polarized cuspidal representations
-have Galois representations, deduced from the existence of local parameters
-([def-local-parameters]), the local converse theorem
-([thm-henniart-local-converse]) and the Langlands classification. *We read* this as
-a grouping of statements; it is not part of the classification.
+We also record here a global statement: for a CM field $E$, a regular
+algebraic cuspidal representation $\pi$ of $\GL_a(\A_E)$ and a Hecke
+character $\chi$ of $E^+$ with $\pi^\vee \cong \pi^c \otimes (\chi\circ N)$,
+there is a Galois representation attached to $(\pi, \chi)$ with the
+properties required in [def-galois-reps-polarized]. This is the existence
+of Galois representations for polarized pairs (Harris–Taylor, Shin,
+Chenevier–Harris, Caraiani). *We read* its place here as a grouping of
+statements; it is not part of the classification.

@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation.grothendieckMessing", "GlobalTheory.Published.GrothendieckMessing"]
-uses  = ["thm-grothendieck-messing"]
 order = 9
 +++
 Let $p$ be a prime and $R \to R_0$ a surjection of rings with $p$ nilpotent
@@ -15,5 +14,4 @@ schemes $A$ over $R$ lifting $A_0$:
 * homomorphisms lift exactly when they respect the Hodge filtrations, and
   then uniquely.
 
-This is Grothendieck–Messing theory (Messing 1972). We derive it from the
-deformation statement [thm-grothendieck-messing].
+This is Grothendieck–Messing theory (Messing 1972).

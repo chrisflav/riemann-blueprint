@@ -1,10 +1,10 @@
 +++
 kind = "proof"
 of   = "prop-chosen-data-serve-families"
-uses = ["prop-standard-data-serve-families", "thm-chebotarev-degree-one-frobenius", "lem-inert-theta-admissibility-cm"]
+uses = ["prop-standard-data-serve-families", "thm-chebotarev-degree-one-frobenius", "lem-inert-theta-admissibility-cm", "thm-artin-reciprocity"]
 +++
 
-Global Artin reciprocity, through Artin symbols of ideal classes and
+Global Artin reciprocity [thm-artin-reciprocity], through Artin symbols of ideal classes and
 Chebotarev's theorem for primes of degree one [thm-chebotarev-degree-one-frobenius], gives good models of
 CM elliptic curves at primes $l \ge 5$ prime to $d$. From these good models
 we get algebraic Taylor coefficients of torsion translates, lattices of

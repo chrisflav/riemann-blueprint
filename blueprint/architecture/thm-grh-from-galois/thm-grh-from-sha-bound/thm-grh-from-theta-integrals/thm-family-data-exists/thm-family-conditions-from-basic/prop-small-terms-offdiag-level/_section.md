@@ -4,15 +4,14 @@ kind  = "proposition"
 title = "Small terms, the off-diagonal bound and the level bound"
 lean  = ["GlobalTheory.LocalRows.at_choice_alt", "GlobalTheory.LocalRows.lg1_sLp_sO_hTF",
          "GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil"]
-uses  = ["thm-siegel-main-theorem-hermitian"]
 order = 1
 +++
-Assume the convergent Siegel–Weil formula for unitary groups. For every
-choice of admissible data along a class of families, the following hold for
-large auxiliary fields. Here a datum $D$ at a point of a family carries
-types $u$, each with a finite-dimensional representation of dimension
-$d_u$, an integer $T_u$, a normalising mass $D^*$, a size parameter $b$, and
-for $u \ne u'$ an off-diagonal term $K_0(u, u')$ ([thm-offdiagonal-bound]).
+For every choice of admissible data along a class of families, the
+following hold for large auxiliary fields. Here a datum $D$ at a point of a
+family carries types $u$, each with a finite-dimensional representation of
+dimension $d_u$, an integer $T_u$, a normalising mass $D^*$, a size
+parameter $b$, and for $u \ne u'$ an off-diagonal term $K_0(u, u')$
+([thm-offdiagonal-bound]).
 
 1. *Small terms.* In the expansion of $K_0(u,u')$, the large terms and the
    non-scalar terms each contribute at most $\varepsilon_D\, d_u d_{u'}/D^*$.

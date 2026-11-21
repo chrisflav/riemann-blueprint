@@ -4,12 +4,9 @@ kind  = "theorem"
 title = "Congruence modules are bounded by Selmer data"
 lean  = ["GlobalTheory.SelmerBoundAtPoint.main",
          "GlobalTheory.T.globalLatticeIndexTheorem_of_lengthBoundAtPlaces"]
-uses  = ["thm-artin-reciprocity", "thm-tate-euler-characteristic-l-adic", "thm-tate-local-duality-l-adic"]
 order = 12
 +++
-Assume [global Artin reciprocity](@thm-artin-reciprocity),
-[local Tate duality](@thm-tate-local-duality-l-adic) and the
-[local Euler characteristic formula](@thm-tate-euler-characteristic-l-adic). Let $D$ be a
+Let $D$ be a
 member of a family over the auxiliary CM field $E$, $l$ a prime of its
 coefficients other than the two auxiliary primes, and $r_x$ a family of
 Galois representations of $G_E$ of dimension $n_V$ over the coefficient

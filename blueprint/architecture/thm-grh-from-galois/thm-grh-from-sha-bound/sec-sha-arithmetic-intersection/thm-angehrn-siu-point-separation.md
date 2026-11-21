@@ -2,7 +2,6 @@
 kind  = "theorem"
 title = "Separation of points by adjoint linear systems"
 lean  = ["GlobalTheory.Published.PointSeparationPair", "GlobalTheory.pointSeparationPair_of_principalisation", "NadelVanishingSeparation.NSI.pointSeparationPair", "UpperTheory.LiteratureTheorems.point_separation_pair_of_literature"]
-uses  = ["def-local-parameters", "thm-principalisation-projective"]
 order = 12
 +++
 Let $X$ be a normal projective variety of dimension $n$ over $\C$, $\Delta$ an

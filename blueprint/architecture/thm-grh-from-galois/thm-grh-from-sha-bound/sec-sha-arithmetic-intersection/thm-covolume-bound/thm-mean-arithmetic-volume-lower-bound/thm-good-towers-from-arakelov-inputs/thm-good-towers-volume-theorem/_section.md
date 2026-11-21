@@ -3,19 +3,17 @@ id    = "thm-good-towers-volume-theorem"
 kind  = "theorem"
 title = "Good towers and the volume theorem"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Top.goodTower_and_volume", "GlobalTheory.T.good_tower_volume_theorem"]
-uses  = ["thm-arithmetic-intersection-theory", "thm-semi-abelian-hom-extension"]
 order = 10
 +++
 Let $E$ be a CM field with a unitary Shimura datum of signature $(p, q)$,
 $p, q \ge 1$, with CM type $\Phi$, and let $Y$ be a global integral model of the
 unitary Shimura variety over the ring of integers of its coefficient field
 (one that descends and dominates the local models of
-[thm-unitary-integral-models]) with split components. Assume the inputs
-of [lem-volume-theorem-inputs], integrability of Green functions at
-points, prime avoidance for multihomogeneous sections, the properties of the
-Weil pairing on polarised abelian schemes, the families of Dieudonné
-lattices of [lem-de-rham-hodge-tate-flag-comparison], and invariance of arithmetic
-intersection numbers under Galois twists of the datum. Then:
+[thm-unitary-integral-models]) with split components. Suppose that the
+de Rham and Hodge–Tate lattices of the universal abelian scheme come from
+families of Dieudonné lattices, as in
+[lem-de-rham-hodge-tate-flag-comparison], and that arithmetic intersection
+numbers are invariant under Galois twists of the datum. Then:
 
 1. *Good towers exist*: there is a tower $T$ of flag bundles of the Hodge
    bundles over $Y$, with line bundles indexed by $\Phi \times \{1, \dots,

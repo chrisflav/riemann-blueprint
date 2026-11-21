@@ -5,20 +5,13 @@ title = "Downward theta lifts are nonzero and injective on eigenspaces"
 lean  = ["GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'",
          "GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt",
          "GlobalTheory.T.downNe_of_eulerRight_doubling", "GlobalTheory.T.liftInj_and_nonVan_typeNZ_of_given"]
-uses  = ["thm-cusp-rapid-decay", "thm-doubling-method", "thm-hecke-l-nonvanishing-line-one",
-         "thm-unramified-doubling-gl"]
 order = 120
 +++
-Assume rapid decay of cusp forms [thm-cusp-rapid-decay], the local theory of
-the doubling zeta integrals [thm-doubling-method] and its
-unramified computation [thm-unramified-doubling-gl], meromorphic continuation
-of partial Hecke $L$-functions [thm-hecke-l-nonvanishing-line-one], and Howe
-duality at unramified places. Let a family member carry, for each index
-$i$, a pair of hermitian spaces $V_i$ and $W_i$ with the theta
-correspondence between $\U(V_i)$ and $\U(W_i)$, satisfying the standing
-hypotheses (good types, large gaps of the archimedean parameters
-$\lambda_n - \lambda_{n+1} \ge 100r^4$, absolutely irreducible characters).
-Then for each $i$:
+Let a family member carry, for each index $i$, a pair of hermitian spaces
+$V_i$ and $W_i$ with the theta correspondence between $\U(V_i)$ and
+$\U(W_i)$, satisfying the standing hypotheses (good types, large gaps of
+the archimedean parameters $\lambda_n - \lambda_{n+1} \ge 100r^4$,
+absolutely irreducible characters). Then for each $i$:
 
 * *non-vanishing:* every nonzero Hecke eigenform $y$ on $\U(V_i)$ whose Satake
   parameters at good places contain the segment
