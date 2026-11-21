@@ -5,10 +5,12 @@ title = "Congruence modules are bounded by Selmer data"
 provenance = "new"
 lean  = ["GlobalTheory.SelmerBoundAtPoint.main",
          "GlobalTheory.T.globalLatticeIndexTheorem_of_lengthBoundAtPlaces"]
+uses  = ["def-family-member", "def-congruence-data"]
 order = 12
 +++
 Let $D$ be a
-member of a family over the auxiliary CM field $E$, $l$ a prime of its
+[member of a family](@def-family-member) over the auxiliary CM field $E$,
+with [congruence data](@def-congruence-data), $l$ a prime of its
 coefficients other than the two auxiliary primes, and $r_x$ a family of
 Galois representations of $G_E$ of dimension $n_V$ over the coefficient
 ring $\mathcal O$, indexed by the Hecke eigensystems $x$, which for $x = \pi$

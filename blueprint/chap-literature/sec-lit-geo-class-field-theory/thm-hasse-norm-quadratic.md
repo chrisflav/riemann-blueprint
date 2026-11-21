@@ -3,7 +3,8 @@ kind  = "theorem"
 title = "Hasse norm theorem for quadratic extensions"
 provenance = "modified"
 source = "special case of Hasse [hasse-1931]"
-lean  = ["GlobalTheory.Published.HasseNormSt", "GlobalTheory.QNorm.hasseNormSt"]
+lean  = ["GlobalTheory.Published.HasseNormSt", "GlobalTheory.QNorm.hasseNormSt",
+         "GlobalTheory.T.hasse_norm_theorem_quadratic_extension"]
 order = 6
 +++
 Let $F$ be a number field and $\delta, x \in F^\times$. If $x$ has the form

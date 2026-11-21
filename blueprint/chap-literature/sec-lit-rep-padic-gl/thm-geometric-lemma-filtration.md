@@ -3,7 +3,9 @@ kind  = "theorem"
 title = "The filtration of the geometric lemma"
 provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
-lean  = ["GlobalTheory.Published.GeometricLemmaFiltration", "GlobalTheory.geometricLemmaFiltration_holds"]
+lean  = ["GlobalTheory.Published.GeometricLemmaFiltration", "GlobalTheory.geometricLemmaFiltration_holds",
+         "CompanionTheory.Geo.geometricLemmaFiltration",
+         "GlobalTheory.geometricLemmaFiltration_unconditional"]
 order = 3
 +++
 Let $F$ be a non-archimedean local field, and let $P = MN$ and $P' = M'N'$ be

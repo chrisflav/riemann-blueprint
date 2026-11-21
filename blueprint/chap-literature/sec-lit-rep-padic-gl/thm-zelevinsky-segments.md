@@ -3,7 +3,14 @@ kind  = "theorem"
 title = "Zelevinsky's classification by segments"
 provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]; Zelevinsky [zelevinsky-1980]"
-lean  = ["GlobalTheory.Published.EssSquareIntegrableSegments", "GlobalTheory.Published.GenericUnlinkedGL", "GlobalTheory.Published.GrothendieckRingPolynomial", "GlobalTheory.Published.LanglandsExhaustionGL", "GlobalTheory.Published.LanglandsMultisegments", "GlobalTheory.Published.SegmentRepresentation", "GlobalTheory.Published.StandardCosocleGL", "GlobalTheory.RgGu.genericUnlinkedGL_of_segRep2", "PositivityTheory.Exh.essSquareIntegrableSegments_of_seg", "PositivityTheory.Exh.langlandsExhaustionGL_of_seg", "PositivityTheory.Exh.langlandsMultisegments_of_seg", "PositivityTheory.Exh.standardCosocleGL_of_seg", "PositivityTheory.Groth.grothendieckRingPolynomial_of_seg", "PositivityTheory.RgGu.segmentRepresentation", "UpperTheory.GalS.PairUAlt", "UpperTheory.GalS.field_of_starFull_alt"]
+lean  = ["GlobalTheory.Published.EssSquareIntegrableSegments", "GlobalTheory.Published.GenericUnlinkedGL", "GlobalTheory.Published.GrothendieckRingPolynomial", "GlobalTheory.Published.LanglandsExhaustionGL", "GlobalTheory.Published.LanglandsMultisegments", "GlobalTheory.Published.SegmentRepresentation", "GlobalTheory.Published.StandardCosocleGL", "GlobalTheory.RgGu.genericUnlinkedGL_of_segRep2", "PositivityTheory.Exh.essSquareIntegrableSegments_of_seg", "PositivityTheory.Exh.langlandsExhaustionGL_of_seg", "PositivityTheory.Exh.langlandsMultisegments_of_seg", "PositivityTheory.Exh.standardCosocleGL_of_seg", "PositivityTheory.Groth.grothendieckRingPolynomial_of_seg", "PositivityTheory.RgGu.segmentRepresentation", "UpperTheory.GalS.PairUAlt", "UpperTheory.GalS.field_of_starFull_alt",
+         "PositivityTheory.Exh.langlandsExhaustionGL_holds",
+         "PositivityTheory.Groth.grothendieckRingPolynomial_holds",
+         "UpperTheory.Zero.LLC.Pr.exh",
+         "PositivityTheory.Exh.langlandsMultisegments_holds",
+         "PositivityTheory.Exh.standardCosocleGL_holds",
+         "UpperTheory.Zero.LLC.Pr.cos",
+         "UpperTheory.Zero.LLC.Pr.multi"]
 uses = ["def-local-parameters"]
 order = 8
 +++

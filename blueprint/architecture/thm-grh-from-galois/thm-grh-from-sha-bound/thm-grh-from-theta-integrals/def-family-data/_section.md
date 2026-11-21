@@ -1,16 +1,18 @@
 +++
+id    = "def-family-data"
 kind  = "definition"
 title = "Families of definite unitary groups"
 provenance = "new"
 lean  = ["GlobalTheory.Fc.HypsAlt"]
-uses  = ["def-sha-error-term"]
+uses  = ["def-sha-error-term", "def-family"]
 order = 4
 +++
 Fix a primitive character $\psi$ and a scale $x$. The families of the proof
-consist of definite unitary groups over an auxiliary CM field
-([thm-auxiliary-fields]) of ranks $N(j) = k + j(t+1)$, $0 \le j \le m$, with
-$m^2 \le k + m(t+1)$. Consecutive members are linked by theta lifts and
-carry lattices. A class of families *satisfies the
+([def-family]) consist of members ([def-family-member]): chains of definite
+unitary groups over an auxiliary CM field ([def-auxiliary-field-data],
+[thm-auxiliary-fields]) of ranks $N(j) = k + j(t+1)$, $0 \le j \le m$, with
+$m^2 \le k + m(t+1)$ ([def-family-ranks]). Consecutive groups of a chain are
+linked by theta lifts and carry lattices. A class of families *satisfies the
 family hypotheses* if, in about fifty conditions:
 
 * the lattices satisfy bounds, admissibility after twisting, and divisibility conditions;

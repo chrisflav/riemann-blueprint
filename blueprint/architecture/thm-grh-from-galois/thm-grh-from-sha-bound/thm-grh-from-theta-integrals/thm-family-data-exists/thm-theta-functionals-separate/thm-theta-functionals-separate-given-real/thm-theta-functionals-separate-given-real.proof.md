@@ -1,12 +1,13 @@
 +++
 kind = "proof"
 of   = "thm-theta-functionals-separate-given-real"
-uses = ["thm-bessel-period-ascent", "thm-casselman-wallach", "thm-cusp-rapid-decay", "thm-discrete-series-parametrisation", "thm-discrete-series-exist", "thm-discrete-series-exist-upq", "thm-doubling-method", "thm-hc-finiteness-unitary", "thm-hc-modules-unitary", "thm-hasse-norm-quadratic", "thm-unramified-doubling-gl", "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range", "thm-siegel-weil-convergent-doubling"]
+uses = ["thm-bessel-period-ascent", "thm-casselman-wallach", "thm-cusp-rapid-decay", "thm-discrete-series-parametrisation", "thm-discrete-series-exist", "thm-discrete-series-exist-upq", "thm-doubling-method", "thm-hc-finiteness-unitary", "thm-hc-modules-unitary", "thm-hasse-norm-quadratic", "thm-unramified-doubling-gl", "thm-weil-representation-auxiliary-pairs", "thm-siegel-weil-weil-range", "thm-siegel-weil-convergent-doubling", "thm-unitary-quotient-finite-volume"]
 +++
 Build models of the Weil representations for the separating data, extend the
 separating family by a twist using a see-saw pair, and obtain a tower of
 multiplicity spaces along the first row. The theta integrals along this
-tower converge and decay rapidly ([thm-cusp-rapid-decay]). From
+tower converge, since the [adelic quotients have finite volume](@thm-unitary-quotient-finite-volume),
+and decay rapidly ([thm-cusp-rapid-decay]). From
 [thm-discrete-series-branching-coefficients], with Harish-Chandra modules
 [thm-hc-modules-unitary] and the Casselman–Wallach theorem
 [thm-casselman-wallach], the real local periods do not vanish. Howe duality

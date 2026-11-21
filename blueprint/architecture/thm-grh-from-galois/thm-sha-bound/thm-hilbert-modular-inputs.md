@@ -11,7 +11,9 @@ over CM fields are cohomological and stable under $\mathrm{Aut}(\C)$
 ([Clozel](@thm-clozel-cohomological)), and few at each level (Borel); regular
 algebraic polarized cuspidal representations of $\GL_2$ over totally real
 fields have Galois representations ([thm-galois-reps-csd-above-l]); strong
-multiplicity one ([thm-jacquet-shalika-strong-mult-one]), admissibility,
+multiplicity one ([thm-jacquet-shalika-strong-mult-one]), with the
+[explicit spherical Whittaker function](@thm-shintani-casselman-shalika) at
+unramified places, admissibility,
 [Gelfand–Kazhdan duality](@thm-gelfand-kazhdan) and semisimplicity of cusp
 forms ([thm-cusp-bounded-gl], [thm-multiplicity-one-gl]) for $\GL_n$ over
 totally real fields; quadratic and cyclic base change, through

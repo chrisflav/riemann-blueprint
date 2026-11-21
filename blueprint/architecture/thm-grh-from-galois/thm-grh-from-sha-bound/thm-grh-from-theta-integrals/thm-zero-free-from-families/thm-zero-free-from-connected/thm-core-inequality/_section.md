@@ -1,4 +1,5 @@
 +++
+id    = "thm-core-inequality"
 kind  = "theorem"
 title = "The core inequality"
 provenance = "new"

@@ -1,4 +1,5 @@
 +++
+id    = "thm-auxiliary-fields"
 kind  = "theorem"
 title = "Auxiliary CM fields"
 provenance = "new"
@@ -20,4 +21,5 @@ each such $x$ there is a Galois CM field $E$, abelian over $\Q$, such that:
 * the Tate–Shafarevich groups of $E$ satisfy the bound of
   [def-sha-bound] with $t = \lfloor x^{401}\rfloor$.
 
-The field also comes with a CM type and two auxiliary primes of level.
+The field also comes with a CM type and two auxiliary primes of level, as
+in the definition of [auxiliary CM fields](@def-auxiliary-field-data).

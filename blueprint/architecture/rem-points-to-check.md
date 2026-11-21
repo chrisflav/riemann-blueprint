@@ -29,8 +29,11 @@ equality of multiplicities on inner forms
 discharged where the argument says it is.
 
 *The auxiliary fields.* The bound $|L'/L(1,\chi)| \le C\log x$ for the
-characters of the auxiliary fields is not easy for real characters, and we
-could not see how it is proved ([thm-auxiliary-fields]).
+characters of the auxiliary fields is not easy for real characters. The
+proof gets it, together with a square-root bound for the twisted von
+Mangoldt sums on the window, by choosing the auxiliary primes $q, d$
+outside a small exceptional set found by a mean-square estimate
+([lem-good-auxiliary-primes]). A reader should check this averaging step.
 
 *Published results in special forms.* Among the results of
 [chap-literature]:

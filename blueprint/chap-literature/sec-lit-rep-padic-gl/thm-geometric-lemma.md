@@ -3,7 +3,9 @@ kind  = "theorem"
 title = "The geometric lemma"
 provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
-lean  = ["GlobalTheory.CompanionTheory.GeoLink.geometricLemma", "GlobalTheory.Published.GeometricLemma"]
+lean  = ["GlobalTheory.CompanionTheory.GeoLink.geometricLemma", "GlobalTheory.Published.GeometricLemma",
+         "PositivityTheory.Exh.geometricLemmaGL",
+         "UpperTheory.V.Z.Win.Extra.geo"]
 order = 4
 +++
 Let $F$ be a non-archimedean local field. The geometric lemma holds for

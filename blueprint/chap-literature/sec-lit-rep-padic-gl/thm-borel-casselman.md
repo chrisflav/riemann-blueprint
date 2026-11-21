@@ -3,7 +3,8 @@ kind  = "theorem"
 title = "Iwahori-fixed vectors and the Jacquet module"
 provenance = "published"
 source = "Borel [borel-1976]; Casselman [casselman-1980]"
-lean  = ["GlobalTheory.Published.BorelCasselman", "PositivityTheory.Stage1.PM.borelCasselman"]
+lean  = ["GlobalTheory.Published.BorelCasselman", "PositivityTheory.Stage1.PM.borelCasselman",
+         "GlobalTheory.Published.BorelCasselman_holds"]
 order = 5
 +++
 Let $F$ be a non-archimedean local field, $I \subset \GL_n(F)$ the Iwahori

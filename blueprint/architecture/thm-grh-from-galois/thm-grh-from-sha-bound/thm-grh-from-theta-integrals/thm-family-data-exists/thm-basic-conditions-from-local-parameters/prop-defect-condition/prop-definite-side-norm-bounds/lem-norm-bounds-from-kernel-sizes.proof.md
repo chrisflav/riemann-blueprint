@@ -1,9 +1,10 @@
 +++
 kind = "proof"
 of   = "lem-norm-bounds-from-kernel-sizes"
-uses = ["thm-hasse-norm-quadratic"]
+uses = ["thm-hasse-norm-quadratic", "thm-chowla-selberg"]
 +++
-The proof first bounds the norms of the second coordinates and mean logarithms of periods, then
+The proof first bounds the norms of the second coordinates and the
+[mean logarithms of periods](@thm-chowla-selberg), then
 bounds the vectors and norms of the family. These bounds are uniform
 because the logarithm of the level is bounded by the sizes. The Hasse norm
 theorem enters in comparing norms at the places above each prime. We have

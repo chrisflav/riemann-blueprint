@@ -121,6 +121,18 @@
    },
    "signature": "theorem zeta (h : HalfPlane) : Zeta"
   },
+  "CompanionTheory.Geo.geometricLemmaFiltration": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "CompanionTheory.AutomorphicTheory.TemperedLocalSpectra.LocalGeometry.Imports",
+   "range": {
+    "endLine": 6,
+    "file": ".lake/packages/tree/src/CompanionTheory/AutomorphicTheory/TemperedLocalSpectra/LocalGeometry/Imports.lean",
+    "startLine": 5
+   },
+   "signature": "theorem CompanionTheory.Geo.geometricLemmaFiltration : GlobalTheory.Published.GeometricLemmaFiltration"
+  },
   "CompanionTheory.LocalTateOrthogonality.Gcoh.top_euler": {
    "doc": null,
    "exists": true,
@@ -253,6 +265,18 @@
    },
    "signature": "theorem dsExhaust : GlobalTheory.Dec.DSExhaust"
   },
+  "CompanionTheory.SWFin.adelicCovolumeFinite": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "CompanionTheory.AutomorphicTheory.SiegelWeilFiniteness.AdelicCovolumeFinite",
+   "range": {
+    "endLine": 58,
+    "file": ".lake/packages/tree/src/CompanionTheory/AutomorphicTheory/SiegelWeilFiniteness/AdelicCovolumeFinite.lean",
+    "startLine": 52
+   },
+   "signature": "theorem adelicCovolumeFinite {W : Type u} [AddCommGroup W] [Module E W] {ι : Type*} [Fintype ι] [DecidableEq ι]\n    (h : HermitianForm F E W) (v : Basis ι E W) : AdelicCovolumeFinite.Statement h v"
+  },
   "CompanionTheory.WaveGrid.uniform_bessel_rank_three_of_inputs": {
    "doc": null,
    "exists": true,
@@ -349,6 +373,30 @@
    },
    "signature": "theorem CuspFormAutomorphicBounds.automorphicFormsFiniteGL : GlobalTheory.Published.AutomorphicFormsFiniteGL"
   },
+  "Deduction.ch_core": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.ChCore",
+   "range": {
+    "endLine": 442,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChCore.lean",
+    "startLine": 343
+   },
+   "signature": "theorem ch_core (C ε CE Ko c M : ℝ) (hC : 0 ≤ C) (hε : 0 < ε) (hc : |c| ≤ 1) : ∃ x1 : ℝ, ∀ x ≥ x1,\n    ∀ (H : Type) [AddCommGroup H] [Fintype H] [DecidableEq H] (m : ℕ) (D : ArithData H) (S : Finset ℕ)\n      (ell : AddChar (E0 × H) ℂ → ℂ) (N : ℕ) (TT T2 : Finset H) (a : H → ℝ) (w : H → Fin m → E0 × H → ℝ)\n      (b b' k aE η X' θ : ℝ) (A0 : AddSubgroup H) (Kp : Finset (AddChar (E0 × H) ℂ)),\n      HostFactsS D S → 0 < b → 0 ≤ aE → 0 < k → (m : ℝ) ≤ x ^ ((1 : ℝ) / 2 + ε / 2) → x * m ≤ k →\n      SizesA A0 TT T2 a w N x b b' η X' θ → ThinScales D ell X' θ → CostWindows x (fPl H) b η θ →\n      RestSize ε x (Fintype.card H) TT.card T2.card m b k aE → (∀ s ∈ T2, s ∈ A0) → CharsA ell A0 Kp TT c M Ko CE ε x →\n      (∀ u ∈ A0, gapA D N ell TT a w u ≤ x ^ (C * ε) * errorBracketSizeWindows x ε (Fintype.card H) TT.card T2.card m b k aE) →\n      GmA D ell Kp c x ≤ x ^ ((1 : ℝ) / 2 + (C + 3) * ε) + SigA D ell A0 Kp x"
+  },
+  "Deduction.ch_top": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.ChTop",
+   "range": {
+    "endLine": 72,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/DedekindLFunctions/LandauTheorems/ChTop.lean",
+    "startLine": 37
+   },
+   "signature": "theorem ch_top {H : Type} [AddCommGroup H] [Fintype H] [DecidableEq H] {U0 : Type} [Fintype U0] {W : U0 → Type} [∀ u0, Fintype (W u0)] [∀ u0, Nonempty (W u0)]\n    {Top : Type} [Fintype Top] {m f : ℕ} (Dd : Data U0 W Top m f) (tr : U0 → H) (C : Consts) (Xpp eK K : ℝ)\n    (D : ArithData H) (ell : AddChar (E0 × H) ℂ → ℂ) (N : ℕ) (TT T2 : Finset H) (a : H → ℝ)\n    (w : H → Fin m → E0 × H → ℝ) (eT : Top ≃ TT) (eP : Fin f ≃ PhiSet (H"
+  },
   "DirichletLNonvanishingRightOfHalf": {
    "doc": null,
    "exists": true,
@@ -385,6 +433,294 @@
    },
    "signature": "theorem localConverseGL : GlobalTheory.Published.LocalConverseGL"
   },
+  "Formalism.BasicNotions.CMData": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataSpaces",
+   "range": {
+    "endLine": 19,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataSpaces.lean",
+    "startLine": 14
+   },
+   "signature": "structure CMData (F E : Type) [Field F] [NumberField F] [Field E] [NumberField E] [StarRing E]\n    [Algebra F E] : Prop where\n  cmUnram : Formalism.HermitianLatticesTheory.IsCMUnram E\n  totReal : NumberField.IsTotallyReal F\n  deg2 : Module.finrank F E = 2\n  fixed : ∀ a : E, star a = a ↔ a ∈ (algebraMap F E).range"
+  },
+  "Formalism.BasicNotions.ColumnsAtT": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataKernels",
+   "range": {
+    "endLine": 137,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataKernels.lean",
+    "startLine": 104
+   },
+   "signature": "structure ColumnsAtT (R : Ranks) {ι : Type} [Fintype ι] {hc : ι → HCParam R}\n    (C : ColumnChain R ι hc) where\n\n  T : ℕ\n  T_prime : T.Prime\n\n  vT : Type\n  [vTFin : Fintype vT]\n  card_vT : Fintype.card vT = R.f\n\n  Fv : vT → Type\n  [FvField : ∀ v, Field (Fv v)]\n  [FvFin : ∀ v, Fintype (Fv v)]\n  [FvDec : ∀ v, DecidableEq (Fv v)]\n\n  card_Fv : ∀ v, Fintype.card (Fv v) = T\n\n  psiT : ∀ v, AddChar (Fv v) ℂ\n  psiT_ne : ∀ v, psiT v ≠ 1\n\n  rhoT : ∀ v, (Fv v)ˣ →* ((C.cls 0 → C.Y 0 → ℂ) →ₗ[ℂ] (C.cls 0 → C.Y 0 → ℂ))\n\n  Mu0 : Submodule ℂ (C.cls 0 → C.Y 0 → ℂ)\n  Mu0_fd : FiniteDimensional ℂ Mu0\n  Mu0_stable : ∀ v c, Mu0.map (rhoT v c) ≤ Mu0\n\n  duStar : ℕ\n  duStar_pos : 0 < duStar\n\n  Dstar : ℝ\n  Dstar_pos : 0 < Dstar\n\n  GamP : ℝ\n  one_lt_gammaP : 1 < GamP"
+  },
+  "Formalism.BasicNotions.D7": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+   "range": {
+    "endLine": 334,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean",
+    "startLine": 76
+   },
+   "signature": "structure D7 where\n\n  R : Ranks\n\n  host : Host R\n\n  sp : @Spaces R host.F host.E _ _ _ _ host.cmStar _\n\n  vol : @HSpace host.E _ _ host.cmStar → ℝ\n  vol_pos : ∀ W, 0 < vol W\n\n  what₂ : Rows.Data R\n\n  eTau : what₂.Tau ≃ (R.Psi)\n\n  hc : what₂.Tau → HCParam R\n\n  [wordFin : Fintype what₂.Word]\n  u₀ : what₂.Word\n\n  hcW : what₂.Word → what₂.Tau → HCParam R\n  hcW_base : hcW u₀ = hc\n  hcW_v : ∀ u τ, (hcW u τ).v = (hc τ).v\n  hcW_b : ∀ u τ, (hcW u τ).b = (hc τ).b\n  hcW_e : ∀ u τ, (hcW u τ).e = (hc τ).e\n  hcW_first : ∀ u τ (h : 0 < R.k), (hcW u τ).u ⟨0, h⟩ = (hc τ).u ⟨0, h⟩\n  hcW_last : ∀ u τ (h : 0 < R.k), (hcW u τ).u ⟨R.k - 1, by omega⟩ = (hc τ).u ⟨R.k - 1, by omega⟩\n\n  mem : ∀ u : what₂.Word, Member R what₂.Tau (hcW u)\n\n  [nfLL : NumberField what₂.LL]\n  [starLL : StarRing what₂.LL]\n  [tcLL : NumberField.IsTotallyComplex what₂.LL]\n\n  [galLL : IsGalois ℚ what₂.LL]\n\n  starLL_cx : ∀ x : what₂.LL, what₂.embLL (star x) = starRingEnd ℂ (what₂.embLL x)\n\n  div : DivData what₂.LL what₂.Word\n"
+  },
+  "Formalism.BasicNotions.DomWeight": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataCoeff",
+   "range": {
+    "endLine": 15,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataCoeff.lean",
+    "startLine": 13
+   },
+   "signature": "structure DomWeight (N : ℕ) where\n  w : Fin N → ℤ\n  anti : Antitone w"
+  },
+  "Formalism.BasicNotions.HCParam": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 69,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 50
+   },
+   "signature": "structure HCParam (R : Ranks) where\n  u : Fin R.k → ℚ\n  v : Fin (R.k - 1) → ℚ\n  b : Fin R.m → ℚ\n  e : Fin R.m → ℚ\n\n  u_gt_v : ∀ i : Fin (R.k - 1), v i < u ⟨i.1, by omega⟩\n  v_gt_u : ∀ i : Fin (R.k - 1), u ⟨i.1 + 1, by omega⟩ < v i\n\n  u_last_gt : ∀ (h : 0 < R.k) (h' : 0 < R.m), -b ⟨0, h'⟩ < u ⟨R.k - 1, by omega⟩\n\n  gap_be : ∀ j : Fin R.m, ((R.t : ℚ) + 3) / 2 ≤ e j - b j\n\n  gap_eb : ∀ j : Fin R.m, ∀ h : j.1 + 1 < R.m, ((R.t : ℚ) + 3) / 2 ≤ b ⟨j.1 + 1, h⟩ - e j\n\n  e_int : ∀ j : Fin R.m, ∃ z : ℤ, e j = z\n\n  u_half : ∀ i : Fin R.k, ∃ z : ℤ, u i = z + 1 / 2\n  v_int : ∀ i : Fin (R.k - 1), ∃ z : ℤ, v i = z\n  b_int : ∀ j : Fin R.m, ∃ z : ℤ, b j = z"
+  },
+  "Formalism.BasicNotions.HSpace": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataSpaces",
+   "range": {
+    "endLine": 46,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataSpaces.lean",
+    "startLine": 26
+   },
+   "signature": "structure HSpace (E : Type) [Field E] [NumberField E] [StarRing E] where\n  V : Type\n  [acg : AddCommGroup V]\n  [modE : Module E V]\n  [modO : Module (𝓞 E) V]\n  [tower : IsScalarTower (𝓞 E) E V]\n  [fd : FiniteDimensional E V]\n\n  hT : V →ₗ⋆[E] V →ₗ[E] E\n  herm : hT.IsSymm\n  nondeg : hT.Nondegenerate\n  rank : ℕ\n  rank_eq : Module.finrank E V = rank\n\n  frame : Module.Basis (Fin rank) E V\n\n  sig : (E →+* ℂ) → ℕ × ℕ\n\n  L0 : Submodule (𝓞 E) V\n  standardTuple_isLattice : Submodule.IsLattice E L0\n  baseLattice_isUnimodular : Formalism.HermitianLatticesTheory.IsUnimodular hT L0"
+  },
+  "Formalism.BasicNotions.Host": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataHost",
+   "range": {
+    "endLine": 109,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataHost.lean",
+    "startLine": 39
+   },
+   "signature": "structure Host (R : Ranks) extends Formalism.HC.HostAx R.toFrame where\n\n  flPS : toHostRaw.PsQ\n  sqq : E\n  sqq_sq : sqq ^ 2 = -(q : E)\n  gal_sqq : ∀ σ : E ≃ₐ[ℚ] E, σ sqq = ((((gal σ).1.1 : ℤˣ) : ℤ) : E) * sqq\n\n  QS_exact : toHostRaw.Exact\n\n  QS_le : QS ≤ R.n ^ 2\n\n  o_pow : R.toFrame.o ^ 64 ≤ 2 ^ R.e\n\n  q_ne_three : q ≠ 3\n\n  qd_big : 4 * R.t * R.r + 1 < q ∧ 4 * R.t * R.r + 1 < d\n\n  splitBound : ℕ\n  split_small : ∀ p : ℕ, p.Prime → p ≠ 2 → p ≤ splitBound → jacobiSym (-(d : ℤ)) p = 1\n\n  small_le : ∀ l : ℕ, l.Prime → l ≠ 2 → l ∣ QS → 4 * l ≤ splitBound\n\n  φ₀ : E →+* ℂ\n  φ₀_mem : φ₀ ∈ toHostRaw.cmType\n\n  𝔟 : Ideal (𝓞 E)\n  𝔟_spec : differentIdeal (𝓞 toHostRaw.K) (𝓞 E) = 𝔟 * (toHostRaw.conj • 𝔟) ∧ 𝔟 ⊔ toHostRaw.conj • 𝔟 = ⊤\n\n  𝔟_stable : ∀ σ : E ≃ₐ[ℚ] E, gal σ ∈ R.Psi → σ • 𝔟 = 𝔟\n\n  levelPrimes : Finset ℕ\n\n  g : Fin 2 → ℕ\n  g_prime : ∀ i, (g i).Prime\n  g_ne : g 0 ≠ g 1\n  g_level : ∀ i, g i ∈ levelPrimes\n\n  pde : ℕ\n  pde' : ℕ\n  pde_prime : pde.Prime"
+  },
+  "Formalism.BasicNotions.Member": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.RhoDetPrimeEqMuTildeMulChiPow",
+   "range": {
+    "endLine": 74,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/RhoDetPrimeEqMuTildeMulChiPow.lean",
+    "startLine": 71
+   },
+   "signature": "structure Member (R : Ranks) (ι : Type) [Fintype ι] (hc : ι → HCParam R) where\n  C : ColumnChain R ι hc\n  A : ColumnsAtT R C\n  P : PeriodMap R C"
+  },
+  "Formalism.BasicNotions.NData": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+   "range": {
+    "endLine": 176,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean",
+    "startLine": 55
+   },
+   "signature": "structure NData (R : Ranks) (H : Host R) (what₂ : Rows.Data R) where\n\n  Om : Type\n  [instOm : Field Om]\n  [algOm : Algebra H.E Om]\n  [acOm : IsAlgClosure H.E Om]\n\n  plOm : Formalism.GaloisCohomology.Places H.E Om\n\n  ldat : ∀ (p : ℕ) [Fact p.Prime], Formalism.GaloisCohomology.LData H.E Om p\n\n  sha_eq : ∀ (p : ℕ) [Fact p.Prime] (e : ℕ), 0 < e → e < R.t → ∀ n : ℕ,\n    Formalism.GaloisCohomology.shaLen (ldat p) (e : ℤ) = (n : ℕ∞) → what₂.shaLen p e = (n : ℚ)\n\n  Loc : Type\n  l : Loc → ℕ\n  [lPrime : ∀ i, Fact (l i).Prime]\n  j : Loc → ℕ\n  j_range : ∀ i, 1 ≤ j i ∧ j i ≤ R.m\n  mu : Loc → what₂.Tup\n  w : Loc → what₂.places.Pl\n  w_l : ∀ i, what₂.places.resChar (w i) = l i\n\n  mu_w : ∀ i, mu i = what₂.muTw (w i)\n\n  w_tw : ∀ i, what₂.muAt (w i) ≠ what₂.mu0\n\n  locs : ℕ → what₂.places.Pl → Finset Loc\n  locs_mem : ∀ j' w' i, i ∈ locs j' w' ↔ j i = j' ∧ w i = w'\n\n  O : Loc → Type\n  [instO : ∀ i, CommRing (O i)]\n  [domO : ∀ i, IsDomain (O i)]\n  [dvrO : ∀ i, IsDiscreteValuationRing (O i)]\n  [algO : ∀ i, Algebra ℤ_[l i] (O i)]\n  [finO : ∀ i, Module.Finite ℤ_[l i] (O i)]\n  [topO : ∀ i, TopologicalSpace (O i)]\n  [trO : ∀ i, IsTopologicalRing (O i)]\n  O_adic : ∀ i, IsAdic (IsLocalRing.maximalIdeal (O i))\n  O_complete : ∀ i, IsAdicComplete (IsLocalRing.maximalIdeal (O i)) (O i)"
+  },
+  "Formalism.BasicNotions.PeriodMap": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataKernels",
+   "range": {
+    "endLine": 182,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataKernels.lean",
+    "startLine": 163
+   },
+   "signature": "structure PeriodMap (R : Ranks) {ι : Type} [Fintype ι] {hc : ι → HCParam R}\n    (C : ColumnChain R ι hc) where\n\n  Mt : Type\n  [MtAcg : AddCommGroup Mt]\n  [MtMod : Module ℂ Mt]\n\n  Wz : Type\n  [WzAcg : AddCommGroup Wz]\n  [WzMod : Module ℂ Wz]\n\n  evz : (C.cls R.m → C.Y R.m → ℂ) →ₗ[ℂ] Wz\n\n  Wrow : Type\n  [WrowAcg : AddCommGroup Wrow]\n  [WrowMod : Module ℂ Wrow]\n\n  lowerMap : Wz →ₗ[ℂ] Wrow\n\n  period : Wrow →ₗ[ℂ] Mt →ₗ[ℂ] ℂ"
+  },
+  "Formalism.BasicNotions.PrimeClass": {
+   "doc": null,
+   "exists": true,
+   "kind": "inductive",
+   "module": "Formalism.LocalRingCardinality.DataHost",
+   "range": {
+    "endLine": 31,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataHost.lean",
+    "startLine": 24
+   },
+   "signature": "inductive PrimeClass\n  |   splitK\n  |   signal\n  |   inertClass\n  |   ram2\n  |   ramQ\n  |   ramD\n  deriving DecidableEq"
+  },
+  "Formalism.BasicNotions.Ranks": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 22,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 6
+   },
+   "signature": "structure Ranks extends Formalism.HC.Frame where\n  k : ℕ\n  m : ℕ\n  t : ℕ\n  k_even : Even k\n  m_even : Even m\n  t_odd : Odd t\n  two_le_m : 2 ≤ m\n  m_add_three_le_k : m + 3 ≤ k\n\n  rank_add_five_le : k + m - 1 + 5 ≤ t\n  three_m_lt_t : 3 * m < t\n\n  m_le_f : m ≤ 2 * ord\n  f_le_k : 2 * ord ≤ k\n\n  m_sq_le_N : m ^ 2 ≤ k + m * (t + 1)"
+  },
+  "Formalism.BasicNotions.Ranks.N": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 36,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 36
+   },
+   "signature": "def N (j : ℕ) : ℕ := R.k + j * (R.t + 1)"
+  },
+  "Formalism.BasicNotions.Ranks.f": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 30,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 30
+   },
+   "signature": "def f : ℕ := 2 * R.n"
+  },
+  "Formalism.BasicNotions.Ranks.n": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 28,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 28
+   },
+   "signature": "def n : ℕ := R.ord"
+  },
+  "Formalism.BasicNotions.Ranks.nV": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 34,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 34
+   },
+   "signature": "def nV : ℕ := R.r + R.t"
+  },
+  "Formalism.BasicNotions.Ranks.r": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.Params",
+   "range": {
+    "endLine": 32,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/Params.lean",
+    "startLine": 32
+   },
+   "signature": "def r : ℕ := R.k + R.m - 1"
+  },
+  "Formalism.BasicNotions.Rows.Data": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataRows",
+   "range": {
+    "endLine": 168,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataRows.lean",
+    "startLine": 36
+   },
+   "signature": "structure Data (R : Ranks) where\n\n  LL : Type\n  [instLL : Field LL]\n  embLL : LL →+* ℂ\n  places : Places LL\n\n  O : Type\n  [instO : CommRing O]\n  OtoLL : O →+* LL\n\n  Tau : Type\n  [instTau : Fintype Tau]\n  card_Tau : Fintype.card Tau = R.f\n\n  Tup : Type\n  mu0 : Tup\n  muStar : Tup\n  muStar' : Tup\n  muAt : places.Pl → Tup\n  muAt_conj : ∀ w, muAt (places.conj w) = muAt w\n\n  muTw : places.Pl → Tup\n  muTw_conj : ∀ w, muTw (places.conj w) = muTw w\n  muAt_or : ∀ w, muAt w = mu0 ∨ muAt w = muTw w\n\n  EE : Type\n  [instEE : NormedAddCommGroup EE]\n  [instEEi : InnerProductSpace ℂ EE]\n  [instEEf : FiniteDimensional ℂ EE]\n  Drows : ℕ\n  onb : OrthonormalBasis (Fin Drows) ℂ EE\n  Dall : ℕ\n  delp : ℝ\n  delp_le_one : delp ≤ 1\n  D_eq : (Drows : ℝ) = (1 - delp) * Dall\n\n  EE0 : Type\n  [instEE0 : NormedAddCommGroup EE0]\n  [instEE0i : InnerProductSpace ℂ EE0]"
+  },
+  "Formalism.BasicNotions.Scale": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataParams₂",
+   "range": {
+    "endLine": 17,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataParams₂.lean",
+    "startLine": 9
+   },
+   "signature": "structure Scale where\n  x : ℝ\n  eps : ℝ\n  one_lt_alt : 1 < x\n  eps_pos : 0 < eps\n  eps_lt : eps < 1 / 52\n\n  J : ℝ\n  one_le_J : 1 ≤ J"
+  },
+  "Formalism.BasicNotions.SizeData₂": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataParams₂",
+   "range": {
+    "endLine": 182,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataParams₂.lean",
+    "startLine": 76
+   },
+   "signature": "structure SizeData₂ (D : D7) where\n  sc : Scale\n\n  aT : D.host.TT → ℤ\n  aT_win : ∀ t, sc.a ≤ (aT t : ℝ) ∧ (aT t : ℝ) ≤ sc.a + sc.a / ((D.R.k : ℝ) * sc.x ^ (Scale.A / 2))\n\n  bT : D.host.TT → ℤ\n  bT_ge : ∀ t, sc.b' ≤ (bT t : ℝ)\n\n  top_u : ∀ τ (t : D.host.TT) (h0 : 0 < D.R.k), (D.eTau τ : D.R.GG) = D.R.tau1 t →\n    (((D.hc τ).u ⟨0, h0⟩ : ℚ) : ℝ) = aT t + ((D.R.k : ℝ) - 1) / 2 ∧\n    (((D.hc τ).u ⟨D.R.k - 1, by omega⟩ : ℚ) : ℝ) = -(bT t : ℝ) - ((D.R.k : ℝ) - 1) / 2\n  top_b : ∀ τ (t : D.host.TT) (hm : 0 < D.R.m), (D.eTau τ : D.R.GG) = D.R.tau1 t →\n    (((D.hc τ).b ⟨0, hm⟩ : ℚ) : ℝ) - (bT t : ℝ) > ((D.R.k : ℝ) - 1) / 2 + 3\n\n  supp : Finset D.what₂.places.Pl\n\n  gain : ℕ → D.what₂.places.Pl → ℝ\n  F : ℕ → D.what₂.places.Pl → ℝ\n  E : D.what₂.Word → ℕ → D.what₂.places.Pl → ℝ\n  tau : D.what₂.places.Pl → ℝ\n  io : D.what₂.places.Pl → ℝ\n  gain_supp : ∀ j w, w ∉ supp → gain j w = 0\n  F_supp : ∀ j w, w ∉ supp → F j w = 0\n  E_supp : ∀ u j w, w ∉ supp → E u j w = 0\n  tau_supp : ∀ w, w ∉ supp → tau w = 0\n  io_supp : ∀ w, w ∉ supp → io w = 0\n\n  gain_g : ∀ j w, D.what₂.places.resChar w ∈ ({D.host.g 0, D.host.g 1} : Finset ℕ) → gain j w = 0\n\n  b_le : ∀ τ j, (((D.hc τ).b j : ℚ) : ℝ) ≤ sc.b ^ 2\n\n  untwisted : ∀ w, D.what₂.muAt w = D.what₂.mu0 → ∀ j, 1 ≤ j → j ≤ D.R.m → D.what₂.Aj j w = 0 ∧ F j w = 0\n\n  not_inert : ∀ w, D.host.cls (D.what₂.places.resChar w) ≠ .signal →\n    D.host.cls (D.what₂.places.resChar w) ≠ .inertClass → (∀ j, gain j w = 0) ∧ tau w = 0 ∧ io w = 0\n\n  drop : Set ℕ\n  drop_alt : ∀ u, (D.mem u).A.T ∉ drop\n"
+  },
+  "Formalism.BasicNotions.Spaces": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.LocalRingCardinality.DataSpaces",
+   "range": {
+    "endLine": 139,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataSpaces.lean",
+    "startLine": 77
+   },
+   "signature": "structure Spaces (R : Ranks) (F E : Type) [Field F] [NumberField F] [Field E] [NumberField E]\n    [StarRing E] [Algebra F E] where\n  cm : CMData F E\n\n  T : ℕ\n  T_prime : T.Prime\n\n  X : ℕ → HSpace E\n  X_sig : ∀ j, (X j).SigOK\n  X_rank : ∀ j, j ≤ R.m → (X j).rank = R.N j\n  X_def : ∀ j, j ≤ R.m → (X j).IsDefinite\n\n  X' : HSpace E\n  X'_sig : X'.SigOK\n  X'_rank : X'.rank = R.rankX'\n  iX' : X'.V →ₗ[E] (X R.m).V\n  iX'_isom : HSpace.IsIsomEmb X' (X R.m) iX'\n  z : (X R.m).V\n  z_anis : (X R.m).hT z z ≠ 0\n  z_orth : ∀ x, (X R.m).hT (iX' x) z = 0\n\n  Y : ℕ → HSpace E\n  Y_sig : ∀ j, (Y j).SigOK\n  Y_rank : ∀ j, j ≤ R.m → (Y j).rank = R.rankY j\n\n  iXY : ∀ j, (X j).V →ₗ[E] (Y j).V\n  iXY_isom : ∀ j, j < R.m → HSpace.IsIsomEmb (X j) (Y j) (iXY j)\n\n  eYm : X'.V ≃ₗ[E] (Y R.m).V\n  eYm_isom : HSpace.IsIsomEmb X' (Y R.m) eYm.toLinearMap\n\n  zm : (Y 0).V\n  zm_norm : (Y 0).hT zm zm = -(T : E)\n  zm_orth : ∀ x, (Y 0).hT (iXY 0 x) zm = 0\n  hypE : Fin R.rS → (Y 0).V\n  hypF : Fin R.rS → (Y 0).V\n  hyp_ee : ∀ i i', (Y 0).hT (hypE i) (hypE i') = 0\n  hyp_ff : ∀ i i', (Y 0).hT (hypF i) (hypF i') = 0\n  hyp_ef : ∀ i i', (Y 0).hT (hypE i) (hypF i') = if i = i' then 1 else 0\n  hyp_orthX : ∀ i x, (Y 0).hT (iXY 0 x) (hypE i) = 0 ∧ (Y 0).hT (iXY 0 x) (hypF i) = 0"
+  },
+  "Formalism.BasicNotions.hcToWeightQ": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.DataCoeff",
+   "range": {
+    "endLine": 41,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataCoeff.lean",
+    "startLine": 41
+   },
+   "signature": "def hcToWeightQ {N : ℕ} (hc : Fin N → ℚ) : Fin N → ℚ := fun i => hc i - rhoVec N i"
+  },
+  "Formalism.BasicNotions.placesOver": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SharpRestriction.LevelLetterCocycles.DataN",
+   "range": {
+    "endLine": 36,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/LevelLetterCocycles/DataN.lean",
+    "startLine": 35
+   },
+   "signature": "def placesOver (E : Type) [Field E] [NumberField E] (p : ℕ) : Set (HeightOneSpectrum (𝓞 E)) :=\n  {v | ((p : ℕ) : 𝓞 E) ∈ v.asIdeal}"
+  },
+  "Formalism.BasicNotions.primeClass": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalRingCardinality.DataHost",
+   "range": {
+    "endLine": 37,
+    "file": ".lake/packages/tree/src/Formalism/LocalRingCardinality/DataHost.lean",
+    "startLine": 33
+   },
+   "signature": "noncomputable def primeClass {φ : Formalism.HC.Frame} (H : Formalism.HC.HostRaw φ) (p : ℕ) : PrimeClass :=\n  if p ∈ H.small then .ram2 else if p = H.q then .ramQ else if p = H.d then .ramD\n  else if jacobiSym (-(H.d : ℤ)) p = 1 then .splitK\n  else if H.psAt p = 1 then .signal\n  else .inertClass"
+  },
   "Formalism.CountingSumsFrames.TheoremMV7": {
    "doc": null,
    "exists": true,
@@ -397,6 +733,42 @@
    },
    "signature": "def TheoremMV7 : Prop :=\n  ∀ (p : ℕ) [Fact p.Prime] (s r : ℕ) [NeZero r] (LL : Letters (2 * s + 1)) (T : TieData)\n    (a E : ℝ) (Yl n₀ dd : Fin T.t → ℕ) (ρ : Fin r),\n    p ≠ 2 → 2 ≤ r → (ρ : ℕ) = r - 1 → T.Admissible LL → ChainOrderLetters LL → ConditionShape s T →\n    1 ≤ a → 1 ≤ E → (∀ i, 1 ≤ Yl i ∧ 0 < dd i ∧ IsCoprime (dd i : ℤ) p) →\n    (∀ i, T.S (LL.setTies T (fun i => n₀ i + dd i * (Yl i - 1))) i ≤ n₀ i) →\n    SizeHypothesis (LL.setTies T (fun i => n₀ i + dd i * (Yl i - 1))) T r a Yl →\n    (∑ n ∈ Fintype.piFinset (fun i => (range (Yl i)).image (fun j => n₀ i + dd i * j)),\n        (bad p (fun F G => fockN p (LL.setTies T n) (T.phis p (LL.setTies T n) F) G)\n          (YZ p (r := r) (LL.setTies T n) T.J T.thr)\n          ⌊(T.t : ℝ) * (E + kapSeg p a r s) + kapSeg p a r s⌋ : ℝ)) /\n        (Fintype.piFinset (fun i => (range (Yl i)).image (fun j => n₀ i + dd i * j))).card ≤\n      ∑ i, epsSeg (T.S (LL.setTies T (fun i => n₀ i + dd i * (Yl i - 1))) i : ℝ) (Yl i) (kapSeg p a r s)\n          (lgSeg p a r) E *\n        ((∑ n ∈ Fintype.piFinset (fun i => (range (Yl i)).image (fun j => n₀ i + dd i * j)),\n            (Module.finrank ℚ_[p]\n              (Y p (r := r) (LL.setTies T (Function.update n i (n₀ i + dd i * (Yl i - 1)))) T.J T.thr) : ℝ)) /\n          (Fintype.piFinset (fun i => (range (Yl i)).image (fun j => n₀ i + dd i * j))).card)"
   },
+  "Formalism.FourierDecayAlt.B.GV": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.HermitianCurvature.StatementB",
+   "range": {
+    "endLine": 89,
+    "file": ".lake/packages/tree/src/Formalism/HermitianCurvature/StatementB.lean",
+    "startLine": 89
+   },
+   "signature": "abbrev GV (k r : ℕ) : Set (Mat k r) := UH (Hpk k r)"
+  },
+  "Formalism.FourierDecayAlt.B.Mat": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.HermitianCurvature.StatementB",
+   "range": {
+    "endLine": 87,
+    "file": ".lake/packages/tree/src/Formalism/HermitianCurvature/StatementB.lean",
+    "startLine": 87
+   },
+   "signature": "abbrev Mat (k r : ℕ) := Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ"
+  },
+  "Formalism.FourierDecayAlt.B.RealPlaceData": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.HermitianCurvature.StatementB",
+   "range": {
+    "endLine": 128,
+    "file": ".lake/packages/tree/src/Formalism/HermitianCurvature/StatementB.lean",
+    "startLine": 98
+   },
+   "signature": "structure RealPlaceData (k r : ℕ) (Wp Wq : Type) [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp]\n    [NormedAddCommGroup Wq] [InnerProductSpace ℂ Wq] where\n  z : Fin (2 * r + k + 1) → ℂ\n  z' : Fin (2 * r + k + 1) → ℂ\n  π : Mat k r → (Wp →L[ℂ] Wp)\n  π' : Mat k r → (Wq →L[ℂ] Wq)\n  μG : Measure (Mt k r)\n  μW : Measure (Mt k r)\n  μN : Measure (Mt k r)\n  μW' : Measure (Mt k r)\n  μsec : ℂ → Matrix (Fin (k + 1)) (Fin (k + 1)) ℂ\n  χ : ℝ → ℝ\n  k_pos : 1 ≤ k\n  z_mem : inWb k r z\n  z'_mem : inWb k r z'\n  T_pos : 0 < Tz k r z\n  T'_pos : 0 < Tz k r z'\n  π_rep : IsCRepOn (UWset k r z) π\n  π'_rep : IsCRepOn (UWset k r z') π'\n  π_unitary : ∀ h ∈ UWset k r z, ∀ v, ‖π h v‖ = ‖v‖\n  π'_unitary : ∀ h ∈ UWset k r z', ∀ v, ‖π' h v‖ = ‖v‖\n  π_cont : ContinuousOn π (UWset k r z)\n  π'_cont : ContinuousOn π' (UWset k r z')\n  haarG : IsHaarOn (GV k r) μG\n  haarW : IsHaarOn (UWset k r z) μW\n  haarN : IsHaarOn (Nset k r) μN\n  haarW' : IsHaarOn (UWset k r z') μW'\n  sec : IsSection k r z z' μsec\n  χ_smooth : ContDiff ℝ ((⊤ : ℕ∞) : WithTop ℕ∞) χ\n  χ_supp : tsupport χ ⊆ Set.Ioo (1 / 2) 2\n  χ_int : (∫ t, χ t) = 1"
+  },
   "Formalism.FourierDecayAlt.JCT.ModelPlaceBuilt2": {
    "doc": null,
    "exists": true,
@@ -408,6 +780,18 @@
     "startLine": 317
    },
    "signature": "def ModelPlaceBuilt2 : Prop :=\n  ∃ Cc : ℝ, ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] (Wp Wq : InfinitePlace E → Type)\n    [∀ x, NormedAddCommGroup (Wp x)] [∀ x, InnerProductSpace ℂ (Wp x)]\n    [∀ x, NormedAddCommGroup (Wq x)] [∀ x, InnerProductSpace ℂ (Wq x)]\n    [∀ x, FiniteDimensional ℂ (Wp x)] [∀ x, FiniteDimensional ℂ (Wq x)]\n    (S : C.HidaSetting E Wp Wq) (T : ∀ v : Fin S.f, D.LevTower S.G.k S.G.r (Wp (S.pl v)) (Wq (S.pl v)))\n    (f : ∀ v : Fin S.f, B.Mat S.G.k S.G.r → (Wq (S.pl v) →L[ℂ] Wp (S.pl v))) (χ : ℝ → ℝ)\n    (ν' : Fin S.f → Fin (2 * S.G.r + S.G.k + 1) → ℂ) (m₀ : Fin S.f → B.Mat S.G.k S.G.r)\n    (top : ∀ v : Fin S.f, (B.Mat S.G.k S.G.r → (Wq (S.pl v) →L[ℂ] Wp (S.pl v))) → List C.Letter → C.LPt → C.LPt → ℂ)\n    (A₀ : ℝ),\n    IsBuiltPlace Cc S T f χ ν' m₀ top A₀ → (∀ v, (S.G.place (S.pl v)).Ok) →\n    Sz.IsWord S.G.k S.de → Sz.IsWord S.G.k S.de' → ∀ c : LE.Cut, c.χ = χ → ∀ v : Fin S.f,\n      ∃ (L : R.LevelData (MA.A (D.parOf S v) (MA.DQ (D.parOf S v))) (D.parOf S v).r)\n        (j : M.Ty (D.parOf S v) → MA.SmQ (D.parOf S v).r (D.parOf S v).TT)\n        (lam : Fin ((D.parOf S v).k + 2 * (D.parOf S v).r + 1) → ℝ) (Cm σ : ℝ),\n        JC.IsModelPlace S T f χ v L j lam c Cm σ"
+  },
+  "Formalism.FourierDecayAlt.M.Par": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.HermitianCurvature.StatementM",
+   "range": {
+    "endLine": 94,
+    "file": ".lake/packages/tree/src/Formalism/HermitianCurvature/StatementM.lean",
+    "startLine": 88
+   },
+   "signature": "structure Par where\n  k : ℕ\n  r : ℕ\n  T : ℝ\n  T' : ℝ\n  u : ℕ → ℝ\n  u' : ℕ → ℝ"
   },
   "Formalism.FourierDecayAlt.MA.LemmaEModel": {
    "doc": null,
@@ -565,6 +949,42 @@
    },
    "signature": "def ThmPActualCpt : Prop :=\n  ∀ (Wp Wq : Type) [NormedAddCommGroup Wp] [InnerProductSpace ℂ Wp] [NormedAddCommGroup Wq]\n    [InnerProductSpace ℂ Wq] [FiniteDimensional ℂ Wp] [FiniteDimensional ℂ Wq] (S : Type) [Fintype S] [DecidableEq S]\n    (P : M.Par) (z z' : Fin (2 * P.r + P.k + 1) → ℂ) (π : Mx P.k P.r → (Wp →L[ℂ] Wp))\n    (π' : Mx P.k P.r → (Wq →L[ℂ] Wq)) (X : ActualOps P.k P.r z z' π π') (μ : Measure (Mt P.k P.r))\n    (L : R.LevelData (Pr (RadSp P.k P.r z z' π π')) P.r) (st : Fr.Start (Pr (RadSp P.k P.r z z' π π'))) (l0 : ℕ)\n    (D : B.RealPlaceData P.k P.r Wp Wq) (A : ℝ) (mm : ℕ),\n    IsData P z z' π π' X μ L st l0 → 1 ≤ l0 → l0 ≤ P.k → D.z = z → D.z' = z' → D.π = π → D.π' = π' →\n    Auser P (Fintype.card S) ≤ A → mmUser P (Fintype.card S) ≤ mm →\n    ∃ K : Fin (P.r + 1) → Submodule ℂ (RadSp P.k P.r z z' π π'),\n      ThmPOn (S := S) P z z' π π' μ L st K l0 ∧ SliceIn (S := S) P z z' π π' L st K l0 ∧\n      CompositeFormulaLevelZero (S := S) P z z' π π' μ L st K l0 ∧\n      ∀ (F : Mx P.k P.r → (Wq →L[ℂ] Wp)) (ε : ℝ), 0 < ε → (∀ (A' : ℝ) (m' : ℕ), B.InCC A' m' F) →\n        HasCompactSupport F → (∀ g ∈ B.GV P.k P.r, F g ≠ 0 → ε ≤ Gf P.k P.r z z' g) →\n        ∃ Φ ∈ K 0, ∀ x ∈ DomR P.k P.r z z',\n          (Φ : Fn P.k P.r (Wq →L[ℂ] Wp)) x.1 x.2 = resG P.k P.r (Fin.last P.r) (B.JF D F) x.1 x.2"
   },
+  "Formalism.FrobeniusOrbits.HGrp": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FrobeniusOrbits.Statement",
+   "range": {
+    "endLine": 25,
+    "file": ".lake/packages/tree/src/Formalism/FrobeniusOrbits/Statement.lean",
+    "startLine": 24
+   },
+   "signature": "abbrev HGrp (e : ℕ) : Type :=\n  (ZMod (2 ^ (e + 2)))ˣ ⧸ Subgroup.zpowers (-1 : (ZMod (2 ^ (e + 2)))ˣ)"
+  },
+  "Formalism.FrobeniusOrbits.HostHyp": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FrobeniusOrbits.Statement",
+   "range": {
+    "endLine": 14,
+    "file": ".lake/packages/tree/src/Formalism/FrobeniusOrbits/Statement.lean",
+    "startLine": 13
+   },
+   "signature": "def HostHyp (q d : ℕ) : Prop :=\n  q.Prime ∧ d.Prime ∧ q % 8 = 3 ∧ d % 16 = 7 ∧ jacobiSym (-(d : ℤ)) q = 1"
+  },
+  "Formalism.FrobeniusOrbits.hostThickExists": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.FrobeniusOrbits.FrobeniusOrbitsProofs.ThickExists",
+   "range": {
+    "endLine": 334,
+    "file": ".lake/packages/tree/src/Formalism/FrobeniusOrbits/FrobeniusOrbitsProofs/ThickExists.lean",
+    "startLine": 181
+   },
+   "signature": "theorem hostThickExists : HostThickExists"
+  },
   "Formalism.GaloisCohomology.LocalEulerCharK": {
    "doc": null,
    "exists": true,
@@ -649,6 +1069,54 @@
    },
    "signature": "structure EAtH (Λ : Level) {φ : Frame} (H : HostRaw φ) (TT : Finset φ.A) (x eps C : ℝ) : Prop where\n  o_eq : φ.o = Λ.o\n  kept : H.KeptInXp Λ.KEPT\n  ps : H.ExceptionalCharacterKept Λ.KEPT Λ.psK\n  shares : φ.Shares TT (x ^ (-1 + eps))\n  bdG : H.BoundedCharsPointwise Λ.KEPT x eps\n  bdL : ∀ θ ∈ H.Bounded Λ.KEPT, ∀ (N : ℕ) [NeZero N] (χ : DirichletCharacter ℂ N), H.IsPrimOf θ χ →\n    ‖An.logDerivativeAtOne χ‖ ≤ C * Real.log x"
   },
+  "Formalism.HC.Frame": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ZsmulGeneratorEqZeroOfProjection",
+   "range": {
+    "endLine": 23,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ZsmulGeneratorEqZeroOfProjection.lean",
+    "startLine": 15
+   },
+   "signature": "structure Frame where\n  e : ℕ\n\n  ord : ℕ\n  grp : AddCommGroup (Idx ord)\n  h0 : letI := grp; Idx ord →+ Additive (HGrp e)\n  projection_surjective_field : Function.Surjective h0\n  gen0 : Idx ord\n  zsmul_generator_eq_zero_of_projection : letI := grp; ∀ k : ℤ, h0 (k • gen0) = 0 → k • gen0 = 0"
+  },
+  "Formalism.HC.HostAx": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+   "range": {
+    "endLine": 175,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ConjEMemHostFIff.lean",
+    "startLine": 174
+   },
+   "signature": "structure HostAx (φ : Frame) extends HostRaw φ where\n  der : HostDer toHostRaw"
+  },
+  "Formalism.HC.HostDer": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+   "range": {
+    "endLine": 170,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ConjEMemHostFIff.lean",
+    "startLine": 87
+   },
+   "signature": "structure HostDer {φ : Frame} (H : HostRaw φ) : Prop where\n  art_surj : Function.Surjective H.art\n  cm : IsCMField H.E\n  conj_iff : ∀ (ψ : H.E →+* ℂ) (σ : H.E ≃ₐ[ℚ] H.E), (∀ x, ψ (σ x) = starRingEnd ℂ (ψ x)) ↔ H.gal σ = φ.cc\n  finrank_E : Module.finrank ℚ H.E = 4 * φ.ord\n  finrank_F : Module.finrank ℚ H.F = 2 * φ.ord\n  mem_F : ∀ x : H.E, x ∈ H.F ↔ H.conj x = x\n\n  cmType : (∀ ψ : H.E →+* ℂ, ψ ∈ H.cmType ↔ (starRingEnd ℂ).comp ψ ∉ H.cmType) ∧ H.cmType.ncard = 2 * φ.ord ∧\n    ∀ ψ ∈ H.cmType, ∀ σ : H.E ≃ₐ[ℚ] H.E, ψ.comp (σ : H.E →+* H.E) ∈ H.cmType ↔ H.gal σ ∈ φ.Psi\n\n  ps_root : ∃ a : H.E, a ≠ 0 ∧ ∀ σ : H.E ≃ₐ[ℚ] H.E, σ a = ((((H.gal σ).1.1 : ℤˣ) : ℤ) : H.E) * a\n  art_ch : ∀ u : (ZMod H.condN)ˣ, (((H.art u).1.2 : ℤˣ) : ℤ) = jacobiSym (((u : ZMod H.condN).val : ℕ) : ℤ) H.d\n\n  ps_d : ∀ u : (ZMod H.condN)ˣ, (u : ZMod H.condN).val ≡ H.d [MOD H.QS * H.q] → (H.art u).1.1 = -1\n\n  frob : ∀ (p : ℕ) [Fact p.Prime], ¬ p ∣ H.condN →\n    ∀ (P : Ideal (𝓞 H.E)) [P.IsPrime] [P.LiesOver (span {(p : ℤ)})],\n      (∃ σ : H.E ≃ₐ[ℚ] H.E, IsArithFrobAt ℤ σ P) ∧\n      (∀ (σ : H.E ≃ₐ[ℚ] H.E) (u : (ZMod H.condN)ˣ), (u : ZMod H.condN) = (p : ZMod H.condN) →\n        (IsArithFrobAt ℤ σ P ↔ H.gal σ = H.art u)) ∧\n      (∀ σ : H.E ≃ₐ[ℚ] H.E, IsArithFrobAt ℤ σ P →\n        (((H.gal σ).1.1 : ℤˣ) : ℤ) = H.psAt p ∧ (((H.gal σ).1.2 : ℤˣ) : ℤ) = jacobiSym (-(H.d : ℤ)) p ∧\n        ∃ v : (ZMod (2 ^ (φ.e + 2)))ˣ, (v : ZMod (2 ^ (φ.e + 2))) = (p : ZMod _) ∧ φ.hH (H.gal σ).2 = hcl φ.e v) ∧\n      ∀ σ : H.E ≃ₐ[ℚ] H.E, (∀ x : 𝓞 H.E, σ • x - x ∈ P) ↔ σ = 1\n\n  frob_any : ∀ (l : ℕ) [Fact l.Prime] (P : Ideal (𝓞 H.E)) [P.IsPrime] [P.LiesOver (span {(l : ℤ)})] (σ : H.E ≃ₐ[ℚ] H.E),\n    IsArithFrobAt ℤ σ P ↔\n      ∃ u : (ZMod H.condN)ˣ, (u : ZMod H.condN).val ≡ l [MOD ordCompl[l] H.condN] ∧ H.gal σ = H.art u\n\n  inertia : ∀ (l : ℕ) [Fact l.Prime] (P : Ideal (𝓞 H.E)) [P.IsPrime] [P.LiesOver (span {(l : ℤ)})] (σ : H.E ≃ₐ[ℚ] H.E),\n    (∀ x : 𝓞 H.E, σ • x - x ∈ P) ↔\n      ∃ u : (ZMod H.condN)ˣ, (u : ZMod H.condN).val ≡ 1 [MOD ordCompl[l] H.condN] ∧ H.gal σ = H.art u\n\n  decomp : ∀ (l : ℕ) [Fact l.Prime] (P : Ideal (𝓞 H.E)) [P.IsPrime] [P.LiesOver (span {(l : ℤ)})] (σ : H.E ≃ₐ[ℚ] H.E),\n    σ ∈ MulAction.stabilizer _ P ↔\n      ∃ (u : (ZMod H.condN)ˣ) (k : ℕ), (u : ZMod H.condN).val ≡ l ^ k [MOD ordCompl[l] H.condN] ∧ H.gal σ = H.art u\n\n  inertia_d : ∀ (P : Ideal (𝓞 H.E)) [P.IsPrime] [P.LiesOver (span {(H.d : ℤ)})] (σ : H.E ≃ₐ[ℚ] H.E),\n    (∀ x : 𝓞 H.E, σ • x - x ∈ P) ↔ (H.gal σ = 1 ∨ H.gal σ = φ.iod)"
+  },
+  "Formalism.HC.HostRaw": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.RamificationFrobenius.TotientGaloisClasses.ConjEMemHostFIff",
+   "range": {
+    "endLine": 46,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/RamificationFrobenius/TotientGaloisClasses/ConjEMemHostFIff.lean",
+    "startLine": 12
+   },
+   "signature": "structure HostRaw (φ : Frame) where\n  q : ℕ\n  d : ℕ\n\n  QS : ℕ\n  hyp : HostHyp q d\n  two_le_e : 2 ≤ φ.e\n  QS_pos : 0 < QS\n  tower_dvd : 2 ^ (φ.e + 2) ∣ QS\n  QS_coprime : Nat.Coprime QS (q * d)\n  QS_split : ∀ l : ℕ, l.Prime → l ≠ 2 → l ∣ QS → jacobiSym (-(d : ℤ)) l = 1\n  E : Type\n  [instField : Field E]\n  [instNF : NumberField E]\n  galois : IsGalois ℚ E\n  gal : (E ≃ₐ[ℚ] E) ≃* φ.GG\n\n  sqd : E\n  sqd_sq : sqd ^ 2 = -(d : E)\n  gal_sqd : ∀ σ : E ≃ₐ[ℚ] E, σ sqd = ((((gal σ).1.2 : ℤˣ) : ℤ) : E) * sqd\n\n  cycEmb : E →ₐ[ℚ] CyclotomicField (QS * q * d) ℚ\n  cycZeta : CyclotomicField (QS * q * d) ℚ\n  cycZeta_prim : IsPrimitiveRoot cycZeta (QS * q * d)\n\n  art : (ZMod (QS * q * d))ˣ →* φ.GG\n  art_spec : ∀ (u : (ZMod (QS * q * d))ˣ)\n    (τ : CyclotomicField (QS * q * d) ℚ ≃ₐ[ℚ] CyclotomicField (QS * q * d) ℚ),\n    τ cycZeta = cycZeta ^ (u : ZMod (QS * q * d)).val → ∀ x : E, cycEmb (gal.symm (art u) x) = τ (cycEmb x)\n  art_neg_one : art (-1) = φ.cc\n  art_h : ∀ (u : (ZMod (QS * q * d))ˣ) (v : (ZMod (2 ^ (φ.e + 2)))ˣ),\n    (v : ZMod (2 ^ (φ.e + 2))) = (((u : ZMod (QS * q * d)).val : ℕ) : ZMod (2 ^ (φ.e + 2))) →\n    φ.hH (art u).2 = hcl φ.e v\n  art_d : ∀ u : (ZMod (QS * q * d))ˣ, (u : ZMod (QS * q * d)).val ≡ 1 [MOD QS * q] → art u = 1 ∨ art u = φ.iod\n  art_q : ∀ u : (ZMod (QS * q * d))ˣ, (u : ZMod (QS * q * d)).val ≡ 1 [MOD QS * d] → art u ^ 2 = 1"
+  },
   "Formalism.HC.Level.FormB": {
    "doc": null,
    "exists": true,
@@ -732,6 +1200,30 @@
     "startLine": 90
    },
    "signature": "theorem zeroFreeOn_of_tiedWin_cyc {Q : PChar → Prop} {la : ℝ} (hla : 1 < la)\n    (h112 : ∀ ψ, Q ψ → ChebyshevInequalityOnWindows @core @Tied (Level.cyc ψ)) (hB : ∀ ψ, Q ψ → (Level.cyc ψ).FormB)\n    (h : ∀ ψ, Q ψ → ChebyshevInequalityAtWindowScale @core @Tied la (Level.cyc ψ)) : ZeroFreeOn Q"
+  },
+  "Formalism.HermitianLattices.Ext.PrimesInProgressions.deuring_heilbronn_finish_turan": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.DeuringHeilbronnFinishTuran",
+   "range": {
+    "endLine": 150,
+    "file": ".lake/packages/tree/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/JacobiCharacterSums/DeuringHeilbronnFinishTuran.lean",
+    "startLine": 14
+   },
+   "signature": "theorem deuring_heilbronn_finish_turan : DHFinish2Of"
+  },
+  "Formalism.HermitianLattices.Ext.PrimesInProgressions.pnt_progressions_relative_weak_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.GL3MeanSquares.GenusMeanAsymptotics.JacobiCharacterSums.PNTFinal",
+   "range": {
+    "endLine": 24,
+    "file": ".lake/packages/tree/src/Formalism/GL3MeanSquares/GenusMeanAsymptotics/JacobiCharacterSums/PNTFinal.lean",
+    "startLine": 22
+   },
+   "signature": "theorem pnt_progressions_relative_weak_holds : Formalism.HermitianLattices.Ext.LogarithmicIntegralBounds.PNTAPRelW"
   },
   "Formalism.InvariantFactorPaths.MC.Top.theoremMV7": {
    "doc": null,
@@ -1033,6 +1525,66 @@
    },
    "signature": "theorem theoremS_of_conj (h : TheoremSClosedHypotheses) (Cthr : ℝ) :\n    ∃ C₄ CA C : ℝ, 1 ≤ C₄ ∧ Cthr ≤ CA ∧ 1 ≤ CA ∧ 0 ≤ C ∧ C ≤ CA ∧\n    ∀ (C0 CG CDel cT Cb : ℝ), 1 ≤ C0 → 0 ≤ CG → 4 < CDel → 0 < cT → 0 < Cb → 1 < cT * Cb →\n    ∃ k0 : ℕ, ∀ Cg cb Cw cTf CT C0f : ℝ, 0 < cb → 0 < cTf → ∃ Cn C'₀ Cl₀ : ℝ, 0 ≤ Cn ∧ ∀ C' Cl : ℝ, C'₀ ≤ C' → Cl₀ ≤ Cl →\n    ∀ (D : D7) (L : SizeData₂ D) (T : STies D) (u u' : D.what₂.Word), Formalism.BasicNotions.Ties D → u ≠ u' → 0 ≤ L.sc.b →\n      SizesAt CA C0 CG CDel cT Cb Cn k0 D L T u u' →\n      Formalism.MainNotions.S.Cnt.Hyp0 D L C' Cl Cg cb Cw cTf CT C0f → Formalism.MainNotions.S.Cnt.Stand D u u' →\n      Formalism.MainNotions.NonGenericAndKTwoTheorems.KTwoHypotheses D L C' Cl Cg cb Cw cTf CT C0f →\n      Formalism.L2.SG.ConcreteSettingExists.GapHyp D → Formalism.L2.SG.Pf.LocCP.LocTied D → Formalism.L2.SG.RowsConc.TFrameAt D →\n      (T.Y.tO u u').RowBig (Formalism.L2.SG.RowsConc.epsL D) (Formalism.L2.SG.RowsConc.ddC T.X T.Y u u') →\n      (T.Y.tO u u').RowNotScalar (Formalism.L2.SG.RowsConc.epsL D) (Formalism.L2.SG.RowsConc.ddC T.X T.Y u u') →\n      ‖(T.Y.tO u u').K0‖ ^ 2 ≤ (1 + (L.sc.b ^ 6)⁻¹) * ((D.duS u : ℝ) * (D.duS u') / D.what₂.Dstar) ∧\n      L.hsSq u u' ≤ (1 + L.sc.b ^ (-(6 : ℝ))) * (D.duS u : ℝ) * (D.duS u' : ℝ) / D.what₂.Dstar"
   },
+  "Formalism.L2.Th1.CM.CM2": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.Statement",
+   "range": {
+    "endLine": 47,
+    "file": ".lake/packages/tree/src/Formalism/LocalToGlobal/TorsionIntegrality/CMGoodModels/Statement.lean",
+    "startLine": 45
+   },
+   "signature": "def CM2 : Prop :=\n  ∀ (d : ℕ) (L : PeriodPair), Squarefree d → d % 4 = 3 → HasCMBy d L →\n    ∀ (l : ℕ) [Fact l.Prime], 5 ≤ l → ¬ l ∣ d → ∀ ι : ℂ ≃+* ℂ_[l], ∃ g2 g3, IsGoodModel l L ι g2 g3"
+  },
+  "Formalism.L2.Th1.CM.JInvariantIntegrality": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.Statement",
+   "range": {
+    "endLine": 43,
+    "file": ".lake/packages/tree/src/Formalism/LocalToGlobal/TorsionIntegrality/CMGoodModels/Statement.lean",
+    "startLine": 42
+   },
+   "signature": "def JInvariantIntegrality : Prop :=\n  ∀ (d : ℕ) (L : PeriodPair), Squarefree d → d % 4 = 3 → HasCMBy d L → IsIntegral ℤ (jInv L)"
+  },
+  "Formalism.L2.Th1.CM.cm1": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.LocalToGlobal.TorsionIntegrality.CMGoodModels.CmAll",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Formalism/LocalToGlobal/TorsionIntegrality/CMGoodModels/CmAll.lean",
+    "startLine": 9
+   },
+   "signature": "theorem cm1 : JInvariantIntegrality"
+  },
+  "Formalism.LFunctionChainParameters.LChain.RestSize": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SizeWindowBrackets.SChain",
+   "range": {
+    "endLine": 58,
+    "file": ".lake/packages/tree/src/Formalism/SizeWindowBrackets/SChain.lean",
+    "startLine": 53
+   },
+   "signature": "def RestSize (ε x : ℝ) (n nT nT2 m : ℕ) (b k aE : ℝ) : Prop :=\n  aE ≤ 2 * x * b ∧\n  x ^ (-(ε / 8)) * n / 2 ≤ nT ∧\n  x ^ (-ε) ≤ (nT2 : ℝ) / n ∧\n  x ^ ((1 : ℝ) / 2 - ε) ≤ m ∧\n  k ≤ (n : ℝ) ^ 2 * x ^ ((1 : ℝ) / 2 - ε)"
+  },
+  "Formalism.LFunctionChainParameters.WeightedSlopeBounds.each_unit_bound_statement": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.SizeWindowBrackets.ChainSlopeWindows.LevelOfCongruence",
+   "range": {
+    "endLine": 197,
+    "file": ".lake/packages/tree/src/Formalism/SizeWindowBrackets/ChainSlopeWindows/LevelOfCongruence.lean",
+    "startLine": 175
+   },
+   "signature": "theorem each_unit_bound_statement {U0 : Type} [Fintype U0] {W : U0 → Type}\n    [∀ u0, Fintype (W u0)] [∀ u0, Nonempty (W u0)] {Top : Type} [Fintype Top] {m f : ℕ}\n    (D : Data U0 W Top m f) (C : Consts) (Xpp : ℝ) : PointwiseBoundVariant D C Xpp"
+  },
   "Formalism.MainNotions.ChainTied": {
    "doc": null,
    "exists": true,
@@ -1044,6 +1596,42 @@
     "startLine": 97
    },
    "signature": "def ChainTied {eps : ℝ} (Fm : FamP eps) (eD eL K cHH eK CL x : ℝ) : Prop :=\n  ∃ (i0 : Fm.Ix x) (m f : ℕ) (pt : (Fm.D x i0).R.A → Fm.Ix x) (av bv : ℕ → ℤ)\n    (Top : Type) (_ : Fintype Top)\n    (Dd : Data (Fm.D x i0).R.A (fun u0 => (Fm.D x (pt u0)).what₂.Word) Top m f) (C : Consts) (Xpp : ℝ)\n    (ell : AddChar (E0 × (Fm.D x i0).R.A) ℂ → ℂ) (N : ℕ) (TT T2 : Finset (Fm.D x i0).R.A) (a : (Fm.D x i0).R.A → ℝ)\n    (w : (Fm.D x i0).R.A → Fin m → E0 × (Fm.D x i0).R.A → ℝ) (eT : Top ≃ TT)\n    (eP : Fin f ≃ PhiSet (H := (Fm.D x i0).R.A)) (η X' θ : ℝ),\n    TiePts Fm x (Fm.D x i0).R.toFrame m f (Fm.D x i0).host.q (Fm.D x i0).host.d pt av bv ∧\n    TieGlobal Fm x pt Dd Xpp η X' ∧ TieLocal Fm x pt Dd ∧\n    TieArith Fm x pt av (arithOf (Fm.D x i0).host.toHostRaw) ell TT T2 a w ∧\n    Dd.x = x ∧ Dd.ε = eps ∧ C.eDiv ≤ eD ∧ C.eLoss ≤ eL ∧ C.cHH ≤ cHH ∧\n    Ident Dd (arithOf (Fm.D x i0).host.toHostRaw) N ell TT a w eT eP ∧\n    Formalism.LFunctionChainParameters.LChain.SizeData₂ Dd C Xpp ∧\n    ErrWindows Dd C Xpp eK K ∧\n    BNBounds Dd T2 ∧\n    GrowthInequalityRemainingHyps (arithOf (Fm.D x i0).host.toHostRaw) ell N TT T2 a w x eps Dd.b Dd.b' η X' θ CL ∧\n    CostWindows x (fPl (Fm.D x i0).R.A) Dd.b η θ ∧\n    RestSize eps x (Fintype.card (Fm.D x i0).R.A) TT.card T2.card m Dd.b Dd.k Dd.a"
+  },
+  "Formalism.MainNotions.FamClass": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SharpRestriction.ParamsHeightRankConstant",
+   "range": {
+    "endLine": 157,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/ParamsHeightRankConstant.lean",
+    "startLine": 157
+   },
+   "signature": "abbrev FamClass : Type 1 := ∀ {eps : ℝ}, FamP eps → Prop"
+  },
+  "Formalism.MainNotions.FamCore": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.FamCore",
+   "range": {
+    "endLine": 136,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/FamCore.lean",
+    "startLine": 71
+   },
+   "signature": "structure FamCore (eps : ℝ) where\n\n  x1 : ℝ\n  one_lt_family_threshold : 1 < x1\n\n  Ix : ℝ → Type\n\n  Win : Set ℝ\n  Win_unb : ∀ y : ℝ, ∃ x ∈ Win, y ≤ x\n  Ix_win : ∀ x ∈ Win, Nonempty (Ix x)\n  Ix_zero : Nonempty (Ix 0)\n  D : ∀ x, Ix x → D7\n  L : ∀ x (i : Ix x), SizeData₂ (D x i)\n  L_x : ∀ x i, x1 < x → (L x i).sc.x = x\n  L_eps : ∀ x i, (L x i).sc.eps = eps\n\n  J : ℝ\n  L_J : ∀ x i, (L x i).sc.J = J\n\n  R_eq : ∀ x (i i' : Ix x), (D x i).R = (D x i').R\n  TTn : ℝ → Finset ℕ\n  TT_eq : ∀ x i, (D x i).host.TT.image Formalism.HC.Frame.A.val = TTn x\n  realisedChain_torus_eq : ∀ x (i i' : Ix x), (D x i).host.T2 = (D x i').host.T2\n  q_eq : ∀ x (i i' : Ix x), (D x i).host.q = (D x i').host.q\n  d_eq : ∀ x (i i' : Ix x), (D x i).host.d = (D x i').host.d\n\n  QS_eq : ∀ x (i i' : Ix x), (D x i).host.QS = (D x i').host.QS\n  art_eq : ∀ x (i i' : Ix x), artNum (D x i).host.toHostRaw = artNum (D x i').host.toHostRaw\n  rd_eq : ∀ x (i i' : Ix x), (D x i).host.rdE = (D x i').host.rdE\n\n  Co : ℝ\n  o_le_Co : ∀ x i, x1 < x → ((D x i).R.o : ℝ) ≤ Co\n  QS_le_Co : ∀ x i, x1 < x → ((D x i).host.QS : ℝ) ≤ Co * (D x i).R.n\n  g_eq : ∀ x (i i' : Ix x), (D x i).host.g = (D x i').host.g\n  pde_eq : ∀ x (i i' : Ix x), (D x i).host.pde = (D x i').host.pde ∧ (D x i).host.pde' = (D x i').host.pde'\n\n  W : ℝ → Type\n  eW : ∀ x (i : Ix x), (D x i).what₂.Word ≃ W x\n\n  eW_code : ∀ x (i i' : Ix x) (u : (D x i).what₂.Word) (u' : (D x i').what₂.Word),"
+  },
+  "Formalism.MainNotions.FamP": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "Formalism.SharpRestriction.ParConsts",
+   "range": {
+    "endLine": 97,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/ParConsts.lean",
+    "startLine": 31
+   },
+   "signature": "structure FamP (eps : ℝ) extends FamCore eps where\n\n  params : ∀ x, x1 < x → ∀ i : Ix x, ParameterChoice' (D x i) (L x i)\n  PK : List ℝ\n  params_K : ∀ x (hx : x1 < x) i, parConsts (params x hx i) = PK\n\n  parT : ∀ x (hx : x1 < x) (i : Ix x), ParamsT (D x i) (L x i) (params x hx i)\n  PT : List ℝ\n  parT_K : ∀ x (hx : x1 < x) i, [(parT x hx i).CP, (parT x hx i).eP, (parT x hx i).Cp, (parT x hx i).Cb,\n    (parT x hx i).cTO, (parT x hx i).ChT, (parT x hx i).CbN] = PT\n\n  CTu : ℝ\n\n  sizes : ∀ x, x1 < x → ∀ i : Ix x, SizesAt (L x i)\n\n  ties : ∀ x (i : Ix x), Ties (D x i)\n\n  gatT : ∀ x (i : Ix x), GatTies (D x i)\n\n  X : ∀ x (i : Ix x), DivX (D x i)\n\n  Gx : ∀ x (i : Ix x), G.Inst (D x i) (L x i)\n  Gy : ∀ x (i : Ix x), G.LatInst (D x i)\n  GK : G.Consts\n  GK_nonneg : GK.Nonneg\n\n  supp_sat : ∀ x, x1 < x → ∀ (i : Ix x) w,\n    (((D x i).what₂.places.resChar w : ℕ) : ℝ) ≤ (L x i).sc.X'' (D x i).R.n → w ∈ (L x i).supp\n\n  tw_supp : ∀ x, x1 < x → ∀ (i : Ix x) w, (D x i).what₂.muAt w ≠ (D x i).what₂.mu0 → w ∈ (L x i).supp\n\n  fills : ∀ x, x1 < x → ∀ (i : Ix x) w, G.ParametersFill (Gx x i) GK w\n  lats0 : ∀ x, x1 < x → ∀ (i : Ix x) w u,\n    G.VV (Gx x i) GK (G.aL (L x i)) (G.bL (L x i)) ((D x i).what₂.places.resChar w) = ∅ →\n    (D x i).what₂.places.resChar w ≠ ((D x i).mem u).A.T → (L x i).lenMN u w = 0\n\n  latTied : ∀ x, x1 < x → ∀ i : Ix x, G.LatTied (gatT x i) (Gx x i) (Gy x i)\n\n  Csz : ℝ\n  nuDef : ∀ x, x1 < x → ∀ i : Ix x, DV.NuDef (D x i) (L x i)"
   },
   "Formalism.MainNotions.G.CountingStatementReduction.alternative_mean_value_theorem": {
    "doc": null,
@@ -1321,6 +1909,18 @@
    },
    "signature": "def LinkN {eps : ℝ} (Fm : FamP eps) : Prop :=\n  ∃ C x0 : ℝ, ∀ x ≥ x0, ∀ i : Fm.Ix x, ShaFinOdd (Fm.D x i) →\n    ∀ j ∈ SizeData₂.lifts (Fm.D x i), LinkN_at (Fm.L x i) j C"
   },
+  "Formalism.MainNotions.N.GE": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SharpRestriction.LevelLetterCocycles.QuotientHomNonvanishingBound",
+   "range": {
+    "endLine": 207,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/LevelLetterCocycles/QuotientHomNonvanishingBound.lean",
+    "startLine": 207
+   },
+   "signature": "abbrev GE : Type := G H.E N.Om"
+  },
   "Formalism.MainNotions.N.K.Closed.theorem_n5_from_inputs": {
    "doc": null,
    "exists": true,
@@ -1380,6 +1980,30 @@
     "startLine": 10
    },
    "signature": "theorem integrality_from_metric_of_large_constant :\n    ∀ (D : D7) (HW : HWOf D.loc) (F : FonOf D.loc D.locA HW) (Cm : CmpOf D.loc D.locA HW F)\n      (CA CB CK C : ℝ), 160 ≤ C → FontExAll D HW F → DdRFull D → DiRank D HW F Cm →\n        IntegralityFromMetric D HW F Cm CA CB CK C"
+  },
+  "Formalism.MainNotions.N.chiU": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SharpRestriction.LevelLetterCocycles.QuotientHomNonvanishingBound",
+   "range": {
+    "endLine": 254,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/LevelLetterCocycles/QuotientHomNonvanishingBound.lean",
+    "startLine": 254
+   },
+   "signature": "abbrev chiU (c : ℕ) : GE N →* (N.O i)ˣ := N.chi i c"
+  },
+  "Formalism.MainNotions.N.epsU": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.SharpRestriction.LevelLetterCocycles.QuotientHomNonvanishingBound",
+   "range": {
+    "endLine": 256,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/LevelLetterCocycles/QuotientHomNonvanishingBound.lean",
+    "startLine": 256
+   },
+   "signature": "abbrev epsU : GE N →* (N.O i)ˣ := Formalism.MainNotions.N.Glob.epsO N i"
   },
   "Formalism.MainNotions.PairMembershipBlocks.stmtE_of_chain": {
    "doc": null,
@@ -1477,6 +2101,18 @@
    },
    "signature": "theorem stmtE (D : Formalism.BasicNotions.D7) : tableLineDegreeFive.ClosedFormOfAdmitted D"
   },
+  "Formalism.MainNotions.UnusedSlot33.dropping_proposition_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.DroppingPropositionHolds",
+   "range": {
+    "endLine": 138,
+    "file": ".lake/packages/tree/src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/DroppingPropositionHolds.lean",
+    "startLine": 104
+   },
+   "signature": "theorem dropping_proposition_holds : ∃ C : ℝ, ∀ D : D7, Conclusion5 D C"
+  },
   "Formalism.MainNotions.flipOneThree.Pf.theorem_I_closed_form_holds": {
    "doc": null,
    "exists": true,
@@ -1500,6 +2136,222 @@
     "startLine": 25
    },
    "signature": "theorem theorem_I_of_pairing_GL (D : Formalism.BasicNotions.D7) (hPh : QPh) : SecondPartClosed D"
+  },
+  "Formalism.QuantumDeterminants.Dmin": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 71,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 68
+   },
+   "signature": "def Dmin (k r : ℕ) (z z' : Fin (2 * r + k + 1) → ℂ)\n    (g : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) (l : Fin (r + 2)) : ℂ :=\n  ((Zhat k r z z' g).submatrix (Fin.castLE (Nat.le_of_lt_succ l.isLt))\n    (Fin.castLE (Nat.le_of_lt_succ l.isLt))).det"
+  },
+  "Formalism.QuantumDeterminants.Gf": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 88,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 85
+   },
+   "signature": "def Gf (k r : ℕ) (z z' : Fin (2 * r + k + 1) → ℂ)\n    (g : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) : ℝ :=\n  Complex.normSq (Dmin k r z z' g (Fin.last (r + 1))) -\n    Tz k r z * Tz k r z' * Complex.normSq (Dmin k r z z' g ⟨r, by omega⟩)"
+  },
+  "Formalism.QuantumDeterminants.Hpk": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 24,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 20
+   },
+   "signature": "def Hpk (k r : ℕ) : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ := fun i j =>\n  if i.val < r ∧ i.val + j.val = 2 * r + k then 1\n  else if j.val < r ∧ i.val + j.val = 2 * r + k then 1\n  else if r ≤ i.val ∧ i.val ≤ r + k ∧ i = j then (if i.val = r + k then -1 else 1)\n  else 0"
+  },
+  "Formalism.QuantumDeterminants.IsBesselFunctional": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementBF",
+   "range": {
+    "endLine": 22,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementBF.lean",
+    "startLine": 16
+   },
+   "signature": "def IsBesselFunctional {Vs Wp : Type*} [AddCommGroup Vs] [Module ℂ Vs] [AddCommGroup Wp] [Module ℂ Wp]\n    (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) (c : ℂ)\n    (σ : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ → Module.End ℂ Vs)\n    (π : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ → Module.End ℂ Wp)\n    (ℓ : Vs ⊗[ℂ] Module.Dual ℂ Wp →ₗ[ℂ] ℂ) : Prop :=\n  ∀ h ∈ UWset k r z, ∀ n ∈ Nset k r, ∀ (v : Vs) (w : Module.Dual ℂ Wp),\n    ℓ (σ (h * n) v ⊗ₜ dualAct π h w) = psi k r z c n * ℓ (v ⊗ₜ w)"
+  },
+  "Formalism.QuantumDeterminants.Mt": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementBF",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementBF.lean",
+    "startLine": 9
+   },
+   "signature": "abbrev Mt (k r : ℕ) := Fin (2 * r + k + 1) → Fin (2 * r + k + 1) → ℂ"
+  },
+  "Formalism.QuantumDeterminants.Nset": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 38,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 33
+   },
+   "signature": "def Nset (k r : ℕ) : Set (Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) :=\n  {g | g ∈ UH (Hpk k r) ∧\n    (∀ (a : Fin r) (i : Fin (2 * r + k + 1)), a.val ≤ i.val →\n      g i (eI k r a) = if i = eI k r a then 1 else 0) ∧\n    (∀ i j : Fin (2 * r + k + 1), r ≤ j.val → j.val ≤ r + k → r ≤ i.val →\n      g i j = if i = j then 1 else 0)}"
+  },
+  "Formalism.QuantumDeterminants.Tz": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 31,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 31
+   },
+   "signature": "def Tz (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) : ℝ := -(herm (Hpk k r) z z).re"
+  },
+  "Formalism.QuantumDeterminants.UH": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 12,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 11
+   },
+   "signature": "def UH {ι : Type*} [Fintype ι] [DecidableEq ι] (H : Matrix ι ι ℂ) : Set (Matrix ι ι ℂ) :=\n  {g | gᴴ * H * g = H}"
+  },
+  "Formalism.QuantumDeterminants.UWset": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 44,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 40
+   },
+   "signature": "def UWset (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) :\n    Set (Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) :=\n  {g | g ∈ UH (Hpk k r) ∧\n    (∀ a : Fin r, g *ᵥ bvec (eI k r a) = bvec (eI k r a) ∧ g *ᵥ bvec (esI k r a) = bvec (esI k r a)) ∧\n    g *ᵥ z = z}"
+  },
+  "Formalism.QuantumDeterminants.besselJ": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementBF",
+   "range": {
+    "endLine": 62,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementBF.lean",
+    "startLine": 50
+   },
+   "signature": "def besselJ {Wp Wq : Type*} [NormedAddCommGroup Wp] [NormedSpace ℂ Wp] [NormedAddCommGroup Wq]\n    [NormedSpace ℂ Wq] (k r : ℕ) (z z' : Fin (2 * r + k + 1) → ℂ) (c : ℂ)\n    (π : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ → (Wp →L[ℂ] Wp))\n    (π' : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ → (Wq →L[ℂ] Wq))\n    (μW μN μW' : Measure (Mt k r))\n    (F : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ → (Wq →L[ℂ] Wp))\n    (g : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) : Wq →L[ℂ] Wp :=\n  ∫ p : (Mt k r × Mt k r) × (Mt k r × Mt k r),\n    (psi k r z c (Matrix.of p.1.2) * star (psi k r z' c (Matrix.of p.2.2))) •\n      ((π (Matrix.of p.1.1)).comp\n        ((F ((Matrix.of p.1.1)⁻¹ * (Matrix.of p.1.2)⁻¹ * g * Matrix.of p.2.2 * Matrix.of p.2.1)).comp\n          (π' (Matrix.of p.2.1)⁻¹)))\n    ∂((μW.prod μN).prod (μW'.prod μN))"
+  },
+  "Formalism.QuantumDeterminants.ell": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 53,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 50
+   },
+   "signature": "def ell (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ)\n    (g : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) : ℂ :=\n  ∑ a : Fin r, if h : a.val + 1 < r then g (eI k r a) (eI k r ⟨a.val + 1, h⟩)\n    else (g *ᵥ z) (eI k r a)"
+  },
+  "Formalism.QuantumDeterminants.herm": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 9
+   },
+   "signature": "def herm {ι : Type*} [Fintype ι] (H : Matrix ι ι ℂ) (v w : ι → ℂ) : ℂ := star w ⬝ᵥ (H *ᵥ v)"
+  },
+  "Formalism.QuantumDeterminants.inWb": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 29,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 28
+   },
+   "signature": "def inWb (k r : ℕ) (v : Fin (2 * r + k + 1) → ℂ) : Prop :=\n  ∀ i : Fin (2 * r + k + 1), (i.val < r ∨ r + k < i.val) → v i = 0"
+  },
+  "Formalism.QuantumDeterminants.psi": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.FormalDegreeBessel.StatementG",
+   "range": {
+    "endLine": 57,
+    "file": ".lake/packages/tree/src/Formalism/FormalDegreeBessel/StatementG.lean",
+    "startLine": 55
+   },
+   "signature": "def psi (k r : ℕ) (z : Fin (2 * r + k + 1) → ℂ) (c : ℂ)\n    (g : Matrix (Fin (2 * r + k + 1)) (Fin (2 * r + k + 1)) ℂ) : ℂ :=\n  Complex.exp (Complex.I * ((c * ell k r z g).re : ℂ))"
+  },
+  "Formalism.REAL.GlRel": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.RealPlaceAnalysis.StatementA",
+   "range": {
+    "endLine": 12,
+    "file": ".lake/packages/tree/src/Formalism/RealPlaceAnalysis/StatementA.lean",
+    "startLine": 10
+   },
+   "signature": "def GlRel {A : Type*} [Ring A] {n : ℕ} (E : Fin n → Fin n → A) : Prop :=\n  ∀ a b c d : Fin n, E a b * E c d - E c d * E a b =\n    (if b = c then E a d else 0) - (if d = a then E c b else 0)"
+  },
+  "Formalism.REAL.Tm": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.RealPlaceAnalysis.StatementE",
+   "range": {
+    "endLine": 10,
+    "file": ".lake/packages/tree/src/Formalism/RealPlaceAnalysis/StatementE.lean",
+    "startLine": 9
+   },
+   "signature": "def Tm {A : Type*} [Ring A] [Algebra ℂ A] {n : ℕ} (E : Fin n → Fin n → A) (u : ℂ) (a b : Fin n) : A :=\n  (if a = b then algebraMap ℂ A u else 0) + E a b"
+  },
+  "Formalism.REAL.qdet": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.RealPlaceAnalysis.StatementE",
+   "range": {
+    "endLine": 18,
+    "file": ".lake/packages/tree/src/Formalism/RealPlaceAnalysis/StatementE.lean",
+    "startLine": 17
+   },
+   "signature": "def qdet {A : Type*} [Ring A] [Algebra ℂ A] {n : ℕ} (E : Fin n → Fin n → A) (u : ℂ) : A :=\n  qminor E id id u"
+  },
+  "Formalism.REAL.qminor": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Formalism.RealPlaceAnalysis.StatementE",
+   "range": {
+    "endLine": 15,
+    "file": ".lake/packages/tree/src/Formalism/RealPlaceAnalysis/StatementE.lean",
+    "startLine": 12
+   },
+   "signature": "def qminor {A : Type*} [Ring A] [Algebra ℂ A] {n t : ℕ} (E : Fin n → Fin n → A)\n    (a b : Fin t → Fin n) (u : ℂ) : A :=\n  ∑ σ : Equiv.Perm (Fin t),\n    ((Equiv.Perm.sign σ : ℤ) : A) * (List.ofFn fun k : Fin t => Tm E (u - (k : ℂ)) (a (σ k)) (b k)).prod"
   },
   "Formalism.VW.critLine": {
    "doc": null,
@@ -1873,6 +2725,18 @@
    },
    "signature": "theorem brauerDegreeZero : GlobalTheory.Published.BrauerDegreeZero"
   },
+  "GlobalTheory.CNorm.hasseNorm": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsRealEmbeddingEqHom",
+   "range": {
+    "endLine": 34,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/ExistsIsRealEmbeddingEqHom.lean",
+    "startLine": 25
+   },
+   "signature": "theorem hasseNorm : GlobalTheory.Published.HasseNorm"
+  },
   "GlobalTheory.CarrierGap.carrierP": {
    "doc": null,
    "exists": true,
@@ -2161,6 +3025,18 @@
    },
    "signature": "theorem goodTower_volume_of_reduced : (PartI ∧ N1ab ∧ N1c ∧ ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] (H : Host E) (D : Datum H), ToroidalLevelCompatibility (D"
   },
+  "GlobalTheory.CompanionTheory.BZCuspPair.irrAdm": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsSmoothIterPhi",
+   "range": {
+    "endLine": 34,
+    "file": ".lake/packages/tree/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/IsSmoothIterPhi.lean",
+    "startLine": 33
+   },
+   "signature": "theorem irrAdm : GlobalTheory.Published.IrreducibleAdmissibleGL"
+  },
   "GlobalTheory.CompanionTheory.CuspFinGL.cuspFormsBoundedGL": {
    "doc": null,
    "exists": true,
@@ -2232,6 +3108,30 @@
     "startLine": 172
    },
    "signature": "theorem harishChandra_analyticity_density : GlobalTheory.Published.HarishChandraAnalyticity"
+  },
+  "GlobalTheory.CompanionTheory.JacquetLeft.bernsteinZelevinsky": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JacquetSubLeftOfAdmissible",
+   "range": {
+    "endLine": 158,
+    "file": ".lake/packages/tree/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/JacquetSubLeftOfAdmissible.lean",
+    "startLine": 155
+   },
+   "signature": "theorem bernsteinZelevinsky (hA : GlobalTheory.Published.IrreducibleAdmissibleGL) :\n    GlobalTheory.Published.BernsteinZelevinskyFiniteness"
+  },
+  "GlobalTheory.CompanionTheory.Published.bernsteinZelevinskyFiniteness": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BernsteinZelevinskyFiniteness",
+   "range": {
+    "endLine": 11,
+    "file": ".lake/packages/tree/src/Development/AutomorphicSpectrum/Proofs/GlobalProofs/BernsteinZelevinskyFiniteness.lean",
+    "startLine": 10
+   },
+   "signature": "theorem bernsteinZelevinskyFiniteness : GlobalTheory.Published.BernsteinZelevinskyFiniteness"
   },
   "GlobalTheory.CompanionTheory.Published.complexMultiplicationJ": {
    "doc": null,
@@ -2412,6 +3312,30 @@
     "startLine": 10
    },
    "signature": "theorem PublishedHodgeBundleTheorems.toClassicalTheorems : _root_.GlobalTheory.CovTop.PublishedHodgeBundleTheorems → _root_.GlobalTheory.CovTop.Hypotheses''"
+  },
+  "GlobalTheory.CubeTop.cubeTheorem": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TheoremOfCubeAbelianSchemeOverArbitraryBase",
+   "range": {
+    "endLine": 5,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TheoremOfCubeAbelianSchemeOverArbitraryBase.lean",
+    "startLine": 5
+   },
+   "signature": "theorem GlobalTheory.CubeTop.cubeTheorem : GlobalTheory.Published.CubeTheorem"
+  },
+  "GlobalTheory.CuspBoundSiegel.cuspFormsBounded_of_rapidDecay": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IdeleModuleDetDiagUnitsPosIdele",
+   "range": {
+    "endLine": 153,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/IdeleModuleDetDiagUnitsPosIdele.lean",
+    "startLine": 74
+   },
+   "signature": "theorem cuspFormsBounded_of_rapidDecay (h : GlobalTheory.Published.CuspRapidDecaySiegelGL) : GlobalTheory.Published.CuspFormsBoundedGL"
   },
   "GlobalTheory.CuspGeo.cuspDecayBound": {
    "doc": null,
@@ -2988,6 +3912,18 @@
     "startLine": 10
    },
    "signature": "theorem goodChernWeil : GlobalTheory.Published.GoodChernWeil"
+  },
+  "GlobalTheory.HCF.automorphicFormsFiniteGL_of_core": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HarishChandraFinitenessAutomorphicGLOfEigen",
+   "range": {
+    "endLine": 31,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/HarishChandraFinitenessAutomorphicGLOfEigen.lean",
+    "startLine": 13
+   },
+   "signature": "theorem automorphicFormsFiniteGL_of_core (h : CoreFiniteGL) : GlobalTheory.Published.AutomorphicFormsFiniteGL"
   },
   "GlobalTheory.HTCount.count": {
    "doc": null,
@@ -3577,6 +4513,30 @@
    },
    "signature": "theorem exportF_prmR_alt_alt : GlobalTheory.TwSys.Cheb → GlobalTheory.Published.PoitouTateTotallyComplex → GlobalTheory.Published.CohDimTwo → GlobalTheory.Published.TameLocal → LocalFiniteness → LocalTateDuality → LocalEulerChar → GlobalFiniteness → GlobalEulerChar → UnramifiedOrthogonality → BlochKatoReduction.Gen.ArchimedeanSignatureMatching → GreenbergWiles → GlobalTheory.Published.RayCharacterArtin → GlobalTheory.Published.CuspRapidDecay → GlobalTheory.Published.ChebotarevDegreeOne → GlobalTheory.Published.GlobalArtinReciprocity → GlobalTheory.IndefiniteRowSideFullHecke.ClassZetaValuationBounds.ToricDenominator → GlobalTheory.IndefiniteRowSideFullHecke.RationalRayLevels.SeriesRat → GlobalTheory.IndefiniteRowSideFullHecke.TwistSeries.SerInt → GlobalTheory.IndefiniteRowSideFullHecke.UnusedSlot39.HeckeInt → GlobalTheory.IndefiniteRowSideFullHecke.SplitOffDetection.HeckeTransform → GlobalTheory.HeckeSupSt.HeckeReadTie → GlobalTheory.Published.AutomorphicFormsFiniteGL → _root_.UpperTheory.GalS.CuspUAlt → GlobalTheory.Published.DeRhamPotSemistable → _root_.UpperTheory.GalS.CarUAlt → (∀ D : D7, LocalSituation.Conclusion5 D) → _root_.GlobalTheory.HeightCounting.Up.PublishedInputsThirdLayerAlt → SerN → ∀ hL : _root_.UpperTheory.Zero.LLC.RecTExists, _root_.GlobalTheory.HeightCounting.Up.MemberAtLayerPoint hL (fun _ _ _ _ w Z _ _ _ _ _ c => ∀ Rw : RowSide (w.D Z), HEq Rw.locR c.a.nt.A.row.locR → GlobalTheory.IndefiniteRowSideFullHecke.CMTypeEmbeddings.GoodRowCuspParam (w.D Z) Rw) →"
   },
+  "GlobalTheory.Mem.Vol.FiniteVolume₂": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Development.AbelianVarietyTheory.Definitions.Foundations.CdScaleTieIff",
+   "range": {
+    "endLine": 85,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Definitions/Foundations/CdScaleTieIff.lean",
+    "startLine": 81
+   },
+   "signature": "def FiniteVolume₂ : Prop :=\n  ∀ (F E : Type) [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E] (σ : E →ₐ[F] E),\n    IsCMExt F E σ → ∀ (M : ℕ) (J : Matrix (Fin M) (Fin M) E), IsHermND σ J →\n      ∀ μ : Measure (HA (AF F) σ J), μ.IsHaarMeasure →\n        ∀ 𝓕, IsFundamentalDomain (HFinIn (AF F) σ J) 𝓕 μ → μ 𝓕 < ⊤"
+  },
+  "GlobalTheory.Mem.VolFin.finVol": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteVolumeAdelicUnitaryQuotient",
+   "range": {
+    "endLine": 185,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteVolumeAdelicUnitaryQuotient.lean",
+    "startLine": 124
+   },
+   "signature": "theorem finVol : FiniteVolume₂"
+  },
   "GlobalTheory.MemLoc.fontaineBcris": {
    "doc": null,
    "exists": true,
@@ -4105,6 +5065,18 @@
    },
    "signature": "def BorelCasselman : Prop :=\n  ∀ (k : Type) [Field k] [ValuativeRel k] [TopologicalSpace k] [IsNonarchimedeanLocalField k]\n    (n : Type) [Fintype n] [DecidableEq n] [LinearOrder n]\n    (V : Type) [AddCommGroup V] [Module ℂ V] (π : Representation ℂ (GL n k) V),\n    IsAdmissible π → Function.Bijective (iwahoriProj π)"
   },
+  "GlobalTheory.Published.BorelCasselman_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.BorelCasselmanHolds",
+   "range": {
+    "endLine": 11,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/BorelCasselmanHolds.lean",
+    "startLine": 8
+   },
+   "signature": "theorem BorelCasselman_holds : GlobalTheory.Published.BorelCasselman"
+  },
   "GlobalTheory.Published.BrauerDegreeZero": {
    "doc": null,
    "exists": true,
@@ -4224,6 +5196,18 @@
     "startLine": 38
    },
    "signature": "def ComplexMultiplicationJSt : Prop :=\n  ∀ (K : Type) [Field K] [NumberField K] [IsTotallyComplex K] [Algebra K ℂ],\n    Module.finrank ℚ K = 2 →\n    ∃ (H : IntermediateField K ℂ) (art : ClassGroup (𝓞 K) ≃* (H ≃ₐ[K] H)),\n      IsHilbertClassField H ∧ IsArtinMap art.toMonoidHom ∧\n      (∀ (𝔞 : (FractionalIdeal (𝓞 K)⁰ K)ˣ) (L : PeriodPair), IsIdealLattice 𝔞 L →\n        K⟮(latticeCurve L).j⟯ = H) ∧\n      ∀ (𝔞 𝔟 : (FractionalIdeal (𝓞 K)⁰ K)ˣ) (L L' : PeriodPair),\n        IsIdealLattice 𝔞 L → IsIdealLattice (𝔟⁻¹ * 𝔞) L' →\n        ∀ x : H, (x : ℂ) = (latticeCurve L).j →\n          (art (ClassGroup.mk K 𝔟) x : ℂ) = (latticeCurve L').j"
+  },
+  "GlobalTheory.Published.CubeTheorem": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Development.AbelianVarietyTheory.PublishedTheorems.Divisors₂.CubeTheorem",
+   "range": {
+    "endLine": 19,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂/CubeTheorem.lean",
+    "startLine": 16
+   },
+   "signature": "def CubeTheorem : Prop :=\n  ∀ (S : Scheme.{0}) (A : Over S) [GrpObj A], IsAbelianScheme A → ∀ L : LB A.left, L.IsLB →\n    ∀ (T : Over S) (a b c : T ⟶ A),\n      GlobalTheory.AbLaw.Triv (LB.LinComb L (fun k : Fin 8 ↦ (![a * b * c, a * b, a * c, b * c, a, b, c, 1] k).left) ![1, -1, -1, -1, 1, 1, 1, -1])"
   },
   "GlobalTheory.Published.CuspBounded": {
    "doc": null,
@@ -4861,6 +5845,18 @@
    },
    "signature": "def HarishChandraModules : Prop :=\n  (∀ (p q : ℕ), 1 ≤ p + q → ∀ T : GrpData p q, HarishChandraModulesOn T) ∧ KFiniteAnalyticUJ"
   },
+  "GlobalTheory.Published.HasseNorm": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt",
+   "range": {
+    "endLine": 27,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/PublishedTheorems/AdelicLattices₂/AlgebraMapNormOfBasisOneSqrt.lean",
+    "startLine": 20
+   },
+   "signature": "def HasseNorm : Prop :=\n  ∀ (K L : Type) [Field K] [NumberField K] [Field L] [NumberField L] [Algebra K L]\n    [IsGalois K L] [IsCyclic (L ≃ₐ[K] L)] (a : K), a ≠ 0 →\n    (∀ v : HeightOneSpectrum (𝓞 K), ∃ z : v.adicCompletion K ⊗[K] L,\n      Algebra.norm (v.adicCompletion K) z = algebraMap K (v.adicCompletion K) a) →\n    (∀ v : InfinitePlace K, ∃ z : v.Completion ⊗[K] L,\n      Algebra.norm v.Completion z = algebraMap K v.Completion a) →\n    ∃ x : L, Algebra.norm K x = a"
+  },
   "GlobalTheory.Published.HasseNormSt": {
    "doc": null,
    "exists": true,
@@ -5077,6 +6073,18 @@
    },
    "signature": "def JacquetShalika : Prop := JacquetShalikaRigidity ∧ JacquetShalikaBound"
   },
+  "GlobalTheory.Published.JacquetShalikaBound": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.StrongMultiplicityOne",
+   "range": {
+    "endLine": 200,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂/StrongMultiplicityOne.lean",
+    "startLine": 197
+   },
+   "signature": "def JacquetShalikaBound : Prop :=\n  ∀ (E : Type) [Field E] [NumberField E] [IsTotallyComplex E] (a : ℕ) (π : CG E a), π.IsUnitary →\n    ∀ (w : HeightOneSpectrum (𝓞 E)) (B : Multiset ℂˣ), π.HasSat w B → ∀ α ∈ B,\n      (Ideal.absNorm w.asIdeal : ℝ) ^ (-(1 / 2) : ℝ) < ‖(α : ℂ)‖ ∧ ‖(α : ℂ)‖ < (Ideal.absNorm w.asIdeal : ℝ) ^ (1 / 2 : ℝ)"
+  },
   "GlobalTheory.Published.JacquetShalikaRigidity": {
    "doc": null,
    "exists": true,
@@ -5112,6 +6120,18 @@
     "startLine": 16
    },
    "signature": "def KawamataViehweg : Prop :=\n  ∀ (k : Type) [Field k] [IsAlgClosed k] [CharZero k] (X : Scheme.{0}) [Algebra k Γ(X, ⊤)]\n    [IsIntegral X] (D : ℕ) [SmoothOfRelativeDimension D (strHom k X)],\n    IsProjOver (strHom k X) →\n    ∀ (K : CanonLB (strHom k X) D) (N : LB X), IsNef k N → IsBig k N →\n      ∀ q : ℕ, 0 < q → Subsingleton (coh (LB.toMod (tens K.bundle N)) q)"
+  },
+  "GlobalTheory.Published.KernelFiniteFlatSt": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "Development.AbelianVarietyTheory.PublishedTheorems.RelativeAmpleness.RelAmpleAndKTrivIff",
+   "range": {
+    "endLine": 166,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/PublishedTheorems/RelativeAmpleness/RelAmpleAndKTrivIff.lean",
+    "startLine": 162
+   },
+   "signature": "def KernelFiniteFlatSt : Prop :=\n  ∀ (V : Type) [CommRing V] [IsNoetherianRing V] (A : Over (Sp V)) [GrpObj A], IsAbelianScheme A →\n    ∀ L : LB A.left, L.IsLB → Out.RelAmple A L →\n    ∃ (Z : Over (Sp V)) (i : Z ⟶ A), IsClosedImmersion i.left ∧ IsFinite Z.hom ∧ Flat Z.hom ∧\n      ∀ (T : Over (Sp V)) (x : T ⟶ A), MemKL A L x ↔ ∃ z : T ⟶ Z, z ≫ i = x"
   },
   "GlobalTheory.Published.KudlaSplittingSplitUnitary": {
    "doc": null,
@@ -6037,6 +7057,18 @@
    },
    "signature": "theorem genericUnlinkedGL_of_segRep2 (hZ : GlobalTheory.Published.SegmentRepresentation) : GlobalTheory.Published.GenericUnlinkedGL"
   },
+  "GlobalTheory.RgGu.irreducibleAdmissibleGL": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.RepresentationTheoryGL.GenericUnitaryGL.WhittakerRankHeredity.ProdFL",
+   "range": {
+    "endLine": 14,
+    "file": ".lake/packages/tree/src/Development/WeilBound/RepresentationTheoryGL/GenericUnitaryGL/WhittakerRankHeredity/ProdFL.lean",
+    "startLine": 13
+   },
+   "signature": "theorem irreducibleAdmissibleGL : GlobalTheory.Published.IrreducibleAdmissibleGL"
+  },
   "GlobalTheory.RigChart.RigidForFan": {
    "doc": null,
    "exists": true,
@@ -6241,6 +7273,18 @@
    },
    "signature": "theorem depthZeroSupport : GlobalTheory.Published.DepthZeroSupport"
   },
+  "GlobalTheory.SpreadingModels.cubeTheorem_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.CubeTheoremHolds",
+   "range": {
+    "endLine": 15,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/TemperedRepresentationTheory/CubeTheorem/CubeTheoremHolds.lean",
+    "startLine": 14
+   },
+   "signature": "theorem cubeTheorem_holds : GlobalTheory.Published.CubeTheorem"
+  },
   "GlobalTheory.SqTop.square_top_term_joined_estimates": {
    "doc": null,
    "exists": true,
@@ -6349,6 +7393,18 @@
    },
    "signature": "theorem servH_row_of_artin :\n    GlobalTheory.Published.GlobalArtinReciprocity → ∀ {Bd : BdT} (Q : V4.Slot) (Lk : LkT Bd)\n      (ker : ∀ (D : D7) (O : Obj D) (c : ℝ), Bd D O c → KerEntTied O.ex),\n      (∀ K X f T c, Q K X f T c → positionOf HasPart K X f T c) →\n      RowE Q Lk (fun _ D O c b => StdTie D O (ker D O c b)) → Row Q Lk (ServH ker)"
   },
+  "GlobalTheory.T.abelianScheme_laws_unconditional": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditionalStatement",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/AbelianSchemeLawsUnconditionalStatement.lean",
+    "startLine": 8
+   },
+   "signature": "theorem _root_.GlobalTheory.T.abelianScheme_laws_unconditional : Laws ∧ Laws2"
+  },
   "GlobalTheory.T.adm_at_inert_of_range": {
    "doc": null,
    "exists": true,
@@ -6408,6 +7464,18 @@
     "startLine": 44
    },
    "signature": "theorem _root_.GlobalTheory.T.automorphy_of_hypotheses_alt_alt : GlobalTheory.TwSys.Cheb → GlobalTheory.Published.PoitouTateTotallyComplex → GlobalTheory.Published.CohDimTwo → GlobalTheory.Published.TameLocal → LocalFiniteness → LocalTateDuality → LocalEulerChar → GlobalFiniteness → GlobalEulerChar → UnramifiedOrthogonality → BlochKatoReduction.Gen.ArchimedeanSignatureMatching → GreenbergWiles → GlobalTheory.Published.RayCharacterArtin → GlobalTheory.Published.CuspRapidDecay → GlobalTheory.Published.ChebotarevDegreeOne → GlobalTheory.Published.GlobalArtinReciprocity → GlobalTheory.IndefiniteRowSideFullHecke.ClassZetaValuationBounds.ToricDenominator → GlobalTheory.IndefiniteRowSideFullHecke.RationalRayLevels.SeriesRat → GlobalTheory.IndefiniteRowSideFullHecke.TwistSeries.SerInt → GlobalTheory.IndefiniteRowSideFullHecke.UnusedSlot39.HeckeInt → GlobalTheory.IndefiniteRowSideFullHecke.SplitOffDetection.HeckeTransform → GlobalTheory.HeckeSupSt.HeckeReadTie → GlobalTheory.Published.AutomorphicFormsFiniteGL → _root_.UpperTheory.GalS.CuspUAlt → GlobalTheory.Published.DeRhamPotSemistable → _root_.UpperTheory.GalS.CarUAlt → (∀ D : D7, LocalSituation.Conclusion5 D) → _root_.GlobalTheory.HeightCounting.Up.PublishedInputsThirdLayerAlt → SerN → ∀ hL : _root_.UpperTheory.Zero.LLC.RecTExists, _root_.GlobalTheory.HeightCounting.Up.MemberAtLayerPoint hL (fun _ _ _ _ w Z _ _ _ _ _ c => ∀ Rw : RowSide (w.D Z), HEq Rw.locR c.a.nt.A.row.locR → GlobalTheory.IndefiniteRowSideFullHecke.CMTypeEmbeddin"
+  },
+  "GlobalTheory.T.bernstein_zelevinsky_finiteness": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicSpectrum.Proofs.GlobalProofs.BernsteinZelevinskyFinitenessStatement",
+   "range": {
+    "endLine": 6,
+    "file": ".lake/packages/tree/src/Development/AutomorphicSpectrum/Proofs/GlobalProofs/BernsteinZelevinskyFinitenessStatement.lean",
+    "startLine": 5
+   },
+   "signature": "theorem _root_.GlobalTheory.T.bernstein_zelevinsky_finiteness : GlobalTheory.Published.BernsteinZelevinskyFiniteness"
   },
   "GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data": {
    "doc": null,
@@ -6637,6 +7705,18 @@
    },
    "signature": "theorem _root_.GlobalTheory.T.exists_constructedCore_of_all_construction_stages : StandardLattice.SiegelMassRatioCM → ∀ 𝒮 : Slots, AmbEx 𝒮 → DivEx 𝒮 → ThEx 𝒮 → StepW (pinAnd (Has4 𝒮)) (HasC (BuiltE 𝒮))"
   },
+  "GlobalTheory.T.exists_degenerationData_uniformisation_of_torsionCount": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsDegenerationDataUniformisationOfTorsionCouStatement",
+   "range": {
+    "endLine": 18,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsDegenerationDataUniformisationOfTorsionCouStatement.lean",
+    "startLine": 17
+   },
+   "signature": "theorem _root_.GlobalTheory.T.exists_degenerationData_uniformisation_of_torsionCount : (∀ (k : Type) [Field k] [IsAlgClosed k] (B : Over (Sp k)) [GrpObj B] (g n : ℕ), IsAbelianScheme B → SmoothOfRelativeDimension g B.hom → (n : k) ≠ 0 → Nat.card {x : (𝟙_ (Over (Sp k)) ⟶ B) // x ^ n = 1} = n ^ (2 * g)) → Laws → Laws2 → AllSet fun {V} _ _ _ {A} {G} _ _ s => ∃ (D : DegData V (IsLocalRing.maximalIdeal V)) (U : Unif (IsLocalRing.maximalIdeal V) D A G), U.LG = s.P.L ∧ U.gen = s.gen ∧ HEq U.cubG s.P.c"
+  },
   "GlobalTheory.T.exists_fullLevelAmpleModel_of_semistableReduction": {
    "doc": null,
    "exists": true,
@@ -6696,6 +7776,18 @@
     "startLine": 12
    },
    "signature": "theorem _root_.GlobalTheory.T.exists_member_of_construction_steps_secondPass : GlobalTheory.NT.RayField → GlobalTheory.Published.PrincipalIdealSt → GlobalTheory.Published.CMCurveGoodOutsidePrimeSt → StandardLattice.SiegelMassRatioCM → ∀ 𝒮 𝒮' : Slots, StepW Start (Has3 𝒮) → StepW (pinAnd (Has3 𝒮)) (Has4 𝒮) → AmbEx 𝒮 → DivEx 𝒮 → ThEx 𝒮 → ExportF KPx (IsBuiltE 𝒮) → Pass KPx (IsBuiltE 𝒮) (fun K B f T => ∃ w : ColW B f T, Start K B f T w ∧ Has3 𝒮' K B f T w) → StepW (pinAnd (Has3 𝒮')) (Has4 𝒮') → AmbEx 𝒮' → DivEx 𝒮' → ThEx 𝒮' → (∀ K B f T w Z c, BuiltE 𝒮' K B f T w Z c → GoodE 𝒮 K B f T w Z c ∧ DQ.TwAllAt (w.D Z) c.O.nch c.O.xd) → MemberE 𝒮"
+  },
+  "GlobalTheory.T.exists_pel_uniformisation_complete_dvr": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ExistsPelUniformisationCompleteDvrStatement",
+   "range": {
+    "endLine": 22,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ExistsPelUniformisationCompleteDvrStatement.lean",
+    "startLine": 21
+   },
+   "signature": "theorem _root_.GlobalTheory.T.exists_pel_uniformisation_complete_dvr : ∀ (E : Type) [Field E] [NumberField E] [NumberField.IsCMField E] (H : Host E) (V : Type) [CommRing V] [IsDomain V] [IsLocalRing V], CDVR V → ∀ (t : SAB H (Sp V)) (A : PolAV (Sp (FractionRing V))) (gen : (Over.pullback (jK V)).obj t.G ≅ A.A), IsMonHom gen.hom → (∃ w : LB.Iso (A.L.pull gen.hom.left) (t.PP.L.pull (pullback.fst t.G.hom (jK V))), w.IsGen) → (∃ S : SplitExt (Sp (IsLocalRing.ResidueField V)), S.IsGt ((Over.pullback (spMap (IsLocalRing.residue V))).obj t.G)) → ∃ P : PELUnif (maximalIdeal V) t, P.A = A ∧ HEq P.U.gen gen ∧ P.TorsionIso"
   },
   "GlobalTheory.T.exists_pointRigid_tautological_chart_unitary_boundary": {
    "doc": null,
@@ -6853,6 +7945,18 @@
    },
    "signature": "theorem _root_.GlobalTheory.T.final_theorem_of_inputs_right : (PartI ∧ N1ab ∧ N1c ∧ ∀ (E : Type) [Field E] [NumberField E] [IsCMField E] (H : Host E) (D : Datum H), ToroidalLevelCompatibility (D"
   },
+  "GlobalTheory.T.finiteVolume_adelicUnitaryQuotient": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteVolumeAdelicUnitaryQuotientStatement",
+   "range": {
+    "endLine": 8,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/FiniteVolumeAdelicUnitaryQuotientStatement.lean",
+    "startLine": 7
+   },
+   "signature": "theorem _root_.GlobalTheory.T.finiteVolume_adelicUnitaryQuotient : FiniteVolume₂"
+  },
   "GlobalTheory.T.fivePointLaws_trueChains": {
    "doc": null,
    "exists": true,
@@ -6888,6 +7992,18 @@
     "startLine": 12
    },
    "signature": "theorem _root_.GlobalTheory.T.flat_dictionary_base_vacua_large_depth : Big fun ch => ∃ s, LocAt ch s"
+  },
+  "GlobalTheory.T.fontaineBcrisBasicTheorems_proof": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FontaineBcrisBasicTheoremsProofStatement",
+   "range": {
+    "endLine": 6,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/FontaineBcrisBasicTheoremsProofStatement.lean",
+    "startLine": 5
+   },
+   "signature": "theorem _root_.GlobalTheory.T.fontaineBcrisBasicTheorems_proof : GlobalTheory.Published.FontaineBcris"
   },
   "GlobalTheory.T.full_intersection_tower_I8_identity": {
    "doc": null,
@@ -7032,6 +8148,30 @@
     "startLine": 12
    },
    "signature": "theorem _root_.GlobalTheory.T.hasSemiAbelianUniformisation_of_labelledCover : ∀ (R : Type) [CommRing R] [IsDomain R] [IsLocalRing R], Base R → ∀ (D : DegData R (maximalIdeal R)), Nonempty (LabCover D) → HasFin D"
+  },
+  "GlobalTheory.T.hasseNormPrinciple_of_isCyclic": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormPrincipleOfIsCyclicStatement",
+   "range": {
+    "endLine": 8,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HasseNormPrincipleOfIsCyclicStatement.lean",
+    "startLine": 7
+   },
+   "signature": "theorem _root_.GlobalTheory.T.hasseNormPrinciple_of_isCyclic : ∀ (F E : Type) [Field F] [NumberField F] [Field E] [NumberField E] [Algebra F E], IsGalois F E → IsCyclic (E ≃ₐ[F] E) → NP F E"
+  },
+  "GlobalTheory.T.hasse_norm_theorem_quadratic_extension": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HasseNormTheoremQuadraticExtensionStatement",
+   "range": {
+    "endLine": 12,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/AdelicLatticeProofs/HasseNormTheoremQuadraticExtensionStatement.lean",
+    "startLine": 11
+   },
+   "signature": "theorem _root_.GlobalTheory.T.hasse_norm_theorem_quadratic_extension : GlobalTheory.Published.HasseNormSt"
   },
   "GlobalTheory.T.hyps_e_third_layer_ser_n_of_geometric_galois": {
    "doc": null,
@@ -7308,6 +8448,18 @@
     "startLine": 43
    },
    "signature": "theorem _root_.GlobalTheory.T.main_theorem_published_results_final_alt_alt : GlobalTheory.Published.HarishChandraFinite → GlobalTheory.Published.CuspRapidDecay → GlobalTheory.Published.DiscreteSeriesCover → GlobalTheory.Published.HarishChandraModules → GlobalTheory.Published.CasselmanWallach → GlobalTheory.Hk3.HoweUnram → GlobalTheory.Published.WeilRepresentationUnitaryPair → GlobalTheory.Published.WeilSiegelFormulaUnitary → GlobalTheory.Published.SiegelWeilUnitaryConvergent → _root_.GlobalTheory.Published.DoublingMethodLocalZetaIntegrals → GlobalTheory.Published.UnramifiedDoublingGL → GlobalTheory.Published.DiscreteSeriesClassification → GlobalTheory.Published.StrongApproxSU → GlobalTheory.Core.Rk.RowDiag (fun D L C' => GlobalTheory.Core.Rk.IsScaleWithBoundedGamma D L C' ∧ ∀ u, GlobalTheory.Core.Rk.RankMu D u) → ∀ (hL : _root_.UpperTheory.Zero.LLC.RecTExists) (p : _root_.GlobalTheory.Mem.Top.Bl.Parameters hL), (∀ (K : Ctx) (q : Bl.WPt p.s K), Nonempty (Bl.RXs q.x.what₂)) → GlobalTheory.Fc.RowE (Bl.IsGoodE p.s) (_root_.GlobalTheory.Mem.Top.Bl.BundleLinkage p) (fun _ _ _ _ b => _root_.GlobalTheory.Fam.BundlePointConditions b) → GlobalTheory.Fc.RowE (Bl.IsGoodE p.s) (_root_.GlobalTheory.Mem.Top.Bl.BundleLinkage p) (fun _ _ _ _ b => (b.B.Q.Rl.toCx3 b.B.Q.F).MIstar2 (b.B.Q.F.eV (b.B.Q.Rl.toCx3 b.B.Q.F).zs) b.B.Q.sEE)"
+  },
+  "GlobalTheory.T.meanLogPeriod_chowlaSelberg": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.MeanLogPeriodChowlaSelbergStatement",
+   "range": {
+    "endLine": 7,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/MeanLogPeriodChowlaSelbergStatement.lean",
+    "startLine": 6
+   },
+   "signature": "theorem _root_.GlobalTheory.T.meanLogPeriod_chowlaSelberg : GlobalTheory.IndefiniteRowSideFullHecke.MeanPeriodLogarithms.MeanPeriod"
   },
   "GlobalTheory.T.memberRows_of_kernelDatum_sizes": {
    "doc": null,
@@ -7668,6 +8820,18 @@
     "startLine": 8
    },
    "signature": "theorem _root_.GlobalTheory.T.theoremE_corollaryA_closing_all_data : GlobalTheory.Published.BlochKatoLocal → Formalism.GaloisCohomology.LocalTateDualityK → Formalism.GaloisCohomology.LocalEulerCharK → ∃ C₀ : ℝ, ∀ (D : D7) (HW : HWOf D.loc) (F : FonOf D.loc D.locA HW) (Cm : CmpOf D.loc D.locA HW F), WachCoordinates.Conclusion1 D 800 ∧ ∀ C₂ : ℝ, C₀ ≤ C₂ → WachCoordinates.Conclusion2 D C₂"
+  },
+  "GlobalTheory.T.theoremOfCubeAbelianScheme_over_arbitrary_base": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.TheoremOfCubeAbelianSchemeOverArbitraryBaseStatement",
+   "range": {
+    "endLine": 6,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/TheoremOfCubeAbelianSchemeOverArbitraryBaseStatement.lean",
+    "startLine": 5
+   },
+   "signature": "theorem _root_.GlobalTheory.T.theoremOfCubeAbelianScheme_over_arbitrary_base : GlobalTheory.Published.CubeTheorem"
   },
   "GlobalTheory.T.thetaLocalModels_of_splitUnramified_joints": {
    "doc": null,
@@ -8425,6 +9589,18 @@
    },
    "signature": "theorem _root_.GlobalTheory.abMulN_holds : _root_.GlobalTheory.Published.AbMulNSt"
   },
+  "GlobalTheory.abelianSchemeLaws_all": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.AbelianSchemeLawsUnconditional",
+   "range": {
+    "endLine": 15,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/AbelianSchemeLawProofs/AbelianSchemeLawsUnconditional.lean",
+    "startLine": 14
+   },
+   "signature": "theorem _root_.GlobalTheory.abelianSchemeLaws_all : _root_.ReciprocityTheory.ChartRestriction.G.Out.Laws ∧ _root_.ReciprocityTheory.ChartRestriction.G.Out.Laws2"
+  },
   "GlobalTheory.abelianScheme_hom_lifting_nilpotent_dividedPowers": {
    "doc": null,
    "exists": true,
@@ -8449,6 +9625,30 @@
    },
    "signature": "theorem arithHilbertSamuel_of_principalisation :\n    GlobalTheory.Published.Principalisation → GlobalTheory.Published.ArithHilbertSamuel"
   },
+  "GlobalTheory.automorphicFormsFiniteGL": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AutomorphicFormsFiniteGL",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AutomorphicFormsFiniteGL.lean",
+    "startLine": 8
+   },
+   "signature": "theorem automorphicFormsFiniteGL : GlobalTheory.Published.AutomorphicFormsFiniteGL"
+  },
+  "GlobalTheory.bernsteinZelevinskyFiniteness_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.BernsteinZelevinskyFinitenessHolds",
+   "range": {
+    "endLine": 8,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/BernsteinZelevinskyFinitenessHolds.lean",
+    "startLine": 7
+   },
+   "signature": "theorem bernsteinZelevinskyFiniteness_holds : GlobalTheory.Published.BernsteinZelevinskyFiniteness"
+  },
   "GlobalTheory.bhattScholze_coeff": {
    "doc": null,
    "exists": true,
@@ -8472,6 +9672,42 @@
     "startLine": 8
    },
    "signature": "theorem carrierNeedsFromD :\n    Formalism.FourierDecayAlt.P5.ThmPActualCpt ∧ Formalism.FourierDecayAlt.JCT.ModelPlaceBuilt2 ∧ Formalism.FourierDecayAlt.KB.BuiltBounds2Cpt"
+  },
+  "GlobalTheory.chowla_selberg_discriminant": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DedekindZetaEqSumRealEisenstein",
+   "range": {
+    "endLine": 287,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DedekindZetaEqSumRealEisenstein.lean",
+    "startLine": 259
+   },
+   "signature": "theorem chowla_selberg_discriminant :\n    (((∑ c, Real.log ((absNorm (𝔞 c).1 : ℝ) ^ 6 * ‖(L c).g₂ ^ 3 - 27 * (L c).g₃ ^ 2‖))\n        / classNumber K : ℝ) : ℂ)\n      = (12 * Real.log (2 * π) - 6 * Real.log d + 6 * Real.eulerMascheroniConstant : ℝ)\n        - 6 * (deriv χ.LFunction 1 / χ.LFunction 1)"
+  },
+  "GlobalTheory.chowla_selberg_eta": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DedekindZetaEqSumRealEisenstein",
+   "range": {
+    "endLine": 243,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DedekindZetaEqSumRealEisenstein.lean",
+    "startLine": 222
+   },
+   "signature": "theorem chowla_selberg_eta {τ : ClassGroup (𝓞 K) → ℍ} (hτ : ∀ c, IsIdealClassPoint σ c (τ c)) :\n    (((∑ c, Real.log (4 * π * (τ c).im * ‖ModularForm.eta (τ c)‖ ^ 4)) / classNumber K : ℝ) : ℂ)\n      = (Real.eulerMascheroniConstant + Real.log (2 * π / √d) : ℝ)\n        - deriv χ.LFunction 1 / χ.LFunction 1"
+  },
+  "GlobalTheory.chowla_selberg_lattice": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DedekindZetaEqSumRealEisenstein",
+   "range": {
+    "endLine": 257,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/DedekindZetaEqSumRealEisenstein.lean",
+    "startLine": 250
+   },
+   "signature": "theorem chowla_selberg_lattice :\n    (((∑ c, latticeLogPeriod (L c)) / classNumber K : ℝ) : ℂ)\n      = (Real.eulerMascheroniConstant + Real.log (2 * π / √d) : ℝ)\n        - deriv χ.LFunction 1 / χ.LFunction 1"
   },
   "GlobalTheory.cuspidalMirabolic_holds": {
    "doc": null,
@@ -8545,6 +9781,18 @@
    },
    "signature": "theorem geometricLemmaFiltration_holds : GlobalTheory.Published.GeometricLemmaFiltration"
   },
+  "GlobalTheory.geometricLemmaFiltration_unconditional": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GeometricLemmaFiltrationUnconditional",
+   "range": {
+    "endLine": 8,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/GeometricLemmaFiltrationUnconditional.lean",
+    "startLine": 7
+   },
+   "signature": "theorem geometricLemmaFiltration_unconditional : GlobalTheory.Published.GeometricLemmaFiltration"
+  },
   "GlobalTheory.geometricLemma_of_filtration": {
    "doc": null,
    "exists": true,
@@ -8616,6 +9864,18 @@
     "startLine": 18
    },
    "signature": "theorem howeDualityReal_holds : GlobalTheory.Published.HoweDualityReal"
+  },
+  "GlobalTheory.kernelFiniteFlat_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.KernelFiniteFlatHolds",
+   "range": {
+    "endLine": 24,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/KernelFiniteFlatHolds.lean",
+    "startLine": 23
+   },
+   "signature": "theorem _root_.GlobalTheory.kernelFiniteFlat_holds : _root_.GlobalTheory.Published.KernelFiniteFlatSt"
   },
   "GlobalTheory.kudlaSplittingSplitUnitary": {
    "doc": null,
@@ -8845,6 +10105,30 @@
    },
    "signature": "theorem theoremC_of_admitted_inputs :\n    ∀ (D : D7) (HW : HWOf D.loc) (F : FonOf D.loc D.locA HW) (Cm : CmpOf D.loc D.locA HW F),\n    ∀ (CR CA CB CK : ℝ), LiftingTheory.adm23 D HW F → Formalism.MainNotions.N.LetterConditionGlobal D HW F →\n      ElementDenominator.HerrClassNaturalExtension D.loc D.locA HW F → CrystallineLiftingBounds.adm22 D HW F → InvariantsGenerators.LitFont D HW F →\n      RamifiedCoefficientChains.Stmt D HW F Cm 25 CR CA CB CK"
   },
+  "GlobalTheory.thetaUnifAV_all": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.ThetaUniformisationComplexAbelianVariety",
+   "range": {
+    "endLine": 20,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/UniformizationProofs/ThetaUniformisationComplexAbelianVariety.lean",
+    "startLine": 18
+   },
+   "signature": "theorem _root_.GlobalTheory.thetaUnifAV_all : _root_.ReciprocityTheory.ChartRestriction.G.Geo.Tor.ThetaUnifAV"
+  },
+  "GlobalTheory.thetaUnifAV_of_laws": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ThetaUnifAVOfLaws",
+   "range": {
+    "endLine": 87,
+    "file": ".lake/packages/tree/src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/ThetaUnifAVOfLaws.lean",
+    "startLine": 47
+   },
+   "signature": "theorem thetaUnifAV_of_laws :\n    Out.CubeSt → Out.MulNSt → Out.WeilSt → Out.WeilNondegSt → Out.GlobalSectionsRankAlgClosed → ThetaUnifAV"
+  },
   "GlobalTheory.topAmpExists_of_semistableReduction": {
    "doc": null,
    "exists": true,
@@ -8904,6 +10188,66 @@
     "startLine": 19
    },
    "signature": "theorem zhGeo_of_semistableReduction :\n    GlobalTheory.Published.SemistableReductionSt → GlobalTheory.ZH.ZHGeoSt"
+  },
+  "GroundTheory.Automorphic.Spherical.casselman_shalika": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "GroundTheory.AutomorphicForms.MacdonaldFormula",
+   "range": {
+    "endLine": 257,
+    "file": ".lake/packages/tree/src/GroundTheory/AutomorphicForms/MacdonaldFormula.lean",
+    "startLine": 207
+   },
+   "signature": "theorem casselman_shalika (ψ₀ : AddChar F ℂ) (hψ₀ : ∀ x ∈ 𝒪[F], ψ₀ x = 1)\n    (hψ₁ : ∃ x : F, (GLnLocal.uniformizer F : F) * x ∈ 𝒪[F] ∧ ψ₀ x ≠ 1) (z : Fin n → ℂˣ)\n    {W : GL (Fin n) F → ℂ}\n    (hWN : ∀ u ∈ unipotent F n, ∀ g, W (u * g) = Whittaker.psiN ψ₀ u * W g)\n    (hWK : ∀ g, ∀ k ∈ integralGL F n, W (g * k) = W g)\n    (heig : ∀ (h : SphericalHecke μ (F"
+  },
+  "GroundTheory.Automorphic.Spherical.eq_smul_sphericalWhittaker": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "GroundTheory.AutomorphicForms.MacdonaldWhittakerHecke",
+   "range": {
+    "endLine": 290,
+    "file": ".lake/packages/tree/src/GroundTheory/AutomorphicForms/MacdonaldWhittakerHecke.lean",
+    "startLine": 278
+   },
+   "signature": "theorem eq_smul_sphericalWhittaker {ψ₀ : AddChar F ℂ} (hψ₀ : ∀ x ∈ 𝒪[F], ψ₀ x = 1)\n    (hψ₁ : ∃ x : F, π * x ∈ 𝒪[F] ∧ ψ₀ x ≠ 1) (z : Fin n → ℂˣ) {W : GL (Fin n) F → ℂ}\n    (hWN : ∀ u ∈ unipotent F n, ∀ g, W (u * g) = Whittaker.psiN ψ₀ u * W g)\n    (hWK : ∀ g, ∀ k ∈ integralGL F n, W (g * k) = W g)\n    (heig : ∀ (h : SphericalHecke μ (F"
+  },
+  "GroundTheory.Automorphic.Spherical.sphericalWhittaker": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "GroundTheory.AutomorphicForms.MacdonaldWhittaker",
+   "range": {
+    "endLine": 116,
+    "file": ".lake/packages/tree/src/GroundTheory/AutomorphicForms/MacdonaldWhittaker.lean",
+    "startLine": 112
+   },
+   "signature": "def sphericalWhittaker (g : GL (Fin n) F) : ℂ :=\n  if Antitone (iwasawaExponent F n g) then\n    Whittaker.psiN ψ₀ (iwasawaUnip g) * halfModulus F (iwasawaExponent F n g) *\n      evalAt z (schur (iwasawaExponent F n g))\n  else 0"
+  },
+  "GroundTheory.Heights₂.Heights.FiniteCovolume.AdelicCovolumeFinite.Statement": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.Statements",
+   "range": {
+    "endLine": 41,
+    "file": ".lake/packages/tree/src/GroundTheory/HeightsAndTheta/Heights/FiniteCovolume/Statements.lean",
+    "startLine": 38
+   },
+   "signature": "def AdelicCovolumeFinite.Statement (h : HermitianForm F E W) (v : Basis ι E W) : Prop :=\n  ∀ (μ : Measure (unitaryPoints F E (gram h.toSesq v) 𝔸[F])) [μ.IsHaarMeasure],\n    ∃ FD : Set (unitaryPoints F E (gram h.toSesq v) 𝔸[F]),\n      IsFundamentalDomain (hermitianDiagonal h v).range FD μ ∧ μ FD < ⊤"
+  },
+  "GroundTheory.Heights₂.Heights.FiniteCovolume.AdelicCovolumeFinite.of_remaining": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.MainOf",
+   "range": {
+    "endLine": 113,
+    "file": ".lake/packages/tree/src/GroundTheory/HeightsAndTheta/Heights/FiniteCovolume/MainOf.lean",
+    "startLine": 99
+   },
+   "signature": "theorem AdelicCovolumeFinite.of_remaining : AdelicCovolumeFinite.Statement h v"
   },
   "GroundTheory.Heights₂.Heights.HilbertSamuel.TheoremHSMBlock.of_open": {
    "doc": null,
@@ -9121,6 +10465,42 @@
    },
    "signature": "theorem essSquareIntegrableSegments_of_seg (hZ : GlobalTheory.Published.SegmentRepresentation) : GlobalTheory.Published.EssSquareIntegrableSegments"
   },
+  "PositivityTheory.Exh.geometricLemmaGL": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.LanglandsExhaustion.IrreducibleAdmissibleGL",
+   "range": {
+    "endLine": 19,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/LanglandsExhaustion/IrreducibleAdmissibleGL.lean",
+    "startLine": 18
+   },
+   "signature": "theorem geometricLemmaGL : GlobalTheory.Published.GeometricLemma"
+  },
+  "PositivityTheory.Exh.irreducibleAdmissibleGL": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.LanglandsExhaustion.IrreducibleAdmissibleGL",
+   "range": {
+    "endLine": 95,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/LanglandsExhaustion/IrreducibleAdmissibleGL.lean",
+    "startLine": 94
+   },
+   "signature": "theorem irreducibleAdmissibleGL : GlobalTheory.Published.IrreducibleAdmissibleGL"
+  },
+  "PositivityTheory.Exh.langlandsExhaustionGL_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.LanglandsExhaustion.Outright",
+   "range": {
+    "endLine": 8,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/LanglandsExhaustion/Outright.lean",
+    "startLine": 8
+   },
+   "signature": "theorem langlandsExhaustionGL_holds : GlobalTheory.Published.LanglandsExhaustionGL"
+  },
   "PositivityTheory.Exh.langlandsExhaustionGL_of_seg": {
    "doc": null,
    "exists": true,
@@ -9133,6 +10513,18 @@
    },
    "signature": "theorem langlandsExhaustionGL_of_seg (hZ : GlobalTheory.Published.SegmentRepresentation) : GlobalTheory.Published.LanglandsExhaustionGL"
   },
+  "PositivityTheory.Exh.langlandsMultisegments_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.LanglandsExhaustion.Outright",
+   "range": {
+    "endLine": 10,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/LanglandsExhaustion/Outright.lean",
+    "startLine": 10
+   },
+   "signature": "theorem langlandsMultisegments_holds : GlobalTheory.Published.LanglandsMultisegments"
+  },
   "PositivityTheory.Exh.langlandsMultisegments_of_seg": {
    "doc": null,
    "exists": true,
@@ -9144,6 +10536,18 @@
     "startLine": 16
    },
    "signature": "theorem langlandsMultisegments_of_seg (hZ : GlobalTheory.Published.SegmentRepresentation) : GlobalTheory.Published.LanglandsMultisegments"
+  },
+  "PositivityTheory.Exh.standardCosocleGL_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.LanglandsExhaustion.Outright",
+   "range": {
+    "endLine": 6,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/LanglandsExhaustion/Outright.lean",
+    "startLine": 6
+   },
+   "signature": "theorem standardCosocleGL_holds : GlobalTheory.Published.StandardCosocleGL"
   },
   "PositivityTheory.Exh.standardCosocleGL_of_seg": {
    "doc": null,
@@ -9192,6 +10596,18 @@
     "startLine": 72
    },
    "signature": "def SiegelDeg : Prop :=\n  ∀ (D : D7) (r : ℕ) (V : HSp D) ψ θ μ lam ν φ, Hyp D r V ψ θ μ lam ν φ →\n    ∀ β : HermE D r, β.1.det = 0 → IfrB V ν φ β = W ψ V μ lam φ β"
+  },
+  "PositivityTheory.Groth.grothendieckRingPolynomial_holds": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.GrothendieckRingPolynomial.EssSquareIntegrableSegmentsHolds",
+   "range": {
+    "endLine": 9,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/AutomorphicKernels/GrothendieckRingPolynomial/EssSquareIntegrableSegmentsHolds.lean",
+    "startLine": 8
+   },
+   "signature": "theorem grothendieckRingPolynomial_holds : GlobalTheory.Published.GrothendieckRingPolynomial"
   },
   "PositivityTheory.Groth.grothendieckRingPolynomial_of_seg": {
    "doc": null,
@@ -9252,6 +10668,18 @@
     "startLine": 72
    },
    "signature": "theorem gelfandKazhdanDual_of_rigidity (hJ : GlobalTheory.Published.JacquetShalikaRigidity)\n    (hB : GlobalTheory.Published.CuspFormsBoundedGL) : GlobalTheory.Published.GelfandKazhdanDual"
+  },
+  "PositivityTheory.JacquetShalikaLocal.jacquetShalikaBound": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.WeilBound.CoreStatements.PublishedTheorems.JacquetShalikaBound.JacquetShalikaBound",
+   "range": {
+    "endLine": 77,
+    "file": ".lake/packages/tree/src/Development/WeilBound/CoreStatements/PublishedTheorems/JacquetShalikaBound/JacquetShalikaBound.lean",
+    "startLine": 77
+   },
+   "signature": "theorem jacquetShalikaBound : GlobalTheory.Published.JacquetShalikaBound"
   },
   "PositivityTheory.KB.BStarOdd": {
    "doc": null,
@@ -10297,6 +11725,114 @@
    },
    "signature": "def PrimitiveDirichletLZerosOnLine : Prop :=\n  ∀ (N : ℕ) [NeZero N] (χ : DirichletCharacter ℂ N), χ.IsPrimitive →\n    ∀ s : ℂ, 0 < s.re → s.re < 1 → DirichletCharacter.LFunction χ s = 0 → s.re = 1 / 2"
   },
+  "QH.pair_exists": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.MeanSquareBounds.PairExists",
+   "range": {
+    "endLine": 49,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/MeanSquareBounds/PairExists.lean",
+    "startLine": 9
+   },
+   "signature": "theorem pair_exists :\n    ∃ C : ℝ, 0 < C ∧ ∀ (ε τ K : ℝ) (N₀ : ℕ), 0 < ε → ε < 1 / 52 → 0 < τ → 1 ≤ K → 0 < N₀ → ∃ Y₀ : ℝ, ∀ Y ≥ Y₀,\n      ∀ X z' : ℝ, X ≤ Y ^ K → Y ^ (ε / 5) * Real.log Y ^ 2 ≤ z' → z' ≤ K ^ 2 * (Y ^ (ε / 5) * Real.log Y ^ 2) →\n      ∃ q d : ℕ, Rows (Y ^ (ε / 5)) z' q d ∧ N₀ < q ∧ GoodQ N₀ C τ Y X (Y ^ (ε / 5)) q ∧ GoodD N₀ C τ Y X (Y ^ (ε / 5)) z' q d"
+  },
+  "QH.pair_share": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.MeanSquareBounds.PairShare",
+   "range": {
+    "endLine": 52,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/MeanSquareBounds/PairShare.lean",
+    "startLine": 26
+   },
+   "signature": "theorem pair_share :\n    ∃ C : ℝ, 0 < C ∧ ∀ (ε τ K η : ℝ) (N₀ : ℕ), 0 < ε → ε < 1 / 52 → 0 < τ → 1 ≤ K → 0 < η → 0 < N₀ → ∃ Y₀ : ℝ, ∀ Y ≥ Y₀,\n      ∀ X z' : ℝ, X ≤ Y ^ K → Y ^ (ε / 5) * Real.log Y ^ 2 ≤ z' → z' ≤ K ^ 2 * (Y ^ (ε / 5) * Real.log Y ^ 2) →\n      ∃ G₁ ⊆ primePairSetFirst (Y ^ (ε / 5)), 0 < (primePairSetFirst (Y ^ (ε / 5))).card ∧ (1 - η) * (primePairSetFirst (Y ^ (ε / 5))).card ≤ G₁.card ∧ ∀ q ∈ G₁,\n        GoodQ N₀ C τ Y X (Y ^ (ε / 5)) q ∧ ∃ G₂ ⊆ primeSetTwoBounds (Y ^ (ε / 5)) z' q, 0 < (primeSetTwoBounds (Y ^ (ε / 5)) z' q).card ∧\n          (1 - η) * (primeSetTwoBounds (Y ^ (ε / 5)) z' q).card ≤ G₂.card ∧ ∀ d ∈ G₂, GoodD N₀ C τ Y X (Y ^ (ε / 5)) z' q d"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.G2.fdCons_cd": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.FormalDegreeG2.FdCons",
+   "range": {
+    "endLine": 56,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/ExceptionalGroupG2/FormalDegreeG2/FdCons.lean",
+    "startLine": 47
+   },
+   "signature": "theorem fdCons_cd {ε : Fin n → Bool} (hp : 1 ≤ pOf ε) (hq : 1 ≤ qOf ε) {lam : Fin n → ℝ} (hlam : IsHCParam lam)\n    {h : ℝ} (hgap : GapAtLeast ε lam h) (hh : thrS ε + 1 < h)\n    (hΨ : ∀ μ : Fin n → ℝ, IsHCParam μ → GapAtLeast ε μ h →\n      ∃ (T : KType ε (lowK ε μ)) (Ψ : Matrix (Fin n) (Fin n) ℂ → (T.V →L[ℂ] T.V)), IsPsiFor ε μ T Ψ)\n    {H : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]\n    {σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)} (hσ : Formalism.MainNotions.S.IsDS ε lam σ) {v : H} (hv : v ≠ 0) :\n    Formalism.MainNotions.S.fdegOf (muCD ε) σ v = dimVlam lam"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.G2.formal_degree_constant_measure": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.FormalDegreeConstantDiscrete",
+   "range": {
+    "endLine": 40,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/ExceptionalGroupG2/TensorProductsG2/FormalDegreeConstantDiscrete.lean",
+    "startLine": 32
+   },
+   "signature": "theorem formal_degree_constant_measure (n : ℕ) (ε : Fin n → Bool) : ∃ c : ℝ, 0 < c ∧\n    ∀ (lam : Fin n → ℝ) (H : Type) [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]\n      (σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)) (v : H),\n      Formalism.QuantumDeterminants.IsHCParam lam → Formalism.MainNotions.S.IsDS ε lam σ → ∀ h : ℝ, Formalism.QuantumDeterminants.GapAtLeast ε lam h →\n      thrS ε + 1 < h → 1 ≤ pOf ε → 1 ≤ qOf ε →\n      (∀ μ : Fin n → ℝ, IsHCParam μ → GapAtLeast ε μ h →\n        ∃ (T : KType ε (lowK ε μ)) (Ψ : Matrix (Fin n) (Fin n) ℂ → (T.V →L[ℂ] T.V)), IsPsiFor ε μ T Ψ) →\n      v ≠ 0 → Formalism.MainNotions.S.fdegOf (Formalism.REAL.muG ε) σ v = c * Formalism.QuantumDeterminants.fdegHC lam"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.G2.zuckerman_dual_tensor_exists": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.FormalDegreeConstantDiscrete",
+   "range": {
+    "endLine": 24,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/ExceptionalGroupG2/TensorProductsG2/FormalDegreeConstantDiscrete.lean",
+    "startLine": 19
+   },
+   "signature": "theorem zuckerman_dual_tensor_exists :\n    ∀ (n : ℕ) (ε : Fin n → Bool) (μ : Fin n → ℝ) (H : Type) [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n      [CompleteSpace H] (σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)),\n      PI.UpqRep.IsHCParam μ → PI.UpqRep.IsDS ε μ σ → ∀ h : ℝ, PI.ZuckTensor.GapAtLeast ε μ h → thrS ε + 1 < h →\n        ∃ X : PI.ZuckTensor.TensorDSd n ε μ H σ, ∀ s, s ∈ X.Sm ↔ PI.UpqRep.IsHCParam (μ - Pi.single s 1)"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.G2.zuckerman_tensor_exists": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.ExceptionalGroupG2.TensorProductsG2.FormalDegreeConstantDiscrete",
+   "range": {
+    "endLine": 17,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/ExceptionalGroupG2/TensorProductsG2/FormalDegreeConstantDiscrete.lean",
+    "startLine": 12
+   },
+   "signature": "theorem zuckerman_tensor_exists :\n    ∀ (n : ℕ) (ε : Fin n → Bool) (μ : Fin n → ℝ) (H : Type) [NormedAddCommGroup H] [InnerProductSpace ℂ H]\n      [CompleteSpace H] (σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)),\n      PI.UpqRep.IsHCParam μ → PI.UpqRep.IsDS ε μ σ → ∀ h : ℝ, PI.ZuckTensor.GapAtLeast ε μ h → thrS ε + 1 < h →\n        ∃ X : PI.ZuckTensor.TensorDS n ε μ H σ, ∀ s, s ∈ X.Sm ↔ PI.UpqRep.IsHCParam (μ + Pi.single s 1)"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.fdCons_cd": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.FdCons",
+   "range": {
+    "endLine": 87,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/FormalDegree/FdCons.lean",
+    "startLine": 54
+   },
+   "signature": "theorem fdCons_cd {ε : Fin n → Bool} (hp : 1 ≤ pOf ε) (hq : 1 ≤ qOf ε) {lam : Fin n → ℝ} (hlam : IsHCParam lam)\n    {h : ℝ} (hgap : GapAtLeast ε lam h) (hh : thrStar ε + 1 < h)\n    (hΨ : ∀ μ : Fin n → ℝ, IsHCParam μ → GapAtLeast ε μ h →\n      ∃ (T : KType ε (lowK ε μ)) (Ψ : Matrix (Fin n) (Fin n) ℂ → (T.V →L[ℂ] T.V)), IsPsiFor ε μ T Ψ)\n    {H : Type} [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]\n    {σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)} (hσ : Formalism.MainNotions.S.IsDS ε lam σ) {v : H} (hv : v ≠ 0) :\n    Formalism.MainNotions.S.fdegOf (muCD ε) σ v = dimVlam lam"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.fdCons_muG": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.FdCons",
+   "range": {
+    "endLine": 117,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/FormalDegree/FdCons.lean",
+    "startLine": 89
+   },
+   "signature": "theorem fdCons_muG (n : ℕ) (ε : Fin n → Bool) : ∃ c : ℝ, 0 < c ∧\n    ∀ (lam : Fin n → ℝ) (H : Type) [NormedAddCommGroup H] [InnerProductSpace ℂ H] [CompleteSpace H]\n      (σ : Matrix (Fin n) (Fin n) ℂ → (H →L[ℂ] H)) (v : H),\n      Formalism.QuantumDeterminants.IsHCParam lam → Formalism.MainNotions.S.IsDS ε lam σ → ∀ h : ℝ, Formalism.QuantumDeterminants.GapAtLeast ε lam h →\n      thrStar ε + 1 < h → 1 ≤ pOf ε → 1 ≤ qOf ε →\n      (∀ μ : Fin n → ℝ, IsHCParam μ → GapAtLeast ε μ h →\n        ∃ (T : KType ε (lowK ε μ)) (Ψ : Matrix (Fin n) (Fin n) ℂ → (T.V →L[ℂ] T.V)), IsPsiFor ε μ T Ψ) →\n      v ≠ 0 → Formalism.MainNotions.S.fdegOf (Formalism.REAL.muG ε) σ v = c * Formalism.QuantumDeterminants.fdegHC lam"
+  },
+  "ReciprocityTheory.ChartRestriction.DS.fdc_cd": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.FormalDegree.FdCons",
+   "range": {
+    "endLine": 52,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/FormalDegree/FdCons.lean",
+    "startLine": 17
+   },
+   "signature": "theorem fdc_cd {ε : Fin n → Bool} (hp : 1 ≤ pOf ε) (hq : 1 ≤ qOf ε) {lam : Fin n → ℝ} (hlam : IsHCParam lam)\n    {h : ℝ} (hgap : GapAtLeast ε lam h) (hh : thrStar ε + 1 < h) : fdcD ε lam = dimVlam lam"
+  },
   "ReciprocityTheory.ChartRestriction.G.Geo.ResK.ResKStatement": {
    "doc": null,
    "exists": true,
@@ -10308,6 +11844,66 @@
     "startLine": 66
    },
    "signature": "def ResKStatement : Prop :=\n  ∀ (K : Type) [Field K] [CharZero K] (M D : ℕ) (X : Scheme.{0}) (i : X ⟶ PSpace K M) (U : X.Opens),\n    IsResInput M i U D →\n    ∃ (r : ℕ) (X' : Scheme.{0}) (j : X' ⟶ pullback (PSpace.str K M) (PSpace.str K r)) (f : X' ⟶ X),\n      IsClosedImmersion j ∧ f ≫ i = j ≫ pullback.fst _ _ ∧ IsResWithCoords (i ≫ PSpace.str K M) U D f"
+  },
+  "ReciprocityTheory.ChartRestriction.G.Geo.Tor.ThetaUnifAV": {
+   "doc": null,
+   "exists": true,
+   "kind": "definition",
+   "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.ThetaUnifAV",
+   "range": {
+    "endLine": 40,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/ToroidalCompactification/ThetaUnifAV.lean",
+    "startLine": 29
+   },
+   "signature": "def ThetaUnifAV : Prop :=\n  ∀ (P : Out.PolAV (Sp ℂ)) (rig : LB.Gen (P.L.pull (eSec P.A))), rig.IsGen →\n    ∃ (u : HolUnif P.A P.L P.g) (Hm : Matrix (Fin P.g) (Fin P.g) ℂ) (χ : u.Λ → ℂ) (Ef : LinearMap.BilinForm ℤ u.Λ),\n      u.IsAH Hm χ ∧ u.IsRig rig ∧\n      (∀ v, IsTangent v → ∃! w, u.IsDiff w v) ∧ (∀ w, ∃! v, IsTangent v ∧ u.IsDiff w v) ∧\n      (∀ f : P.A ⟶ P.A, IsMonHom f → ∃ F : (Fin P.g → ℂ) →ₗ[ℂ] (Fin P.g → ℂ), ∀ z, u.ex (F z) = u.ex z ≫ f) ∧\n      (∀ n : ℕ, (∀ s, ∃! θ, u.IsThetaFn Hm χ n θ ∧ u.IsFnPow n s θ) ∧\n        ∀ θ, u.IsThetaFn Hm χ n θ → ∃! s, u.IsFnPow n s θ) ∧\n      (∀ a b : u.Λ, (Ef a b : ℝ) = (hermForm Hm a b).im) ∧ Function.Bijective Ef ∧\n      ∀ (k : ℕ) (a b : u.Λ) (c : ℂˣ), 0 < k →\n        (c : ℂ) = Complex.exp (-(2 * Real.pi * Complex.I) * (Ef a b : ℂ) / k) →\n        Out.WeilIs P.A P.L k (u.ex ((k : ℂ)⁻¹ • (a : Fin P.g → ℂ))) (u.ex ((k : ℂ)⁻¹ • (b : Fin P.g → ℂ))) (unitOn c)"
+  },
+  "ReciprocityTheory.ChartRestriction.G.Out.Laws": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.GlobalSectionsRankAlgClosed",
+   "range": {
+    "endLine": 211,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/GlobalSectionsRankAlgClosed.lean",
+    "startLine": 187
+   },
+   "signature": "structure Laws : Prop where\n  globalSectionsRank : GlobalSectionsRankAlgClosed\n  secBaseChange : SecBaseChangeSt\n  ample : AmpleSt\n  kerPow : KerPowSt\n  mulPull : MulPullSt\n  mulN : MulNSt\n  cube : CubeSt\n  square : SquareSt\n  rigidity : RigiditySt\n  weil : WeilSt\n  weilNondeg : WeilNondegSt\n  symLift : SymLiftSt\n  irred : IrredSt\n  goodPt : GoodPtSt\n  serre : SerreSt\n  extend : Semi.extend_existsSt.{0}\n  cubicalExtends : Semi.cubical_extendsSt.{0}\n  lemmaB : Semi.lemmaBSt.{0}\n  evVal : ∀ S : Scheme.{0}, EvValSt (S := S)\n  vvRank : ∀ S : Scheme.{0}, VVRankSt (S := S)\n  globalFns : GlobalFnsSt\n  polBaseChange : PolBaseChangeSt\n  quotient : QuotientSt\n  unramExt : UnramExtSt"
+  },
+  "ReciprocityTheory.ChartRestriction.G.Out.Laws2": {
+   "doc": null,
+   "exists": true,
+   "kind": "structure",
+   "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.SecBaseChangeAnySt",
+   "range": {
+    "endLine": 77,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/SecBaseChangeAnySt.lean",
+    "startLine": 73
+   },
+   "signature": "structure Laws2 : Prop where\n  secBaseChangeAny : SecBaseChangeAnySt\n  secTwist : SecTwistSt\n  charPair : CharPairSt\n  smoothDense : SmoothDenseSt"
+  },
+  "ReciprocityTheory.ChartRestriction.L1.cm1": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.IsIntegralOfRoot",
+   "range": {
+    "endLine": 62,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/UnramifiedIntegrals/IsIntegralOfRoot.lean",
+    "startLine": 52
+   },
+   "signature": "theorem cm1 : JInvariantIntegrality"
+  },
+  "ReciprocityTheory.ChartRestriction.L1.goodReduction_of_integral_unramified": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.RedStatus",
+   "range": {
+    "endLine": 18,
+    "file": ".lake/packages/tree/src/ReciprocityTheory/ReductiveGroups/UnramifiedIntegrals/RedStatus.lean",
+    "startLine": 13
+   },
+   "signature": "theorem goodReduction_of_integral_unramified (hI : JInt) (hU : JUnram) : CM2"
   },
   "ReciprocityTheory.Gal.GlobalEulerChar": {
    "doc": null,
@@ -11497,6 +13093,18 @@
    },
    "signature": "theorem UpperTheory.Lit.I5.unitary_theory_of_harishChandra_langlands_alt : GlobalTheory.Published.HarishChandraAnalyticity → GlobalTheory.Published.DiscreteSeriesClassification → GlobalTheory.Published.CuspRapidDecay → GlobalTheory.Published.HarishChandraFinite → GlobalTheory.Published.CuspTraceClass → GlobalTheory.Published.DixmierMalliavinFactorisation → GlobalTheory.Published.FlathFactorisation → GlobalTheory.Published.ZelevinskyPolynomialRing → GlobalTheory.Published.GeometricLemma → GlobalTheory.Published.GreenCuspidal → ∀ {D : D7} {G : Type} [Group G] [Fintype G] {Pl0 T : Type} {A : FamIn D.what₂.LL G Pl0 T D.R.m} {Ks : Type} [Field Ks] [NumberField Ks] [Algebra Ks D.what₂.LL] (R : RealDat D A Ks) (F : Face D A), Given R F → GlobalTheory.CuspMult.MultEq R"
   },
+  "UpperTheory.Lit.Mix.polynomialRing": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.FockModels.GlnMixed",
+   "range": {
+    "endLine": 22,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/ThetaCorrespondence/FockModels/GlnMixed.lean",
+    "startLine": 20
+   },
+   "signature": "theorem polynomialRing : GlobalTheory.Published.ZelevinskyPolynomialRing"
+  },
   "UpperTheory.Lit.Rallis.RallisIPProof.rallis_of_dm": {
    "doc": null,
    "exists": true,
@@ -12445,6 +14053,18 @@
    },
    "signature": "theorem UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS :\n    GlobalTheory.Mem.LiteralAutomorphy.LitCoh → SrcS → KatoTwoS"
   },
+  "UpperTheory.V.Z.Win.Extra.geo": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.AutomorphyLifting.PolarizedLinkage.ExtraV",
+   "range": {
+    "endLine": 27,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/AutomorphyLifting/PolarizedLinkage/ExtraV.lean",
+    "startLine": 27
+   },
+   "signature": "private theorem geo : GlobalTheory.Published.GeometricLemma"
+  },
   "UpperTheory.V.ZK.BOdd": {
    "doc": null,
    "exists": true,
@@ -12492,6 +14112,78 @@
     "startLine": 76
    },
    "signature": "def IsRecT (rc : IrrGL (w.adicCompletion E) → WD h) : Prop := ∃ a ha, LawsT (h := h) a ha rc"
+  },
+  "UpperTheory.Zero.LLC.Pr.adm": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 18,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 18
+   },
+   "signature": "theorem adm : GlobalTheory.Published.IrreducibleAdmissibleGL"
+  },
+  "UpperTheory.Zero.LLC.Pr.bz": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 14,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 14
+   },
+   "signature": "theorem bz : GlobalTheory.Published.BernsteinZelevinskyFiniteness"
+  },
+  "UpperTheory.Zero.LLC.Pr.cos": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 13,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 13
+   },
+   "signature": "theorem cos : GlobalTheory.Published.StandardCosocleGL"
+  },
+  "UpperTheory.Zero.LLC.Pr.exh": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 11,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 11
+   },
+   "signature": "theorem exh : GlobalTheory.Published.LanglandsExhaustionGL"
+  },
+  "UpperTheory.Zero.LLC.Pr.multi": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 12,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 12
+   },
+   "signature": "theorem multi : GlobalTheory.Published.LanglandsMultisegments"
+  },
+  "UpperTheory.Zero.LLC.Pr.zel": {
+   "doc": null,
+   "exists": true,
+   "kind": "theorem",
+   "module": "Development.AutomorphicArithmetic.Foundations.LocalLanglands.Multi",
+   "range": {
+    "endLine": 16,
+    "file": ".lake/packages/tree/src/Development/AutomorphicArithmetic/Foundations/LocalLanglands/Multi.lean",
+    "startLine": 15
+   },
+   "signature": "theorem zel : GlobalTheory.Published.ZelevinskyPolynomialRing"
   },
   "UpperTheory.Zero.LLC.RecTExists": {
    "doc": null,

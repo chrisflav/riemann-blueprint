@@ -3,7 +3,9 @@ kind  = "theorem"
 title = "Harish-Chandra's finiteness theorem for GL(n)"
 provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]"
-lean  = ["CuspFormAutomorphicBounds.automorphicFormsFiniteGL", "GlobalTheory.Published.AutomorphicFormsFiniteGL"]
+lean  = ["CuspFormAutomorphicBounds.automorphicFormsFiniteGL", "GlobalTheory.Published.AutomorphicFormsFiniteGL",
+         "GlobalTheory.HCF.automorphicFormsFiniteGL_of_core",
+         "GlobalTheory.automorphicFormsFiniteGL"]
 order = 2
 +++
 Let $E$ be a totally complex number field, $L$ an open subgroup of

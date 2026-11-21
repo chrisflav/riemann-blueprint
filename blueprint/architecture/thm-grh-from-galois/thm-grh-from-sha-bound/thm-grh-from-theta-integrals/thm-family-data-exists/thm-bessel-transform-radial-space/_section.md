@@ -4,10 +4,11 @@ kind  = "theorem"
 title = "Bessel transforms of compactly supported functions lie in the radial space"
 provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutSE.actual_compact_theorem", "Formalism.FourierDecayAlt.P5.ThmPActualCpt"]
+uses  = ["def-archimedean-bessel-data"]
 order = 100
 +++
 Let $G$ be the real unitary group of a hermitian form in $n = 2r + k + 1$
-variables, $k \ge 1$. Fix two vectors $z, z'$ with stabilisers $W_z, W_{z'}$,
+variables, $k \ge 1$, as in [def-archimedean-bessel-data]. Fix two vectors $z, z'$ with stabilisers $W_z, W_{z'}$,
 finite-dimensional unitary representations $\pi$ of $W_z$ and $\pi'$ of
 $W_{z'}$, a unipotent subgroup $N$ with a character $\psi$, and Haar
 measures. For a smooth function $F$ on $G$ with values in

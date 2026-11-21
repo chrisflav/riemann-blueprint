@@ -3,7 +3,8 @@ kind  = "theorem"
 title = "Cusp forms on GL(n) are bounded"
 provenance = "published"
 source = "Gelfand–Graev–Piatetski-Shapiro [gelfand-1969]; Moeglin–Waldspurger [moeglin-waldspurger-1995]"
-lean  = ["GlobalTheory.Published.CuspFormsBoundedGL", "UpperTheory.V.Af.cuspSpectrumGL"]
+lean  = ["GlobalTheory.Published.CuspFormsBoundedGL", "UpperTheory.V.Af.cuspSpectrumGL",
+         "GlobalTheory.CuspBoundSiegel.cuspFormsBounded_of_rapidDecay"]
 order = 1
 +++
 Let $E$ be a totally complex number field and $a \ge 0$. A smooth cusp form
