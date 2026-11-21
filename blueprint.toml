@@ -14,6 +14,9 @@ descend = ["Main", "Statements", "Supplements", "BuildAid", "CompanionTheory", "
 
 [site]
 numbering = "nested"
+# PDFs of the whole blueprint and of each chapter only: the refinement tree is
+# deep, and a PDF for every part at every depth would be thousands of TeX runs.
+pdfScopes = ["chapter"]
 
 # Provenance: what was known before Alpöge's proof and what is new in it,
 # shown as light fills in the graph and as a badge on each statement.
