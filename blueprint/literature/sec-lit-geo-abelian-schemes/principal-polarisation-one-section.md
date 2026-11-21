@@ -1,0 +1,12 @@
++++
+kind  = "theorem"
+title = "A principal polarisation has one section"
+lean  = ["GlobalTheory.AbLaw.principalPolarisation_unique_section", "GlobalTheory.Published.principalPolarisationOneSection"]
+order = 2
++++
+Let $(A, L)$ be a principally polarised abelian variety over an
+algebraically closed field. Then $\dim H^0(A, L) = 1$.
+
+This follows from the Riemann–Roch theorem for abelian varieties
+(Mumford, *Abelian varieties*, §16), which gives
+$\dim H^0(A, L)^2 = \# K(L)$ for ample $L$.
