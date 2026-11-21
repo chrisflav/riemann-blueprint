@@ -2,6 +2,7 @@
 id    = "thm-twisted-admissibility"
 kind  = "theorem"
 title = "Twisted admissibility gives the second family condition"
+provenance = "new"
 lean  = ["GlobalTheory.Top.closed_family_admissible_twist_link_alt"]
 order = 10
 +++

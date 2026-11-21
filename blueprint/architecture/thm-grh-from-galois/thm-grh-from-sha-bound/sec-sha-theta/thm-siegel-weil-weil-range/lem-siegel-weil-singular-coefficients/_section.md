@@ -2,6 +2,7 @@
 id    = "lem-siegel-weil-singular-coefficients"
 kind  = "lemma"
 title = "Singular Fourier coefficients in the Siegel–Weil formula"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.WeilSiegel.Deg.siegelDeg", "PositivityTheory.GramSchwartzFunctions.BC.SiegelDeg"]
 order = 10
 +++

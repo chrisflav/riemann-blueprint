@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The real oscillator representation and its Lie algebra action"
+provenance = "published"
 source = "Segal; Shale [shale-1962]; Weil [weil-1964]; Howe [howe-1979]"
 lean  = ["GlobalTheory.Published.RealMetaplecticRepresentation", "PositivityTheory.Stage1.PM.realMetaplecticRepresentation"]
 order = 3

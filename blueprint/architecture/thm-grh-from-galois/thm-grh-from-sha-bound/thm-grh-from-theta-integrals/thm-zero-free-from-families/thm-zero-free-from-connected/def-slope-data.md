@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Slope data"
+provenance = "new"
 lean  = ["Formalism.MainNotions.ChainTied", "UpperTheory.Comparison₂.CoreAtH", "Formalism.HC.EAtH"]
 order = 2
 +++

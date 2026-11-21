@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Cusp forms are rapidly decreasing"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]; Gelfand–Graev–Piatetski-Shapiro [gelfand-1969]"
 lean  = ["GlobalTheory.Published.CuspRapidDecay", "GlobalTheory.RapidDecay.cuspRapidDecay"]
 order = 7

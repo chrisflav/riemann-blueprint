@@ -2,6 +2,7 @@
 id    = "prop-archimedean-model-data"
 kind  = "proposition"
 title = "Archimedean model data exist"
+provenance = "new"
 lean  = ["Formalism.L2.SG.PoincareAmplitudeLowerBounds.CarrierP", "GlobalTheory.CarrierGap.carrierP"]
 order = 1
 +++

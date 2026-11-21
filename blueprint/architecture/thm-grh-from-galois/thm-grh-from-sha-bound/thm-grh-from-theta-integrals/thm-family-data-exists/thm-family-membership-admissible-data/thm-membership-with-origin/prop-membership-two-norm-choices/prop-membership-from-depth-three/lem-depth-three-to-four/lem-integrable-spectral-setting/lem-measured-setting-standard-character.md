@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "A measured setting with a standard character"
+provenance = "new"
 lean  = ["GlobalTheory.St.SpectralData.exists_setting"]
 order = 1
 +++

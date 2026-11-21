@@ -2,6 +2,7 @@
 id    = "prop-theta-integrals-along-towers"
 kind  = "proposition"
 title = "Theta integrals along theta towers"
+provenance = "new"
 lean  = ["GlobalTheory.ThK.ctBigCone", "PositivityTheory.ThKG.Leaves"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Inputs of the local decomposition"
+provenance = "new"
 lean  = ["Formalism.L2.SG.Closed.CutLeavesDeep_outright"]
 order = 1
 +++

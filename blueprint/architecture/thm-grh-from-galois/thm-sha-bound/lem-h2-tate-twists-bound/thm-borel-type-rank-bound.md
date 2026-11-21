@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A rank bound of Borel type"
+provenance = "new"
 lean  = ["PositivityTheory.KB.BStarOdd", "PositivityTheory.KB.bOdd_zk", "PositivityTheory.KB.bStarOdd",
          "UpperTheory.V.ZK.BOdd", "UpperTheory.V.ZK.bOdd"]
 order = 10

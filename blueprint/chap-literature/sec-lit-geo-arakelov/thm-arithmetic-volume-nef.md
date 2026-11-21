@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The arithmetic volume of a nef hermitian line bundle"
+provenance = "published"
 source = "Moriwaki [moriwaki-2009]"
 lean  = ["GlobalTheory.Published.ArithHilbertSamuel.volNef", "GlobalTheory.Published.VolNef"]
 uses  = ["thm-arithmetic-hilbert-samuel"]

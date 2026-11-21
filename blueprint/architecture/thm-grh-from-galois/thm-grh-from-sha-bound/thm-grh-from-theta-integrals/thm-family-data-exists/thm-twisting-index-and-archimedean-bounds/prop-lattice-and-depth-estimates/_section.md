@@ -2,6 +2,7 @@
 id    = "prop-lattice-and-depth-estimates"
 kind  = "proposition"
 title = "Lattice and depth estimates at the points of a family"
+provenance = "new"
 lean  = ["GlobalTheory.BigOn.geoSt_of_pageSt_alt"]
 order = 2
 +++

@@ -2,6 +2,7 @@
 id    = "thm-toroidal-compactification-siegel"
 kind  = "theorem"
 title = "Toroidal compactification of Siegel moduli schemes"
+provenance = "published"
 source = "Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Published.SiegelToroidalIntegral", "GlobalTheory.siegelToroidalIntegral_holds", "UpperTheory.LiteratureTheorems.siegel_toroidal_integral_of_literature"]
 uses  = ["def-local-parameters"]

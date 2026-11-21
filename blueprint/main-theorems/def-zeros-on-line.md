@@ -1,6 +1,8 @@
 +++
 kind  = "definition"
 title = "Zeros in the critical strip lie on the line"
+provenance = "published"
+source = "classical; see [davenport-2000]"
 lean  = ["DirichletLZerosOnLine", "PrimitiveDirichletLZerosOnLine", "Claim.Strip"]
 order = 3
 +++

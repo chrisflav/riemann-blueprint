@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The order step reduces the order"
+provenance = "new"
 lean  = ["FunctorialResolution.EmbeddedResolution.OrderReductionProperties.isOrderReduction_maxContact_of_isBoundaryPositionInvariant", "FunctorialResolution.EmbeddedResolution.OrderReductionProperties.isOrderReduction_orderFamily_of_strictTransformIsBlowup"]
 order = 10
 +++

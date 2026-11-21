@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Pseudo-coefficients of discrete series of unitary groups"
+provenance = "modified"
 source = "after Clozel–Delorme [clozel-delorme-1984]"
 lean  = ["GlobalTheory.PsCo.Pc.LocalPC", "GlobalTheory.PsCo.Pc.localPC_holds",
          "GlobalTheory.T.localPseudoCoefficientExistence_unitaryGroup"]

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Characteristic polynomials on de Rham homology"
+provenance = "modified"
 source = "after Weil [weil-1948]; Mumford [mumford-1970]; Katz–Messing [katz-messing-1974]"
 lean  = ["GlobalTheory.DeRham.charpoly_push_eq", "GlobalTheory.DeRham.charpoly_push_eq_map_charpoly",
          "GlobalTheory.DeRhamCharpolyP.charpoly_push",

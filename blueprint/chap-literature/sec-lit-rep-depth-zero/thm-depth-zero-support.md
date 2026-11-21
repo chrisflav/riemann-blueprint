@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Depth zero passes to the cuspidal support"
+provenance = "published"
 source = "Moy–Prasad [moy-prasad-1994], [moy-prasad-1996]"
 lean  = ["GlobalTheory.Published.DepthZeroSupport", "GlobalTheory.SmGL.depthZeroSupport"]
 order = 4

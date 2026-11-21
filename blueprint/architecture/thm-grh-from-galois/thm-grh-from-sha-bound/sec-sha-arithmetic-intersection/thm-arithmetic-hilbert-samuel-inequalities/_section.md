@@ -2,6 +2,7 @@
 id    = "thm-arithmetic-hilbert-samuel-inequalities"
 kind  = "theorem"
 title = "Arithmetic Hilbert–Samuel inequalities and Moriwaki's theorem"
+provenance = "published"
 source = "Gillet–Soulé [gillet-soule-1992]; Zhang [zhang-1995]; Moriwaki [moriwaki-2000]; [moriwaki-2009]"
 lean  = ["PositivityTheory.Pf1.HilbertSamuelMoriwaki.hsChain"]
 order = 10

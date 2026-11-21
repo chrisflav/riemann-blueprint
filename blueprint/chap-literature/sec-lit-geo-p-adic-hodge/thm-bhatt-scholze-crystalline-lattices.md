@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Crystalline lattices and prismatic F-crystals"
+provenance = "published"
 source = "Bhatt–Scholze [bhatt-scholze-2023]"
 lean  = ["GlobalTheory.BSP.bhattScholzeIntegral", "GlobalTheory.Published.BhattScholzeIntegral"]
 order = 2

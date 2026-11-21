@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Ohsawa–Takegoshi L2 extension from points"
+provenance = "modified"
 source = "after Ohsawa–Takegoshi [ohsawa-takegoshi-1987]; Demailly [demailly-2000]"
 lean  = ["GlobalTheory.Published.L2ExtensionLogCanonical", "GlobalTheory.l2ExtensionLogCanonical'"]
 order = 7

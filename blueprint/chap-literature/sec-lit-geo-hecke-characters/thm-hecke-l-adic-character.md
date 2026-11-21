@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The l-adic character of an algebraic Hecke character"
+provenance = "published"
 source = "Weil [weil-1956]; Serre [serre-1968]"
 lean  = ["GlobalTheory.Published.HeckeLAdicCharacter", "PositivityTheory.Stage1.PM.heckeLAdicCharacter"]
 order = 1

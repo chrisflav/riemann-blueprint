@@ -2,6 +2,7 @@
 id    = "thm-covolume-bound"
 kind  = "theorem"
 title = "The covolume bound"
+provenance = "new"
 lean  = ["SelfIntersectionVolumeEstimates.topCovolSlim2_use_alt_alt"]
 uses  = ["def-family-data"]
 order = 14

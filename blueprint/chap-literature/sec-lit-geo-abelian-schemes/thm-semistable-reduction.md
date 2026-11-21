@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck's semistable reduction theorem"
+provenance = "modified"
 source = "special case of Grothendieck [sga-7-1, Exp. IX, Thm. 3.6]"
 lean  = ["GlobalTheory.Published.SemistableReductionSt", "GlobalTheory.SS.semistableReductionSt"]
 order = 6

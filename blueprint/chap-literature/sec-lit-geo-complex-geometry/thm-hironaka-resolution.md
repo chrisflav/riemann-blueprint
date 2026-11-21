@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hironaka's resolution of singularities"
+provenance = "published"
 source = "Hironaka [hironaka-1964]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.ResolutionCharZero", "PositivityTheory.Resplug.ResolutionBlowup.resolutionCharZero"]
 order = 2

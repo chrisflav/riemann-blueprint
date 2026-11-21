@@ -2,6 +2,7 @@
 id    = "lem-height-lower-bound-deep-covers"
 kind  = "lemma"
 title = "Height lower bound on deep covers"
+provenance = "new"
 lean  = ["SelfIntersectionVolumeEstimates.height_lower_bound_general_alt"]
 uses  = ["thm-mean-arithmetic-volume-lower-bound"]
 order = 10

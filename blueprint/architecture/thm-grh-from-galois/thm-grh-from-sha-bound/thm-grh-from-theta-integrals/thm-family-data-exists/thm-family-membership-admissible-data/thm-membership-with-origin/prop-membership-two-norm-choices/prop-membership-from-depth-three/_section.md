@@ -2,6 +2,7 @@
 id    = "prop-membership-from-depth-three"
 kind  = "proposition"
 title = "Membership from depth-three constructions"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Closing.memberE_closing_alt_alt"]
 uses = ["def-local-parameters"]
 order = 2

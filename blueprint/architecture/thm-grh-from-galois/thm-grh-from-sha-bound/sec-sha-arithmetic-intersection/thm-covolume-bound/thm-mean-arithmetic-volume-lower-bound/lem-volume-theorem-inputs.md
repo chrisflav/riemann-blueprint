@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The inputs of the volume theorem"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Sl.slopeBound_and_lemmaS_of_siegel", "GlobalTheory.CompanionTheory.Ar.Top.given_of_inputs", "GlobalTheory.T.final_theorem_of_inputs_left", "GlobalTheory.T.slope_bound_of_line_large_degree"]
 order = 11
 +++

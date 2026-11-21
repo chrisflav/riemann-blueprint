@@ -2,6 +2,7 @@
 id    = "thm-inner-form-multiplicities-equal"
 kind  = "theorem"
 title = "Equal multiplicities on inner forms"
+provenance = "new"
 lean  = ["GlobalTheory.MultEqFinal.twisted_multiplicity_eq", "GlobalTheory.T.twisted_multiplicity_one",
          "UpperTheory.Lit.I5.unitary_theory_of_harishChandra_langlands_alt"]
 order = 121

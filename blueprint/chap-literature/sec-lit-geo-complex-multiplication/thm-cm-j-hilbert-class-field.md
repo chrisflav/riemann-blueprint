@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The j-invariant generates the Hilbert class field"
+provenance = "published"
 source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.CompanionTheory.Published.complexMultiplicationJ", "GlobalTheory.Published.ComplexMultiplicationJSt"]
 order = 1

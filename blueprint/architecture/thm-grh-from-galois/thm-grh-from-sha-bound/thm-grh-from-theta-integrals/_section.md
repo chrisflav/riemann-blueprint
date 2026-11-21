@@ -2,6 +2,7 @@
 id    = "thm-grh-from-theta-integrals"
 kind  = "theorem"
 title = "GRH from families of unitary groups"
+provenance = "new"
 lean  = ["UpperTheory.Lit.every_character_of_theta_integrals_local_matching",
          "GlobalTheory.Fc.S0.UnitaryGroupThirdPlaceHypotheses",
          "GlobalTheory.FunPr.ThetaLocalInputs"]

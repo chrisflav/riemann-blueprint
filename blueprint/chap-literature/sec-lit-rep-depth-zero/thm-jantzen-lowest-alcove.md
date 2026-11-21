@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Induced modules in the lowest alcove are simple"
+provenance = "published"
 source = "Jantzen [jantzen-2003]"
 lean  = ["GlobalTheory.Alc.inducedSimpleLowestAlcove", "GlobalTheory.Published.InducedSimpleLowestAlcove"]
 order = 8

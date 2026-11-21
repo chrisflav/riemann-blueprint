@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Generic unitary dual of GL(n)"
+provenance = "modified"
 source = "special case of Tadić [tadic-1986]"
 lean  = ["GlobalTheory.Published.GenericUnitaryDualGL", "PositivityTheory.Gud.Fin.genericUnitaryDualGL_holds"]
 order = 14

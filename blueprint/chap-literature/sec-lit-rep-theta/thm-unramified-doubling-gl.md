@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The unramified doubling integral for GL(n)"
+provenance = "modified"
 source = "after Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.UnramifiedDoublingGL", "GlobalTheory.UnramDoublingProof.unramifiedDoublingGL"]
 order = 6

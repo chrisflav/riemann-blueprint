@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Antisymmetry from fibre squares"
+provenance = "new"
 lean  = ["SquareStatements.good_tower_antisymmetry_of"]
 order = 10
 +++

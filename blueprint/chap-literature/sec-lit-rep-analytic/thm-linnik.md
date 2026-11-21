@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Linnik's theorem on the least prime in an arithmetic progression"
+provenance = "published"
 source = "Linnik [linnik-1944]"
 lean  = ["GlobalTheory.Published.Linnik", "UpperTheory.Lit.linnik"]
 order = 4

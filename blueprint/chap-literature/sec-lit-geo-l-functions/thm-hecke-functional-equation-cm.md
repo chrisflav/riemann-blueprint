@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Functional equation of Hecke L-functions over CM fields"
+provenance = "modified"
 source = "special case of Hecke [hecke-1918], [hecke-1920]; Tate [tate-1967]"
 lean  = ["GlobalTheory.Published.HeckeTateFunctionalEquation", "GlobalTheory.Top.heckeTateFE"]
 order = 3

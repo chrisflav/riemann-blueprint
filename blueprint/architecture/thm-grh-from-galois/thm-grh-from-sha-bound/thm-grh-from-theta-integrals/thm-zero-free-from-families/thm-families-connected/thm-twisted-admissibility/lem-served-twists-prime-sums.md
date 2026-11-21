@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Served twists bound the sums over primes"
+provenance = "new"
 lean  = ["Formalism.L2.G.ServT.closed_servF_of_servT_of_dGamSize", "Formalism.MainNotions.Pk.sum_over_primes_service"]
 order = 10
 +++

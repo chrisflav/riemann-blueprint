@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Classification of hermitian forms"
+provenance = "published"
 source = "Jacobowitz [jacobowitz-1962]; Landherr [landherr-1936]"
 lean  = ["GlobalTheory.Published.HermitianLocalGlobal", "PositivityTheory.Stage1.PM.hermitianLocalGlobal"]
 order = 5

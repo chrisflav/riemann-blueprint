@@ -2,6 +2,7 @@
 id    = "thm-hecke-fixed-points-kuga-sato"
 kind  = "theorem"
 title = "Fixed points of Hecke correspondences on Kuga–Sato varieties"
+provenance = "new"
 lean  = ["UpperTheory.Gal.FixZ.FixK_holds", "UpperTheory.Gal.FixZ.tower_fixed_points_of_isogeny_data",
          "UpperTheory.Gal.LocalSmoothExtension.FixK"]
 order = 11

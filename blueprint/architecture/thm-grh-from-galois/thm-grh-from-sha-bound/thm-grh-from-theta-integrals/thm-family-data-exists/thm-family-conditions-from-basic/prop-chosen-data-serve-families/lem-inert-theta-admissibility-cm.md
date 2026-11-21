@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Admissibility of theta data at inert primes"
+provenance = "new"
 lean  = ["Formalism.L2.KerInert.AdmLoc2.AdmAtEnt2", "Formalism.L2.KerInert.AdmLoc2.admissible_entries_small_chain", "GlobalTheory.TwV.Lt.inert_theta_admissibility_of_complex_multiplication"]
 order = 1
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Meromorphic continuation of Siegel Eisenstein series with growth"
+provenance = "modified"
 source = "special case of Langlands [langlands-1976]; Bernstein–Lapid [bernstein-lapid-2019]"
 lean  = ["GlobalTheory.ThK.Dbl.EisBL", "PositivityTheory.RgEis.Hd.eisBL"]
 order = 8

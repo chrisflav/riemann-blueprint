@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Tautological charts at unitary boundary points"
+provenance = "new"
 lean  = ["GlobalTheory.T.exists_pointRigid_tautological_chart_unitary_boundary", "GlobalTheory.UCanon.exists_tautB_chart_at"]
 order = 10
 +++

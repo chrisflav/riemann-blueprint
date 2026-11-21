@@ -2,6 +2,7 @@
 id    = "lem-exponent-bounds-from-lattice-inclusions"
 kind  = "lemma"
 title = "Exponent bounds from lattice inclusions"
+provenance = "new"
 lean  = ["GlobalTheory.ExpTie.Asm.expSt_of_alt", "GlobalTheory.ExpTie.Asm.hasExpBound_at", "GlobalTheory.T.expSt_of_num_sumExp_model"]
 order = 2
 +++

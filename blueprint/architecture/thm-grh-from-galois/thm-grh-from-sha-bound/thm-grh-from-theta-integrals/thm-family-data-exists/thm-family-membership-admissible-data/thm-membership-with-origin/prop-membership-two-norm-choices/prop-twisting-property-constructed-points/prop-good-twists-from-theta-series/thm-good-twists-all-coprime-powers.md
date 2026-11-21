@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Good twists for all powers of a ray class character"
+provenance = "new"
 lean  = ["GlobalTheory.TwExportTop.twistAllPowers_of_galoisCohomology_classField"]
 order = 1
 +++

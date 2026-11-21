@@ -2,6 +2,7 @@
 id    = "lem-valuations-level-primes"
 kind  = "lemma"
 title = "Valuations at the level primes"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.Cv.row_level_valuations", "GlobalTheory.LvT.Built.TrueCols.closing_true_cols", "GlobalTheory.LvT.Built.TrueCols.row_true", "GlobalTheory.LvT.Built.TrueCols.trueColumns_chain_last_step_sharp_bound", "GlobalTheory.T.levelPrimeColumnValuations_bundlePoints_overColumns", "GlobalTheory.T.trueColumns_row_sharp_bounds"]
 order = 1
 +++

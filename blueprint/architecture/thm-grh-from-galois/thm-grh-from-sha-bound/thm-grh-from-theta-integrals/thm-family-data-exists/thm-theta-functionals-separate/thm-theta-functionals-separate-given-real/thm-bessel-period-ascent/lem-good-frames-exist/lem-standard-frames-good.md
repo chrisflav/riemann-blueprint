@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Standard frames are good"
+provenance = "new"
 lean  = ["GlobalTheory.AscFin.GoodStd.std_good",
          "GlobalTheory.T.standardAuxiliaryFrames_good_row_grids"]
 order = 1

@@ -2,6 +2,7 @@
 id    = "thm-siegel-units-mackey"
 kind  = "theorem"
 title = "Mackey decomposition of Siegel unit classes"
+provenance = "new"
 lean  = ["UpperTheory.Kd.L.mackey"]
 order = 10
 +++

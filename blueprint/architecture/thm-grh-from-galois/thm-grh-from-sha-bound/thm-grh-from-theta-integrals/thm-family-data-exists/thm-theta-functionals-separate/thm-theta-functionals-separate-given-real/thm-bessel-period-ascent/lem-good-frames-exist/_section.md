@@ -2,6 +2,7 @@
 id    = "lem-good-frames-exist"
 kind  = "lemma"
 title = "Good frames exist"
+provenance = "new"
 lean  = ["GlobalTheory.AscFin.towerEx_of_depFixed",
          "GlobalTheory.T.existsGoodGridFrames_of_depthFixed"]
 order = 1

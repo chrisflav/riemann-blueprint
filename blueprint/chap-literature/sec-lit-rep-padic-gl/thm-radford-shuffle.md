@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The shuffle algebra is a polynomial algebra"
+provenance = "published"
 source = "Radford [radford-1979]"
 lean  = ["GlobalTheory.Published.RadfordShufflePolynomial", "PositivityTheory.Stage1.PM.radfordShufflePolynomial"]
 order = 7

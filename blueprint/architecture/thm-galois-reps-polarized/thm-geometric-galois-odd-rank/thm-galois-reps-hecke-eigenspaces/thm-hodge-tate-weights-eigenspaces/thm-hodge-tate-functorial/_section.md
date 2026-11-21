@@ -2,6 +2,7 @@
 id    = "thm-hodge-tate-functorial"
 kind  = "theorem"
 title = "Functoriality of the Hodge–Tate decomposition"
+provenance = "published"
 source = "Faltings [faltings-1988]"
 lean  = ["CrystallineSemistableComparison.HTSpecB.HTSpecGood", "UpperTheory.Gal.Seam.HT.htSpecGood"]
 order = 10

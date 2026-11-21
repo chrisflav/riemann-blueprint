@@ -2,6 +2,7 @@
 id    = "prop-block-sums-ranges"
 kind  = "proposition"
 title = "Block sums over ranges of exponents"
+provenance = "new"
 lean  = ["Formalism.MainNotions.G.SymmetricFormBlocks.restTM_closed"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Reduction theory for unitary groups"
+provenance = "published"
 source = "Borel [borel-1969]; Godement [godement-1963]"
 lean  = ["GlobalTheory.Published.SiegelSetUnitary", "UpperTheory.Lit.siegelSetUnitary_of_core"]
 order = 1

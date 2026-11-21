@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-definite-k"
 kind  = "theorem"
 title = "The Siegel–Weil formula for a definite space"
+provenance = "published"
 source = "Weil [weil-1965]; Kudla–Rallis [kudla-rallis-1988]; Ichino [ichino-2004] for unitary groups"
 lean  = ["GlobalTheory.ThK.Dbl.SiegelWeilStd_k", "PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_k"]
 order = 10

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Ray class fields from Weber functions"
+provenance = "published"
 source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.Published.WeberRayFieldSt", "PositivityTheory.Prw.weberRayFieldSt_holds"]
 order = 2

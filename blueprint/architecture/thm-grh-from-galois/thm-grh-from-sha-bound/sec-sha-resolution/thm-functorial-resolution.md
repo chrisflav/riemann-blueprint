@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Functorial resolution of singularities in characteristic zero"
+provenance = "published"
 source = "Hironaka [hironaka-1964]; functorial form: Villamayor [villamayor-1989], Bierstone–Milman [bierstone-milman-1997], Włodarczyk [wlodarczyk-2005]"
 lean  = ["FunctorialResolution.EmbeddedResolution.StrongResolutionOfSingularitiesCharZero", "FunctorialResolution.EmbeddedResolution.strongResolutionOfSingularitiesCharZero", "FunctorialResolution.FunctorialResolutionCharZero", "FunctorialResolution.functorialResolutionCharZero"]
 order = 11

@@ -2,6 +2,7 @@
 id    = "thm-lifting-potentially-crystalline"
 kind  = "theorem"
 title = "Lifting finite classes along potentially crystalline lattices"
+provenance = "new"
 lean  = ["GlobalTheory.InertiaEigenvalues.theoremT_all_records", "GlobalTheory.T.crystallinePeriodBound_all_constant_ge_forty", "GlobalTheory.T.liftingStep_theoremT_of_bhattScholze_fontaine", "GlobalTheory.TheoremTClosing.main"]
 order = 1
 +++

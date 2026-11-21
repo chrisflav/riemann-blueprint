@@ -2,6 +2,7 @@
 id    = "thm-unitary-shimura-integral-models"
 kind  = "theorem"
 title = "Integral models of unitary Shimura varieties"
+provenance = "published"
 source = "Kottwitz [kottwitz-1992]; Harris–Taylor [harris-taylor-2001]"
 lean  = ["GlobalTheory.UPel.HT.model_nonempty"]
 order = 10

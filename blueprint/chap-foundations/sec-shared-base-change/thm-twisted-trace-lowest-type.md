@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A twisted trace on the lowest type"
+provenance = "new"
 lean  = ["PositivityTheory.RgBcC.RealD.CoreG", "UpperTheory.V.Z.GSp4Splitting.coreG"]
 order = 13
 +++

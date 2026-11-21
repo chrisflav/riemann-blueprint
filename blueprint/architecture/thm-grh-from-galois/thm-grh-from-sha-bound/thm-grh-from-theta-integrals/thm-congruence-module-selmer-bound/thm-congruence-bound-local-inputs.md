@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The congruence bound from local inputs"
+provenance = "new"
 lean  = ["Formalism.MainNotions.N.K.Closed.theorem_n5_from_inputs"]
 order = 10
 +++

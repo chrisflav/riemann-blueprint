@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Tate's local Euler characteristic formula at the places of a number field"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["GlobalTheory.Laid.loceuler_holds", "ReciprocityTheory.Gal.LocalEulerChar"]
 order = 4

@@ -2,6 +2,7 @@
 id    = "thm-family-sha-error-bound"
 kind  = "theorem"
 title = "The Tate–Shafarevich error bound for the families"
+provenance = "new"
 lean  = ["GlobalTheory.NLink.Final.mainTheorem", "UpperTheory.GalC.final_alt_alt"]
 uses = ["def-local-parameters"]
 order = 130

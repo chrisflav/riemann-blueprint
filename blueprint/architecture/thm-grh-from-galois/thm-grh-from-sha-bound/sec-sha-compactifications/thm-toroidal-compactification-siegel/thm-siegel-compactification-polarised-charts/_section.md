@@ -2,6 +2,7 @@
 id    = "thm-siegel-compactification-polarised-charts"
 kind  = "theorem"
 title = "Siegel compactifications with polarised charts"
+provenance = "new"
 lean  = ["GlobalTheory.Published.SiegelToroidalPolCharts", "GlobalTheory.SiegJoin.siegelToroidalPolCharts", "GlobalTheory.T.siegelToroidalCompactification_polarisedCharts"]
 order = 10
 +++

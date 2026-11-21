@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Orbit data at inert primes of odd order"
+provenance = "new"
 lean  = ["UpperTheory.OrbitFamilyRestriction.exists_rowFamS", "UpperTheory.exists_pkgCs_of_degree_bound_at_inert_primes", "UpperTheory.labelSetGeo_of_even_of_rankOK_of_not_dvd_discr"]
 order = 1
 +++

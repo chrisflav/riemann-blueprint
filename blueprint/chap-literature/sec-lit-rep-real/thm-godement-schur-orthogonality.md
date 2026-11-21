@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Schur orthogonality for square-integrable representations"
+provenance = "published"
 source = "Godement [godement-1947]"
 lean  = ["GlobalTheory.Published.SchurOrthogonalitySquareIntegrable", "PositivityTheory.Stage1.PM.schurOrthogonalitySquareIntegrable"]
 order = 6

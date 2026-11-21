@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Local models at primes in the weight range"
+provenance = "new"
 lean  = ["GlobalTheory.ExpModel.modelSt_of_small_frame_gal", "GlobalTheory.T.model_statement_of_crystalline_chebotarev_frame_gal"]
 order = 1
 +++

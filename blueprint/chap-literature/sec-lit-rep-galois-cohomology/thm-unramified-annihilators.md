@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Unramified classes are exact annihilators"
+provenance = "published"
 source = "Tate [tate-1963]; see Milne [milne-1986]"
 lean  = ["GlobalTheory.unramifiedOrthogonality_holds", "ReciprocityTheory.Gal.UnramifiedOrthogonality"]
 order = 3

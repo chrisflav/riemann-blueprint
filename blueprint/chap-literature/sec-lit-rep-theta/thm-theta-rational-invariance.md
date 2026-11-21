@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Rational invariance of theta functions"
+provenance = "modified"
 source = "after Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.ThetaRationalInvariance", "PositivityTheory.Stage1.PM.thetaRationalInvariance"]
 order = 4

@@ -2,6 +2,7 @@
 id    = "thm-bessel-period-ascent"
 kind  = "theorem"
 title = "Bessel periods stay nonzero up the theta tower"
+provenance = "new"
 lean  = ["GlobalTheory.Asc.ascent_of_depFixed",
          "GlobalTheory.T.bessel_period_nonvanishing_ascent_of_depth_data"]
 order = 1

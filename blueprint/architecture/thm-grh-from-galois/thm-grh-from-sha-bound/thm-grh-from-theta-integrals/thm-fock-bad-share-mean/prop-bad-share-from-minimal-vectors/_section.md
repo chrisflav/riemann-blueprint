@@ -2,6 +2,7 @@
 id    = "prop-bad-share-from-minimal-vectors"
 kind  = "proposition"
 title = "Bad shares from minimal vectors"
+provenance = "new"
 lean  = ["Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_coefficient_function",
          "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_minimal_vector",
          "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_orthogonal_basis",

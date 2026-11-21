@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Proper base change"
+provenance = "published"
 source = "Artin [sga-4-3, Exp. XII]"
 lean  = ["GlobalTheory.EtC.E2", "UpperTheory.Et.E2.main", "UpperTheory.Et.proper_base_change"]
 order = 11

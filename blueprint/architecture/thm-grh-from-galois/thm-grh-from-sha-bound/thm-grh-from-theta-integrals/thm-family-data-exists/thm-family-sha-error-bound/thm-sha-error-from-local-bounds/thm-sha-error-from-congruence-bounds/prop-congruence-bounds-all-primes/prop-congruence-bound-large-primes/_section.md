@@ -2,6 +2,7 @@
 id    = "prop-congruence-bound-large-primes"
 kind  = "proposition"
 title = "Congruence bound at large primes"
+provenance = "new"
 lean  = ["GlobalTheory.NLinkE.main_alt_alt", "GlobalTheory.T.eventually_congBound_of_facts"]
 order = 3
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hasse norm theorem for quadratic extensions"
+provenance = "modified"
 source = "special case of Hasse [hasse-1931]"
 lean  = ["GlobalTheory.Published.HasseNormSt", "GlobalTheory.QNorm.hasseNormSt"]
 order = 6

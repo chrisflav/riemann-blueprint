@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Steps in theta towers"
+provenance = "modified"
 lean  = ["GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.ThetaIntegralsAgree",
          "GlobalTheory.IndefiniteRowSideFullHecke.WeilTensorModels.LocalMatching"]
 order = 2

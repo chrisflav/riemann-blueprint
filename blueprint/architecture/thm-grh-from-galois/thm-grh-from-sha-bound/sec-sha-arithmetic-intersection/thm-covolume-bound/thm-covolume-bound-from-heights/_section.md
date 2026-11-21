@@ -2,6 +2,7 @@
 id    = "thm-covolume-bound-from-heights"
 kind  = "theorem"
 title = "The covolume bound from height estimates"
+provenance = "new"
 lean  = ["SelfIntersectionVolumeEstimates.topCovolG_alt_alt"]
 uses  = ["thm-mean-arithmetic-volume-lower-bound"]
 order = 11

@@ -2,6 +2,7 @@
 id    = "prop-congruence-bound-auxiliary-primes"
 kind  = "proposition"
 title = "Congruence bound at the auxiliary primes"
+provenance = "new"
 lean  = ["GlobalTheory.ExtraFromFacts.main_alt_alt", "GlobalTheory.T.exists_const_tieChi_bound_of_facts"]
 order = 1
 +++

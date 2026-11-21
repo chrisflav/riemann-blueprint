@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Toroidal compactifications of unitary Shimura varieties"
+provenance = "published"
 source = "Ash–Mumford–Rapoport–Tai [ash-1975]; Faltings–Chai [faltings-chai-1990]; Lan [lan-2013]"
 lean  = ["GlobalTheory.Published.ToroidalCompactification", "GlobalTheory.toroidalCompactification_holds"]
 order = 10

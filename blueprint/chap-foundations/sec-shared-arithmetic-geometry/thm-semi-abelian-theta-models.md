@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Semi-abelian models with theta functions"
+provenance = "new"
 lean  = ["GlobalTheory.T.semiAbelianScheme_uniformisation_exists_geometric",
          "GlobalTheory.T.zarhinGeometric_of_semistableReduction", "GlobalTheory.ZH.GeoHalf.zhGeo",
          "GlobalTheory.zhGeo_of_semistableReduction"]

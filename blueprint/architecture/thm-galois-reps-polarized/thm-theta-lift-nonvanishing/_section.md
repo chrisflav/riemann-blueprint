@@ -2,6 +2,7 @@
 id    = "thm-theta-lift-nonvanishing"
 kind  = "theorem"
 title = "Theta lifts from definite unitary groups do not vanish"
+provenance = "modified"
 source = "after Rallis [rallis-1984]; J.-S. Li [li-1992]"
 lean  = ["UpperTheory.TP.TLiftK", "UpperTheory.TP.K.tLiftK"]
 order = 1

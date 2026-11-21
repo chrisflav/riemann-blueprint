@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The doubling method"
+provenance = "published"
 source = "Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]"
 lean  = ["GlobalTheory.Published.DoublingMethodLocalZetaIntegrals", "ResidueKilled.dm_of_two"]
 order = 9

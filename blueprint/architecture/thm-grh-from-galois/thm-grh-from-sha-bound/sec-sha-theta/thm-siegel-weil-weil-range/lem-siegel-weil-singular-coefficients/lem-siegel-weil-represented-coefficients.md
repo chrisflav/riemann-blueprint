@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Represented coefficients in block normal form"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.WeilSiegel.Frame.siegel_frame", "GlobalTheory.T.siegel_weil_rank_coefficient"]
 order = 10
 +++

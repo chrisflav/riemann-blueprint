@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Full-level models with ample line bundles"
+provenance = "new"
 lean  = ["GlobalTheory.Models.topAmpExists", "GlobalTheory.T.exists_fullLevelAmpleModel_of_semistableReduction", "GlobalTheory.T.exists_fullLevel_model_ample_frames", "GlobalTheory.topAmpExists_of_semistableReduction"]
 order = 12
 +++

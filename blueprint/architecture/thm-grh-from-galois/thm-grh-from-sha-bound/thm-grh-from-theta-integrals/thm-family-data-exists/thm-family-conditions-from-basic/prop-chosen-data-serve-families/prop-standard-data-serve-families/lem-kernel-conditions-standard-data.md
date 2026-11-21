@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Kernel conditions at standard data"
+provenance = "new"
 lean  = ["GlobalTheory.Pdv.rowAt_of_stdTie", "GlobalTheory.PdvClose.at_of_true_columns", "GlobalTheory.PdvTie.at_of_stdTie", "GlobalTheory.T.kernelDatumConditions_at_standardKernelComparison"]
 order = 2
 +++

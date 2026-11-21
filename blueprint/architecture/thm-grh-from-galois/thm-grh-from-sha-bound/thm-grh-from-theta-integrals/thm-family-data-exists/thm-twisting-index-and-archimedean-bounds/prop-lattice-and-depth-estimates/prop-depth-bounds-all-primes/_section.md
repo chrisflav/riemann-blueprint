@@ -2,6 +2,7 @@
 id    = "prop-depth-bounds-all-primes"
 kind  = "proposition"
 title = "Depth bounds at all primes"
+provenance = "new"
 lean  = ["GlobalTheory.BigOn.leafDepth_all_record", "GlobalTheory.RunDepth.leafDepth_all_run"]
 order = 2
 +++

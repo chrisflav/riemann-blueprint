@@ -2,6 +2,7 @@
 id    = "prop-finite-classes-cyclotomic-twists"
 kind  = "proposition"
 title = "Finite classes of cyclotomic twists"
+provenance = "new"
 lean  = ["GlobalTheory.T.blochKatoTop_of_localTateDuality_eulerChar", "GlobalTheory.TopClosing.blochKatoTop_of_localTateDuality_eulerChar_alt"]
 order = 1
 +++

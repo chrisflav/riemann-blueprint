@@ -2,6 +2,7 @@
 id    = "lem-integral-moments-kernel-jets"
 kind  = "lemma"
 title = "Integral moments of kernel jets"
+provenance = "new"
 lean  = ["GlobalTheory.IndefiniteRowSideFullHecke.JetSumTable.JetMoments", "GlobalTheory.MomTop.jetMoments", "GlobalTheory.T.kernelJets_levelPlace_integralMoments"]
 order = 1
 +++

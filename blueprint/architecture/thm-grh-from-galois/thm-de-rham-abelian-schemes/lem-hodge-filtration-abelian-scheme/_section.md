@@ -2,6 +2,7 @@
 id    = "lem-hodge-filtration-abelian-scheme"
 kind  = "lemma"
 title = "The Hodge filtration of an abelian scheme"
+provenance = "new"
 lean  = ["FubiniStudyChowHeightFormula₂.Hdr.AbelianDeRhamPage", "GlobalTheory.Published.AbelianHodgeDeRham", "MainStatements.Hodge.Free.abelianDeRhamPage", "MainStatements.Hodge.Free.abelianHodgeDeRham"]
 order = 10
 +++

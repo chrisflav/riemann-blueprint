@@ -2,6 +2,7 @@
 id    = "thm-prime-sums-lattice-gains"
 kind  = "theorem"
 title = "Prime sums are bounded by lattice gains"
+provenance = "new"
 lean  = ["Formalism.L2.G.linkG_concrete5"]
 order = 11
 +++

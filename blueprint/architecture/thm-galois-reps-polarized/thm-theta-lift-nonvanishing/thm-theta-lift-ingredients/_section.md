@@ -2,6 +2,7 @@
 id    = "thm-theta-lift-ingredients"
 kind  = "theorem"
 title = "Ingredients for non-vanishing of theta lifts"
+provenance = "new"
 lean  = ["UpperTheory.TP.tools_holds_k"]
 order = 10
 +++

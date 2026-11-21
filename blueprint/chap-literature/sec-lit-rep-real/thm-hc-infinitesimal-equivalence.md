@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Closures of admissible submodules and infinitesimal equivalence"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.Published.GKGlobalisation", "GlobalTheory.gkGlobalisation_holds"]
 order = 5

@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Admissibility at each place"
+provenance = "new"
 lean  = ["GlobalTheory.TwV.admissible_at_each_site"]
 order = 1
 +++

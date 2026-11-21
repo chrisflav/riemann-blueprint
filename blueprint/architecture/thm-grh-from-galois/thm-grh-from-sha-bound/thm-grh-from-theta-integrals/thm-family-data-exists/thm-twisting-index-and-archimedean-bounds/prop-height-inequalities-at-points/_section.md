@@ -2,6 +2,7 @@
 id    = "prop-height-inequalities-at-points"
 kind  = "proposition"
 title = "Height inequalities at the points of a family"
+provenance = "new"
 lean  = ["GlobalTheory.FinalJoin.runHolds_of_parOK"]
 order = 1
 +++

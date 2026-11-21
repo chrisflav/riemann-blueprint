@@ -2,6 +2,7 @@
 id    = "prop-congruence-bounds-all-primes"
 kind  = "proposition"
 title = "Congruence bounds at all primes"
+provenance = "new"
 lean  = ["GlobalTheory.NLinkClose.main_alt_alt", "GlobalTheory.T.conclF_of_family_facts_and_bound_at_two_three"]
 order = 2
 +++

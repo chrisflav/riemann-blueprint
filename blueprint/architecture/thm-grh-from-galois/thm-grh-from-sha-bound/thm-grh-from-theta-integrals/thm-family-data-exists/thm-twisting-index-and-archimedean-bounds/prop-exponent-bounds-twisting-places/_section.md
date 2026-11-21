@@ -2,6 +2,7 @@
 id    = "prop-exponent-bounds-twisting-places"
 kind  = "proposition"
 title = "Bounds on the exponents at the twisting places"
+provenance = "new"
 lean  = ["GlobalTheory.BigOn.exponent_bound_of_unitaryThetaStandardTheorems_alt", "GlobalTheory.T.expSt_of_base_change_and_crystalline_lattices"]
 uses = ["def-local-parameters"]
 order = 3

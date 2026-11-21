@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's formal degree formula for U(p, q)"
+provenance = "modified"
 source = "after Harish-Chandra [harish-chandra-1966]"
 lean  = ["GlobalTheory.Published.FormalDegreeCompactDual", "PositivityTheory.RgFd.B.formalDegreeCompactDual"]
 order = 2

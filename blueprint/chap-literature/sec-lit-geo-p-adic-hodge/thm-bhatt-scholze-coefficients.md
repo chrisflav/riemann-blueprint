@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Crystalline lattices with coefficients"
+provenance = "modified"
 source = "after Bhatt–Scholze [bhatt-scholze-2023]"
 lean  = ["GlobalTheory.Published.BhattScholzeCrystallineLattices", "GlobalTheory.bhattScholze_coeff"]
 order = 3

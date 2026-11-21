@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The contragredient is the inverse transpose"
+provenance = "modified"
 source = "after Gelfand–Kazhdan [gelfand-kazhdan-1975]"
 lean  = ["GlobalTheory.Published.GelfandKazhdanDual", "PositivityTheory.JMult1.gelfandKazhdanDual_of_rigidity"]
 order = 7

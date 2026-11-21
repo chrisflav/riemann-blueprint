@@ -2,6 +2,7 @@
 id    = "prop-local-data-unitary-shimura-points"
 kind  = "proposition"
 title = "Local data at the points of unitary Shimura varieties"
+provenance = "new"
 lean  = ["GlobalTheory.T.allGoodPrimeDepthDataExist_proof", "GlobalTheory.goodPrime_packages"]
 order = 1
 +++

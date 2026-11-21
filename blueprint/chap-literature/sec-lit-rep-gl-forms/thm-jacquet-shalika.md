@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Jacquet–Shalika theorems"
+provenance = "published"
 source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalika", "PositivityTheory.AdelicQuotientData.jacquetShalika"]
 order = 5

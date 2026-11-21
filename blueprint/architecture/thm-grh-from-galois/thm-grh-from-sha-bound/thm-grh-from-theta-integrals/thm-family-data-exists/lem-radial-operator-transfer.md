@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Transfer of the radial operators to a model"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutMP.Gauge.GC.genTransfer_of_rotK"]
 order = 101
 +++

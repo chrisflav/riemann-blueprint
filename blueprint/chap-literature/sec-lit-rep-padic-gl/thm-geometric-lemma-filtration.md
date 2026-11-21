@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The filtration of the geometric lemma"
+provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.GeometricLemmaFiltration", "GlobalTheory.geometricLemmaFiltration_holds"]
 order = 3

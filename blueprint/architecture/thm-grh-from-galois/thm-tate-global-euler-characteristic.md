@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Tate's global Euler characteristic formula"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["PositivityTheory.Lit1.GEN.globalEulerChar_full", "ReciprocityTheory.Gal.GlobalEulerChar"]
 order = 11

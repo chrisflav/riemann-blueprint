@@ -19,17 +19,17 @@ numbering = "nested"
 # statement's heading, as LaTeX shows the optional argument of a theorem:
 # "Theorem 4.2 (Kato's Euler system; Kato [kato-2004, Thm. 12.5])."
 [kinds.theorem]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 [kinds.proposition]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 [kinds.lemma]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 [kinds.corollary]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 [kinds.definition]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 [kinds.remark]
-attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source"]
+attrs = ["title", "lean", "review", "tags", "order", "aliases", "owner", "source", "provenance"]
 
 [katex.macros]
 "\\C" = "\\mathbb C"

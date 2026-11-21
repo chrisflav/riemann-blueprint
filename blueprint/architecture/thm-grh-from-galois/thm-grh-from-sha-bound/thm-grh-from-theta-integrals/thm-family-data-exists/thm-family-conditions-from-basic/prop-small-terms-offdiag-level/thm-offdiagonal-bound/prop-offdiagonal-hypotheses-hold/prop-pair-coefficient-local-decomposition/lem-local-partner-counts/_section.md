@@ -2,6 +2,7 @@
 id    = "lem-local-partner-counts"
 kind  = "lemma"
 title = "Local partner counts"
+provenance = "new"
 lean  = ["Formalism.L2.SG.Pf.PCount.partnerCount_holds_all"]
 order = 1
 +++

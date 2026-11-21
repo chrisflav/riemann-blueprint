@@ -2,6 +2,7 @@
 id    = "thm-galois-reps-polarized"
 kind  = "theorem"
 title = "Galois representations of polarized representations"
+provenance = "modified"
 source = "after Harris–Taylor [harris-taylor-2001]; Shin [shin-2011]; Chenevier–Harris [chenevier-harris-2013]; Barnet-Lamb–Gee–Geraghty–Taylor [barnet-lamb-2012]; [barnet-lamb-2014a]; Caraiani [caraiani-2012]; [caraiani-2014]"
 lean  = ["UpperTheory.Gal.Int.galoisLocalGlobalStrong_recParameter",
          "UpperTheory.Gal.Int.galoisRepresentations_of_thetaLift"]

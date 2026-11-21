@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The moduli problem is representable"
+provenance = "published"
 source = "Kottwitz [kottwitz-1992]"
 lean  = ["GlobalTheory.T.exists_quasiProjective_harrisTaylor_family", "GlobalTheory.UPel.HT.exists_repFam_qproj"]
 order = 10

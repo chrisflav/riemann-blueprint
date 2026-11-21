@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Brauer's induction theorem, degree-zero form"
+provenance = "modified"
 source = "after Brauer [brauer-1947]"
 lean  = ["GlobalTheory.BrauerZero.brauerDegreeZero", "GlobalTheory.Published.BrauerDegreeZero"]
 order = 1

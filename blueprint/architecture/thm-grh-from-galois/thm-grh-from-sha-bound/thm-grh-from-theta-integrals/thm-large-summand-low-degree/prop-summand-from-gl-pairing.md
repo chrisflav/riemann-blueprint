@@ -1,6 +1,7 @@
 +++
 kind  = "proposition"
 title = "The direct summand from an integral pairing for GL(r)"
+provenance = "new"
 lean  = ["Formalism.MainNotions.flipOneThree.Pf.theorem_I_of_pairing_GL"]
 order = 10
 +++

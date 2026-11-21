@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Regular algebraic cuspidal representations are pure and cohomological"
+provenance = "published"
 source = "Clozel [clozel-1990]"
 lean  = ["GlobalTheory.Published.RegularAlgebraicPurity", "GlobalTheory.regularAlgebraicPurity_of_clozel"]
 order = 9

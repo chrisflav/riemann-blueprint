@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Classes of families with slope data"
+provenance = "new"
 lean  = ["UpperTheory.Top.TopG", "UpperTheory.Top.FamilyClassConnected", "GlobalTheory.EX.HostExW"]
 uses  = ["def-slope-data"]
 order = 4

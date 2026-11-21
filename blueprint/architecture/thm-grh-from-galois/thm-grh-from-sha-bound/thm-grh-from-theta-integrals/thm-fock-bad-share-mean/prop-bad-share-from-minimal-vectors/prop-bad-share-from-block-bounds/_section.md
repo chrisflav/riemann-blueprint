@@ -2,6 +2,7 @@
 id    = "prop-bad-share-from-block-bounds"
 kind  = "proposition"
 title = "Bad shares from bounds on blocks"
+provenance = "new"
 lean  = ["Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_base_dims",
          "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_dimensions",
          "Formalism.MainNotions.G.SymmetricFormBlocks.closed_of_open_directions",

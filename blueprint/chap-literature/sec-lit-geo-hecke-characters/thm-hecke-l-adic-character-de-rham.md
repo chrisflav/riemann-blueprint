@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The l-adic character of a Hecke character is de Rham"
+provenance = "published"
 source = "classical; see Serre [serre-1968]; Fontaine [fontaine-1982]"
 lean  = ["GlobalTheory.Published.HeckeLAdicCharacterDeRham", "UpperTheory.Lit.heckeLAdicCharacterDeRham"]
 order = 2

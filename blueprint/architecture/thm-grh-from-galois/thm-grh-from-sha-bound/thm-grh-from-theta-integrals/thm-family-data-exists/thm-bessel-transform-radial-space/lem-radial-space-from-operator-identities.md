@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The radial space from two radial operator identities"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutSE.thmPActualCpt_of_R"]
 uses  = ["thm-bessel-transform-radial-space"]
 order = 1

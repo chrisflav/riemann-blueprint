@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Galois representations of polarized cuspidal representations"
+provenance = "modified"
 source = "after Harris–Taylor [harris-taylor-2001]; Shin [shin-2011]; Chenevier–Harris [chenevier-harris-2013]; Caraiani [caraiani-2012]"
 lean  = ["UpperTheory.GalS.CuspUAlt", "UpperTheory.GalS.bridgeStar_alt"]
 order = 12

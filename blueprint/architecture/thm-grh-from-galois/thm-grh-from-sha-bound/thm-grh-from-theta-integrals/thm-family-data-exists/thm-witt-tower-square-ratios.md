@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Ratios of square constants along a Witt tower"
+provenance = "new"
 lean  = ["GlobalTheory.SqTower.tower_alt_bis"]
 order = 112
 +++

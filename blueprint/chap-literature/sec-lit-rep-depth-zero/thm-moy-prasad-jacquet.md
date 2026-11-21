@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Jacquet modules of depth-zero vectors"
+provenance = "published"
 source = "Moy–Prasad [moy-prasad-1996]"
 lean  = ["GlobalTheory.Published.MoyPrasadJacquetIso", "PositivityTheory.Prw.moyPrasadJacquetIso_holds"]
 order = 6

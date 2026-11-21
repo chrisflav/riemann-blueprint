@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Irreducible unitary representations of p-adic unitary groups are admissible"
+provenance = "modified"
 source = "special case of Bernstein [bernstein-1974]"
 lean  = ["CompanionTheory.Rg.Fl.B.unitaryIrreducibleAdmissible", "GlobalTheory.Published.UnitaryIrreducibleAdmissible"]
 order = 3

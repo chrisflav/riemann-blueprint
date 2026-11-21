@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Tempered representations are products of square-integrable ones"
+provenance = "published"
 source = "Jacquet [jacquet-1977]; Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.TemperedProductOfSquareIntegrable", "UpperTheory.Lit.Cas.temperedProduct"]
 order = 11

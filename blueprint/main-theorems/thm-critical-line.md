@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "GRH, critical-strip form"
+provenance = "new"
 lean  = ["LFunction_eq_zero_re", "Claim.strip", "claimAll", "Claim.prim_zero", "Claim.prim_reflect",
          "Claim.factor_ne_zero", "Claim.gamma_ne_zero"]
 uses  = ["def-zeros-on-line"]

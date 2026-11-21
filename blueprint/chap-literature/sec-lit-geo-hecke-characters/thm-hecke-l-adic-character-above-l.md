@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The l-adic character at the places above l"
+provenance = "published"
 source = "classical; see Serre [serre-1968]"
 lean  = ["GlobalTheory.HeckeAboveBridge.heckeLAdicCharacterAbove_of_potSemistable", "GlobalTheory.Published.HeckeLAdicCharacterAbove"]
 order = 5

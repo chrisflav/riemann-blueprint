@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-weil-range"
 kind  = "theorem"
 title = "The Siegel–Weil formula in Weil's range"
+provenance = "published"
 source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.WeilSiegelFormula", "GlobalTheory.Published.WeilSiegelFormulaUnitary", "PositivityTheory.Rg.Wsf.weilSiegelFormula", "UpperTheory.Lit.Sw47.weilUnitary"]
 order = 12

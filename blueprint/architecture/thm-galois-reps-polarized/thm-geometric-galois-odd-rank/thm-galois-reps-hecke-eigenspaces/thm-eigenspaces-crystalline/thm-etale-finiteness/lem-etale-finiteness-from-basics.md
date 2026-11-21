@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Finiteness from the basic theorems of étale cohomology"
+provenance = "new"
 lean  = ["LateralTheory.E.EtaleChapterEFour", "UpperTheory.Et.EtaleTopology.top", "UpperTheory.Et.e4"]
 uses  = ["thm-additive-characteristic-classes", "thm-etale-finiteness",
          "thm-projective-bundle-formula", "thm-proper-base-change"]

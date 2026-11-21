@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hasse principle for hermitian forms"
+provenance = "published"
 source = "Landherr [landherr-1936]"
 lean  = ["GlobalTheory.Published.HermitianHassePrinciple", "PositivityTheory.Stage1.PM.hermitianHassePrinciple"]
 order = 8

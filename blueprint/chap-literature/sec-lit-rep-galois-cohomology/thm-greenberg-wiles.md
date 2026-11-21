@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Greenberg–Wiles formula"
+provenance = "published"
 source = "Greenberg; Wiles [wiles-1995]; see Darmon–Diamond–Taylor [darmon-1997]"
 lean  = ["ReciprocityTheory.Gal.GreenbergWiles", "UpperTheory.Lit.greenbergWiles"]
 order = 5

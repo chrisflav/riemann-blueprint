@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Classification of the discrete series of U(p,q)"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1965], [harish-chandra-1966]; Hecht–Schmid [hecht-schmid-1975]"
 lean  = ["CompanionTheory.RgExh.discreteSeriesClassification", "GlobalTheory.Published.DiscreteSeriesClassification"]
 order = 10

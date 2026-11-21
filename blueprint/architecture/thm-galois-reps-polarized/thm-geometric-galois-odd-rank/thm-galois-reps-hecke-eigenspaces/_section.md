@@ -2,6 +2,7 @@
 id    = "thm-galois-reps-hecke-eigenspaces"
 kind  = "theorem"
 title = "Galois representations on Hecke eigenspaces"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.steps_holds"]
 uses  = ["thm-eigenspaces-crystalline", "thm-hodge-tate-weights-eigenspaces"]
 order = 10

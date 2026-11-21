@@ -2,6 +2,7 @@
 id    = "thm-unitary-moduli-smooth"
 kind  = "theorem"
 title = "The moduli scheme is smooth"
+provenance = "published"
 source = "Kottwitz [kottwitz-1992]"
 lean  = ["GlobalTheory.T.smoothOfRelativeDimension_repFam_of_isQProjOver",
          "GlobalTheory.UPel.HT.RepFam.smoothOfRelativeDimension"]

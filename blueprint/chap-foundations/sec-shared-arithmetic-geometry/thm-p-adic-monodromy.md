@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The p-adic monodromy theorem"
+provenance = "published"
 source = "Berger [berger-2002]"
 lean  = ["GlobalTheory.PMon.MatThm", "GlobalTheory.PMon.matThm_holds", "GlobalTheory.Published.DeRhamPotSemistable",
          "GlobalTheory.T.pAdicMonodromyTheorem_matrixForm", "GlobalTheory.deRham_potentiallySemistable"]

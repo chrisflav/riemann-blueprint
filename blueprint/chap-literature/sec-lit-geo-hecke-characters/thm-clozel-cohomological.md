@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Regular algebraic cuspidal representations are cohomological"
+provenance = "published"
 source = "Clozel [clozel-1990]"
 lean  = ["GlobalTheory.Published.ClozelCohomological", "PositivityTheory.Rg.Cz.clozelCohomological"]
 order = 7

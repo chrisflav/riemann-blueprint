@@ -2,6 +2,7 @@
 id    = "prop-small-terms-offdiag-level"
 kind  = "proposition"
 title = "Small terms, the off-diagonal bound and the level bound"
+provenance = "new"
 lean  = ["GlobalTheory.LocalRows.at_choice_alt", "GlobalTheory.LocalRows.lg1_sLp_sO_hTF",
          "GlobalTheory.LocalRows.sLp_sO_hTF_of_siegelWeil"]
 order = 1

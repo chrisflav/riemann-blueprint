@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Siegel–Klingen rationality with Deligne–Ribet integrality"
+provenance = "published"
 source = "Siegel [siegel-1970]; Klingen [klingen-1962]; Deligne–Ribet [deligne-ribet-1980]"
 lean  = ["GlobalTheory.Published.SiegelKlingen", "GlobalTheory.Published.SiegelKlingenDeligneRibet",
          "PositivityTheory.Prw.siegelKlingenDeligneRibet_of", "PositivityTheory.Prw.siegelKlingen_holds"]

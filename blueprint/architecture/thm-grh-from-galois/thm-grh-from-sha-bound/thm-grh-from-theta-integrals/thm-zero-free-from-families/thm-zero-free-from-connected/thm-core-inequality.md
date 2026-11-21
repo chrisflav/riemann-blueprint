@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The core inequality"
+provenance = "new"
 lean  = ["UpperTheory.Comparison₂.core_gm", "UpperTheory.Comparison₂.level_gm_le_on_family_scales"]
 uses  = ["def-chebyshev-weighted", "def-slope-data"]
 order = 3

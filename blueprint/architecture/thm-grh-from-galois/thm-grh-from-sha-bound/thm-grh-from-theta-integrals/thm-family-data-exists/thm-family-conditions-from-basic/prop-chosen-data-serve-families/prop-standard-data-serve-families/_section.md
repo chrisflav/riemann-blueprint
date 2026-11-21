@@ -2,6 +2,7 @@
 id    = "prop-standard-data-serve-families"
 kind  = "proposition"
 title = "Standard data serve their families"
+provenance = "new"
 lean  = ["GlobalTheory.Svd.servH_row", "GlobalTheory.T.bundle_bothParts_of_standardKernel_and_six_hypotheses"]
 order = 2
 +++

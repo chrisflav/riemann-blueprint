@@ -2,6 +2,7 @@
 id    = "lem-twisted-vacua-real-points"
 kind  = "lemma"
 title = "Values of twisted vacuum vectors at real points"
+provenance = "new"
 lean  = ["GlobalTheory.RowFlatAsm.flatAt_big"]
 order = 1
 +++

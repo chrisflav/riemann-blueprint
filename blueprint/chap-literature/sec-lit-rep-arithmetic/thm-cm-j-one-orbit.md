@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "j-invariants of ideal classes form one Galois orbit"
+provenance = "published"
 source = "Weber [weber-1908]; Hasse [hasse-1927]; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.Published.IdealInvariantsOneOrbitSt", "PositivityTheory.Prw.idealInvariantsOneOrbitSt_holds"]
 order = 1

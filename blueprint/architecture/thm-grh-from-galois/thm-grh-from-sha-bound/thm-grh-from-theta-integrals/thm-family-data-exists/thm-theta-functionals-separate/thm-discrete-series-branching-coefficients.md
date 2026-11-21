@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Matrix coefficients of discrete series under restriction"
+provenance = "new"
 lean  = ["UpperTheory.Lit.Branch.RealInputE", "UpperTheory.Lit.realInputE_holds"]
 order = 1
 +++

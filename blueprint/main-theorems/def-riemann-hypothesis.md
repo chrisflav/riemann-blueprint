@@ -1,6 +1,8 @@
 +++
 kind  = "definition"
 title = "The Riemann Hypothesis"
+provenance = "published"
+source = "Riemann [riemann-1859]"
 lean  = ["RiemannHypothesis", "RiemannZetaZerosOnLine", "Claim.Zeta"]
 order = 1
 +++

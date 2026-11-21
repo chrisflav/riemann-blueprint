@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Tate local duality over l-adic fields"
+provenance = "modified"
 source = "special case of Tate [tate-1963]; see Serre [serre-1994]"
 lean  = ["CompanionTheory.LocalTateOrthogonality.Gcoh.top_tate", "Formalism.GaloisCohomology.LocalTateDualityK"]
 order = 1

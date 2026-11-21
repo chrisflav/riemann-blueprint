@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Weight change for ordinary Hilbert modular forms"
+provenance = "new"
 lean  = ["UpperTheory.Esk.HolWC", "UpperTheory.Esk.holWC"]
 order = 10
 +++

@@ -2,6 +2,7 @@
 id    = "thm-weighted-bessel-sum-bound"
 kind  = "theorem"
 title = "Weighted bound for global Bessel sums"
+provenance = "new"
 lean  = ["CompanionTheory.WaveGrid.weighted_bound_rotated_uniform",
          "CompanionTheory.WaveGrid.weighted_bound_rotated_uniform_of_hypsG",
          "Formalism.MainNotions.RotatedPoints.WeightedBoundRotatedUniform"]

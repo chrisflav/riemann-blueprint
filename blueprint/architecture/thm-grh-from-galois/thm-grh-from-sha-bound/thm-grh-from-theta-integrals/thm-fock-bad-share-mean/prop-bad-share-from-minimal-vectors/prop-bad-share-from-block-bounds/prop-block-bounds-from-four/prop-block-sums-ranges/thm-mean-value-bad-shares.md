@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A mean value theorem for bad shares"
+provenance = "new"
 lean  = ["Formalism.CountingSumsFrames.TheoremMV7", "Formalism.InvariantFactorPaths.MC.Top.theoremMV7",
          "Formalism.InvariantFactorPaths.MC.theoremMV7",
          "Formalism.MainNotions.G.CountingStatementReduction.alternative_mean_value_theorem",

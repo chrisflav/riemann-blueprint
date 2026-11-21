@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Flath's theorem with almost all factors unramified"
+provenance = "published"
 source = "Flath [flath-1979]"
 lean  = ["GlobalTheory.Published.FlathFactorisation", "PositivityTheory.Prw.flathFactorisation_of"]
 order = 5

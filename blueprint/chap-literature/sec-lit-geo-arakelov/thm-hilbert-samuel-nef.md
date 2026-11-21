@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hilbert–Samuel asymptotics for nef multidegrees"
+provenance = "modified"
 source = "after the asymptotic Riemann–Roch theorem; see Lazarsfeld [lazarsfeld-2004]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Pub.NefRR", "PositivityTheory.Tls2.Nef.nefRR"]
 order = 1

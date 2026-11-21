@@ -2,6 +2,7 @@
 id    = "thm-family-conditions-from-basic"
 kind  = "theorem"
 title = "The full list of family conditions from the basic ones"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.AllAtMemberStage0.allRows_of_open0_alt"]
 uses  = ["def-local-parameters"]
 order = 40

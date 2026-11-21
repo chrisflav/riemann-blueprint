@@ -2,6 +2,7 @@
 id    = "lem-antisymmetry-from-singular-metrics"
 kind  = "lemma"
 title = "Antisymmetry from singular metrics"
+provenance = "new"
 lean  = ["SquareStatements.antisymmetry_of_singular_statement"]
 order = 10
 +++

@@ -2,6 +2,7 @@
 id    = "lem-local-models-from-matching-data"
 kind  = "lemma"
 title = "Local models from matching data"
+provenance = "new"
 lean  = ["GlobalTheory.T.jointSite_chain_compared_carries_admittedSystem", "GlobalTheory.T.thetaLocalModels_of_splitUnramified_joints", "GlobalTheory.TwV.modelsOK_of_joints", "GlobalTheory.TwV.site_cmpLite_siteAdm"]
 order = 1
 +++

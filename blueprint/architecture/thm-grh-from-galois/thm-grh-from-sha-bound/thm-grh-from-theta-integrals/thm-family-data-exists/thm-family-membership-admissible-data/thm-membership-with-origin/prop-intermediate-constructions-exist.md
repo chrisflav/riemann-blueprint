@@ -1,6 +1,7 @@
 +++
 kind  = "proposition"
 title = "Existence of the intermediate constructions"
+provenance = "new"
 lean  = ["GlobalTheory.HeightCounting.Up.all_stages_of_specializations_alt", "GlobalTheory.T.all_stages_at_member_of_specializations_alt"]
 uses = ["def-local-parameters"]
 order = 1

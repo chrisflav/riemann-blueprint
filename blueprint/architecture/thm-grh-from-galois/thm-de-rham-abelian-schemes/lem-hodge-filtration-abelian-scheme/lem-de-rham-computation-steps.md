@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The steps of the de Rham computation for abelian schemes"
+provenance = "new"
 lean  = ["MainStatements.Hodge.Free.abelianHodgeDeRham'"]
 uses  = ["lem-hodge-filtration-abelian-scheme"]
 order = 10

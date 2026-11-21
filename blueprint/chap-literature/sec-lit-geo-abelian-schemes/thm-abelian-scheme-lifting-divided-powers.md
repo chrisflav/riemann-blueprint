@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Lifting abelian schemes along nilpotent divided powers"
+provenance = "published"
 source = "Grothendieck–Messing [messing-1972]; Mazur–Messing [mazur-messing-1974]"
 lean  = ["GlobalTheory.Published.AbelianLifting", "GlobalTheory.abelianScheme_hom_lifting_nilpotent_dividedPowers"]
 order = 8

@@ -2,6 +2,7 @@
 id    = "thm-kato-spherical"
 kind  = "theorem"
 title = "Kato's theorem for representations spherical at l"
+provenance = "new"
 lean  = ["UpperTheory.V.Z.Kato.WeilSphericalRecords.twoS"]
 order = 10
 +++

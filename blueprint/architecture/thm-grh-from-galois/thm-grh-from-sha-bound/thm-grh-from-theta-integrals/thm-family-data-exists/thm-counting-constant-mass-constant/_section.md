@@ -2,6 +2,7 @@
 id    = "thm-counting-constant-mass-constant"
 kind  = "theorem"
 title = "The counting constant equals the mass constant"
+provenance = "new"
 lean  = ["Formalism.L2.SG.Pf.NcAllC.ncTieC_of_closed"]
 order = 104
 +++

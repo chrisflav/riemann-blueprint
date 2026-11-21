@@ -2,6 +2,7 @@
 id    = "thm-bessel-transform-radial-space"
 kind  = "theorem"
 title = "Bessel transforms of compactly supported functions lie in the radial space"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutSE.actual_compact_theorem", "Formalism.FourierDecayAlt.P5.ThmPActualCpt"]
 order = 100
 +++

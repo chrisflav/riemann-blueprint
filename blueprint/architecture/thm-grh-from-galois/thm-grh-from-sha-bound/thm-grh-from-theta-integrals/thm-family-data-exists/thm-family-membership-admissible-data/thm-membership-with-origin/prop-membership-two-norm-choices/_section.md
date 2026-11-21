@@ -2,6 +2,7 @@
 id    = "prop-membership-two-norm-choices"
 kind  = "proposition"
 title = "Membership from two choices of norms"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_pair_alt"]
 uses = ["def-local-parameters"]
 order = 2

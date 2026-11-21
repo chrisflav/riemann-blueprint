@@ -2,6 +2,7 @@
 id    = "thm-offdiagonal-bound"
 kind  = "theorem"
 title = "The off-diagonal bound"
+provenance = "new"
 lean  = ["GlobalTheory.CarrierGap.offDiag"]
 order = 2
 +++

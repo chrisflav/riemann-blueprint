@@ -1,6 +1,7 @@
 +++
 kind  = "corollary"
 title = "GRH for primitive characters"
+provenance = "new"
 lean  = ["LFunction_eq_zero_re_of_isPrimitive", "critAll", "Formalism.VW.critLine",
          "Formalism.VW.gammaFactor_ne_zero"]
 uses  = ["def-zeros-on-line"]

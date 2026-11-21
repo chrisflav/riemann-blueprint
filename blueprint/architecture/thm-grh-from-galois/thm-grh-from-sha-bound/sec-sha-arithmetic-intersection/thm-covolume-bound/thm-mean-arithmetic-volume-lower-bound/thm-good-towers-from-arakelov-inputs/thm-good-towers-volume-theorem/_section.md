@@ -2,6 +2,7 @@
 id    = "thm-good-towers-volume-theorem"
 kind  = "theorem"
 title = "Good towers and the volume theorem"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Top.goodTower_and_volume", "GlobalTheory.T.good_tower_volume_theorem"]
 order = 10
 +++

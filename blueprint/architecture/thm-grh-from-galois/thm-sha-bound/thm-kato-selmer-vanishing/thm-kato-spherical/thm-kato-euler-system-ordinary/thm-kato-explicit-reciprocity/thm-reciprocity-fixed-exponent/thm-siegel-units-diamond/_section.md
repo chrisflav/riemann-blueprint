@@ -2,6 +2,7 @@
 id    = "thm-siegel-units-diamond"
 kind  = "theorem"
 title = "Kummer classes of Siegel units under diamond operators"
+provenance = "new"
 lean  = ["UpperTheory.Kd.L.law", "UpperTheory.Kd.L.thcocd", "UpperTheory.Kd.L.thdiam", "UpperTheory.Kd.L.twist"]
 order = 10
 +++

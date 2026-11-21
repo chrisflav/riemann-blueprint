@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Tautological charts at the boundary of Siegel moduli"
+provenance = "new"
 lean  = ["GlobalTheory.T.exists_tautological_chart_at_siegel_blowup_point", "GlobalTheory.TChart.exists_chart_at"]
 order = 10
 +++

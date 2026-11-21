@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Weil's convergence criterion for theta integrals"
+provenance = "modified"
 source = "special case of Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.WeilThetaConvergence", "UpperTheory.Lit.weilThetaConvergence"]
 order = 6

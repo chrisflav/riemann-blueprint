@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Models from fibre maps"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutMP.modelPlaceBuilt2_of_SSnRep",
          "Formalism.FourierDecayAlt.P.CutMP.modelPlaceBuilt2_of_rotK",
          "Formalism.FourierDecayAlt.P.CutMP.modelPlaceBuilt2_of_ssnRep"]

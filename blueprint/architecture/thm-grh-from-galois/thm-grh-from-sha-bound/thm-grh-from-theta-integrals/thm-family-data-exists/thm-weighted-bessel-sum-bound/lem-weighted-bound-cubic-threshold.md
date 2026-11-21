@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The weighted bound from a cubic threshold"
+provenance = "new"
 lean  = ["CompanionTheory.WaveGrid.uniform_bessel_rank_three_of_inputs",
          "CompanionTheory.WaveGrid.weighted_bound_rotated_uniform_of_cubic_threshold"]
 uses  = ["thm-weighted-bessel-sum-bound"]

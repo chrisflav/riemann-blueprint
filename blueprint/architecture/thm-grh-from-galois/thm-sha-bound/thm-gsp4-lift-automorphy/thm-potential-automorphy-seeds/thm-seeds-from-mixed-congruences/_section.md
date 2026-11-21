@@ -2,6 +2,7 @@
 id    = "thm-seeds-from-mixed-congruences"
 kind  = "theorem"
 title = "Seed points from mixed congruences"
+provenance = "new"
 lean  = ["UpperTheory.V.Z.Bc.seedII_Z_alt"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Gross's elliptic curves with good reduction outside p"
+provenance = "published"
 source = "Gross [gross-1980]"
 lean  = ["GlobalTheory.Published.CMCurveGoodOutsidePrimeSt", "GlobalTheory.Published.cmCurveGoodOutsidePrime"]
 order = 4

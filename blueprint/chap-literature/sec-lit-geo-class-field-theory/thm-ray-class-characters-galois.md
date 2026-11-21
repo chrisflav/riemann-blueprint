@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Galois characters from ray class characters"
+provenance = "published"
 source = "Artin [artin-1927]; see Neukirch [neukirch-1999]"
 lean  = ["GlobalTheory.Published.GlobalArtinReciprocity.rayCharacterArtin", "GlobalTheory.Published.RayCharacterArtin"]
 order = 3

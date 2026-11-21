@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Transfer to unitary Shimura varieties"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.Pl.planEx_holds", "UpperTheory.Gal.Int.Geo.PlanEx"]
 order = 12
 +++

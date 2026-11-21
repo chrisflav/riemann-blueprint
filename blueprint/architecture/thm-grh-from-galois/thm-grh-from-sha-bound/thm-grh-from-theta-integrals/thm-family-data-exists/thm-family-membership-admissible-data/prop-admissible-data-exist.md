@@ -1,6 +1,7 @@
 +++
 kind  = "proposition"
 title = "Admissible data exist"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Bl.exBL_isLinked_prmR_alt", "GlobalTheory.T.geometric_parameter_uniform_alt"]
 uses = ["def-local-parameters"]
 order = 1

@@ -2,6 +2,7 @@
 id    = "thm-universal-first-order-deformation"
 kind  = "theorem"
 title = "Universal first-order deformations"
+provenance = "new"
 lean  = ["GlobalTheory.HTUniv.main", "GlobalTheory.T.exists_universal_firstOrder_deformation_harrisTaylor",
          "GlobalTheory.T.exists_universal_tangent_harrisTaylor_representingFamily",
          "GlobalTheory.UPel.HT.RepTangent.exists_univ_tangent"]

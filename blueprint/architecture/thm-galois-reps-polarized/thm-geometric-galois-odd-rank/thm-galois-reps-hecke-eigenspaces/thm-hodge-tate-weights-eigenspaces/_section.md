@@ -2,6 +2,7 @@
 id    = "thm-hodge-tate-weights-eigenspaces"
 kind  = "theorem"
 title = "Hodge–Tate weights of Hecke eigenspaces"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.JumpStep", "UpperTheory.Gal.Int.Geo.jumpStep_holds"]
 order = 13
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Kato's zeta classes are integral and norm-compatible"
+provenance = "new"
 lean  = ["UpperTheory.Kd.K4.kato_eulerSystem_integrality", "UpperTheory.Kd.K4.top",
          "UpperTheory.V.Z.Kato.Joint.KatoEulerSystemIwasawaClassStatement"]
 order = 10

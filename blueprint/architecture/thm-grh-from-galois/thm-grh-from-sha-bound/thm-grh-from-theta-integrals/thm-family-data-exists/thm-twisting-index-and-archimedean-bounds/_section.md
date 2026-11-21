@@ -2,6 +2,7 @@
 id    = "thm-twisting-index-and-archimedean-bounds"
 kind  = "theorem"
 title = "Index bounds at the twisting places and a lower bound on archimedean weights"
+provenance = "new"
 lean  = ["GlobalTheory.BigOn.ontoX_of_hypotheses_alt_alt", "GlobalTheory.Fc.S0.ontoX_and_lamLow_of_unitaryGroupHypotheses'"]
 uses = ["def-local-parameters"]
 order = 20

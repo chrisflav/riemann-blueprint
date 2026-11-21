@@ -2,6 +2,7 @@
 id    = "thm-grh-from-galois"
 kind  = "theorem"
 title = "GRH from Galois representations"
+provenance = "new"
 lean  = ["UpperTheory.FinalTheorems.everyCharacter_of_row"]
 uses  = ["def-galois-reps-polarized", "def-nonvanishing-half-plane"]
 order = 4

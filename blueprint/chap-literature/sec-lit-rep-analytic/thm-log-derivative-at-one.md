@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The logarithmic derivative of a Dirichlet L-function at s = 1"
+provenance = "published"
 source = "classical; see Davenport [davenport-2000]"
 lean  = ["GlobalTheory.LogDerOneProof.logDerOne_holds", "GlobalTheory.Mem.An.LogDerOne"]
 order = 5

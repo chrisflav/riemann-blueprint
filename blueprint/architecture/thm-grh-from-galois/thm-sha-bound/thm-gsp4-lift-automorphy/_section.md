@@ -2,6 +2,7 @@
 id    = "thm-gsp4-lift-automorphy"
 kind  = "theorem"
 title = "Automorphy of symplectic lifts in the cases of rank four"
+provenance = "new"
 lean  = ["UpperTheory.V.HV.DescentVanishingReductions.sp4In0_alt"]
 order = 12
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Existence of ray class fields"
+provenance = "published"
 source = "Takagi [takagi-1920]"
 lean  = ["GlobalTheory.Published.RayClassFieldSt", "PositivityTheory.Stage1.PM.rayClassFieldSt"]
 order = 2

@@ -2,6 +2,7 @@
 id    = "lem-five-laws-chain-kernels"
 kind  = "lemma"
 title = "Five laws for the chain kernels"
+provenance = "new"
 lean  = ["GlobalTheory.LvT.Built.TrueLaws.laws_true_fam", "GlobalTheory.T.fivePointLaws_trueChains"]
 order = 1
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Lowest K-type and uniqueness of discrete series"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1966]; Schmid [schmid-1975]; Vogan [vogan-1981]"
 lean  = ["GlobalTheory.Published.DiscreteSeriesLowestKType", "PositivityTheory.Prw.discreteSeriesLowestKType_holds"]
 order = 12

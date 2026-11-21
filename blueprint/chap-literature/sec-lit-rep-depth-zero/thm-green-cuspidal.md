@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Green's classification of cuspidal characters"
+provenance = "published"
 source = "Green [green-1955]"
 lean  = ["GlobalTheory.GLq.Green"]
 order = 20

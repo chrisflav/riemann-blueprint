@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Flag covers and pull-backs of realisations"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Relay.flag_cover_realisation_pullback", "GlobalTheory.T.flag_cover_realisation_pullback", "PositivityTheory.Xgp.t_c_sqsys"]
 order = 11
 +++

@@ -2,6 +2,7 @@
 id    = "thm-volume-theorem"
 kind  = "theorem"
 title = "The volume theorem"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Cusp.volumeTheoremX_of_inputs", "GlobalTheory.T.volume_theorem_of_inputs"]
 order = 10
 +++

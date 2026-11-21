@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The off-diagonal bound from its hypotheses"
+provenance = "new"
 lean  = ["Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_closedP",
          "Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_rec2P",
          "Formalism.L2.SG.PoincareAmplitudeLowerBounds.theoremS_rec3P",

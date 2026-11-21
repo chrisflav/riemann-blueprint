@@ -2,6 +2,7 @@
 id    = "thm-zero-free-from-connected"
 kind  = "theorem"
 title = "Zero-freeness from slope data and auxiliary fields"
+provenance = "new"
 lean  = ["UpperTheory.Top.zeroFreeAll_of_topG"]
 uses  = ["def-connected-families", "def-zero-free-primitive"]
 order = 6

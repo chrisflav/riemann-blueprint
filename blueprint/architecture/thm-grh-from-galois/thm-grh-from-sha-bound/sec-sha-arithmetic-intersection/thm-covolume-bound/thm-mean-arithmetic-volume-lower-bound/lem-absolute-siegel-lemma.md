@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Lines of large degree in hermitian lattices"
+provenance = "published"
 source = "Zhang [zhang-1995]; Roy–Thunder [roy-thunder-1996]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Giv.lineOfLargeDegree_of_use"]
 order = 10

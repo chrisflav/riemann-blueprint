@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Kummer classes of Siegel units are congruent to Eisenstein series"
+provenance = "new"
 lean  = ["GlobalTheory.T.siegelUnit_edgeClass_kummer_dlog_congruence", "GlobalTheory.pair_edge_dlog",
          "UpperTheory.Kd.L.one"]
 order = 10

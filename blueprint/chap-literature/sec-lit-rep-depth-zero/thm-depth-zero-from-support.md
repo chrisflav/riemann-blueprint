@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Depth zero is detected on the cuspidal support"
+provenance = "published"
 source = "Moy–Prasad [moy-prasad-1996]"
 lean  = ["GlobalTheory.DepthZeroPass.depthZeroInduction", "GlobalTheory.Published.DepthZeroInduction"]
 order = 5

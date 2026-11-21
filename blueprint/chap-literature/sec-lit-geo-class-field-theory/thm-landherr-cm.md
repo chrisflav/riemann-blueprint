@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Landherr's classification of hermitian forms over CM fields"
+provenance = "published"
 source = "Landherr [landherr-1936]"
 lean  = ["GlobalTheory.Published.LandherrSt", "GlobalTheory.QNorm.landherr_and_landherrSt"]
 order = 9

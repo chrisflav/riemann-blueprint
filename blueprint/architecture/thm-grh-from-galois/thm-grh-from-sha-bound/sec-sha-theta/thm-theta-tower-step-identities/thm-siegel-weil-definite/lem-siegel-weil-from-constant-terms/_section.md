@@ -2,6 +2,7 @@
 id    = "lem-siegel-weil-from-constant-terms"
 kind  = "lemma"
 title = "The Siegel–Weil formula from constant terms"
+provenance = "new"
 lean  = ["PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_of_ct"]
 uses  = ["thm-siegel-weil-definite"]
 order = 10

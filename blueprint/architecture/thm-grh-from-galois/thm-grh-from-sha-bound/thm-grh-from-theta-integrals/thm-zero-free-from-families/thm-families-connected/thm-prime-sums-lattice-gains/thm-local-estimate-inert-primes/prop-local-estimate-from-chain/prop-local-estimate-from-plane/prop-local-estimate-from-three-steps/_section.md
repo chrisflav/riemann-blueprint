@@ -2,6 +2,7 @@
 id    = "prop-local-estimate-from-three-steps"
 kind  = "proposition"
 title = "The local estimate from three steps"
+provenance = "new"
 lean  = ["Formalism.MainNotions.PairMembershipBlocks.stmtE_of_last"]
 order = 10
 +++

@@ -2,6 +2,7 @@
 id    = "thm-hodge-tate-decomposition"
 kind  = "theorem"
 title = "The Hodge–Tate decomposition"
+provenance = "published"
 source = "Faltings [faltings-1988]"
 lean  = ["CrystallineSemistableComparison.Onto.HTBij", "UpperTheory.Gal.Seam.HT.htBij"]
 order = 10

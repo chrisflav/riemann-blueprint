@@ -2,6 +2,7 @@
 id    = "thm-toroidal-compactification-unitary"
 kind  = "theorem"
 title = "Toroidal compactifications of unitary Shimura varieties"
+provenance = "modified"
 source = "special case of Lan [lan-2013]"
 lean  = ["GlobalTheory.Published.ToroidalForFanKS", "GlobalTheory.TorKSField.toroidalForFanKS"]
 order = 14

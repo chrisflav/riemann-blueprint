@@ -2,6 +2,7 @@
 id    = "prop-block-bounds-from-four"
 kind  = "proposition"
 title = "Block bounds from four restricted bounds"
+provenance = "new"
 lean  = ["Formalism.MainNotions.G.SymmetricFormBlocks.openE_of_open4"]
 order = 10
 +++

@@ -2,6 +2,7 @@
 id    = "thm-galois-reps-from-geometry-and-theta"
 kind  = "theorem"
 title = "Galois representations from odd-rank geometry and theta lifts"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.galoisLocalGlobalStrong_of_geometry_lift",
          "UpperTheory.Gal.Int.galoisLocalGlobal_of_geometry_lift"]
 uses  = ["thm-geometric-galois-odd-rank", "thm-theta-lift-nonvanishing"]

@@ -2,6 +2,7 @@
 id    = "lem-step-identities-from-local-inputs"
 kind  = "lemma"
 title = "Step identities from local inputs"
+provenance = "new"
 lean  = ["PositivityTheory.Sph.Tr.closeSph"]
 uses  = ["def-theta-tower-step"]
 order = 10

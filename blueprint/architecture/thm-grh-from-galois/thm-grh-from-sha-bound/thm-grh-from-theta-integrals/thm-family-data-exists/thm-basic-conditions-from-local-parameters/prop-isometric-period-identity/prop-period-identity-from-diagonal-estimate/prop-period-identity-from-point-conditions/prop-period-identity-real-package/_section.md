@@ -2,6 +2,7 @@
 id    = "prop-period-identity-real-package"
 kind  = "proposition"
 title = "The period identity for a real package"
+provenance = "new"
 lean  = ["GlobalTheory.Fam.miAt_of_truePack_alt_alt", "GlobalTheory.Fam.miStar2_of_allTrue_alt_alt",
          "GlobalTheory.T.main_theorem_from_published_results_alt_alt_alt_alt",
          "GlobalTheory.T.main_theorem_from_published_results_alt_alt_alt_alt_alt"]

@@ -2,6 +2,7 @@
 id    = "prop-local-estimate-from-plane"
 kind  = "proposition"
 title = "The local estimate from the plane bound"
+provenance = "new"
 lean  = ["Formalism.MainNotions.PairMembershipBlocks.stmtE_of_pl"]
 order = 10
 +++

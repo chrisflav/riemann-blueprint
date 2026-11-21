@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Leibniz rule for Bernstein–Zelevinsky derivatives"
+provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.RgGu.Leib.Hand.leibnizOrd"]
 order = 10

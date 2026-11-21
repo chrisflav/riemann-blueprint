@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Zero-freeness for primitive characters"
+provenance = "published"
 lean  = ["Formalism.HC.ZeroFreeAll"]
 order = 1
 +++

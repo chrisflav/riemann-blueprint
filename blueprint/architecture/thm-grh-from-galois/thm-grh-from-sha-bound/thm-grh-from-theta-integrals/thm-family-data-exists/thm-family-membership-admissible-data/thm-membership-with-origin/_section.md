@@ -2,6 +2,7 @@
 id    = "thm-membership-with-origin"
 kind  = "theorem"
 title = "Membership for the construction data with origin"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.Top.Bl.exists_baseLattice_of_prime_alt", "GlobalTheory.T.member_exists_baseLattice_alt"]
 uses = ["def-local-parameters"]
 order = 2

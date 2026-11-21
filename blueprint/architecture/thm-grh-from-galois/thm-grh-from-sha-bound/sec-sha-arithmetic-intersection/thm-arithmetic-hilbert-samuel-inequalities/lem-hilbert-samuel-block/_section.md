@@ -2,6 +2,7 @@
 id    = "lem-hilbert-samuel-block"
 kind  = "lemma"
 title = "Arithmetic Hilbert–Samuel for a block of coordinates"
+provenance = "new"
 lean  = ["PositivityTheory.LocalParametersCuspidal.MB.HSM.theoremHSMBlock"]
 order = 10
 +++

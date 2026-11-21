@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Coincidence points are CM points"
+provenance = "new"
 lean  = ["UpperTheory.Gal.W2.HeckeFixedPointCMCycleClass", "UpperTheory.Gal.W2.fixedPoints_int_base_holds"]
 order = 10
 +++

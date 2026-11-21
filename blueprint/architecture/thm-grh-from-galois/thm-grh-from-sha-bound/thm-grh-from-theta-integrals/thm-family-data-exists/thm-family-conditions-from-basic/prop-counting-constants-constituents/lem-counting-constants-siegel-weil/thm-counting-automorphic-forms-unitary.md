@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Counting automorphic forms on unitary groups"
+provenance = "new"
 lean  = ["GlobalTheory.CountBridge.count_typed_of_volumeStep", "GlobalTheory.CountFinal.countingTheorem_of_volumeStep", "GlobalTheory.T.unitaryAutomorphicCounting_of_compactDualVolumeRatio"]
 order = 1
 +++

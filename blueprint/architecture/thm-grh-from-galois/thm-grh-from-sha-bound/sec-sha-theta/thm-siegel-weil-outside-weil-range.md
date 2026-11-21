@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Siegel–Weil formula outside Weil's range"
+provenance = "modified"
 source = "after Kudla–Rallis [kudla-rallis-1994]; Ichino [ichino-2004]"
 lean  = ["GlobalTheory.Published.SiegelWeilUnitarySchrodinger", "GlobalTheory.Published.SiegelWeilUnitarySchrodingerLit", "PositivityTheory.SiegelWeilCoefficients.field", "PositivityTheory.SiegelWeilCoefficients.lit"]
 order = 13

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Arithmetic intersection theory of hermitian line bundles"
+provenance = "published"
 source = "Gillet–Soulé [gillet-soule-1990]; Bost–Gillet–Soulé [bost-1994]"
 lean  = ["GlobalTheory.ArithmeticHeightTower.ArakelovDirectHeights.arCalc_direct", "GlobalTheory.ArithmeticHeightTower.ArakelovDirectHeights.cycleHeights_direct", "GlobalTheory.CompanionTheory.Ar.Pub.PoincareLelong", "GlobalTheory.Published.ArCalc", "GlobalTheory.Published.ArDegree", "GlobalTheory.Published.ChernDegreeComplex", "GlobalTheory.Published.CycleHeights", "GlobalTheory.Published.CycleHeights.heightProjection", "PositivityTheory.Prw.arDegree_of", "PositivityTheory.ResPlug.FromRes.resK", "PositivityTheory.Tls2.Chern2.chernDegreeComplex", "PositivityTheory.Tls2.Pl.poincareLelong", "ReciprocityTheory.ChartRestriction.G.Geo.ResK.ResKStatement"]
 order = 4

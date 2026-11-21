@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Existence and uniqueness of Chow forms"
+provenance = "published"
 source = "Chow–van der Waerden [chow-van-der-waerden-1937]"
 lean  = ["GlobalTheory.Published.ChowFormExists", "GlobalTheory.Published.chowFormExists_holds"]
 order = 1

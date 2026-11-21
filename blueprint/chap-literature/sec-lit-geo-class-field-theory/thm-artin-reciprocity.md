@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Artin reciprocity"
+provenance = "published"
 source = "Artin [artin-1927]; Takagi [takagi-1920]; Chevalley [chevalley-1940]"
 lean  = ["GlobalTheory.Published.GlobalArtinReciprocity", "GlobalTheory.globalArtinReciprocity_holds"]
 order = 1

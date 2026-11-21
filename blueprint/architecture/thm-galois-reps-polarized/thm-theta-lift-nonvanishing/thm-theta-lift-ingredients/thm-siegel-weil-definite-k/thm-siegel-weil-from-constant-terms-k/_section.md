@@ -2,6 +2,7 @@
 id    = "thm-siegel-weil-from-constant-terms-k"
 kind  = "theorem"
 title = "Siegel–Weil from constant terms"
+provenance = "new"
 lean  = ["PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_of_ct_k"]
 uses  = ["thm-siegel-weil-definite-k"]
 order = 10

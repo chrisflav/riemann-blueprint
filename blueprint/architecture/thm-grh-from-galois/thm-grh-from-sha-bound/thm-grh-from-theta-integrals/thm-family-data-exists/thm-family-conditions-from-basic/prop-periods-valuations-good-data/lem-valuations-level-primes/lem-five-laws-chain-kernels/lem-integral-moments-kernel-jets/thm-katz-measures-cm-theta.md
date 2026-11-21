@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "p-adic measures from CM theta functions"
+provenance = "modified"
 source = "after Katz [katz-1978]"
 lean  = ["GlobalTheory.MomFin.moments_fin", "GlobalTheory.T.unitPeriodTranslates_moments_finite"]
 order = 1

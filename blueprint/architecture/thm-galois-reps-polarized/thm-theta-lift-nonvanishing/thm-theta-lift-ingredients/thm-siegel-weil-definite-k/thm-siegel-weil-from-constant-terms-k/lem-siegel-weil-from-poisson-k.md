@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Siegel–Weil from Poisson summation"
+provenance = "new"
 lean  = ["PositivityTheory.SiegelWeilFormula.Fin.siegelWeilStd_pre_k"]
 uses  = ["thm-siegel-weil-definite-k"]
 order = 10

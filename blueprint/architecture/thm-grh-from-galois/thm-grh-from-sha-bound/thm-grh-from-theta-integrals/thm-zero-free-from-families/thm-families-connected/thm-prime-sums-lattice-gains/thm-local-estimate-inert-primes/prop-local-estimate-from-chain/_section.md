@@ -2,6 +2,7 @@
 id    = "prop-local-estimate-from-chain"
 kind  = "proposition"
 title = "The local estimate from the chain bound"
+provenance = "new"
 lean  = ["Formalism.MainNotions.PairMembershipBlocks.stmtE_of_chain"]
 order = 10
 +++

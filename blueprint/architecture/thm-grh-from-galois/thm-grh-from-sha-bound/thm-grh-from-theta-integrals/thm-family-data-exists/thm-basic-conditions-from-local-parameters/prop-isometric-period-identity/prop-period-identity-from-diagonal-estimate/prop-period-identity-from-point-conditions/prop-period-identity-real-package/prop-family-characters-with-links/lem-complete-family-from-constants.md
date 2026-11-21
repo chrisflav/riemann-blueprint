@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Completing a family from given constants"
+provenance = "new"
 lean  = ["GlobalTheory.Fam.colSide_alt", "GlobalTheory.T.true_geometry_family_invariance_alt"]
 order = 1
 +++

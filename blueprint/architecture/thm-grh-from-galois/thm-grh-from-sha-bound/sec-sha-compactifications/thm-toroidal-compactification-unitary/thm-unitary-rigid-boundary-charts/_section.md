@@ -2,6 +2,7 @@
 id    = "thm-unitary-rigid-boundary-charts"
 kind  = "theorem"
 title = "Unitary compactifications with rigid boundary charts"
+provenance = "new"
 lean  = ["GlobalTheory.RigChart.RigidForFan", "GlobalTheory.RigChart.rigidForFan_holds", "GlobalTheory.T.rigidBoundaryChartsForFan_unitaryDatum"]
 order = 10
 +++

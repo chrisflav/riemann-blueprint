@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Discrete series are parametrised by Harish-Chandra parameters"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1966]; Hecht–Schmid [hecht-schmid-1975]"
 lean  = ["CompanionTheory.RgExh.discreteSeriesCover", "GlobalTheory.Published.DiscreteSeriesCover"]
 order = 11

@@ -2,6 +2,7 @@
 id    = "thm-jacquet-rallis-fundamental-lemma"
 kind  = "theorem"
 title = "The Jacquet–Rallis fundamental lemma"
+provenance = "published"
 source = "Yun [yun-2011] (large residue characteristic); Beuzart-Plessis [beuzart-plessis-2021]"
 lean  = ["GlobalTheory.JR.unitMatch_all", "GlobalTheory.T.jacquetRallisUnitMatch_all_ranks"]
 order = 11

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "K-finite vectors of irreducible unitary representations"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.KFinLinkPort.kFiniteVectors_irreducibleUnitary_unitaryGroupPQ", "GlobalTheory.Published.KFiniteVectorsUnitary"]
 order = 2

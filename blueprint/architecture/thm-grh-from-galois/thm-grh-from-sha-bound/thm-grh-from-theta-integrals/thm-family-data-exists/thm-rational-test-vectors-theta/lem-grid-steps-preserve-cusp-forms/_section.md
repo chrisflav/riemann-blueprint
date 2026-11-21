@@ -2,6 +2,7 @@
 id    = "lem-grid-steps-preserve-cusp-forms"
 kind  = "lemma"
 title = "Each step of the grid preserves cusp forms"
+provenance = "new"
 lean  = ["GlobalTheory.FlipRun.cuspStep_of_large_flipRun"]
 order = 1
 +++

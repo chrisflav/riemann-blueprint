@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Local converse theorem for GL(n)"
+provenance = "modified"
 source = "after Henniart [henniart-1993]"
 lean  = ["DiscreteGroups.sglob.LConv.localConverseGL", "GlobalTheory.Published.LocalConverseGL"]
 order = 6

@@ -2,6 +2,7 @@
 id    = "thm-dieudonne-theory-oc"
 kind  = "theorem"
 title = "Dieudonné theory over the ring of integers of an algebraically closed field"
+provenance = "modified"
 source = "after Scholze–Weinstein [scholze-weinstein-2013]; Anschütz–Le Bras [anschutz-le-bras-2023]"
 lean  = ["GlobalTheory.Published.PrismaticDieudonneHodge", "UpperTheory.Lit.prismaticDieudonneHodge"]
 order = 15

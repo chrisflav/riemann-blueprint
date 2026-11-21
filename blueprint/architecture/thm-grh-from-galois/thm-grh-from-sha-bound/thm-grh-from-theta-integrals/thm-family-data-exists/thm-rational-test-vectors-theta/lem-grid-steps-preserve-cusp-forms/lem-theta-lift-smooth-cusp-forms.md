@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Theta lifts of cusp forms are smooth cusp forms"
+provenance = "new"
 lean  = ["GlobalTheory.CuspSmoothLift.cuspidal_lift_smooth_at_of_cuspidal_lift",
          "GlobalTheory.T.cuspidal_lift_smooth_at_cusps"]
 order = 1

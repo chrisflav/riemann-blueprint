@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hecke's functional equation for partial zeta functions"
+provenance = "published"
 source = "Hecke [hecke-1917]"
 lean  = ["GlobalTheory.Published.PartialZetaFunctionalEquation", "PositivityTheory.Prw.partialZetaFunctionalEquation_holds"]
 order = 2

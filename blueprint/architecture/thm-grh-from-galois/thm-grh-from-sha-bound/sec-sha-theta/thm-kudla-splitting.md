@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The local Weil representation of a split unitary group"
+provenance = "published"
 source = "Kudla [kudla-1994]"
 lean  = ["GlobalTheory.Published.KudlaSplittingSplitUnitary", "GlobalTheory.kudlaSplittingSplitUnitary"]
 order = 10

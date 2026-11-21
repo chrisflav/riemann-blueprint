@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Reference weights on deep covers"
+provenance = "new"
 lean  = ["GlobalTheory.RefSum.refinedSum_weight_of_size_alt", "GlobalTheory.T.refW_of_prints_deepGood_size_flatDeg"]
 order = 10
 +++

@@ -2,6 +2,7 @@
 id    = "prop-paired-character-bound"
 kind  = "proposition"
 title = "The paired character bound"
+provenance = "new"
 lean  = ["GlobalTheory.ClosingLocalInputs.main_alt_alt", "GlobalTheory.NormFromFacts.main_alt_alt", "GlobalTheory.T.conclusion41_of_pAdicHodge_alt", "GlobalTheory.T.exists_bound_tieChi_of_prints"]
 order = 1
 +++

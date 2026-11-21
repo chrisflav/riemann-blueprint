@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Holomorphic discrete series are lowest weight modules"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1955], [harish-chandra-1956]"
 lean  = ["GlobalTheory.HolDS.holomorphicDiscreteSeries_holds", "GlobalTheory.Published.HolomorphicDiscreteSeries"]
 order = 14

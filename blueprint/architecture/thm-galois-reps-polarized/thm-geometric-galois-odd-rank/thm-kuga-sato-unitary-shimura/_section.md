@@ -2,6 +2,7 @@
 id    = "thm-kuga-sato-unitary-shimura"
 kind  = "theorem"
 title = "Kuga–Sato varieties over unitary Shimura varieties"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.kodaira_spencer_of_weight_one"]
 order = 11
 +++

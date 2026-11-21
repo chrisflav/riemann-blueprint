@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The Kodaira–Spencer isomorphism from rigid charts"
+provenance = "new"
 lean  = ["GlobalTheory.LogKSAssembly.hasLogKS", "GlobalTheory.RigChart.toroidalForFanKS_of_rigidForFan", "GlobalTheory.T.logKodairaSpencer_iso_smooth_snc_toroidalModel", "GlobalTheory.T.toroidalFanKodairaSpencer_of_rigidBoundaryCharts"]
 uses  = ["thm-unitary-rigid-boundary-charts", "thm-toroidal-compactification-unitary"]
 order = 11

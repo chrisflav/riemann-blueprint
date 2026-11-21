@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Irreducible representations are admissible"
+provenance = "published"
 source = "Jacquet; Bernstein–Zelevinsky [bernstein-zelevinsky-1976]"
 lean  = ["GlobalTheory.Published.IrreducibleAdmissibleGL", "PositivityTheory.Tls2.BZGL.irreducibleAdmissibleGL_top"]
 order = 1

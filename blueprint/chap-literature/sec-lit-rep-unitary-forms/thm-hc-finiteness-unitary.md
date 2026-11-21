@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's finiteness theorem for unitary groups"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]"
 lean  = ["GlobalTheory.Published.HarishChandraFinite", "PositivityTheory.RgHf.harishChandraFinite"]
 order = 11

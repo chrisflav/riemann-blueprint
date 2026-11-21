@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Irreducibility of products with disjoint cuspidal lines"
+provenance = "modified"
 source = "after Bernstein–Zelevinsky [bernstein-zelevinsky-1977]; Zelevinsky [zelevinsky-1980]"
 lean  = ["GlobalTheory.Published.UnlinkedProductIrreducible", "GlobalTheory.TotDisjUnlinked.main"]
 order = 12

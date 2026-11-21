@@ -2,6 +2,7 @@
 id    = "lem-counting-constants-siegel-weil"
 kind  = "lemma"
 title = "Counting constants from Siegel–Weil"
+provenance = "new"
 lean  = ["GlobalTheory.CountConstants.count_constants_of_siegelWeil"]
 order = 1
 +++

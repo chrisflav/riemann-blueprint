@@ -2,6 +2,7 @@
 id    = "thm-geometric-galois-odd-rank"
 kind  = "theorem"
 title = "Geometric Galois representations in odd rank"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.Geo.GeoOne", "UpperTheory.Gal.Int.Geo.geoOne_holds",
          "UpperTheory.Gal.Int.Geo.geometric_realization_of_weight_one"]
 order = 10

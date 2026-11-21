@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Estimates for the leading square term"
+provenance = "new"
 lean  = ["GlobalTheory.SqTop.square_top_term_joined_estimates",
          "GlobalTheory.T.square_leading_term_bound"]
 order = 1

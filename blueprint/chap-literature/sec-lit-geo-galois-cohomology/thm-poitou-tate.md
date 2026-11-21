@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Poitou–Tate duality"
+provenance = "published"
 source = "Poitou [poitou-1967]; Tate [tate-1963]"
 lean  = ["GlobalTheory.Published.PoitouTateNormalised", "PositivityTheory.Lit1.PTN.poitouTateNormalised_holds"]
 order = 5

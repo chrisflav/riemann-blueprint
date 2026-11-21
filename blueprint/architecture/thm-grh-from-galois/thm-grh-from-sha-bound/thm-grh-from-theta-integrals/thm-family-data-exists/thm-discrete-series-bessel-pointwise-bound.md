@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Pointwise bound for Bessel transforms of discrete series coefficients"
+provenance = "new"
 lean  = ["BpJoin.ThmBpDS", "GlobalTheory.BpDiscreteSeriesTwoInputs.pointwise_bound_discreteSeries",
          "GlobalTheory.BpEigen.pointwise_bound_eigenfunction", "GlobalTheory.T.pointwiseBound_capelli_eigenfunction",
          "GlobalTheory.T.pointwiseBound_discreteSeries_coefficients", "GlobalTheory.discreteSeriesCoef_pointwiseBound"]

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Kato's zeta Euler system exists"
+provenance = "new"
 lean  = ["UpperTheory.V.Z.Kato.Joint.kato_global_unit_law_of_smoothed_classes"]
 uses  = ["thm-kato-zeta-integral", "thm-kato-explicit-reciprocity"]
 order = 12

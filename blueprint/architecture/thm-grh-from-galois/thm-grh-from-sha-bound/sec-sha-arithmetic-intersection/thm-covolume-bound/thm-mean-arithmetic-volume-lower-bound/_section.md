@@ -2,6 +2,7 @@
 id    = "thm-mean-arithmetic-volume-lower-bound"
 kind  = "theorem"
 title = "Lower bound for mean arithmetic volumes"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Plug.deepStR_of_use", "PositivityTheory.HtPt.Ah.deep_slim_use"]
 uses  = ["def-family-data"]
 order = 10

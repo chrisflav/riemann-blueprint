@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra modules of unitary representations"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1953], [harish-chandra-1954]"
 lean  = ["GlobalTheory.Published.HarishChandraModules", "PositivityTheory.Stage1.PM.harishChandraModules"]
 order = 1

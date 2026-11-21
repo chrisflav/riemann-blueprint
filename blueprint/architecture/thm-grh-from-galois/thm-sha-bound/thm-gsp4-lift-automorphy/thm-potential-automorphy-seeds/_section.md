@@ -2,6 +2,7 @@
 id    = "thm-potential-automorphy-seeds"
 kind  = "theorem"
 title = "Seed points for potential automorphy"
+provenance = "new"
 lean  = ["UpperTheory.V.Z.Bc.seedIIs_alt"]
 order = 11
 +++

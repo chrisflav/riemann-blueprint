@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A de Rham representation has as many Hodge–Tate weights as its dimension"
+provenance = "published"
 source = "classical; see Fontaine [fontaine-1994b]"
 lean  = ["GlobalTheory.HeightCounting.HtCard", "GlobalTheory.HtCardProof.htCard"]
 order = 6

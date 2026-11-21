@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Stone–von Neumann theorem over a p-adic field"
+provenance = "modified"
 source = "after von Neumann [von-neumann-1931]; Mackey [mackey-1949]; Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.StoneVonNeumann", "PositivityTheory.Stage1.PM.stoneVonNeumann"]
 order = 1

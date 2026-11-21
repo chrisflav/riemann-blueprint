@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Families of definite unitary groups"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.HypsAlt"]
 uses  = ["def-sha-error-term"]
 order = 4

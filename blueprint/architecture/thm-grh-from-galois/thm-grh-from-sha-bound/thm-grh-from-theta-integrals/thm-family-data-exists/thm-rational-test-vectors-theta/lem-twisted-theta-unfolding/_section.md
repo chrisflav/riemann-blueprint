@@ -2,6 +2,7 @@
 id    = "lem-twisted-theta-unfolding"
 kind  = "lemma"
 title = "Unfolding the twisted theta integral"
+provenance = "new"
 lean  = ["GlobalTheory.RowUnfLast.twisted_theta_integral_unfolding",
          "GlobalTheory.T.twisted_theta_integral_unfolds"]
 order = 3

@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The ramified lifting bound along chains of lattices"
+provenance = "new"
 lean  = ["Formalism.MainNotions.RamifiedCoefficientChains.Asm.theorem_of_literature_hypotheses", "GlobalTheory.T.ramified_coefficient_chains_of_hypotheses", "GlobalTheory.theoremC_of_admitted_inputs"]
 order = 1
 +++

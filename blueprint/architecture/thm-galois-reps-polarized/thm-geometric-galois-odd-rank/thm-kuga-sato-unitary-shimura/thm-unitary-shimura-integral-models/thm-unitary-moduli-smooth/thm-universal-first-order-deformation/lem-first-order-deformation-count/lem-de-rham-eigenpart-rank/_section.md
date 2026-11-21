@@ -2,6 +2,7 @@
 id    = "lem-de-rham-eigenpart-rank"
 kind  = "lemma"
 title = "Eigenparts of de Rham homology"
+provenance = "new"
 lean  = ["GlobalTheory.HTRank.finrank_quot", "GlobalTheory.T.harrisTaylor_finrank_deRham_quotient_character"]
 order = 10
 +++

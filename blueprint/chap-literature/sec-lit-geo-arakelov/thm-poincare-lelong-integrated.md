@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Integrated Poincaré–Lelong formula"
+provenance = "modified"
 source = "after Bost–Gillet–Soulé [bost-1994]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.PoincareLelongInv", "PositivityTheory.Tls2.Pl.poincareLelongInv"]
 order = 3

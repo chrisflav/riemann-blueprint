@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Surjectivity of the Hodge–Tate map"
+provenance = "new"
 lean  = ["CrystallineSemistableComparison.Onto.htBij_of"]
 uses  = ["thm-hodge-tate-decomposition"]
 order = 10

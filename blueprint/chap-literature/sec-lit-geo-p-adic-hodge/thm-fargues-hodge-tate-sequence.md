@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Hodge–Tate sequence of a p-divisible group"
+provenance = "published"
 source = "Fargues [fargues-2008]; see also Scholze–Weinstein [scholze-weinstein-2013]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.HT.FarguesExact", "UpperTheory.Lit.farguesExact"]
 order = 4

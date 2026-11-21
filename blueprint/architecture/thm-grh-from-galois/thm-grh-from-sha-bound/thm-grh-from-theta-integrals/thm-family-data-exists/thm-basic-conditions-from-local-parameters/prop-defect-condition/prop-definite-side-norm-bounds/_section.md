@@ -2,6 +2,7 @@
 id    = "prop-definite-side-norm-bounds"
 kind  = "proposition"
 title = "Norm bounds on the definite side"
+provenance = "new"
 lean  = ["GlobalTheory.ColRows.rowsU_of_colPins_alt",
          "GlobalTheory.Fc.RL.DefSide.definiteSideCondition_of_nprimeDef_of_nuFull",
          "GlobalTheory.T.kernel_columns_from_ties_alt"]

@@ -2,6 +2,7 @@
 id    = "thm-archimedean-models"
 kind  = "theorem"
 title = "Archimedean models for admissible settings"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.JCT.ModelPlaceBuilt2",
          "Formalism.FourierDecayAlt.P.CutMP.SmoothTransferRegularity.model_place_built_holds",
          "Formalism.FourierDecayAlt.P.CutMP.modelPlaceBuilt2_of_chartEqs",

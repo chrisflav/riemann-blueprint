@@ -2,6 +2,7 @@
 id    = "thm-local-global-ramified"
 kind  = "theorem"
 title = "Local–global compatibility at ramified places"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.rest"]
 order = 11
 +++

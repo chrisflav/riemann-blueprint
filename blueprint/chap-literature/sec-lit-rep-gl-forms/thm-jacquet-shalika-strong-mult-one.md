@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Strong multiplicity one for isobaric sums"
+provenance = "published"
 source = "Jacquet–Shalika [jacquet-shalika-1981a], [jacquet-shalika-1981b]"
 lean  = ["GlobalTheory.Published.JacquetShalikaRigidity", "PositivityTheory.AdelicQuotientData.jacquetShalikaRigidity"]
 order = 4

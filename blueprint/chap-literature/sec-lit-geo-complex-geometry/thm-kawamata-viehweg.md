@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Kawamata–Viehweg vanishing"
+provenance = "published"
 source = "Kawamata [kawamata-1982]; Viehweg [viehweg-1982]"
 lean  = ["GlobalTheory.KVFromPair.kawamataViehweg_of_nadelVanishingPair", "GlobalTheory.Published.KawamataViehweg",
          "GlobalTheory.Published.NadelVanishingAndNonKltDivisor", "GlobalTheory.Published.NefNumerics",

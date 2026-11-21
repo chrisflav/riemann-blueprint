@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Landau's theorem on windows"
+provenance = "modified"
 source = "after Landau [landau-1905]"
 lean  = ["Formalism.HC.Level.FormB", "Formalism.HC.Level.FormBAt", "UpperTheory.Comparison₂.formB"]
 uses  = ["def-chebyshev-weighted"]

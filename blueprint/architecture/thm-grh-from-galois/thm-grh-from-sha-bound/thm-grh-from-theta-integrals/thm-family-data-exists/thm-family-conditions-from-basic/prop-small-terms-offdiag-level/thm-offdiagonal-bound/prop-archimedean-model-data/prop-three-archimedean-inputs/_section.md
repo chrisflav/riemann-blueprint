@@ -2,6 +2,7 @@
 id    = "prop-three-archimedean-inputs"
 kind  = "proposition"
 title = "The three archimedean inputs"
+provenance = "new"
 lean  = ["GlobalTheory.carrierNeedsFromD"]
 uses  = ["thm-bessel-transform-radial-space", "thm-archimedean-models"]
 order = 1

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Finiteness and duality for parabolic induction"
+provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1976], [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.BernsteinZelevinskyFiniteness", "GlobalTheory.Published.TotallyDisjointProductIrreducible", "GlobalTheory.Published.ZelevinskyPolynomialRing", "GlobalTheory.geometricLemma_of_filtration", "PositivityTheory.Geo.geometricLemmaFiltration", "PositivityTheory.Prw.bernsteinZelevinskyFiniteness_holds", "PositivityTheory.Prw.zelevinskyPolynomialRing_of", "PositivityTheory.SlGl.totallyDisjointProductIrreducible_of_parts"]
 order = 9

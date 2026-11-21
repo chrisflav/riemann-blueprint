@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Finiteness of local Galois cohomology"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["GlobalTheory.Laid.locfin_holds", "ReciprocityTheory.Gal.LocalFiniteness"]
 order = 1

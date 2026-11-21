@@ -2,6 +2,7 @@
 id    = "prop-twisting-property-constructed-points"
 kind  = "proposition"
 title = "The twisting property at constructed points"
+provenance = "new"
 lean  = ["GlobalTheory.ExportFirst.exportF_isBuiltE_alt_alt", "GlobalTheory.ExportFirst.exportF_isBuiltE_tyz", "GlobalTheory.Mem.Top.ExportTrue.exportF_prmR_alt_alt", "GlobalTheory.T.automorphy_of_hypotheses_alt_alt"]
 uses = ["def-local-parameters"]
 order = 1

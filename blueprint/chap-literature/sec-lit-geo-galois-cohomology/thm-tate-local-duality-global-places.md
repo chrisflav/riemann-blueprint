@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Tate local duality at the places of a number field"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["GlobalTheory.LocalDualityAll.localTateDuality", "ReciprocityTheory.Gal.LocalTateDuality"]
 order = 3

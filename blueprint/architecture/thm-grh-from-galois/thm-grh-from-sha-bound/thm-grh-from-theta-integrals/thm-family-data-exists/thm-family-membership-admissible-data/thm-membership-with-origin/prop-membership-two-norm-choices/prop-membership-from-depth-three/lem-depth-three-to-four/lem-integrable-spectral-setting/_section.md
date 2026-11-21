@@ -2,6 +2,7 @@
 id    = "lem-integrable-spectral-setting"
 kind  = "lemma"
 title = "An integrable spectral setting"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.SRe.exists_sPack_integrable_alt", "GlobalTheory.T.local_bessel_uniqueness_holds", "UpperTheory.Lit.exists_spectralData_gap_alt"]
 order = 1
 +++

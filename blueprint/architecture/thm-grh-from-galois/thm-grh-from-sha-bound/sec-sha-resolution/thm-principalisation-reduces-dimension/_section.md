@@ -2,6 +2,7 @@
 id    = "thm-principalisation-reduces-dimension"
 kind  = "theorem"
 title = "The principalisation algorithm reduces on dimension"
+provenance = "new"
 lean  = ["FunctorialResolution.EmbeddedResolution.canonicalAlgorithmRules_isCorrect", "FunctorialResolution.EmbeddedResolution.isCorrect_canonicalAlgorithmRules"]
 order = 10
 +++

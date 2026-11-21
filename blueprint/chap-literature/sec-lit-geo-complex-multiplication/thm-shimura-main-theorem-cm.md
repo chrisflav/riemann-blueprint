@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Shimura's main theorem of complex multiplication"
+provenance = "published"
 source = "Shimura [shimura-1971]"
 lean  = ["GlobalTheory.Published.EllipticMainTheoremCM", "PositivityTheory.Prw.ellipticMainTheoremCM_holds"]
 order = 3

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Chevalley's theorem on congruence units"
+provenance = "published"
 source = "Chevalley [chevalley-1951]"
 lean  = ["GlobalTheory.Published.ChevalleyUnits", "GlobalTheory.Published.chevalleyUnits'"]
 order = 5

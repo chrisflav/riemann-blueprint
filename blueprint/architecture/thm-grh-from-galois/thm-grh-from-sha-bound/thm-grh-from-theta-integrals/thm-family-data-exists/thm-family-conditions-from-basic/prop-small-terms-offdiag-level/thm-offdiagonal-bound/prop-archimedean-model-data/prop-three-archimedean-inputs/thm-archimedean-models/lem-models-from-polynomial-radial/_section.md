@@ -2,6 +2,7 @@
 id    = "lem-models-from-polynomial-radial"
 kind  = "lemma"
 title = "Models from polynomial radial dependence"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.P.CutMP.modelPlaceBuilt2_of_polyS"]
 uses  = ["thm-archimedean-models"]
 order = 1

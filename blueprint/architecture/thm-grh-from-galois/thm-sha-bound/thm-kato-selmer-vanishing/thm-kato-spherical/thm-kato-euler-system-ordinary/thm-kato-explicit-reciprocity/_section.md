@@ -2,6 +2,7 @@
 id    = "thm-kato-explicit-reciprocity"
 kind  = "theorem"
 title = "Kato's explicit reciprocity law"
+provenance = "modified"
 source = "after Kato [kato-2004]"
 lean  = ["UpperTheory.V.Z.Kato.Joint.SmoothedZetaClassHodgeTateLawStatement",
          "UpperTheory.V.Z.Kato.K5.smoothedZetaClass_hodgeTateLaw", "UpperTheory.V.Z.Kato.K5.top"]

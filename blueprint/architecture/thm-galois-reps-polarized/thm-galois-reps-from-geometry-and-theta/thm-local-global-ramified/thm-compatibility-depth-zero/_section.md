@@ -2,6 +2,7 @@
 id    = "thm-compatibility-depth-zero"
 kind  = "theorem"
 title = "Compatibility at depth-zero places"
+provenance = "new"
 lean  = ["UpperTheory.Gal.ToralGalois.R2.ToTor",
          "UpperTheory.Gal.ToralGalois.R2.localGlobalCompatAtIwahoriFixed_of_unlinked",
          "UpperTheory.Gal.ToralGalois.R2.toTor_holds"]

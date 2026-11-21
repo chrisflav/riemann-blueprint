@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Weil representation of the real metaplectic group"
+provenance = "published"
 source = "Segal; Shale [shale-1962]; Weil [weil-1964]"
 lean  = ["GlobalTheory.Published.MetaplecticRepresentation", "GlobalTheory.metaplecticRepresentation_holds"]
 order = 2

@@ -2,6 +2,7 @@
 id    = "lem-unitary-boundary-prechart"
 kind  = "lemma"
 title = "Pre-charts at unitary boundary points"
+provenance = "new"
 lean  = ["GlobalTheory.T.exists_tripleChart_unitary_boundary_point", "GlobalTheory.T.exists_tripleChart_unitary_boundary_pointRigid", "GlobalTheory.UCanon.uPre_of_boundary_pointRigid", "GlobalTheory.UChart.uPre_of_boundary"]
 order = 10
 +++

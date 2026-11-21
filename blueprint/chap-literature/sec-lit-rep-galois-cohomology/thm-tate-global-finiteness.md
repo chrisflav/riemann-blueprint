@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Finiteness of Galois cohomology with restricted ramification"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["PositivityTheory.Lit1.GF.globalFiniteness", "ReciprocityTheory.Gal.GlobalFiniteness"]
 order = 4

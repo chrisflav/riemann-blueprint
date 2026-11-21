@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The l-adic character is crystalline where the Hecke character is unramified"
+provenance = "published"
 source = "classical"
 lean  = ["GlobalTheory.Published.HeckeLAdicCharacterCrystalline",
          "UpperTheory.Lit.heckeLAdicCharacterCrystalline_of_deRham",

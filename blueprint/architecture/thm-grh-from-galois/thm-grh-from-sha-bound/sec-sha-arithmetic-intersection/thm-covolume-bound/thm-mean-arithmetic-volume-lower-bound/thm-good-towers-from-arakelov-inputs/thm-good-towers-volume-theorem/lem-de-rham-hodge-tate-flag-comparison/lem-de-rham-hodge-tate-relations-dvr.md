@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Relations between de Rham and Hodge–Tate flags over a discrete valuation ring"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Num.RelationsStatement", "GlobalTheory.CompanionTheory.Ar.Num.TopRel.relations", "GlobalTheory.T.arithmetic_relations_statement_holds"]
 order = 10
 +++

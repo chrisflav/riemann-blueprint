@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Lifting finite classes along crystalline lattices"
+provenance = "new"
 lean  = ["GlobalTheory.T.lift_surjection_good_crystalline_lattices", "GlobalTheory.TheoremT.liftF_of_isGood"]
 order = 1
 +++

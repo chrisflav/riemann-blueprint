@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Second coordinates with the integral laws"
+provenance = "new"
 lean  = ["GlobalTheory.Fam.lawsLinks_of_geo_rows_cols_alt", "GlobalTheory.T.true_geometry_family_column_data_alt"]
 order = 2
 +++

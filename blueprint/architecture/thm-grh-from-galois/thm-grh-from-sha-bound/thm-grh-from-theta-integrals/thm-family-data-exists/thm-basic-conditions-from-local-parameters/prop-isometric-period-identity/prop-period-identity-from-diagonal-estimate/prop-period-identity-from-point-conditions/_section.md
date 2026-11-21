@@ -2,6 +2,7 @@
 id    = "prop-period-identity-from-point-conditions"
 kind  = "proposition"
 title = "The period identity from conditions at points"
+provenance = "new"
 lean  = ["GlobalTheory.Fam.miStar_row_alt_alt", "GlobalTheory.T.main_theorem_published_results_final_alt_alt"]
 uses = ["def-local-parameters"]
 order = 1

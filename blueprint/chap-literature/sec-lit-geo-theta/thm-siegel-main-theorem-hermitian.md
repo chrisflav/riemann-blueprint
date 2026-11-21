@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Siegel's main theorem for hermitian forms"
+provenance = "published"
 source = "Weil [weil-1965]"
 lean  = ["GlobalTheory.CompanionTheory.SW.siegelWeilUnitaryConvergent", "HeckeCharacterZeroLocus.SiegelWeilU.SiegelWeilUnitaryConvergent"]
 order = 7

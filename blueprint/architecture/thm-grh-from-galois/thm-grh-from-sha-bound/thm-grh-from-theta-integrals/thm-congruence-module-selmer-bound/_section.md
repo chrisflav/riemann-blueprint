@@ -2,6 +2,7 @@
 id    = "thm-congruence-module-selmer-bound"
 kind  = "theorem"
 title = "Congruence modules are bounded by Selmer data"
+provenance = "new"
 lean  = ["GlobalTheory.SelmerBoundAtPoint.main",
          "GlobalTheory.T.globalLatticeIndexTheorem_of_lengthBoundAtPlaces"]
 order = 12

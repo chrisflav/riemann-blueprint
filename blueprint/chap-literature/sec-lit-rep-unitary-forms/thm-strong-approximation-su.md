@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Strong approximation for special unitary groups"
+provenance = "modified"
 source = "special case of Kneser [kneser-1966]; Platonov [platonov-1969]"
 lean  = ["GlobalTheory.Published.StrongApproxSU", "GlobalTheory.StrongApproxSUProof.strongApproxSU"]
 order = 2

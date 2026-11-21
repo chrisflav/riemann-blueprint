@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Chebotarev's theorem, existence of degree-one primes"
+provenance = "modified"
 source = "special case of Chebotarev [chebotarev-1926]"
 lean  = ["GlobalTheory.Published.ChebotarevDegreeOne", "GlobalTheory.Published.chebotarevDegreeOne'"]
 order = 4

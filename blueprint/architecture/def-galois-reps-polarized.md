@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "Galois representations of polarized representations"
+provenance = "modified"
 lean  = ["UpperTheory.GalStar.Row0b", "UpperTheory.One.M.Row", "UpperTheory.GalStar.Row0"]
 uses  = ["def-local-parameters"]
 order = 2

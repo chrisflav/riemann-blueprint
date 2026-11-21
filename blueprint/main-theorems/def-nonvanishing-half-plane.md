@@ -1,6 +1,8 @@
 +++
 kind  = "definition"
 title = "Non-vanishing right of the critical line"
+provenance = "published"
+source = "classical; see [davenport-2000]"
 lean  = ["UpperTheory.EveryCharacter", "Claim.HalfPlane", "DirichletLNonvanishingRightOfHalf"]
 order = 2
 +++

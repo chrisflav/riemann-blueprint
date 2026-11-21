@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Norm bounds from the sizes of kernel data"
+provenance = "new"
 lean  = ["GlobalTheory.ColRows.rowsBody_of_kerTies", "GlobalTheory.ColRowsTopS.rowsBody_colFace",
          "GlobalTheory.T.columnsMemberRows_of_logLevel_le", "GlobalTheory.T.memberRows_of_kernelDatum_sizes"]
 order = 1

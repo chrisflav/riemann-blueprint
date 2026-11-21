@@ -2,6 +2,7 @@
 id    = "prop-family-characters-with-links"
 kind  = "proposition"
 title = "Family characters with links"
+provenance = "new"
 lean  = ["GlobalTheory.MiTop.famAllQ_of_allTrue_alt", "GlobalTheory.T.true_geometry_family_row_data_alt"]
 order = 1
 +++

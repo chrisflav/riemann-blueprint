@@ -2,6 +2,7 @@
 id    = "prop-period-identity-from-diagonal-estimate"
 kind  = "proposition"
 title = "The period identity from a diagonal estimate"
+provenance = "new"
 lean  = ["GlobalTheory.T.main_theorem_published_inputs_variant_alt_alt", "GlobalTheory.miStarRowClosing_alt_alt"]
 uses = ["def-local-parameters"]
 order = 1

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Mumford's good metrics compute Chern numbers"
+provenance = "modified"
 source = "after Mumford [mumford-1977]"
 lean  = ["GlobalTheory.GoodMetric.goodChernWeil", "GlobalTheory.Published.GoodChernWeil", "UpperTheory.LiteratureTheorems.good_chern_weil_of_literature"]
 uses  = ["def-local-parameters"]

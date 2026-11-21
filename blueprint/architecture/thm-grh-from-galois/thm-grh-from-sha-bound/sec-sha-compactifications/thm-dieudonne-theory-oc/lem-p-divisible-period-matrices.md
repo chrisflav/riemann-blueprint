@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Period matrices of a p-divisible group"
+provenance = "new"
 lean  = ["GlobalTheory.QLog.WindowMat.window_matrices"]
 order = 10
 +++

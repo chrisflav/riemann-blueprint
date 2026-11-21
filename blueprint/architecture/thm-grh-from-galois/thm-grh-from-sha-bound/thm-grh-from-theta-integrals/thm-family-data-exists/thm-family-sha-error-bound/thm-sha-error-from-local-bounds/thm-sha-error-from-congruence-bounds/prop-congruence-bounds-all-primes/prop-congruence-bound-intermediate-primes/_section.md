@@ -2,6 +2,7 @@
 id    = "prop-congruence-bound-intermediate-primes"
 kind  = "proposition"
 title = "Congruence bound at intermediate primes"
+provenance = "new"
 lean  = ["GlobalTheory.NLink.InertStep.main_alt_alt", "GlobalTheory.NLink.rowsAD_in_setting_alt", "GlobalTheory.T.adm_at_inert_of_range", "GlobalTheory.T.star_ad_and_bb_le_of_joint_cond"]
 order = 2
 +++

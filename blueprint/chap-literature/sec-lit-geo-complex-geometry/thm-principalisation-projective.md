@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Principalisation of ideals on smooth projective varieties"
+provenance = "published"
 source = "Hironaka [hironaka-1964]; Bierstone–Milman [bierstone-milman-1997]; Villamayor [villamayor-1989]"
 lean  = ["GlobalTheory.Published.Principalisation", "PositivityTheory.ResPlug.WeightsCompactStabilizer.principalisation_closed"]
 order = 3

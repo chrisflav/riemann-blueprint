@@ -2,6 +2,7 @@
 id    = "thm-kato-euler-system-ordinary"
 kind  = "theorem"
 title = "Kato's Euler system for ordinary newforms"
+provenance = "modified"
 source = "after Kato [kato-2004]"
 lean  = ["GlobalTheory.Ord2.ZetaUr", "UpperTheory.V.Z.Kato.Final.zetaUr"]
 order = 10

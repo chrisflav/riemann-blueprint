@@ -2,6 +2,7 @@
 id    = "thm-basic-conditions-from-local-parameters"
 kind  = "theorem"
 title = "The basic conditions hold for the families from local parameters"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.S0.Open0ProofU.open_orbit_of_unramified_exponents_alt",
          "GlobalTheory.T.open0_of_unitary_group_hypotheses"]
 uses  = ["def-local-parameters"]

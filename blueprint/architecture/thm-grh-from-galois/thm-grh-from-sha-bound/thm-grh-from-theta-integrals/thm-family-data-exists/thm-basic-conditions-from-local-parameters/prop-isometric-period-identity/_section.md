@@ -2,6 +2,7 @@
 id    = "prop-isometric-period-identity"
 kind  = "proposition"
 title = "The isometric period identity and the multiplicity condition"
+provenance = "new"
 lean  = ["GlobalTheory.T.main_theorem_published_inputs_third_alt_alt", "GlobalTheory.miStarRow_alt_alt"]
 uses = ["def-local-parameters"]
 order = 1

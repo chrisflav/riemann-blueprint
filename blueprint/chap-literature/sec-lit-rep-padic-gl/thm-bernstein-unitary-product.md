@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Products of unitary representations are irreducible"
+provenance = "published"
 source = "Bernstein [bernstein-1984]"
 lean  = ["GlobalTheory.Published.BernsteinUnitaryProductIrreducible", "PositivityTheory.RgUd.All.bernsteinUnitaryProductIrreducible"]
 order = 13

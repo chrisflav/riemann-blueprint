@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hecke characters and local parameters above l"
+provenance = "modified"
 lean  = ["GlobalTheory.Published.HeckeLAdicParameterAboveAlt", "GlobalTheory.heckeLAdicParameterAbove_of_algebraicCharacterWD_alt"]
 order = 6
 +++

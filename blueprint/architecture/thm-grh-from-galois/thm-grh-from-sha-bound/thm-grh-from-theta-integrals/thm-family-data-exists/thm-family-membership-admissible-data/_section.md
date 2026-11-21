@@ -2,6 +2,7 @@
 id    = "thm-family-membership-admissible-data"
 kind  = "theorem"
 title = "Membership and admissible data for the families"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.StageOneU.member_bundles_large_unramified_exponents_alt", "GlobalTheory.T.large_unramified_exponent_bundles_exist_alt"]
 uses  = ["def-local-parameters"]
 order = 10

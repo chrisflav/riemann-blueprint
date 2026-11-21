@@ -2,6 +2,7 @@
 id    = "thm-theta-tower-step-identities"
 kind  = "theorem"
 title = "Theta towers have step identities"
+provenance = "new"
 lean  = ["UpperTheory.LiteratureTheorems.theta_integrals_agree_and_local_matching_of_literature"]
 uses  = ["def-local-parameters"]
 order = 14

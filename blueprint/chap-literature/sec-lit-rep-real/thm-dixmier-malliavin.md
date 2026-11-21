@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Dixmier–Malliavin factorisation for matrix groups"
+provenance = "modified"
 source = "after Dixmier–Malliavin [dixmier-malliavin-1978]"
 lean  = ["GlobalTheory.Published.DixmierMalliavinFactorisation", "GlobalTheory.dixmierMalliavinFactorisation_fromLibrary"]
 order = 16

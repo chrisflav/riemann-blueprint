@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Fontaine's theorems on the crystalline period ring"
+provenance = "published"
 source = "Fontaine [fontaine-1982], [fontaine-1994a]"
 lean  = ["GlobalTheory.MemLoc.fontaineBcris", "GlobalTheory.Published.FontaineBcris"]
 order = 1

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Additive characteristic classes"
+provenance = "new"
 lean  = ["GlobalTheory.EtC.D2", "LateralTheory.E.EtaleChapterDTwo", "LateralTheory.Fix.EtaleChapterDTwo.s57",
          "UpperTheory.Et.D2.a0", "UpperTheory.Et.D2.intersectionNumber_baseChange",
          "UpperTheory.Et.etale_duality_trace_isomorphism"]

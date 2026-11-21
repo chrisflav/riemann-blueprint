@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Harish-Chandra's exhaustion of the discrete series"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1966]; Schmid [schmid-1975]"
 lean  = ["CompanionTheory.RgExh.dsExhaust", "GlobalTheory.Dec.DSExhaust"]
 order = 11

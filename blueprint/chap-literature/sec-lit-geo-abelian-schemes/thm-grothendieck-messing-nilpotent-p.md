@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory"
+provenance = "published"
 source = "Grothendieck–Messing [messing-1972]"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation.grothendieckMessing", "GlobalTheory.Published.GrothendieckMessing"]
 order = 9

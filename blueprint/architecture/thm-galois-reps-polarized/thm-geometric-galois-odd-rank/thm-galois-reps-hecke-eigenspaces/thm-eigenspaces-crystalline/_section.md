@@ -2,6 +2,7 @@
 id    = "thm-eigenspaces-crystalline"
 kind  = "theorem"
 title = "Eigenspaces with good reduction are crystalline"
+provenance = "new"
 lean  = ["GlobalTheory.GalV.VFin", "UpperTheory.Gal.G3.vFin_holds", "UpperTheory.Gal.Int.Geo.CrysStep",
          "UpperTheory.Gal.Seam.MatIn", "UpperTheory.Gal.Seam.crysStep_holds", "UpperTheory.Gal.Seam.crysStep_of",
          "UpperTheory.Gal.Seam.matIn_holds"]

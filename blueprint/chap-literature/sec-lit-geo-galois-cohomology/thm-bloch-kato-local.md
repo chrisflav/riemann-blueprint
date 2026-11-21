@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Bloch–Kato local theory"
+provenance = "published"
 source = "Bloch–Kato [bloch-kato-1990]"
 lean  = ["GlobalTheory.Published.BlochKatoLocal", "UpperTheory.Lit.blochKatoLocal"]
 order = 6

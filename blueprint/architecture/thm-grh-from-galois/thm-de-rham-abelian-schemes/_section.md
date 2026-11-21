@@ -2,6 +2,7 @@
 id    = "thm-de-rham-abelian-schemes"
 kind  = "theorem"
 title = "De Rham cohomology of abelian schemes"
+provenance = "published"
 source = "Oda [oda-1969]; Mazur–Messing [mazur-messing-1974]; Berthelot–Breen–Messing [berthelot-1982]"
 lean  = ["GlobalTheory.Published.AbelianDeRham", "PositivityTheory.DualRT.abelianDeRham"]
 order = 10

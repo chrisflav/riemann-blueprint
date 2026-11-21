@@ -2,6 +2,7 @@
 id    = "prop-good-twists-from-theta-series"
 kind  = "proposition"
 title = "Good twists from theta series"
+provenance = "new"
 lean  = ["GlobalTheory.ExportClose.exportAt_of_bundles_alt", "GlobalTheory.ExportClose0.exportAt_bundles_alt", "GlobalTheory.T.realization_of_published_alt", "GlobalTheory.T.series_realization_of_published_alt"]
 order = 1
 +++

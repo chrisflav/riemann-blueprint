@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Assembly of twisted jets"
+provenance = "new"
 lean  = ["GlobalTheory.RowClaim.JetsAssembly.twistedJet_succ_eq_assembly",
          "GlobalTheory.RowClaim.JetsAssembly.twisted_jet_one_of_all",
          "GlobalTheory.T.twisted_jets_assemble", "GlobalTheory.T.twisted_pairing_identity"]

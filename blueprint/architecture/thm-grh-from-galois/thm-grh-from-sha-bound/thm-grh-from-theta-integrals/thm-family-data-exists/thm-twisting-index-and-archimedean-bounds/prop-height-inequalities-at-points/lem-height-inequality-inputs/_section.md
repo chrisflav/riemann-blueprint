@@ -2,6 +2,7 @@
 id    = "lem-height-inequality-inputs"
 kind  = "lemma"
 title = "Inputs of the height inequality"
+provenance = "new"
 lean  = ["GlobalTheory.InputsAtRecord.inputsNet_recPlus", "GlobalTheory.T.exists_indexBoundHypothesesWithNet_allValuedPoints"]
 order = 1
 +++

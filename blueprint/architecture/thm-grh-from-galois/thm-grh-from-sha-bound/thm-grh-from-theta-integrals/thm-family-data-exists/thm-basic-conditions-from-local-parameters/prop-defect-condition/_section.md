@@ -2,6 +2,7 @@
 id    = "prop-defect-condition"
 kind  = "proposition"
 title = "The defect condition"
+provenance = "new"
 lean  = ["GlobalTheory.Fc.RL.DefSide.linkedAt_df_of_parameters",
          "GlobalTheory.Fc.RL.linkedAt_prmR_df_of_cuspRapidDecay", "GlobalTheory.T.weil_unitary_entries'"]
 uses = ["def-local-parameters"]

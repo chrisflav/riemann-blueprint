@@ -2,6 +2,7 @@
 id    = "thm-grh-from-sha-bound"
 kind  = "theorem"
 title = "GRH from the Tate–Shafarevich bound"
+provenance = "new"
 lean  = ["UpperTheory.LiteratureTheorems.every_character_of_literature_of_vWin",
          "UpperTheory.LiteratureTheorems.OpenLiteratureStatements",
          "UpperTheory.LiteratureTheorems.published_results_eigen",

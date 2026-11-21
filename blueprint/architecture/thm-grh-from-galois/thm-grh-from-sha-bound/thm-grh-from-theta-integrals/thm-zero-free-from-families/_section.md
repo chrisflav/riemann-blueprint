@@ -2,6 +2,7 @@
 id    = "thm-zero-free-from-families"
 kind  = "theorem"
 title = "Zero-freeness from families"
+provenance = "new"
 lean  = ["UpperTheory.Top.zero_free_all_of_green_v_win", "UpperTheory.Top.every_character_of_green_v_win"]
 uses  = ["def-sha-bound", "def-family-data", "def-zero-free-primitive",
          "def-nonvanishing-half-plane"]

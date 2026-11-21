@@ -2,6 +2,7 @@
 id    = "thm-theta-functionals-separate"
 kind  = "theorem"
 title = "Theta functionals separate vectors"
+provenance = "new"
 lean  = ["UpperTheory.Lit.functionalsSeparate_of_howeUnram_of_siegelWeil"]
 order = 110
 +++

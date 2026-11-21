@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Uniformisation over a labelled cover"
+provenance = "new"
 lean  = ["GlobalTheory.Mum.hasFin_of_labCover", "GlobalTheory.T.hasSemiAbelianUniformisation_of_labelledCover"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Projective bundle formula"
+provenance = "published"
 source = "SGA 5 [sga-5]"
 lean  = ["GlobalTheory.EtC.D1", "GlobalTheory.EtC.projectiveBundleFormula_vectorBundle_any_space"]
 order = 10

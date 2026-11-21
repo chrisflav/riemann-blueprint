@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Wave kernels on the complex general linear group"
+provenance = "new"
 lean  = ["PositivityTheory.RgBcC.wave_existence_speed_multiplicity"]
 order = 12
 +++

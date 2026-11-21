@@ -2,6 +2,7 @@
 id    = "lem-local-models-constructed-points"
 kind  = "lemma"
 title = "Local models at constructed points"
+provenance = "new"
 lean  = ["GlobalTheory.Svd.modelsAt_bpt", "GlobalTheory.Svd.modelsAt_of_part", "GlobalTheory.T.tuplesHaveLocalModels_at_constructedPoint_over_trueColumns", "GlobalTheory.T.tuplesHaveLocalModels_of_standardColumnObjects"]
 order = 1
 +++

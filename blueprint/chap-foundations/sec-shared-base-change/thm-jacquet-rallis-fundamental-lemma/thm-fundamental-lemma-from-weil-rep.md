@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The fundamental lemma from the Weil representation"
+provenance = "new"
 lean  = ["GlobalTheory.JR.unitMatch_of_weilField", "GlobalTheory.T.jacquetRallisUnitMatch_of_weilRep_quadratic"]
 order = 10
 +++

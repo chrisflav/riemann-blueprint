@@ -1,6 +1,7 @@
 +++
 kind  = "proposition"
 title = "Integrality and transformation of Hecke operators"
+provenance = "new"
 lean  = ["GlobalTheory.HeckeMember.heckeInt_transform_readTie"]
 order = 1
 +++

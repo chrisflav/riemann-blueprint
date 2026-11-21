@@ -2,6 +2,7 @@
 id    = "thm-lattice-term-pair-bound"
 kind  = "theorem"
 title = "Bound for sums over pairs of lattice terms"
+provenance = "new"
 lean  = ["Formalism.L2.SG.RowsPos.TypeP", "GlobalTheory.T.typeBound_of_largeGap_discreteSeries_bessel",
          "GlobalTheory.TypeAsm.TopGap.typeBound_of_gap", "GlobalTheory.rowsPos_typeP"]
 order = 105

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Hodge numbers of Hecke eigenspaces"
+provenance = "new"
 lean  = ["UpperTheory.Gal.LocalSmoothExtension.ksHodge_of_geo"]
 uses  = ["thm-hecke-fixed-points-kuga-sato"]
 order = 12

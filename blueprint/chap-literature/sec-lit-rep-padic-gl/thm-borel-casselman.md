@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Iwahori-fixed vectors and the Jacquet module"
+provenance = "published"
 source = "Borel [borel-1976]; Casselman [casselman-1980]"
 lean  = ["GlobalTheory.Published.BorelCasselman", "PositivityTheory.Stage1.PM.borelCasselman"]
 order = 5

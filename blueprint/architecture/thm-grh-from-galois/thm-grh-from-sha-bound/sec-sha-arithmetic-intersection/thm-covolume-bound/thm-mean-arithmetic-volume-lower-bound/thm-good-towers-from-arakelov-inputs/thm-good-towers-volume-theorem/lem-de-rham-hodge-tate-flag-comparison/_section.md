@@ -2,6 +2,7 @@
 id    = "lem-de-rham-hodge-tate-flag-comparison"
 kind  = "lemma"
 title = "Comparison of de Rham and Hodge–Tate flags"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Num.HodgeModel.model_on_hodge_of_family_pos", "GlobalTheory.T.model_on_hodge_from_family"]
 order = 11
 +++

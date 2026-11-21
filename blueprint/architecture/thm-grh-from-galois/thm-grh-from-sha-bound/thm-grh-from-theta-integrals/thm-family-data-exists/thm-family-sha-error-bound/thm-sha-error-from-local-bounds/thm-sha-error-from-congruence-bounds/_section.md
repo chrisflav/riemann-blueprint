@@ -2,6 +2,7 @@
 id    = "thm-sha-error-from-congruence-bounds"
 kind  = "theorem"
 title = "From congruence bounds to the error bound"
+provenance = "new"
 lean  = ["UpperTheory.GalC.linkN_of_boundAtTwoThree_slot", "UpperTheory.GalC.linkN_of_twGood_galoisPreconditions", "UpperTheory.GalC.linkedAt_linkN_of_boundAtTwoThree"]
 uses  = ["def-local-parameters"]
 order = 1

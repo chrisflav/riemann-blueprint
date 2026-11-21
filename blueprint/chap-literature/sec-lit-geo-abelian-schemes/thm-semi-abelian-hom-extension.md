@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Extension of homomorphisms of semi-abelian schemes"
+provenance = "published"
 source = "Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Published.SemiAbelianHomExtension", "GlobalTheory.semiAbelianHomExtension_holds"]
 order = 4

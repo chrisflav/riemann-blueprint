@@ -2,6 +2,7 @@
 id    = "lem-first-order-deformation-count"
 kind  = "lemma"
 title = "Counting first-order deformations"
+provenance = "new"
 lean  = ["GlobalTheory.HTCount.count", "GlobalTheory.HTCount.ksDim_at_point", "GlobalTheory.HTRho.rhoCount",
          "GlobalTheory.T.harrisTaylor_firstOrder_deformations_basis_count",
          "GlobalTheory.T.harrisTaylor_kodairaSpencer_directions_dim",

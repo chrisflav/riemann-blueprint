@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Pair counts from Siegel mass ratios"
+provenance = "new"
 lean  = ["GlobalTheory.T.termPairCountBound_of_siegelMassRatios", "GlobalTheory.TypeAsm.pair_count_bound_of_siegel_mass"]
 order = 1
 +++

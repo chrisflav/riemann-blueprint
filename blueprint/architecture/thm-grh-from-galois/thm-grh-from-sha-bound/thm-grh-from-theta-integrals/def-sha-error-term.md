@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "The Tate–Shafarevich error term"
+provenance = "new"
 lean  = ["Formalism.MainNotions.LinkN"]
 order = 3
 +++

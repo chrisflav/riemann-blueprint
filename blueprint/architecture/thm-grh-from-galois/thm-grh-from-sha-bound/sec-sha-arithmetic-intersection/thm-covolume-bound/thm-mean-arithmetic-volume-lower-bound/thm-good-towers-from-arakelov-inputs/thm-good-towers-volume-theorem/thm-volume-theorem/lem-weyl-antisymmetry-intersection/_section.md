@@ -2,6 +2,7 @@
 id    = "lem-weyl-antisymmetry-intersection"
 kind  = "lemma"
 title = "Weyl antisymmetry of arithmetic intersection numbers"
+provenance = "new"
 lean  = ["GlobalTheory.CompanionTheory.Ar.Top.full_intersection_tower_I8_relation", "GlobalTheory.T.full_intersection_tower_I8_identity", "SquareStatements.good_tower_antisymmetry"]
 order = 10
 +++

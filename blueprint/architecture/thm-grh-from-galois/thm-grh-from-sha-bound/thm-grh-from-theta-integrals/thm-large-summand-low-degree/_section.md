@@ -2,6 +2,7 @@
 id    = "thm-large-summand-low-degree"
 kind  = "theorem"
 title = "A large direct summand of low degree"
+provenance = "new"
 lean  = ["Formalism.MainNotions.flipOneThree.Pf.theorem_I_closed_form_holds"]
 order = 11
 +++

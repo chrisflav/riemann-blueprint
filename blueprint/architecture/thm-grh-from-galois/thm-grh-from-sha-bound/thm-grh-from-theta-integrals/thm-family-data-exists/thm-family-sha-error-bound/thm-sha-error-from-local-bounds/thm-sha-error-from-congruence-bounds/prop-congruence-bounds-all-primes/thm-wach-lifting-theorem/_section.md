@@ -2,6 +2,7 @@
 id    = "thm-wach-lifting-theorem"
 kind  = "theorem"
 title = "Local lifting theorem for Wach lattices"
+provenance = "new"
 lean  = ["Formalism.MainNotions.N.Ln03.corollary_local_exists_constant", "Formalism.MainNotions.N.Ln03.local_corollary_of_de_rham", "GlobalTheory.T.theoremE_corollaryA_closing_all_data", "GlobalTheory.ThmECorA.closing"]
 order = 1
 +++

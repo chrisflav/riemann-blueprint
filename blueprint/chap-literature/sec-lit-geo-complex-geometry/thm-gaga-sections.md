@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Serre's GAGA for sections of line bundles"
+provenance = "modified"
 source = "special case of Serre [serre-1956]"
 lean  = ["GlobalTheory.Published.SerreHolomorphicSections", "GlobalTheory.Published.serreHolomorphicSections_holds"]
 order = 5

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Zarhin's trick"
+provenance = "published"
 source = "Zarhin [zarhin-1975]"
 lean  = ["GlobalTheory.CompanionTheory.Ar.GR.ZarhinStatement", "PositivityTheory.HtPt.Narrow.zarhin"]
 order = 3

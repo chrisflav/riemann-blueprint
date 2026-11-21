@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Siegel–Weil formula in the convergent range"
+provenance = "modified"
 source = "special case of Weil [weil-1965]"
 lean  = ["GlobalTheory.Published.SiegelWeilUnitaryConvergent", "UpperTheory.Lit.Sw47.convergent"]
 order = 8

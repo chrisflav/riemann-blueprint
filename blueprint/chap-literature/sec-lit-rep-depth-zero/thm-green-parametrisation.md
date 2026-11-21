@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Green's parametrisation of cuspidal characters"
+provenance = "published"
 source = "Green [green-1955]"
 lean  = ["GlobalTheory.Published.GreenCuspidal", "GlobalTheory.Published.GreenSeriesSt", "PositivityTheory.Prw.greenSeriesSt_of", "PositivityTheory.Stage1.PM.greenCuspidal"]
 order = 2

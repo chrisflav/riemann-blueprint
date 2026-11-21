@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Archimedean Howe duality for the trivial representation"
+provenance = "modified"
 source = "special case of Howe [howe-1989b]"
 lean  = ["GlobalTheory.Published.HoweDualityReal", "GlobalTheory.howeDualityReal_holds"]
 order = 5

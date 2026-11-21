@@ -1,6 +1,7 @@
 +++
 kind  = "proposition"
 title = "The local estimate from the membership condition"
+provenance = "new"
 lean  = ["Formalism.MainNotions.Proposition5Numerics.stmtE_of_mem"]
 order = 10
 +++

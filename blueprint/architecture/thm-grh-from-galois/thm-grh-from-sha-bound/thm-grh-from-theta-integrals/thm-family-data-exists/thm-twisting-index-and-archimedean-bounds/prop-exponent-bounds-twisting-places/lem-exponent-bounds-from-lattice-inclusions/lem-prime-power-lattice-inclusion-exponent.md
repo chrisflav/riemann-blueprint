@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Exponent of a prime-power lattice inclusion"
+provenance = "new"
 lean  = ["GlobalTheory.ExpTie.Asm.jexpU_le_jrec7", "GlobalTheory.ExpTie.lIncl_of_models", "GlobalTheory.T.primePowerLatticeInclusion_of_localModels"]
 order = 1
 +++

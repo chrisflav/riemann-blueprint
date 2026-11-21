@@ -2,6 +2,7 @@
 id    = "thm-rational-test-vectors-theta"
 kind  = "theorem"
 title = "Rational test vectors for twisted theta lifts"
+provenance = "new"
 lean  = ["GlobalTheory.RowClaim.Join.thetaLift_row_properties_conj"]
 order = 111
 +++

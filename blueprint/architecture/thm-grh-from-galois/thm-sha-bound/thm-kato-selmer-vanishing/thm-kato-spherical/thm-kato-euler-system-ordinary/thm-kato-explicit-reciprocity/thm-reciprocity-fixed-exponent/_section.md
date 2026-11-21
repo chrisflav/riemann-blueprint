@@ -2,6 +2,7 @@
 id    = "thm-reciprocity-fixed-exponent"
 kind  = "theorem"
 title = "The reciprocity law for zeta classes of fixed exponent"
+provenance = "new"
 lean  = ["UpperTheory.V.Z.Kato.K5.hco"]
 order = 10
 +++

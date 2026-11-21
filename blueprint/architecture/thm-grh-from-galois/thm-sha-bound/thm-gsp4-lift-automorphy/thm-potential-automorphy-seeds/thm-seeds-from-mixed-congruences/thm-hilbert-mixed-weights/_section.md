@@ -2,6 +2,7 @@
 id    = "thm-hilbert-mixed-weights"
 kind  = "theorem"
 title = "Ordinary Hilbert modular forms with mixed weights"
+provenance = "new"
 lean  = ["UpperTheory.Esk.mixSeed_of_alt"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Finiteness of Galois cohomology of l-adic fields"
+provenance = "published"
 source = "Tate [tate-1963]"
 lean  = ["CompanionTheory.LocalTateOrthogonality.Gcoh.top_locfin", "Formalism.GaloisCohomology.LocalFinitenessK"]
 order = 2

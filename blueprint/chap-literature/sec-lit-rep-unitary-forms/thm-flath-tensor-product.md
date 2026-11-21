@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Flath's tensor product theorem"
+provenance = "published"
 source = "Flath [flath-1979]"
 lean  = ["CompanionTheory.Rg.Fl.B.flathTensorProduct", "GlobalTheory.Published.FlathTensorProduct"]
 order = 4

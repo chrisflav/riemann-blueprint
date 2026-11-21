@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "The Tate–Shafarevich bound"
+provenance = "new"
 lean  = ["UpperTheory.Top.VWin", "UpperTheory.Top.VWinAt", "UpperTheory.Top.VVle",
          "UpperTheory.Top.IsChiField", "UpperTheory.Top.WinPair", "UpperTheory.Top.PageN",
          "Formalism.GaloisCohomology.Sha", "Formalism.GaloisCohomology.shaLen"]

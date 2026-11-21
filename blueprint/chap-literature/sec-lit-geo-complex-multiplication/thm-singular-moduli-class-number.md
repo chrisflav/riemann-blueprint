@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Singular moduli and the class number"
+provenance = "published"
 source = "classical; see Silverman [silverman-1994]"
 lean  = ["GlobalTheory.Laid.hcfj_holds", "GlobalTheory.Published.HilbertClassFieldJ"]
 order = 2

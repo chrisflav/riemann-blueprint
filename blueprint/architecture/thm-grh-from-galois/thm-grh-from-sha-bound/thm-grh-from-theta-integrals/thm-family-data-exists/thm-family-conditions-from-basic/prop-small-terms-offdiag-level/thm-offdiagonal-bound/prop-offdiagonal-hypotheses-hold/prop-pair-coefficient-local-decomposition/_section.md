@@ -2,6 +2,7 @@
 id    = "prop-pair-coefficient-local-decomposition"
 kind  = "proposition"
 title = "Local decomposition of the pair coefficients"
+provenance = "new"
 lean  = ["Formalism.L2.SG.Pf.Coef.cutAt_of_deep", "Formalism.L2.SG.Pf.Coef.rowsDatumP_of_deep"]
 order = 2
 +++

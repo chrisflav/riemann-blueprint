@@ -2,6 +2,7 @@
 id    = "prop-selmer-bound-twisted-places"
 kind  = "proposition"
 title = "Selmer bound at twisted places from local duality"
+provenance = "new"
 lean  = ["GlobalTheory.T.twistedPlace_selmerLengthBound_of_localDuality", "GlobalTheory.TwistedPlaceBound.closing"]
 order = 1
 +++

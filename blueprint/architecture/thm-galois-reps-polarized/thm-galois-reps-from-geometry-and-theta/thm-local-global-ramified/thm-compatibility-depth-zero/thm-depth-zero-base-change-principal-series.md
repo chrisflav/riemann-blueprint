@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Depth-zero representations become principal series"
+provenance = "new"
 lean  = ["UpperTheory.Gal.InertialTypesAlt.SuppBC", "UpperTheory.Gal.InertialTypesAlt.suppBC_outright"]
 order = 10
 +++

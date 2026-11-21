@@ -2,6 +2,7 @@
 id    = "thm-downward-theta-lift-nonvanishing"
 kind  = "theorem"
 title = "Downward theta lifts are nonzero and injective on eigenspaces"
+provenance = "new"
 lean  = ["GlobalTheory.Core.Rk.Exh.Top.downNe_k_of_hypotheses'",
          "GlobalTheory.Core.Rk.LiftOnto.liftInj_nonVan_typeNZ_of_hypotheses_alt",
          "GlobalTheory.T.downNe_of_eulerRight_doubling", "GlobalTheory.T.liftInj_and_nonVan_typeNZ_of_given"]

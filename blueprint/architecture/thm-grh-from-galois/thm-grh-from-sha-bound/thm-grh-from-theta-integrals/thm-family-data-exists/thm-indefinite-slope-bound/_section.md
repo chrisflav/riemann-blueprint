@@ -2,6 +2,7 @@
 id    = "thm-indefinite-slope-bound"
 kind  = "theorem"
 title = "The slope bound on the indefinite side"
+provenance = "new"
 lean  = ["GlobalTheory.BigTop.Fun.Close.fittedFunction_at_zero_close_alt",
          "GlobalTheory.BigTop.Fun.Close.fourier_coefficient_fit_of_join_alt"]
 uses  = ["def-family-data"]

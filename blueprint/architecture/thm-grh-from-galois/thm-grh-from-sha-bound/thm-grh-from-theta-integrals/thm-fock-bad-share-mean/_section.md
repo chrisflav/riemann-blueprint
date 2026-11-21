@@ -2,6 +2,7 @@
 id    = "thm-fock-bad-share-mean"
 kind  = "theorem"
 title = "Fock lattices are nearly unimodular on average"
+provenance = "new"
 lean  = ["Formalism.MainNotions.G.GramWindowAlt.theorem_A_closed_form_holds"]
 order = 10
 +++

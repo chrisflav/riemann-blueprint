@@ -2,6 +2,7 @@
 id    = "prop-counting-constants-constituents"
 kind  = "proposition"
 title = "Counting constants and irreducible constituents"
+provenance = "new"
 lean  = ["GlobalTheory.CountRow.row_counts_of_ties_alt", "GlobalTheory.CountRowByName.row_counts_of_labels_alt"]
 order = 4
 +++

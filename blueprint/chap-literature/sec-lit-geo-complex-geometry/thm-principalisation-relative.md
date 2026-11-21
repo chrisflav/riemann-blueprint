@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Principalisation relative to a normal crossings divisor"
+provenance = "published"
 source = "Hironaka [hironaka-1964]; Bierstone–Milman [bierstone-milman-1997]; Villamayor [villamayor-1989]"
 lean  = ["GlobalTheory.CompanionTheory.Hypotheses₂.PrincipalisationCharZero", "PositivityTheory.ResPlug.WeightsCompactStabilizer.principalisationCharZero_closed"]
 order = 4

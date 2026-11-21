@@ -2,6 +2,7 @@
 id    = "lem-principalisation-rules-correct"
 kind  = "lemma"
 title = "Correctness of the principalisation rules from their hypotheses"
+provenance = "new"
 lean  = ["FunctorialResolution.EmbeddedResolution.isCorrect_canonicalAlgorithmRules_of_hypotheses"]
 order = 10
 +++

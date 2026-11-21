@@ -2,6 +2,7 @@
 id    = "prop-congruence-bound-auxiliary-pair"
 kind  = "proposition"
 title = "Congruence bound at the primes of the auxiliary pair"
+provenance = "new"
 lean  = ["GlobalTheory.T.embedding_jumps_aux2_of_setup", "GlobalTheory.TheoremBQD.main_alt_alt"]
 order = 4
 +++

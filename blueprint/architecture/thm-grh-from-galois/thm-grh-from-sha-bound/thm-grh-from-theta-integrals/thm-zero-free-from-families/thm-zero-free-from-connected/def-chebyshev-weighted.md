@@ -1,6 +1,7 @@
 +++
 kind  = "definition"
 title = "The weighted Chebyshev function"
+provenance = "new"
 lean  = ["Formalism.Gz", "Formalism.HC.Level.Gm", "Formalism.HC.Level.cyc"]
 order = 1
 +++

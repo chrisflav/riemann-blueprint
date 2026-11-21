@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Base change from unitary groups to GL(n)"
+provenance = "modified"
 source = "after Labesse [labesse-2011]"
 lean  = ["GlobalTheory.Published.BaseChangeDefiniteUnitaryGroup", "UpperTheory.BaseChangeIdentities.definiteN_of"]
 uses  = ["thm-base-change-unitary"]

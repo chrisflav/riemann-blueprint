@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Galois representations compatible at unramified places"
+provenance = "new"
 lean  = ["UpperTheory.Gal.Int.coreAll_of"]
 uses  = ["thm-theta-lift-nonvanishing"]
 order = 10

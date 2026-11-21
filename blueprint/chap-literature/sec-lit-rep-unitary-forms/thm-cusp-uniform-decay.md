@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Uniform rapid decay of cusp forms"
+provenance = "published"
 source = "Harish-Chandra [harish-chandra-1968]; see Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.CuspGeo.cuspDecayBound", "GlobalTheory.Published.CuspDecayBound"]
 order = 6

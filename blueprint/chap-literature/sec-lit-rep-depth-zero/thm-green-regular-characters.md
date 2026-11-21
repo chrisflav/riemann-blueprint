@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Cuspidal characters of GL(d) over a finite field"
+provenance = "published"
 source = "Green [green-1955]"
 lean  = ["GlobalTheory.Published.GreenRegularCharacters", "PositivityTheory.Stage1.PM.greenRegularCharacters"]
 order = 1

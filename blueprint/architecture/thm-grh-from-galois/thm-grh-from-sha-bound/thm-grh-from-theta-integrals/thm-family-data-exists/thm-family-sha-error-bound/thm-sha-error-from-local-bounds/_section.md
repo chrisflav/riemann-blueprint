@@ -2,6 +2,7 @@
 id    = "thm-sha-error-from-local-bounds"
 kind  = "theorem"
 title = "The error bound from local bounds and Galois conditions"
+provenance = "new"
 lean  = ["UpperTheory.GalC.final_of_alt"]
 uses = ["def-local-parameters"]
 order = 1

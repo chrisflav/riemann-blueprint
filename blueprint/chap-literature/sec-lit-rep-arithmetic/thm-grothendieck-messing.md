@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck–Messing deformation theory of abelian schemes"
+provenance = "published"
 source = "Messing [messing-1972]; Mazur–Messing [mazur-messing-1974]"
 lean  = ["GlobalTheory.Published.GrothendieckDeformation", "GlobalTheory.Published.grothendieckDeformation_of_lifting"]
 order = 3

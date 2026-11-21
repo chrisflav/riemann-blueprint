@@ -2,6 +2,7 @@
 id    = "prop-chosen-data-serve-families"
 kind  = "proposition"
 title = "The chosen data serve their families"
+provenance = "new"
 lean  = ["GlobalTheory.Svd.servH_row_linkR_alt", "GlobalTheory.Svd.servH_row_of_artin", "GlobalTheory.T.bundle_bothParts_of_standardKernel_of_globalArtinReciprocity", "GlobalTheory.T.hServ_of_linkR", "GlobalTheory.T.reciprocity_kernel_of_artin", "GlobalTheory.row_hServ_of_link_alt"]
 uses = ["def-local-parameters"]
 order = 2

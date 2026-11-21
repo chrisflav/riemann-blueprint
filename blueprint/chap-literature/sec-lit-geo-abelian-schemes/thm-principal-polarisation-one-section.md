@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A principal polarisation has one section"
+provenance = "published"
 source = "Mumford [mumford-1970]"
 lean  = ["GlobalTheory.AbLaw.principalPolarisation_unique_section", "GlobalTheory.Published.principalPolarisationOneSection"]
 order = 2

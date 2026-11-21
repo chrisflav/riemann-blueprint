@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Rapid decay of cusp forms in Sobolev norms"
+provenance = "modified"
 source = "after Harish-Chandra [harish-chandra-1968]; Moeglin–Waldspurger [moeglin-waldspurger-1995]"
 lean  = ["GlobalTheory.Published.CuspDecaySobolev", "PositivityTheory.Stage1.PM.cuspDecaySobolev"]
 order = 8

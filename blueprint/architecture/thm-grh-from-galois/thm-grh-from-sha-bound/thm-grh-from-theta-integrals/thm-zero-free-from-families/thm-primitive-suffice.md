@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Primitive characters suffice"
+provenance = "published"
 lean  = ["UpperTheory.Top.imprimitive"]
 uses  = ["def-zero-free-primitive", "def-nonvanishing-half-plane"]
 order = 2

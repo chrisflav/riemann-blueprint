@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Lifting bound for crystalline lattices with deep weights"
+provenance = "new"
 lean  = ["Formalism.MainNotions.N.Ln34.integrality_from_metric_of_large_constant", "GlobalTheory.T.integralityFromMetric_of_160_le", "GlobalTheory.T.localLifting_of_blochKato_tateDuality_eulerChar", "GlobalTheory.TheoremAFinal.integralityFromMetric_of_le", "GlobalTheory.theoremA_closing"]
 order = 1
 +++

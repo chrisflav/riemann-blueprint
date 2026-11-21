@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Chebotarev's density theorem, in the form of degree-one primes"
+provenance = "modified"
 source = "after Chebotarev [chebotarev-1926]"
 lean  = ["GlobalTheory.Published.cheb_holds", "GlobalTheory.TwSys.Cheb"]
 order = 3

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The Rallis inner product formula in the convergent range"
+provenance = "published"
 source = "Rallis [rallis-1984]; Li [li-1992]"
 lean  = ["GlobalTheory.Published.RallisInnerProductConvergent", "UpperTheory.Lit.Rallis.RallisIPProof.rallis_of_dm"]
 order = 10

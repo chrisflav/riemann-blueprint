@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Casselman–Wallach globalisation"
+provenance = "modified"
 source = "special case of Casselman [casselman-1989]; Wallach [wallach-1992]"
 lean  = ["GlobalTheory.Published.CasselmanWallach", "PositivityTheory.CWB.casselmanWallach"]
 order = 4

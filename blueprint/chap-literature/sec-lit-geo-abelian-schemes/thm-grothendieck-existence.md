@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Grothendieck's existence theorem"
+provenance = "published"
 source = "Grothendieck [ega-3-1, §5]"
 lean  = ["GlobalTheory.Published.FormalAlgebraisation", "PositivityTheory.FormalThickening.formalAlgebraisation"]
 order = 7

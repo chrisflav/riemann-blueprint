@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "The local link from group compatibility"
+provenance = "new"
 lean  = ["Formalism.L2.G.linkG_concrete_noKer", "Formalism.L2.G.link_of_local_closed"]
 order = 11
 +++

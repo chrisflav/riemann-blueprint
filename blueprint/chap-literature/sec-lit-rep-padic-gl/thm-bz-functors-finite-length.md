@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Jacquet functors and induction preserve finite length"
+provenance = "published"
 source = "Bernstein–Zelevinsky [bernstein-zelevinsky-1977]"
 lean  = ["GlobalTheory.Published.StandardFunctorsFiniteLength", "PositivityTheory.Tls2.BZGL.standardFunctorsFiniteLength_top"]
 order = 2

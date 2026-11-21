@@ -2,6 +2,7 @@
 id    = "thm-local-estimate-inert-primes"
 kind  = "theorem"
 title = "The local estimate at inert primes"
+provenance = "new"
 lean  = ["Formalism.L2.G.loc_proved", "Formalism.MainNotions.TraceSpectra.stmtE"]
 order = 10
 +++

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "GRH, half-plane form"
+provenance = "new"
 lean  = ["LFunction_ne_zero_of_half_lt_re", "allChi", "UpperTheory.FinalTheorems.everyCharacter"]
 uses  = ["def-nonvanishing-half-plane"]
 order = 4

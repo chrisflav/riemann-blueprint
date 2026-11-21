@@ -2,6 +2,7 @@
 id    = "lem-depth-three-to-four"
 kind  = "lemma"
 title = "From depth three to depth four"
+provenance = "new"
 lean  = ["GlobalTheory.Mem.SRe.UpS.has4_of_has3_of_sExt_none", "GlobalTheory.T.has4_of_has3_of_lv3Mv"]
 uses = ["def-local-parameters"]
 order = 1

@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Automorphic induction for quadratic extensions"
+provenance = "modified"
 source = "special case of Arthur–Clozel [arthur-clozel-1989]"
 lean  = ["UpperTheory.V.Z.Bc.indCs", "UpperTheory.V.Z.InvariantSubmoduleMonicPolynomial.E.IndCs",
          "UpperTheory.V.Z.InvariantSubmoduleMonicPolynomial.E.indCs_of_bcfl",

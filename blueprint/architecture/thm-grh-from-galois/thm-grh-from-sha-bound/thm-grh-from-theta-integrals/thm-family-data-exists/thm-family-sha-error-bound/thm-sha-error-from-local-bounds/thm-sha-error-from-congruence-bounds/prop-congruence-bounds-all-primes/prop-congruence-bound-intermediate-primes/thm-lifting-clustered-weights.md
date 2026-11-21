@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Local lifting bound for clustered weights"
+provenance = "new"
 lean  = ["GlobalTheory.T.localLiftingTheoremB_of_blochKato_tateDuality_eulerChar", "GlobalTheory.theoremB_closing"]
 order = 1
 +++

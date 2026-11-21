@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "A bound for Hecke operators in base change"
+provenance = "new"
 lean  = ["PositivityTheory.Rg.BcB.F.FrameBound", "UpperTheory.BaseChangeIdentities.FrameWordIdentity.frameBound"]
 order = 14
 +++

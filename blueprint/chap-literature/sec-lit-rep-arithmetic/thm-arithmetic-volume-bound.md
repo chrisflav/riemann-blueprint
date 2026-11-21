@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Arithmetic volume is at least the self-intersection"
+provenance = "modified"
 source = "after Gillet–Soulé [gillet-soule-1992]; Zhang [zhang-1995]"
 lean  = ["GlobalTheory.Published.VolGe", "GlobalTheory.VolBr.volGe_of_hilbertSamuel"]
 order = 5

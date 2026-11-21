@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Local lattice counts by isometries"
+provenance = "new"
 lean  = ["Formalism.L2.SG.LsDatumA.integralClosureRank_and_residueTrdegLe"]
 order = 1
 +++

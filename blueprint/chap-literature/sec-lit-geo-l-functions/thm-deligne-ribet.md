@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Deligne–Ribet congruences"
+provenance = "modified"
 source = "special case of Deligne–Ribet [deligne-ribet-1980]; Cassou-Noguès [cassou-nogues-1979]"
 lean  = ["GlobalTheory.Published.DeligneRibet", "PositivityTheory.PfDR.deligneRibet_holds"]
 order = 4

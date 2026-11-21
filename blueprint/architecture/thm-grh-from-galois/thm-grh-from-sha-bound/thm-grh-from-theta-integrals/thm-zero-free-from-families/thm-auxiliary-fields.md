@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Auxiliary CM fields"
+provenance = "new"
 lean  = ["UpperTheory.Top.supplyChi", "UpperTheory.Top.GChi", "UpperTheory.Top.KerChi"]
 uses  = ["def-sha-bound", "def-slope-data"]
 order = 3

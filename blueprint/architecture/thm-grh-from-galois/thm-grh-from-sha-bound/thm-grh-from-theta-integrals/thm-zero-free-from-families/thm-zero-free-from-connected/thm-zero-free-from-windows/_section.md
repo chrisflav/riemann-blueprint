@@ -2,6 +2,7 @@
 id    = "thm-zero-free-from-windows"
 kind  = "theorem"
 title = "Zero-freeness from bounds on windows"
+provenance = "new"
 lean  = ["Formalism.HC.zeroFreeOn_of_tiedWin_cyc", "Formalism.HC.level_of_tiedWin"]
 uses  = ["def-chebyshev-weighted", "def-zero-free-primitive"]
 order = 4

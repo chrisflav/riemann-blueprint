@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Meromorphic continuation of Siegel Eisenstein series on unitary groups"
+provenance = "modified"
 source = "special case of Langlands [langlands-1976]; see Piatetski-Shapiro–Rallis [piatetski-shapiro-rallis-1987]; Tan [tan-1999]"
 lean  = ["GlobalTheory.Published.SiegelEisensteinContinuation", "PositivityTheory.RgEis.Sp.Hd.siegelEisensteinContinuation"]
 order = 7

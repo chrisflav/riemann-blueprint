@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Local point data with height bounds"
+provenance = "new"
 lean  = ["GlobalTheory.RunPrimeData.exists_primeData_heights", "GlobalTheory.T.exists_primeData_curve_lifting_heightBounds"]
 order = 1
 +++

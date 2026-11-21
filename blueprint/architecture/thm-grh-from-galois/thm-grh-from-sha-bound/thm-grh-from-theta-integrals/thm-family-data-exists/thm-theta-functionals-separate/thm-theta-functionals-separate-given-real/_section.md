@@ -2,6 +2,7 @@
 id    = "thm-theta-functionals-separate-given-real"
 kind  = "theorem"
 title = "Theta functionals separate vectors, given the real input"
+provenance = "new"
 lean  = ["UpperTheory.Lit.real_functionals_separate_of_hypothesis"]
 uses = ["thm-discrete-series-branching-coefficients"]
 order = 2

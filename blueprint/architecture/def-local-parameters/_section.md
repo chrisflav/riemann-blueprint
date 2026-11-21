@@ -2,6 +2,7 @@
 id    = "def-local-parameters"
 kind  = "definition"
 title = "Local parameters"
+provenance = "modified"
 lean  = ["UpperTheory.Zero.LLC.IsRecT", "UpperTheory.Zero.LLC.RecTExists"]
 order = 1
 +++

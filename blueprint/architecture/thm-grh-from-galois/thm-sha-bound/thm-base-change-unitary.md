@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Base change from definite unitary groups"
+provenance = "published"
 source = "Labesse [labesse-2011]; Mok [mok-2015]; Kaletha–Mínguez–Shin–White [kaletha-2014]"
 lean  = ["UpperTheory.BaseChangeIdentities.baseChangeN"]
 order = 1

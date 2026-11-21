@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Separation of points by adjoint linear systems"
+provenance = "modified"
 source = "after Angehrn–Siu [angehrn-siu-1995]"
 lean  = ["GlobalTheory.Published.PointSeparationPair", "GlobalTheory.pointSeparationPair_of_principalisation", "NadelVanishingSeparation.NSI.pointSeparationPair", "UpperTheory.LiteratureTheorems.point_separation_pair_of_literature"]
 order = 12

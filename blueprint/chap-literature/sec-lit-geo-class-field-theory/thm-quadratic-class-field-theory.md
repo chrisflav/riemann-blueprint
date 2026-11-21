@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Class field theory of quadratic extensions"
+provenance = "published"
 source = "classical; see Cassels–Fröhlich [cassels-frohlich-1967]"
 lean  = ["GlobalTheory.Published.QuadraticClassFieldTheory", "PositivityTheory.Stage1.PM.quadraticClassFieldTheory"]
 order = 7

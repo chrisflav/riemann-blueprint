@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Energies of cut-off vectors in the archimedean model"
+provenance = "new"
 lean  = ["Formalism.FourierDecayAlt.MA.LemmaEModel", "Formalism.FourierDecayAlt.P.lemma_model"]
 order = 2
 +++

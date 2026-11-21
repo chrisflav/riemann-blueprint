@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Assembly of the block Hilbert–Samuel theorem"
+provenance = "new"
 lean  = ["GroundTheory.Heights₂.Heights.HilbertSamuel.TheoremHSMBlock.of_open"]
 order = 10
 +++

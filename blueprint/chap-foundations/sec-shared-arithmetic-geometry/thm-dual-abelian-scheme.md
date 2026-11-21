@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Dual abelian schemes"
+provenance = "modified"
 source = "after Mumford [mumford-1970]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Published.DualAbelianScheme", "GlobalTheory.dualAbelianScheme"]
 order = 11

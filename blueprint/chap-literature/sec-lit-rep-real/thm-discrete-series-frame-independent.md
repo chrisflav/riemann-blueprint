@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Discrete series of U(J) do not depend on the diagonalisation"
+provenance = "modified"
 lean  = ["GlobalTheory.Published.DiscreteSeriesHermitianUnique", "PositivityTheory.Prw.discreteSeriesHermitianUnique_holds"]
 order = 13
 +++

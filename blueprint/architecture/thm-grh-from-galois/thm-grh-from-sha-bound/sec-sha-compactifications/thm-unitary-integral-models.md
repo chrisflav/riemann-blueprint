@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Integral models of unitary Shimura varieties"
+provenance = "new"
 lean  = ["GlobalTheory.partI_of_semistableReduction"]
 order = 11
 +++

@@ -2,6 +2,7 @@
 id    = "thm-mumford-degeneration"
 kind  = "theorem"
 title = "Mumford's construction of degenerating abelian varieties"
+provenance = "published"
 source = "Mumford [mumford-1972]; Faltings–Chai [faltings-chai-1990]"
 lean  = ["GlobalTheory.Mum.has_of_base", "GlobalTheory.T.hasSemiAbelianUniformisation_complete_normal_base"]
 order = 10

@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "The constants agree given the archimedean volume identity"
+provenance = "new"
 lean  = ["Formalism.L2.SG.Pf.NcAllS.ncTie0All_of"]
 order = 2
 +++

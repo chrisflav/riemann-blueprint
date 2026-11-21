@@ -2,6 +2,7 @@
 id    = "lem-siegel-minimal-blowup-smooth"
 kind  = "lemma"
 title = "The blow-up of the minimal compactification is smooth"
+provenance = "new"
 lean  = ["GlobalTheory.SiegJoin.ChartSt5", "GlobalTheory.SiegJoin.chartSt5_holds", "GlobalTheory.T.minimalBlowup_smooth_with_semiAbelianCharts"]
 order = 10
 +++

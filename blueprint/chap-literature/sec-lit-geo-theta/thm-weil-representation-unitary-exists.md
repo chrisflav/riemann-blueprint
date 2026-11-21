@@ -1,6 +1,7 @@
 +++
 kind  = "theorem"
 title = "Existence of Weil representations for unitary dual pairs"
+provenance = "published"
 source = "Kudla [kudla-1994]; Harris–Kudla–Sweet [harris-1996]"
 lean  = ["GlobalTheory.Published.WeilRepresentationExists", "UpperTheory.Lit.weilRepresentationExists_pair"]
 order = 3

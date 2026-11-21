@@ -2,6 +2,7 @@
 id    = "lem-depth-bound-good-primes"
 kind  = "lemma"
 title = "Depth bound at good primes"
+provenance = "new"
 lean  = ["GlobalTheory.T.depthTable_goodPrimes_of_chartForm", "GlobalTheory.leafDepthGood_of_chartForm"]
 order = 1
 +++

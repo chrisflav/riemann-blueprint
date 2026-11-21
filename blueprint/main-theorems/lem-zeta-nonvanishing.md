@@ -1,6 +1,7 @@
 +++
 kind  = "lemma"
 title = "Zeta does not vanish right of the line"
+provenance = "new"
 lean  = ["UpperTheory.zeta_ne_zero_of_everyCharacter"]
 uses  = ["def-nonvanishing-half-plane"]
 order = 5
